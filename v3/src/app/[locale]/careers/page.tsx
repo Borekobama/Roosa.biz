@@ -1,0 +1,4 @@
+import { PageHero, requireLocale, routeMetadata, styles, type LocaleParams } from "../editorial";
+
+export const metadata = routeMetadata("Careers", "Current opportunities at ROOSA.");
+export default async function CareersPage({ params }: { params: LocaleParams }) { await requireLocale(params); return <main className={styles.page}><PageHero eyebrow="Careers" title="No open roles right now." lead="We do not have any approved vacancies to publish at the moment. When that changes, each role will appear here with its location, working model and application process." /><section className={`${styles.section} ${styles.sectionPink}`}><div className={`${styles.sectionInner} ${styles.feature}`}><p className="eyebrow">Current status</p><div><h2>Check back for confirmed opportunities.</h2><p>ROOSA does not accept speculative applications through the customer-support form, so personal data is not collected without a defined hiring purpose.</p></div></div></section></main>; }

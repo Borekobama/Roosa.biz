@@ -1,0 +1,15 @@
+import { ContactForm } from "@/components/v2-editorial/ContactForm";
+import { PageHero, requireLocale, routeMetadata, styles, type LocaleParams } from "../editorial";
+
+export const metadata = routeMetadata("B2B", "ROOSA wholesale and workplace enquiries for retailers, hospitality, offices and distributors.");
+
+export default async function B2BPage({ params }: { params: LocaleParams }) {
+  await requireLocale(params);
+  return <main className={styles.page}>
+    <PageHero eyebrow="ROOSA for business" title="Make the quietest room more memorable." lead="For retailers, offices, hotels, restaurants, distributors and corporate buyers. Pack formats, minimums and delivery regions remain subject to commercial approval." image="/media/products/pink-pack.jpg" imageAlt="ROOSA pink toilet paper pack" />
+    <section className={`${styles.section} ${styles.sectionPink}`}><div className={styles.sectionInner}><div className={styles.sectionHeader}><p className="eyebrow">Who it is for</p><div><h2>Stock it, serve it, or make it part of the workplace.</h2></div></div><div className={styles.grid3}>{["Retailers","Offices","Hotels","Restaurants","Distributors","Corporate buyers"].map((name) => <article className={styles.card} key={name}><h3>{name}</h3><p>[AUDIENCE_SPECIFIC_FORMAT_AND_SUPPORT]</p></article>)}</div></div></section>
+    <section className={styles.section}><div className={styles.sectionInner}><div className={styles.sectionHeader}><p className="eyebrow">Commercial outline</p><div><h2>Useful details before an enquiry.</h2><p>These values are placeholders and must not be treated as an offer.</p></div></div><dl className={styles.details}><div className={styles.detail}><dt>Pack formats</dt><dd>[B2B_PACK_FORMATS]</dd></div><div className={styles.detail}><dt>Minimum order quantity</dt><dd>[MINIMUM_ORDER_QUANTITY]</dd></div><div className={styles.detail}><dt>Delivery regions</dt><dd>[APPROVED_DELIVERY_REGIONS]</dd></div><div className={styles.detail}><dt>Lead time</dt><dd>[B2B_LEAD_TIME]</dd></div><div className={styles.detail}><dt>Retail presentation</dt><dd>[DISPLAY_AND_CASE_DETAILS]</dd></div><div className={styles.detail}><dt>Impact benefit</dt><dd>[APPROVED_B2B_IMPACT_PROPOSITION]</dd></div></dl></div></section>
+    <section className={`${styles.section} ${styles.sectionDark}`}><div className={styles.sectionInner}><div className={styles.sectionHeader}><p className="eyebrow">Partnership</p><div><h2>A distinctive product with evidence in view.</h2><p>Partner logos, margin guidance, territory terms and impact claims will appear only after approval.</p></div></div><div className={`${styles.placeholder} ${styles.darkCard}`}>[APPROVED_B2B_PARTNER_LOGOS_AND_CREDENTIALS]</div></div></section>
+    <section className={styles.section}><div className={styles.sectionInner}><div className={styles.sectionHeader}><p className="eyebrow">Enquiry</p><div><h2>Tell us what your business needs.</h2><p>This demo collects only the information needed to understand a business enquiry and does not transmit or store it.</p></div></div><ContactForm variant="b2b" /></div></section>
+  </main>;
+}

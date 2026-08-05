@@ -1,0 +1,440 @@
+{
+  "source": "https://cartgenie-template-soma.webflow.io",
+  "capturedAt": "2026-07-22T00:08:31.994Z",
+  "pages": [
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/",
+      "local": "."
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/store",
+      "local": "store"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/about-us",
+      "local": "about-us"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/journal",
+      "local": "journal"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/contact",
+      "local": "contact"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/category/body",
+      "local": "category/body"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/category/hands",
+      "local": "category/hands"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/category/hair",
+      "local": "category/hair"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/siberian-fir-body-scrub",
+      "local": "product/siberian-fir-body-scrub"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/neroli-hair-tonic",
+      "local": "product/neroli-hair-tonic"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/rejuvenating-cleanser",
+      "local": "product/rejuvenating-cleanser"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/post/announcing-our-new-look",
+      "local": "post/announcing-our-new-look"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/journal-categories/updates",
+      "local": "journal-categories/updates"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/post/meet-the-founder-of-a-zero-footprint-fashion-brand",
+      "local": "post/meet-the-founder-of-a-zero-footprint-fashion-brand"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/journal-categories/interviews",
+      "local": "journal-categories/interviews"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/post/the-ever-changing-face-of-retail-cosmetics",
+      "local": "post/the-ever-changing-face-of-retail-cosmetics"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/journal-categories/insights",
+      "local": "journal-categories/insights"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/post/journey-of-a-soma-product",
+      "local": "post/journey-of-a-soma-product"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/faq",
+      "local": "faq"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/terms-conditions",
+      "local": "terms-conditions"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/licenses",
+      "local": "licenses"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/style-guide",
+      "local": "style-guide"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/rosemary-hand-wash",
+      "local": "product/rosemary-hand-wash"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/lemon-verbena-soap",
+      "local": "product/lemon-verbena-soap"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/bergamot-soap",
+      "local": "product/bergamot-soap"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/hydrating-toner",
+      "local": "product/hydrating-toner"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/restorative-shampoo",
+      "local": "product/restorative-shampoo"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/kin-hand-balm",
+      "local": "product/kin-hand-balm"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/orange-rind-soap",
+      "local": "product/orange-rind-soap"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/beard-oil",
+      "local": "product/beard-oil"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/spearmint-eye-serum",
+      "local": "product/spearmint-eye-serum"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/store?57868a30_page=2",
+      "local": "store"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/product/mandarin-lotion",
+      "local": "product/mandarin-lotion"
+    },
+    {
+      "url": "https://cartgenie-template-soma.webflow.io/store?57868a30_page=1",
+      "local": "store"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://cdn.prod.website-files.com/",
+      "error": "Error: 403 https://cdn.prod.website-files.com/"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/css/cartgenie-template-soma.webflow.shared.9a22208ce.css",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__css__cartgenie-template-soma.webflow.shared.9a22208ce.css"
+    },
+    {
+      "url": "https://fonts.googleapis.com/",
+      "error": "Error: 404 https://fonts.googleapis.com/"
+    },
+    {
+      "url": "https://fonts.gstatic.com/",
+      "error": "Error: 404 https://fonts.gstatic.com/"
+    },
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+      "local": "/soma/assets/ajax.googleapis.com__ajax__libs__webfont__1.6.26__webfont.js"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/689f7b73f12ea21291d3312e_cg-icon-32.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__689f7b73f12ea21291d3312e_cg-icon-32.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/689f7b76d56f091c56aa681a_cg-icon-256.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__689f7b76d56f091c56aa681a_cg-icon-256.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a%2F68656c54fa4692ad927478d6%2F686ef8b04415d448065d28ec%2Fcartgenie_styles-0.0.1.js",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__68656c54fa4692ad927478d6__686ef8b04415d448065d28ec__cartgenie_styles-0.0.1.js"
+    },
+    {
+      "url": "https://cdn.cartgenie.com/js/cartgenie.js",
+      "local": "/soma/assets/cdn.cartgenie.com__js__cartgenie.js"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a682b_icon-menu-white.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a682b_icon-menu-white.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a681f_icon-instagram-white.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a681f_icon-instagram-white.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a680f_icon-twitter-white.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a680f_icon-twitter-white.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a6811_icon-facebook-white.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a6811_icon-facebook-white.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a6837_logo-white.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a6837_logo-white.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a682c_icon-search-white.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a682c_icon-search-white.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a681e_icon-arrow.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a681e_icon-arrow.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/689a6aac01a38386fdd94ae5_close_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__689a6aac01a38386fdd94ae5_close_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+      "error": "Error: 403 https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a6810_icon-arrow-white.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a6810_icon-arrow-white.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde40809583a_6859efb2e542f48f0c4a687d_secondary-body.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde40809583a_6859efb2e542f48f0c4a687d_secondary-body.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095864_6859efb2e542f48f0c4a6897_product-2.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095864_6859efb2e542f48f0c4a6897_product-2.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095826_6859efb2e542f48f0c4a6899_secondary-hair.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095826_6859efb2e542f48f0c4a6899_secondary-hair.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095829_6859efb2e542f48f0c4a6898_product-3.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095829_6859efb2e542f48f0c4a6898_product-3.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095843_6859efb2e542f48f0c4a687d_secondary-body.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095843_6859efb2e542f48f0c4a687d_secondary-body.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095874_6859efb2e542f48f0c4a689f_product-8.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095874_6859efb2e542f48f0c4a689f_product-8.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/68876d6181160985753d3d33_tall-3.jpg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__68876d6181160985753d3d33_tall-3.jpg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/68876d6181160985753d3d33_tall-3-p-500.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__68876d6181160985753d3d33_tall-3-p-500.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/68877287627b68a374ce2538_6859efb2e542f48f0c4a68bd_blog-2.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__68877287627b68a374ce2538_6859efb2e542f48f0c4a68bd_blog-2.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/6887728865ea9e2fea2e5b24_6859efb2e542f48f0c4a68ba_blog-3.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__6887728865ea9e2fea2e5b24_6859efb2e542f48f0c4a68ba_blog-3.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/6887728760a5264c289a9b2b_6859efb2e542f48f0c4a68bc_blog-1.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__6887728760a5264c289a9b2b_6859efb2e542f48f0c4a68bc_blog-1.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/68877287484ff08333155f5d_6859efb2e542f48f0c4a68b8_blog-4.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__68877287484ff08333155f5d_6859efb2e542f48f0c4a68b8_blog-4.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/68876d6181160985753d3d23_tall-1.jpg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__68876d6181160985753d3d23_tall-1.jpg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/68876d6181160985753d3d1d_square-1.jpg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__68876d6181160985753d3d1d_square-1.jpg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/68876d6181160985753d3d3b_square-2.jpg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__68876d6181160985753d3d3b_square-2.jpg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/68876d6181160985753d3d41_square-4.jpg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__68876d6181160985753d3d41_square-4.jpg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/68876d6181160985753d3d1a_square-3.jpg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__68876d6181160985753d3d1a_square-3.jpg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/68876d6181160985753d3d3e_square-6.jpg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__68876d6181160985753d3d3e_square-6.jpg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/68876d6181160985753d3d38_square-5.jpg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__68876d6181160985753d3d38_square-5.jpg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a6808_logo-square.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a6808_logo-square.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a680d_icon-instagram.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a680d_icon-instagram.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a6809_icon-twitter.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a6809_icon-twitter.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a680c_icon-facebook.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a680c_icon-facebook.svg"
+    },
+    {
+      "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=686ef869a09253982be59f5a",
+      "local": "/soma/assets/d3e54v103j8qbb.cloudfront.net__js__jquery-3.5.1.min.dc5e7f18c8.js"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/js/webflow.schunk.fae224c0bc949727.js",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__js__webflow.schunk.fae224c0bc949727.js"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/js/webflow.schunk.cf33537e0d27eba9.js",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__js__webflow.schunk.cf33537e0d27eba9.js"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/js/webflow.3d2788f5.97ae5ad6c2811761.js",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__js__webflow.3d2788f5.97ae5ad6c2811761.js"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a680a_icon-menu.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a680a_icon-menu.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a680b_logo.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a680b_logo.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a6807_icon-search.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a6807_icon-search.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde40809583d_6859efb2e542f48f0c4a6819_secondary-hands.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde40809583d_6859efb2e542f48f0c4a6819_secondary-hands.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095836_6859efb2e542f48f0c4a6869_product-1.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095836_6859efb2e542f48f0c4a6869_product-1.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095877_6859efb2e542f48f0c4a689b_product-5.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095877_6859efb2e542f48f0c4a689b_product-5.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde40809585e_6859efb2e542f48f0c4a687d_secondary-body.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde40809585e_6859efb2e542f48f0c4a687d_secondary-body.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde40809586e_6859efb2e542f48f0c4a68b3_product-4.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde40809586e_6859efb2e542f48f0c4a68b3_product-4.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095868_6859efb2e542f48f0c4a689a_product-6.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095868_6859efb2e542f48f0c4a689a_product-6.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde40809586b_6859efb2e542f48f0c4a68b1_product-9.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde40809586b_6859efb2e542f48f0c4a68b1_product-9.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095871_6859efb2e542f48f0c4a68b5_product-7.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095871_6859efb2e542f48f0c4a68b5_product-7.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095858_6859efb2e542f48f0c4a68b9_product-13.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095858_6859efb2e542f48f0c4a68b9_product-13.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde40809584c_6859efb2e542f48f0c4a6899_secondary-hair.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde40809584c_6859efb2e542f48f0c4a6899_secondary-hair.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde40809584f_6859efb2e542f48f0c4a68b7_product-12.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde40809584f_6859efb2e542f48f0c4a68b7_product-12.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095840_6859efb2e542f48f0c4a687d_secondary-body.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095840_6859efb2e542f48f0c4a687d_secondary-body.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb564792fde408095814_6859efb2e542f48f0c4a68bb_product-11.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb564792fde408095814_6859efb2e542f48f0c4a68bb_product-11.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a6826_signature.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a6826_signature.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a683e_uppercut%201.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a683e_uppercut 1.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a683d_monograma%201.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a683d_monograma 1.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6859efb2e542f48f0c4a67f7/6859efb2e542f48f0c4a6840_Do%CC%88ppler%201.svg",
+      "local": "/soma/assets/cdn.prod.website-files.com__6859efb2e542f48f0c4a67f7__6859efb2e542f48f0c4a6840_Döppler 1.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/js/webflow.1e352103.516cff4d72854ed1.js",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__js__webflow.1e352103.516cff4d72854ed1.js"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/688b32449ae80e4a3b06c45f_tall-4.jpg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__688b32449ae80e4a3b06c45f_tall-4.jpg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef869a09253982be59f5a/688b32449ae80e4a3b06c45f_tall-4-p-500.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef869a09253982be59f5a__688b32449ae80e4a3b06c45f_tall-4-p-500.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/686efb574792fde408095852_6859efb2e542f48f0c4a68be_product-10.png",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__686efb574792fde408095852_6859efb2e542f48f0c4a68be_product-10.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/68877287484ff08333155f60_6859efb2e542f48f0c4a689c_about-image-preview.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__68877287484ff08333155f60_6859efb2e542f48f0c4a689c_about-image-preview.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/68877287484ff08333155f66_6859efb2e542f48f0c4a689e_blog-1.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__68877287484ff08333155f66_6859efb2e542f48f0c4a689e_blog-1.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/6887728760a5264c289a9b27_6859efb2e542f48f0c4a689c_about-image-preview.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__6887728760a5264c289a9b27_6859efb2e542f48f0c4a689c_about-image-preview.jpeg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/686ef92c7958f2b25fa0bc77/6887728760a5264c289a9b50_6859efb2e542f48f0c4a68b2_blog-2.jpeg",
+      "local": "/soma/assets/cdn.prod.website-files.com__686ef92c7958f2b25fa0bc77__6887728760a5264c289a9b50_6859efb2e542f48f0c4a68b2_blog-2.jpeg"
+    }
+  ]
+}

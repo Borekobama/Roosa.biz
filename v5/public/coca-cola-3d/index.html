@@ -1,0 +1,226 @@
+<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Thu Jul 24 2025 13:26:45 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="coca-cola-3d-website.webflow.io" data-wf-page="66e6dd92867195738837fe87" data-wf-site="66e6dd92867195738837fdfe"><head><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous"/><title>Coca-Cola | Scroll Animation Concept by Sitasys</title><meta content="An iconic, scroll-driven Coca-Cola landing page concept built in Webflow with GSAP animations. Designed by Sitasys to combine bold visuals with interactive storytelling for a global beverage brand." name="description"/><meta content="Coca-Cola | Scroll Animation Concept by Sitasys" property="og:title"/><meta content="An iconic, scroll-driven Coca-Cola landing page concept built in Webflow with GSAP animations. Designed by Sitasys to combine bold visuals with interactive storytelling for a global beverage brand." property="og:description"/><meta content="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/68823464f7950e0358210412_Sitasys-opengraph-coca-cola.png" property="og:image"/><meta content="Coca-Cola | Scroll Animation Concept by Sitasys" name="twitter:title"/><meta content="An iconic, scroll-driven Coca-Cola landing page concept built in Webflow with GSAP animations. Designed by Sitasys to combine bold visuals with interactive storytelling for a global beverage brand." name="twitter:description"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/css/coca-cola-3d-website.webflow.shared.8eca77d52.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Kanit:regular,500,600,700,800","Istok Web:regular,italic,700,700italic"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66e82bec97adcd17e31505fe_Favicon.svg" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66e82bfb6d69e472b70a0b70_Webflip.jpg" rel="apple-touch-icon"/><style>
+  
+  html {
+    height: auto;
+  }
+  
+  
+</style><style>.w-webflow-badge{display:none!important}</style></head><body class="body-coke"><div class="page-wrapper"><div class="global-styles w-embed"><style>
+
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+
+/* Set color style to inherit */
+.inherit-color * {
+    color: inherit;
+}
+
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+</style>
+
+<style>
+  html { font-size: 1rem; }
+  @media screen and (max-width:1920px) { html { font-size: 1rem; } }
+  @media screen and (max-width:1440px) { html { font-size: calc(0.4062500000000001rem + 0.6249999999999999vw); } }
+  @media screen and (max-width:1200px) { html { font-size: 0.80rem; } }
+  @media screen and (max-width:960px) { html { font-size: calc(0.7505197505197505rem + 0.4158004158004158vw); } }
+  @media screen and (max-width:479px) { html { font-size: calc(0.7494769874476988rem + 0.8368200836820083vw); } }
+</style></div><main class="main-wrapper"><div class="w-layout-vflex"><div data-w-id="0ced31f7-90ed-954c-d2c6-167c68aa95f1" class="coke-3d-container"><div class="coke-3d-sticky"><section class="section_coke-hero"><div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="coke-navbar w-nav"><div class="container-medium w-container"><div class="coke-nav-content"><a href="#" class="coke-logo w-nav-brand"><img src="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66e7d7ef026bcf64c81e2f85_coca-cola.png" loading="lazy" alt=""/></a><nav role="navigation" class="coke-nav-menu w-nav-menu"><a href="#" class="coke-nav-link w-nav-link">Brands</a><a href="#" class="coke-nav-link w-nav-link">Products</a><a href="#" class="coke-nav-link w-nav-link">Store</a><a href="#" class="coke-nav-link w-nav-link">About Us</a></nav><div class="menu-button w-nav-button"><div class="w-icon-nav-menu"></div></div></div></div></div><div class="coke-container-medium"><div class="coke-hero-padding-vertical"><div class="padding-global"><div class="coke-hero-container"><div class="coke-hero-content"><h1 class="coke-heading-1">The timeless taste of Coca-Cola Classic</h1></div></div></div></div></div><img src="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66e7d6253b4a3562ecd7fca6_coke-vector.png" loading="lazy" sizes="(max-width: 2880px) 100vw, 2880px" srcset="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66e7d6253b4a3562ecd7fca6_coke-vector-p-500.png 500w, https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66e7d6253b4a3562ecd7fca6_coke-vector-p-800.png 800w, https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66e7d6253b4a3562ecd7fca6_coke-vector-p-1080.png 1080w, https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66e7d6253b4a3562ecd7fca6_coke-vector-p-1600.png 1600w, https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66e7d6253b4a3562ecd7fca6_coke-vector-p-2000.png 2000w, https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66e7d6253b4a3562ecd7fca6_coke-vector.png 2880w" alt="" class="coke-hero-image"/></section><section class="section_coke-about"><div class="coke-container-medium"><div class="coke-padding-vertical"><div class="padding-global"><div class="coke-content-container"><div class="coke-content"><h2 class="coke-heading-2">Taste That Brings Joy</h2><p class="coke-paragrapgh">Coca-Cola Classic is more than just a drink—it&#x27;s a sensory experience. From the first sip, you’re met with a perfect blend of caramel, vanilla, and a hint of spice, topped with the unmistakable fizz that sparks joy.</p></div></div></div></div></div></section><div data-is-ix2-target="1" class="coke-bottle-animation-1" data-w-id="08423a53-ec99-e30d-bbbd-207f63eb1fb2" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66ebf25e78ff2dff836e629c_Lottie-1-day-1.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="3.30330316875701" data-duration="0" data-loading="eager" data-ix2-initial-state="1"></div></div></div></div><section data-w-id="1d0f11e0-36d2-6610-3275-183142090b8e" class="section_coke-history"><div class="coke-history-sticky"><div class="container-medium"><div class="coke-padding-vertical-section-2"><div class="padding-global"><div class="coke-2-content"><div class="coke-2-container"><div data-is-ix2-target="1" class="coke-bottle-animation-2" data-w-id="a1a8e519-b146-a84d-a4fa-4e43d03af3ab" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/66e6ddf3045a1eb3f8d2ab4a_Lottie_day1_2.json" data-loop="1" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="0" data-loading="eager"></div></div><div class="coke-history-container"><div class="history-title-content"><h2 class="coke-heading-2">Coca-Cola’s Classic Moments</h2></div><div class="history-content"><div data-w-id="1f6516fc-80fe-11b6-c4da-0a4fe12a1aa3" class="history-container-1"><div class="timeline-container"><div class="timeline-outer-circle"><div class="timeline-inner-circle"></div></div><div data-w-id="688df646-469d-80ae-32e2-8a8295e9d895" class="timeline-line-1"></div></div><div class="history-content-wrap"><div class="history-title-wrap"><h3 class="coke-heading-3">1886</h3><div class="history-title">The Birth of Coca-Cola</div></div><p>Coca-Cola was invented by Dr. John S. Pemberton in Atlanta, Georgia. What started as a soda fountain drink at Jacob’s Pharmacy has since become a global icon of refreshment.</p></div></div><div data-w-id="2ab0eb76-3ca0-1a8d-662d-47f88ce6df55" class="history-container-2"><div class="timeline-container"><div class="timeline-outer-circle"><div class="timeline-inner-circle"></div></div><div data-w-id="2ab0eb76-3ca0-1a8d-662d-47f88ce6df59" class="timeline-line-2"></div></div><div class="history-content-wrap"><div class="history-title-wrap"><h3 class="coke-heading-3">1915</h3><div class="history-title">The Iconic Bottle Design</div></div><p>The contour bottle design was introduced to distinguish Coca-Cola from imitators. Its unique shape became an instant classic, symbolizing the brand’s distinct identity and is still recognized today.</p></div></div><div data-w-id="bb2902a2-d3df-168e-d341-1cffd7f5245d" class="history-container-3"><div class="timeline-container"><div class="timeline-outer-circle"><div class="timeline-inner-circle"></div></div><div class="timeline-line-3"></div></div><div class="history-content-wrap"><div class="history-title-wrap"><h3 class="coke-heading-3">1931</h3><div class="history-title">Coca-Cola and Santa Claus</div></div><p>Coca-Cola’s holiday advertisements featuring a jolly Santa Claus solidified the modern image of Santa. This campaign connected Coca-Cola with joy, celebration, and the holiday spirit.</p></div></div><div data-w-id="4843caf6-8f58-e5cd-dc17-d88d39165594" class="history-container-4 last"><div class="timeline-container"><div class="timeline-outer-circle"><div class="timeline-inner-circle"></div></div><div class="timeline-line last"></div></div><div class="history-content-wrap"><div class="history-title-wrap"><h3 class="coke-heading-3">1971</h3><div class="history-title">I’d Like to Buy the World a Coke</div></div><p>One of the most famous ads in history, this campaign captured the spirit of harmony and unity, showcasing people from around the world singing together on a hilltop in Italy, all sharing a Coke.</p></div></div></div></div></div></div></div></div></div></section></main></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66e6dd92867195738837fdfe" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/js/webflow.schunk.57d5559d2f0cd9f8.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/js/webflow.schunk.d97efad01808426c.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/66e6dd92867195738837fdfe/js/webflow.3605c2b1.15c3682b0e2be460.js" type="text/javascript"></script><script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.23/bundled/lenis.min.js"></script> 
+<script>
+// LENIS SMOOTH SCROLL
+let lenis;
+if (Webflow.env("editor") === undefined) {
+  lenis = new Lenis({
+    lerp: 0.1,
+    wheelMultiplier: 0.7,
+    gestureOrientation: "vertical",
+    normalizeWheel: false,
+    smoothTouch: false
+  });
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
+}
+$("[data-lenis-start]").on("click", function () {
+  lenis.start();
+});
+$("[data-lenis-stop]").on("click", function () {
+  lenis.stop();
+});
+$("[data-lenis-toggle]").on("click", function () {
+  $(this).toggleClass("stop-scroll");
+  if ($(this).hasClass("stop-scroll")) {
+    lenis.stop();
+  } else {
+    lenis.start();
+  }
+});
+</script></body></html>

@@ -1,0 +1,91 @@
+import type { ImpactMetric, ImpactProject, JournalPost, Product } from "@/types/content";
+
+export const products: Product[] = [
+  {
+    id: "roosa-standard",
+    slug: "pink-toilet-paper",
+    name: "ROOSA Pink Toilet Paper",
+    eyebrow: "The everyday original",
+    description: "A product-first presentation of ROOSA’s signature pink paper. Final specifications will be supplied from Shopify and approved product documentation.",
+    displayPrice: "Price at launch",
+    currency: "CHF",
+    image: "/media/products/pink-pack.jpg",
+    alternateImage: "/media/products/pink-roll.webp",
+    packSize: "Pack details pending",
+    rolls: "Roll count pending",
+    sheets: "Specification pending",
+    ply: "Specification pending",
+    material: "Specification pending",
+    origin: "Manufacturing detail pending",
+    certification: "Document pending",
+    inStock: null,
+    purchaseMode: "one-time",
+  },
+  {
+    id: "roosa-family",
+    slug: "family-bundle",
+    name: "ROOSA Family Bundle",
+    eyebrow: "More paper, fewer deliveries",
+    description: "A larger bundle for households. Availability, final pack size and price are managed by Shopify.",
+    displayPrice: "Price at launch",
+    currency: "CHF",
+    image: "/media/products/pink-pack.jpg",
+    alternateImage: "/media/products/pink-roll.webp",
+    packSize: "Bundle details pending",
+    rolls: "Roll count pending",
+    sheets: "Specification pending",
+    ply: "Specification pending",
+    material: "Specification pending",
+    origin: "Manufacturing detail pending",
+    certification: "Document pending",
+    inStock: null,
+    purchaseMode: "one-time",
+  },
+  {
+    id: "roosa-subscription",
+    slug: "subscription",
+    name: "ROOSA Repeat Delivery",
+    eyebrow: "Optional subscription",
+    description: "A recurring option that will only be enabled when frequency, discount and cancellation terms are confirmed.",
+    displayPrice: "Terms at launch",
+    currency: "CHF",
+    image: "/media/products/pink-roll.webp",
+    alternateImage: "/media/products/embossed-roll.webp",
+    packSize: "Delivery details pending",
+    rolls: "Roll count pending",
+    sheets: "Specification pending",
+    ply: "Specification pending",
+    material: "Specification pending",
+    origin: "Manufacturing detail pending",
+    certification: "Document pending",
+    inStock: null,
+    purchaseMode: "subscription",
+  },
+];
+
+export const impactMetrics: ImpactMetric[] = [
+  { value: "total contributions pending approval", label: "Contributions transferred", period: "reporting period pending approval", source: "report url pending approval" },
+  { value: "project count pending approval", label: "Projects supported", period: "reporting period pending approval", source: "report url pending approval" },
+  { value: "partner count pending approval", label: "Verified partners", period: "reporting period pending approval", source: "report url pending approval" },
+];
+
+export const projects: ImpactProject[] = [
+  {
+    slug: "featured-project",
+    name: "project name pending approval",
+    partner: "Partner pending approval",
+    location: "project location pending approval",
+    period: "reporting period pending approval",
+    objective: "approved project objective pending approval",
+    result: "documented project result pending approval",
+    contribution: "Amount pending approval",
+    status: "active",
+    image: "/media/journal/family-support.jpg",
+  },
+];
+
+export const journalPosts: JournalPost[] = [
+  { slug: "a-small-fighter", title: "A small fighter", summary: "A migrated ROOSA story awaiting editorial and safeguarding review.", date: "2026-05-26", category: "Impact", image: "/media/journal/little-fighter.jpg" },
+  { slug: "working-for-a-good-cause", title: "Working for a good cause", summary: "Field notes from the ROOSA team, restructured for the new journal.", date: "2026-05-13", category: "Company", image: "/media/journal/field-team.jpg" },
+  { slug: "support-for-families", title: "Support for families", summary: "A project update that will link to the structured impact record once verified.", date: "2026-04-21", category: "Partnerships", image: "/media/journal/family-support.jpg" },
+];

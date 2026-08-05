@@ -1,0 +1,119 @@
+{
+  "bodyChildren": [
+    {
+      "cls": "page-content",
+      "id": "",
+      "tag": "DIV"
+    },
+    {
+      "cls": "",
+      "id": "",
+      "tag": "DIV"
+    },
+    {
+      "cls": "",
+      "id": "",
+      "tag": "SCRIPT"
+    },
+    {
+      "cls": "",
+      "id": "",
+      "tag": "SCRIPT"
+    },
+    {
+      "cls": "",
+      "id": "",
+      "tag": "SCRIPT"
+    },
+    {
+      "cls": "",
+      "id": "",
+      "tag": "SCRIPT"
+    },
+    {
+      "cls": "w-webflow-badge",
+      "id": "",
+      "tag": "A"
+    },
+    {
+      "cls": "",
+      "id": "",
+      "tag": "IFRAME"
+    }
+  ],
+  "sectionish": [
+    {
+      "cls": "section hero-section",
+      "height": 1000,
+      "i": 0,
+      "id": "",
+      "tag": "DIV",
+      "text": "Organic, plant-based cosmetics. EXPLORE RANGE",
+      "top": 0
+    },
+    {
+      "cls": "section",
+      "height": 924.984375,
+      "i": 1,
+      "id": "key-products",
+      "tag": "DIV",
+      "text": "Key Products SHOP ALL SALE Siberian Fir Body Scrub $55.00 $49.00 SALE Neroli Hair Tonic $40.00 $29.0",
+      "top": 1000
+    },
+    {
+      "cls": "section bg-secondary-faded",
+      "height": 749.984375,
+      "i": 2,
+      "id": "",
+      "tag": "DIV",
+      "text": "Organic, plant-based cosmetics Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni",
+      "top": 1924.984375
+    },
+    {
+      "cls": "section",
+      "height": 968.1484375,
+      "i": 3,
+      "id": "",
+      "tag": "DIV",
+      "text": "From the Journal UPDATES Announcing our new look READ STORY INTERVIEWS Meet the founder of a zero fo",
+      "top": 2674.96875
+    },
+    {
+      "cls": "section bg-primary",
+      "height": 749.984375,
+      "i": 4,
+      "id": "",
+      "tag": "DIV",
+      "text": "“Keep close to Nature's heart... and break clear away, once in awhile, and climb a mountain. Wash yo",
+      "top": 3643.1171875
+    },
+    {
+      "cls": "section instagram-section",
+      "height": 323,
+      "i": 5,
+      "id": "",
+      "tag": "DIV",
+      "text": "@SOMACOSMETICS",
+      "top": 4393.1015625
+    },
+    {
+      "cls": "section",
+      "height": 520,
+      "i": 6,
+      "id": "",
+      "tag": "SECTION",
+      "text": "Sign up for first access to new products, curated stories, sales and events. * No spam, only high-qu",
+      "top": 4716.1015625
+    },
+    {
+      "cls": "footer",
+      "height": 757,
+      "i": 7,
+      "id": "",
+      "tag": "FOOTER",
+      "text": "STORE All Products Body Hands Hair CONTACT 200 High Street Armadale, Victoria 3144 (03) 8992 3821 HE",
+      "top": 5236.1015625
+    }
+  ],
+  "wrappers": []
+}

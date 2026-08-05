@@ -1,0 +1,6 @@
+current_url,target_url,status,notes
+https://roosa.net/,https://roosa.biz/de,301,Final locale mapping requires analytics review
+https://roosa.net/shop/,https://roosa.biz/de/shop,301,Verify Shopify canonical URLs
+https://roosa.net/ueber-roosa/,https://roosa.biz/de/about,301,
+https://roosa.net/kontakt/,https://roosa.biz/de/contact,301,
+https://roosa.net/blog/,https://roosa.biz/de/journal,301,Individual article mapping pending

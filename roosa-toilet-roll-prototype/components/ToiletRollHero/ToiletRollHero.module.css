@@ -1,0 +1,137 @@
+.rollStory {
+  position: relative;
+  min-height: 280vh;
+  background: #f7f1ea;
+}
+
+/* Positioning (fixed/absolute + top/bottom) is applied inline by
+   ToiletRollHero.tsx via STAGE_STYLE — see the comment there. */
+.stage {
+  overflow: hidden;
+}
+
+.fallback,
+.scene {
+  position: absolute;
+  inset: 0;
+}
+
+.fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #f7f1ea 0%, #f2e2e9 100%);
+  color: #b98098;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.scene {
+  z-index: 1;
+}
+
+.scene :global(canvas) {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.copy {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8vw;
+  max-width: 34rem;
+  pointer-events: none;
+}
+
+.copy a {
+  pointer-events: auto;
+}
+
+.textSwap {
+  min-height: 8rem;
+}
+
+.headline {
+  font-size: clamp(1.75rem, 4vw, 3.25rem);
+  line-height: 1.08;
+  margin: 0 0 0.75rem;
+  color: #2b1c22;
+}
+
+.subhead {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: #5c4650;
+  margin: 0 0 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.subhead li {
+  margin-bottom: 0.3rem;
+}
+
+.ctaRow {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ctaPrimary,
+.ctaSecondary {
+  padding: 0.85rem 1.75rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ctaPrimary {
+  background: #e2698f;
+  color: #fff;
+}
+
+.ctaSecondary {
+  color: #2b1c22;
+  border: 1px solid rgba(43, 28, 34, 0.25);
+}
+
+.paperHandoff {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background: #f2a6c6;
+  pointer-events: none;
+}
+
+/* ---- Reduced-motion / no-WebGL layout: normal document flow ---- */
+
+.staticSection {
+  padding: 4rem 8vw 5rem;
+  background: #f7f1ea;
+}
+
+.staticScene {
+  position: relative;
+  height: 60vh;
+  min-height: 22rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.staticStep {
+  max-width: 34rem;
+  margin: 0 auto 3rem;
+}
+
+.staticStep h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
+  color: #2b1c22;
+}

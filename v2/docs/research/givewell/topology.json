@@ -1,0 +1,370 @@
+{
+  "bg": [
+    {
+      "bg": "url(\"https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6807e0c24176475123a57376_noise-light.png\")",
+      "cls": "noise is-hero",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgba(21, 58, 67, 0) 65%, rgba(0, 0, 0, 0.8))",
+      "cls": "dark_gradient",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(218deg, rgba(255, 223, 224, 0.1) 48%, rgba(239, 217, 227, 0.6))",
+      "cls": "empower_component",
+      "tag": "DIV"
+    },
+    {
+      "bg": "url(\"https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/68031e96b686877ca25bee9d_grain3.avif\")",
+      "cls": "grain",
+      "tag": "DIV"
+    },
+    {
+      "bg": "url(\"https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6807e0c24176475123a57376_noise-light.png\")",
+      "cls": "noise",
+      "tag": "DIV"
+    },
+    {
+      "bg": "url(\"https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802ffe03818196b62015f46_95f3e543daf5a38d2dfb07b450872c35_vorunteer.avif\")",
+      "cls": "team_heading-span",
+      "tag": "SPAN"
+    },
+    {
+      "bg": "url(\"https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802ffdfb0c5bfcf76c27549_6537043b66a7bf3913dd28a02a0c43df_women.avif\")",
+      "cls": "team_heading-span _2",
+      "tag": "SPAN"
+    },
+    {
+      "bg": "url(\"https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6814ed06e370511f24fd8c62_voollunteer.avif\")",
+      "cls": "team_heading-span _3",
+      "tag": "SPAN"
+    },
+    {
+      "bg": "linear-gradient(140deg, rgb(223, 199, 221), rgb(139, 167, 207))",
+      "cls": "section_vision background-color-gradient1",
+      "tag": "HEADER"
+    },
+    {
+      "bg": "linear-gradient(rgba(21, 58, 67, 0) 65%, rgba(0, 0, 0, 0.8))",
+      "cls": "dark_gradient",
+      "tag": "DIV"
+    },
+    {
+      "bg": "linear-gradient(rgb(219, 197, 220), rgb(143, 176, 214))",
+      "cls": "footer_component background-color-gradient2",
+      "tag": "FOOTER"
+    },
+    {
+      "bg": "linear-gradient(186deg, rgba(21, 58, 67, 0), rgba(250, 201, 205, 0.8))",
+      "cls": "peach-gradient",
+      "tag": "DIV"
+    },
+    {
+      "bg": "url(\"https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/68031e96b686877ca25bee9d_grain3.avif\")",
+      "cls": "grain",
+      "tag": "DIV"
+    },
+    {
+      "bg": "url(\"https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6807e0c24176475123a57376_noise-light.png\")",
+      "cls": "noise",
+      "tag": "DIV"
+    }
+  ],
+  "doc": {
+    "scrollHeight": 7391
+  },
+  "fonts": [
+    "\"Inter Variablefont Opsz Wght\", Arial, sans-serif"
+  ],
+  "images": [
+    {
+      "alt": "a peaceful lake with a city in the background surrounded by fluffy clouds",
+      "cls": "hero_img",
+      "h": 768,
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802f26cb1c279ff927f7887_visualelectric-1744594470866.avif",
+      "w": 1408
+    },
+    {
+      "alt": "",
+      "cls": "empower_card-texture _1",
+      "h": 4000,
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802f7ee988ceb30729e28a2_purple_blue.avif",
+      "w": 6000
+    },
+    {
+      "alt": "",
+      "cls": "empower_card-texture _2",
+      "h": 4000,
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/68030787b0c5bfcf76c59716_blue_purple.avif",
+      "w": 6000
+    },
+    {
+      "alt": "",
+      "cls": "empower_card-texture _3",
+      "h": 4000,
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802fc54afb8dcd46830bebd_pinkish.avif",
+      "w": 6000
+    },
+    {
+      "alt": "",
+      "cls": "empower_card-texture _4",
+      "h": 4000,
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/68030787b0c5bfcf76c59716_blue_purple.avif",
+      "w": 6000
+    },
+    {
+      "alt": "",
+      "cls": "vision_image1",
+      "h": 3333,
+      "loading": "eager",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802ffe03818196b62015f46_95f3e543daf5a38d2dfb07b450872c35_vorunteer.avif",
+      "w": 5000
+    },
+    {
+      "alt": "",
+      "cls": "vision_image2",
+      "h": 2158,
+      "loading": "eager",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802ffee6eb903adc094bebc_hands.jpg",
+      "w": 1440
+    },
+    {
+      "alt": "",
+      "cls": "vision_image3",
+      "h": 2155,
+      "loading": "eager",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802ffee889d0124b11eae39_beach.jpg",
+      "w": 1440
+    },
+    {
+      "alt": "",
+      "cls": "vision_image4",
+      "h": 960,
+      "loading": "eager",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802ffe302807dde3a379dd0_main.jpg",
+      "w": 1440
+    },
+    {
+      "alt": "",
+      "cls": "vision_image5",
+      "h": 1080,
+      "loading": "eager",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6814e9b77d6ed66d66f862f7_vorunteer.jpg",
+      "w": 1439
+    },
+    {
+      "alt": "",
+      "cls": "vision_image6",
+      "h": 960,
+      "loading": "eager",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802ffe21856da388475af67_volunteers.jpg",
+      "w": 1440
+    },
+    {
+      "alt": "",
+      "cls": "vision_image7",
+      "h": 4349,
+      "loading": "eager",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802ffe3de878931a9ff5279_19770a54b0777584a4ccad223ba87a44_packing.avif",
+      "w": 6524
+    },
+    {
+      "alt": "",
+      "cls": "stats_texture is-darken-20",
+      "h": 0,
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802fc54afb8dcd46830bebd_pinkish.avif",
+      "w": 0
+    },
+    {
+      "alt": "",
+      "cls": "stats_image",
+      "h": 0,
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802ffe149a2a4778ecfa085_nurse.jpg",
+      "w": 0
+    },
+    {
+      "alt": "",
+      "cls": "stats_texture is-darken-40",
+      "h": 4000,
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802f7ee988ceb30729e28a2_purple_blue.avif",
+      "w": 6000
+    },
+    {
+      "alt": "",
+      "cls": "stats_texture is-overlay-40",
+      "h": 0,
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802fc54afb8dcd46830bebd_pinkish.avif",
+      "w": 0
+    },
+    {
+      "alt": "",
+      "cls": "stats_image",
+      "h": 0,
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/6802ffdf040da19bc8546b7a_speach.jpg",
+      "w": 0
+    },
+    {
+      "alt": "",
+      "cls": "footer_logo",
+      "h": 0,
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/680653201cb76b74af47c399_footer_title.svg",
+      "w": 0
+    }
+  ],
+  "scripts": [
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68011fed23249a9699d7b42b",
+    "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/js/webflow.schunk.36b8fb49256177c8.js",
+    "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/js/webflow.schunk.fe91b16281fc7e52.js",
+    "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/js/webflow.505ede4d.57ddda7c3bbce102.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/ScrambleTextPlugin.min.js"
+  ],
+  "sections": [
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "cls": "section_hero",
+      "color": "rgb(255, 255, 255)",
+      "display": "flex",
+      "height": 904,
+      "i": 0,
+      "id": "",
+      "overflow": "visible",
+      "position": "relative",
+      "tag": "HEADER",
+      "text": "GivewɘllJoin us in transforming dreams into reality. Your support can make a significant impact on the causes ",
+      "top": 72,
+      "width": 1425
+    },
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "cls": "section_mission",
+      "color": "rgb(21, 58, 67)",
+      "display": "block",
+      "height": 781.796875,
+      "i": 1,
+      "id": "mission",
+      "overflow": "visible",
+      "position": "static",
+      "tag": "SECTION",
+      "text": "Our MissionOur mission is to empower creators and changemakers by providing a platform that connects their vis",
+      "top": 976,
+      "width": 1425
+    },
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "cls": "section_empower",
+      "color": "rgb(21, 58, 67)",
+      "display": "block",
+      "height": 696,
+      "i": 2,
+      "id": "empower",
+      "overflow": "visible",
+      "position": "static",
+      "tag": "SECTION",
+      "text": "Empower01Mission & engagement02Spread Global Awareness03Organize grant funding04Ignite sustainable ImpactWhat ",
+      "top": 1757.796875,
+      "width": 1425
+    },
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "cls": "section_team",
+      "color": "rgb(21, 58, 67)",
+      "display": "block",
+      "height": 644.296875,
+      "i": 3,
+      "id": "team",
+      "overflow": "visible",
+      "position": "relative",
+      "tag": "SECTION",
+      "text": "Our teamThanks to our clients, friends, partners. Thank you to our team of volunteers who made this journey po",
+      "top": 2453.796875,
+      "width": 1425
+    },
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "cls": "section_vision background-color-gradient1",
+      "color": "rgb(21, 58, 67)",
+      "display": "block",
+      "height": 1856,
+      "i": 4,
+      "id": "vision",
+      "overflow": "visible",
+      "position": "relative",
+      "tag": "HEADER",
+      "text": "InspireTake ActionEmpowerTake ActionInspireTake ActionEmpowerTake ActionOur visionWe imagine a future where ki",
+      "top": 3098.09375,
+      "width": 1425
+    },
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "cls": "section_marquee z-index-1",
+      "color": "rgb(21, 58, 67)",
+      "display": "block",
+      "height": 116,
+      "i": 5,
+      "id": "",
+      "overflow": "visible",
+      "position": "relative",
+      "tag": "SECTION",
+      "text": "InspireTake ActionEmpowerTake ActionInspireTake ActionEmpowerTake Action",
+      "top": 3098.09375,
+      "width": 1425
+    },
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "cls": "section_stats",
+      "color": "rgb(21, 58, 67)",
+      "display": "block",
+      "height": 1291.703125,
+      "i": 6,
+      "id": "stats",
+      "overflow": "visible",
+      "position": "static",
+      "tag": "SECTION",
+      "text": "From quiet efforts to real results: The ripple effect of every donationWith every donation, we've been able to",
+      "top": 4954.09375,
+      "width": 1425
+    },
+    {
+      "bg": "rgb(236, 248, 252)",
+      "cls": "footer_component background-color-gradient2",
+      "color": "rgb(21, 58, 67)",
+      "display": "block",
+      "height": 1145.796875,
+      "i": 7,
+      "id": "footer",
+      "overflow": "visible",
+      "position": "relative",
+      "tag": "FOOTER",
+      "text": "Help us turn small actions into lasting change. Your donation supports the people and projects building a bett",
+      "top": 6245.796875,
+      "width": 1425
+    }
+  ],
+  "styles": [
+    "https://cdn.prod.website-files.com/68011fed23249a9699d7b42b/css/givewell.webflow.shared.6fb888444.min.css",
+    "https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css"
+  ],
+  "videos": [],
+  "viewport": {
+    "dpr": 2,
+    "h": 1000,
+    "w": 1440
+  }
+}
