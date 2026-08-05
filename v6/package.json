@@ -7,7 +7,7 @@
     "prepare:v6": "node scripts/prepare-v6-home.mjs",
     "dev": "next dev -p 3005",
     "build": "next build",
-    "start": "next start -p 3005",
+    "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {

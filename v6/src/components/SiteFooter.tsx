@@ -39,6 +39,6 @@ export function SiteFooter({ locale }: { locale: Locale }) {
       </div>
       {groups.map(([title,links]) => <div className="footer-column" key={title}><strong className="eyebrow">{title}</strong>{links.map(([label,path]) => <Link className="footer-link" key={path} href={localizedPath(locale,path)}>{label}</Link>)}</div>)}
     </div>
-    <div className="container footer-bottom"><span>© {new Date().getFullYear()} ROOSA. Product, impact and legal details subject to client approval.</span><span>EN · DE · FR</span></div>
+    <div className="container footer-bottom"><span>© {new Date().getFullYear()} ROOSA. Product, impact and legal details subject to client approval.</span><span>EN · DE · FR</span><a className="footer-credit" href="https://oezer.ch" target="_blank" rel="noreferrer">made by Berke Özer - oezer.ch</a></div>
   </footer>;
 }

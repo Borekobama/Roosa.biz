@@ -3,7 +3,8 @@ name: ${PROJECT:-roosa-biz}
 services:
   web:
     build:
-      context: .
+      context: ./v6
+      dockerfile: Dockerfile
       labels:
         com.project: ${PROJECT_LABEL:-roosa-biz}
     restart: unless-stopped
@@ -29,4 +30,3 @@ services:
       resources:
         limits:
           memory: 512M
-
