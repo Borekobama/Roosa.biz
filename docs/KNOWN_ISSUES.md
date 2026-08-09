@@ -6,4 +6,4 @@
 - Product, impact, certification and legal facts remain explicit placeholders pending approval.
 - Translations require native and legal review.
 - Analytics and cookie-consent providers are intentionally not initialized without approved IDs and legal copy.
-- The current Next.js 16.2.11 package bundles PostCSS 8.4.31 and Sharp 0.34.5, which npm audit flags through 2026 advisories. npm incorrectly proposes a downgrade to Next 9.3.3 as the only automatic fix; do not apply that breaking downgrade. Recheck when a patched Next release is available.
+- The deployed V6 app is on Next.js 16.3.0 and currently passes `npm audit` with no known vulnerabilities. Preserved, non-runtime iterations still retain their original lockfiles and should not be deployed.

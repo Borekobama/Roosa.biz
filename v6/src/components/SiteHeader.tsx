@@ -41,7 +41,6 @@ export function SiteHeader({ locale }: { locale: Locale }) {
       }
     };
     window.addEventListener("keydown", onKey);
-    if (!menuOpen) menuButton.current?.focus();
     return () => { window.removeEventListener("keydown", onKey); document.body.dataset.scrollLock = "false"; };
   }, [menuOpen]);
 

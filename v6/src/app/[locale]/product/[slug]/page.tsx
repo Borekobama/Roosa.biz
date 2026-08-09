@@ -26,7 +26,6 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   return {
     title: `${product.name} | ROOSA`,
     description: product.description,
-    alternates: { canonical: localizedPath(locale, `/product/${product.slug}`) },
     openGraph: { images: [{ url: product.image, alt: product.name }] },
   };
 }

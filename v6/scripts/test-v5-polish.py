@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright
 
 
-BASE = "http://localhost:3004"
+BASE = "http://localhost:3005"
 
 
 with sync_playwright() as playwright:
@@ -17,11 +17,24 @@ with sync_playwright() as playwright:
     ) == "hidden"
     page.evaluate("localStorage.removeItem('roosa-v2-demo-cart')")
     page.reload(wait_until="networkidle")
-    page.locator("button.product-card-action").first.click()
+    add_button = page.locator("button.product-card-action").first
+    add_button.click()
     assert page.locator("[data-cart-drawer]").evaluate(
         "element => getComputedStyle(element).visibility"
     ) == "visible"
     assert page.locator("[data-cart-count]").first.text_content() == "1"
+    assert page.locator("[data-cart-close]").evaluate(
+        "button => document.activeElement === button"
+    )
+    page.keyboard.press("Shift+Tab")
+    assert page.evaluate("document.activeElement?.closest('[data-cart-drawer]') !== null")
+    page.keyboard.press("Escape")
+    page.locator("[data-cart-drawer]").wait_for(state="hidden")
+    assert page.locator("[data-cart-drawer]").evaluate(
+        "element => getComputedStyle(element).visibility"
+    ) == "hidden"
+    assert add_button.evaluate("button => document.activeElement === button")
+    page.locator("[data-cart-open]").click()
     page.locator("[data-demo-checkout]").last.click()
     page.wait_for_selector("[data-checkout-status]:not(:empty)")
     checkout_status = page.locator("[data-checkout-status]").last.text_content() or ""
@@ -47,6 +60,18 @@ with sync_playwright() as playwright:
     assert page.locator("img").evaluate_all(
         "images => images.every(image => image.complete && image.naturalWidth > 0)"
     )
+
+    # The homepage newsletter is an explicit non-transmitting demo, including
+    # when submitted with Enter from the email field.
+    page.set_viewport_size({"width": 1440, "height": 900})
+    page.goto(f"{BASE}/en", wait_until="networkidle")
+    email = page.locator("#Email")
+    email.scroll_into_view_if_needed()
+    email.fill("qa@example.test")
+    email.press("Enter")
+    page.wait_for_selector(".w-form-done", state="visible")
+    assert "not sent or stored" in page.locator(".w-form-done").inner_text().lower()
+    assert page.url == f"{BASE}/en"
 
     assert not errors, errors
     browser.close()

@@ -29,18 +29,38 @@ body{background:#fffaf4!important}
 .product-detail-section{background:linear-gradient(180deg,#ffd8e9 0,#fffaf4 67%)!important}
 .cart-page{background:linear-gradient(145deg,#ffd8e9 0,#fffaf4 65%)!important}
 .cart-dropdown{background:#fffaf4!important}
+body[data-cart-open=true]{overflow:hidden!important}
 @media(max-width:767px){.page-heading{font-size:clamp(3.5rem,14vw,5.5rem)!important;line-height:.9!important}}
 </style>`;
 
-async function alignCommerce(directory) {
+function commerceMetadata(route) {
+  if (route === "/en/cart") {
+    return '<meta name="robots" content="noindex,nofollow">';
+  }
+  const suffix = route.slice(3);
+  return `<link rel="canonical" href="${route}"><link rel="alternate" hreflang="en" href="${route}"><link rel="alternate" hreflang="de" href="/de${suffix}"><link rel="alternate" hreflang="fr" href="/fr${suffix}"><link rel="alternate" hreflang="x-default" href="${route}">`;
+}
+
+async function alignCommerce(directory, routeType, rootDirectory = directory) {
   for (const entry of await readdir(directory, { withFileTypes: true })) {
     const target = path.join(directory, entry.name);
     if (entry.isDirectory()) {
-      await alignCommerce(target);
+      await alignCommerce(target, routeType, rootDirectory);
     } else if (path.extname(entry.name) === ".html") {
       const source = await readFile(target, "utf8");
       if (source.includes("id=\"roosa-v6-commerce-alignment\"")) continue;
-      const aligned = source.replace("</head>", `${commerceAlignment}</head>`);
+      const relativeDirectory = path.relative(rootDirectory, path.dirname(target));
+      const route = routeType === "product"
+        ? `/en/product/${relativeDirectory || "roosa-pink"}`
+        : `/en/${routeType}`;
+      const aligned = source
+        .replaceAll("/v5-shop/commerce.", "/v6-shop/commerce.")
+        .replace("</head>", `${commerceMetadata(route)}${commerceAlignment}</head>`)
+        .replace(
+          '<nav class="cart-dropdown" data-cart-drawer aria-label="Demo cart">',
+          '<nav class="cart-dropdown" data-cart-drawer role="dialog" aria-modal="true" aria-labelledby="demo-cart-title" aria-hidden="true" tabindex="-1">',
+        )
+        .replace("<h2>Your Cart</h2>", '<h2 id="demo-cart-title">Your Cart</h2>');
       await writeFile(target, aligned);
     }
   }
@@ -212,6 +232,24 @@ html = replaceOnce(
 );
 html = replaceOnce(
   html,
+  '<meta content="/media/v4/hero-roll-editorial.webp" property="og:image"/>',
+  '<link rel="canonical" href="/en"/><link rel="alternate" hreflang="en" href="/en"/><link rel="alternate" hreflang="de" href="/de"/><link rel="alternate" hreflang="fr" href="/fr"/><link rel="alternate" hreflang="x-default" href="/en"/><meta content="/media/v4/hero-roll-editorial.webp" property="og:image"/>',
+  "home canonical and language links",
+);
+html = replaceOnce(
+  html,
+  'maxlength="256" name="Email" data-name="Email" placeholder="Enter your email" type="email" id="Email" required=""/>',
+  'maxlength="256" data-name="Email" placeholder="Enter your email" type="email" id="Email" aria-label="Email address" autocomplete="email" required=""/>',
+  "newsletter privacy and email label",
+);
+html = replaceOnce(
+  html,
+  "Thank you! Your submission has been received!",
+  "Demo only · your email was not sent or stored.",
+  "newsletter demo confirmation",
+);
+html = replaceOnce(
+  html,
   '<img src="/media/v4/small-fighter-editorial.webp" loading="lazy" alt="Impact reporting project" class="stats_image"/>',
   '<img src="/media/v6/editorial/roosa-hotel-marble.webp" loading="lazy" alt="Pink ROOSA rolls in a marble bathroom" class="stats_image"/>',
   "impact product image",
@@ -274,12 +312,60 @@ for (const route of ["shop", "product", "cart"]) {
   await rm(output, { recursive: true, force: true });
   await cp(source, output, { recursive: true });
   await normalizeDashes(output, new Set([".html", ".css", ".js", ".json"]));
-  await alignCommerce(output);
+  await alignCommerce(output, route);
 }
 
-await normalizeDashes(
-  path.join(root, "src"),
-  new Set([".ts", ".tsx", ".css"]),
+const commerceScriptPath = path.join(root, "public", "v6-shop", "commerce.js");
+let commerceScript = await readFile(commerceScriptPath, "utf8");
+commerceScript = replaceOnce(
+  commerceScript,
+  "  const KEY = 'roosa-v2-demo-cart';",
+  "  const KEY = 'roosa-v2-demo-cart';\n  let returnFocus = null;",
+  "commerce focus state",
 );
+commerceScript = replaceOnce(
+  commerceScript,
+  "  const read = () => { try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch { return []; } };",
+  "  const read = () => { try { const stored=JSON.parse(localStorage.getItem(KEY)||'[]'); if(!Array.isArray(stored)) return []; return stored.slice(0,20).flatMap(item=>{ if(!item||typeof item!=='object'||typeof item.id!=='string'||typeof item.name!=='string'||typeof item.image!=='string') return []; const quantity=Math.min(20,Math.max(1,Math.trunc(Number(item.quantity)||1))); const unitPrice=Math.min(10000,Math.max(0,Number(item.unitPrice)||0)); return [{...item,id:item.id.slice(0,80),name:item.name.slice(0,120),image:item.image.slice(0,240),quantity,unitPrice}]; }); } catch { return []; } };",
+  "commerce stored cart validation",
+);
+commerceScript = replaceOnce(
+  commerceScript,
+  "  function add(product, quantity = 1) {",
+  "  function add(product, quantity = 1, trigger = null) {",
+  "commerce add trigger",
+);
+commerceScript = replaceOnce(
+  commerceScript,
+  "    write(cart); openCart(); announce(quantity + ' × ' + product.name + ' added to the demo cart.');",
+  "    write(cart); openCart(trigger); announce(quantity + ' × ' + product.name + ' added to the demo cart.');",
+  "commerce add focus handoff",
+);
+commerceScript = replaceOnce(
+  commerceScript,
+  "  function openCart() { document.querySelector('[data-cart-drawer]')?.classList.add('w--open'); document.querySelector('[data-cart-backdrop]')?.classList.add('open'); document.querySelector('[data-cart-close]')?.focus(); }\n  function closeCart() { document.querySelector('[data-cart-drawer]')?.classList.remove('w--open'); document.querySelector('[data-cart-backdrop]')?.classList.remove('open'); }",
+  "  function openCart(trigger) { const drawer=document.querySelector('[data-cart-drawer]'); returnFocus=trigger instanceof HTMLElement?trigger:document.activeElement; drawer?.classList.add('w--open'); drawer?.setAttribute('aria-hidden','false'); document.querySelector('[data-cart-backdrop]')?.classList.add('open'); document.body.dataset.cartOpen='true'; document.querySelector('[data-cart-close]')?.focus(); }\n  function closeCart() { const drawer=document.querySelector('[data-cart-drawer]'); if(!drawer?.classList.contains('w--open')) return; drawer.classList.remove('w--open'); drawer.setAttribute('aria-hidden','true'); document.querySelector('[data-cart-backdrop]')?.classList.remove('open'); delete document.body.dataset.cartOpen; returnFocus?.focus(); returnFocus=null; }",
+  "commerce dialog lifecycle",
+);
+commerceScript = replaceOnce(
+  commerceScript,
+  "    if (target.matches('[data-cart-open]')) { event.preventDefault(); openCart(); }",
+  "    if (target.matches('[data-cart-open]')) { event.preventDefault(); openCart(target); }",
+  "commerce open trigger",
+);
+commerceScript = commerceScript.replaceAll(
+  "add(JSON.parse(target.dataset.add), Number(document.querySelector('[data-product-quantity]')?.value || 1))",
+  "add(JSON.parse(target.dataset.add), Number(document.querySelector('[data-product-quantity]')?.value || 1), target)",
+).replaceAll(
+  "add(JSON.parse(target.dataset.buy), Number(document.querySelector('[data-product-quantity]')?.value || 1))",
+  "add(JSON.parse(target.dataset.buy), Number(document.querySelector('[data-product-quantity]')?.value || 1), target)",
+);
+commerceScript = replaceOnce(
+  commerceScript,
+  "  document.addEventListener('keydown', event => { if(event.key==='Escape') closeCart(); });",
+  "  document.addEventListener('keydown', event => { const drawer=document.querySelector('[data-cart-drawer]'); if(event.key==='Escape') closeCart(); if(event.key!=='Tab'||!drawer?.classList.contains('w--open')) return; const focusable=[...drawer.querySelectorAll('button:not([disabled]),a[href],input:not([disabled])')]; const first=focusable[0],last=focusable.at(-1); if(event.shiftKey&&document.activeElement===first){event.preventDefault();last?.focus()}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first?.focus()} });",
+  "commerce focus trap",
+);
+await writeFile(commerceScriptPath, commerceScript);
 
 console.log("Prepared V6 home and commerce routes from preserved V5 copies.");

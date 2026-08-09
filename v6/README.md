@@ -8,7 +8,7 @@ to.
 ```bash
 npm --prefix v6 run dev      # http://localhost:3005
 npm --prefix v6 run build
-npm --prefix v6 run start    # production server on http://localhost:3005
+npm --prefix v6 run start -- -p 3005  # production server on http://localhost:3005
 npm --prefix v6 run prepare:v6  # rebuild public/v6-home from V6's preserved V5 copy
 ```
 
@@ -161,6 +161,9 @@ The React routes get the matching layer via `src/components/ScrollReveal.tsx` an
 
 ```bash
 python3 scripts/test-v5-polish.py   
+python3 scripts/test-v6-release.py  # run against a V6 server on port 3005
 ```
 
-Covers the cart drawer, the demo checkout, mobile-menu focus handling and lazy images.
+The focused interaction check covers the cart drawer, demo checkout, mobile-menu focus
+handling and lazy images. The release check adds all representative routes at desktop,
+tablet, mobile and 320px widths, plus WCAG, assets, internal links and the demo API.

@@ -1,5 +1,10 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import styles from "./wireframe.module.css";
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+};
 
 const proofs = [
   "Three-ply softness",

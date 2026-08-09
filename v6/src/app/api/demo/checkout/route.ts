@@ -17,8 +17,10 @@ export async function POST(request: Request) {
   const normalized = items.flatMap((item) => {
     const id = typeof item.id === "string" ? item.id.slice(0, 80) : "";
     const name = typeof item.name === "string" ? item.name.slice(0, 120) : "";
-    const quantity = Math.min(20, Math.max(1, Number(item.quantity) || 1));
-    const unitPrice = Math.max(0, Number(item.unitPrice) || 0);
+    const quantityValue = typeof item.quantity === "number" && Number.isFinite(item.quantity) ? item.quantity : 1;
+    const unitPriceValue = typeof item.unitPrice === "number" && Number.isFinite(item.unitPrice) ? item.unitPrice : 0;
+    const quantity = Math.min(20, Math.max(1, Math.trunc(quantityValue)));
+    const unitPrice = Math.min(10_000, Math.max(0, unitPriceValue));
     return id && name ? [{ id, name, quantity, unitPrice }] : [];
   });
 

@@ -14,7 +14,6 @@ export async function generateMetadata({ params }: ShopPageProps): Promise<Metad
   return {
     title: "Shop pink toilet paper | ROOSA",
     description: "Explore ROOSA pink toilet paper, bundles and the optional repeat-delivery concept. Product data remains clearly marked until Shopify verification.",
-    alternates: { canonical: localizedPath(locale, "/shop") },
   };
 }
 

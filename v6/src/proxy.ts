@@ -23,6 +23,7 @@ export function proxy(request: NextRequest) {
   const headers = new Headers(request.headers);
   const segment = request.nextUrl.pathname.split("/").filter(Boolean)[0] ?? "en";
   headers.set("x-roosa-locale", isLocale(segment) ? segment : "en");
+  headers.set("x-roosa-pathname", pathname);
   return NextResponse.next({ request: { headers } });
 }
 
