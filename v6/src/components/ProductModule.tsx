@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
+import useEmblaCarousel from "embla-carousel-react";
 import { useCart } from "@/components/CartProvider";
 import { QuantityControl } from "@/components/QuantityControl";
 import styles from "@/components/Commerce.module.css";
@@ -11,7 +12,33 @@ export function ProductModule({ product }: { product: Product }) {
   const { addItem } = useCart();
   const [quantity, setQuantity] = useState(1);
   const [message, setMessage] = useState("");
+  const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start", containScroll: "trimSnaps" });
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [canScrollPrev, setCanScrollPrev] = useState(false);
+  const [canScrollNext, setCanScrollNext] = useState(false);
   const stockLabel = product.inStock === true ? "Available" : product.inStock === false ? "Currently unavailable" : "Inventory confirmation pending";
+  const galleryImages = [
+    { src: product.image, alt: `${product.name} pack` },
+    { src: product.alternateImage, alt: `${product.name} detail` },
+    { src: "/media/products/embossed-roll.webp", alt: "Close view of the paper texture" },
+  ];
+
+  const updateCarouselState = useCallback(() => {
+    if (!emblaApi) return;
+    setSelectedIndex(emblaApi.selectedScrollSnap());
+    setCanScrollPrev(emblaApi.canScrollPrev());
+    setCanScrollNext(emblaApi.canScrollNext());
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+    emblaApi.on("select", updateCarouselState).on("reInit", updateCarouselState);
+    const frame = window.requestAnimationFrame(updateCarouselState);
+    return () => {
+      window.cancelAnimationFrame(frame);
+      emblaApi.off("select", updateCarouselState).off("reInit", updateCarouselState);
+    };
+  }, [emblaApi, updateCarouselState]);
 
   function addToDemoCart() {
     addItem(product, quantity);
@@ -21,15 +48,33 @@ export function ProductModule({ product }: { product: Product }) {
   return (
     <div className={styles.productModule}>
       <div className={styles.gallery} aria-label={`${product.name} gallery`}>
-        <figure className={styles.galleryFrame}>
-          <Image src={product.image} alt={`${product.name} pack`} fill loading="eager" fetchPriority="high" sizes="(max-width: 767px) 100vw, 56vw" />
-        </figure>
-        <figure className={styles.galleryFrame}>
-          <Image src={product.alternateImage} alt={`${product.name} detail`} fill sizes="(max-width: 767px) 50vw, 28vw" />
-        </figure>
-        <figure className={styles.galleryFrame}>
-          <Image src="/media/products/embossed-roll.webp" alt="Close view of the paper texture" fill sizes="(max-width: 767px) 50vw, 28vw" />
-        </figure>
+        <div className={styles.galleryDesktop}>
+          {galleryImages.map((image, index) => (
+            <figure className={styles.galleryFrame} key={image.src}>
+              <Image src={image.src} alt={image.alt} fill loading={index === 0 ? "eager" : "lazy"} fetchPriority={index === 0 ? "high" : undefined} sizes="(max-width: 767px) 100vw, 56vw" />
+            </figure>
+          ))}
+        </div>
+        <div className={styles.galleryCarouselShell}>
+          <div className={styles.galleryCarousel} ref={emblaRef} role="region" aria-roledescription="carousel" aria-label={`${product.name} gallery`}>
+            <div className={styles.galleryCarouselContainer}>
+              {galleryImages.map((image, index) => (
+                <figure className={styles.gallerySlide} key={image.src} role="group" aria-roledescription="slide" aria-label={`${index + 1} of ${galleryImages.length}`}>
+                  <Image src={image.src} alt={image.alt} fill loading={index === 0 ? "eager" : "lazy"} fetchPriority={index === 0 ? "high" : undefined} sizes="88vw" />
+                </figure>
+              ))}
+            </div>
+          </div>
+          <div className={styles.galleryControls}>
+            <button className={styles.galleryControl} type="button" onClick={() => emblaApi?.scrollPrev()} disabled={!canScrollPrev} aria-label="Previous product image">←</button>
+            <div className={styles.galleryDots} aria-label="Select product image">
+              {galleryImages.map((image, index) => (
+                <button className={styles.galleryDot} key={image.src} type="button" onClick={() => emblaApi?.scrollTo(index)} aria-label={`Show image ${index + 1}`} aria-current={selectedIndex === index ? "true" : undefined} />
+              ))}
+            </div>
+            <button className={styles.galleryControl} type="button" onClick={() => emblaApi?.scrollNext()} disabled={!canScrollNext} aria-label="Next product image">→</button>
+          </div>
+        </div>
       </div>
 
       <section className={styles.purchasePanel} aria-labelledby="product-title">
