@@ -3,6 +3,8 @@
 import { Minus, Plus } from "@/components/icons";
 import styles from "@/components/Commerce.module.css";
 
+const MAX_QUANTITY = 20;
+
 type QuantityControlProps = {
   quantity: number;
   onChange: (quantity: number) => void;
@@ -10,7 +12,7 @@ type QuantityControlProps = {
 };
 
 export function QuantityControl({ quantity, onChange, productName = "product" }: QuantityControlProps) {
-  const safeQuantity = Math.max(1, quantity);
+  const safeQuantity = Math.min(MAX_QUANTITY, Math.max(1, quantity));
 
   return (
     <div className={styles.quantity} role="group" aria-label={`Quantity for ${productName}`}>
@@ -23,13 +25,14 @@ export function QuantityControl({ quantity, onChange, productName = "product" }:
       >
         <Minus aria-hidden="true" size={18} />
       </button>
-      <output className={styles.quantityValue} aria-live="polite" aria-label="Quantity">
+      <output className={styles.quantityValue} aria-live="polite" aria-label={`Quantity for ${productName}`}>
         {safeQuantity}
       </output>
       <button
         className={styles.quantityButton}
         type="button"
-        onClick={() => onChange(safeQuantity + 1)}
+        onClick={() => onChange(Math.min(MAX_QUANTITY, safeQuantity + 1))}
+        disabled={safeQuantity >= MAX_QUANTITY}
         aria-label={`Increase ${productName} quantity`}
       >
         <Plus aria-hidden="true" size={18} />

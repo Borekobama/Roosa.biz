@@ -7,6 +7,27 @@ const sourceDirectory = path.join(root, "public", "v5-home");
 const outputDirectory = path.join(root, "public", "v6-home");
 const emDash = "\u2014";
 
+const homeHeader = String.raw`<header class="roosa-global-header"><div class="roosa-global-header__inner"><a class="roosa-global-header__brand" href="/" aria-label="ROOSA home">ROOSA</a><nav class="roosa-global-header__nav" aria-label="Primary navigation"><a href="/en/shop">Shop</a><a href="/en/product/pink-toilet-paper">Product</a><a href="/en/impact">Impact</a><a href="/en/about">About</a><a href="/en/b2b">B2B</a><a href="/en/journal">Journal</a></nav><a class="roosa-global-header__buy" href="/en/shop">Buy ROOSA</a><button class="roosa-global-header__menu" data-menu-toggle type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button></div></header><div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu" hidden><nav class="mobile-menu__nav"><a href="/en/shop">Shop</a><a href="/en/product/pink-toilet-paper">Product</a><a href="/en/impact">Impact</a><a href="/en/about">About</a><a href="/en/b2b">B2B</a><a href="/en/journal">Journal</a><a href="/en/shop">Buy ROOSA</a></nav></div>`;
+
+const homeHeaderCss = String.raw`
+.roosa-global-header{position:relative;z-index:85;height:72px;color:#241f22;background:#fffaf4;font-family:"Inter Variablefont Opsz Wght",Arial,sans-serif}
+.roosa-global-header *,.roosa-global-header *::before,.roosa-global-header *::after{box-sizing:border-box}
+.roosa-global-header__inner{width:calc(100% - 64px);height:72px;display:flex;align-items:center;margin-inline:auto}
+.roosa-global-header__brand{min-height:44px;display:inline-flex;align-items:center;margin-right:auto;color:#241f22;font-size:24px;font-weight:800;letter-spacing:-.06em;line-height:36px;text-decoration:none}
+.roosa-global-header__nav{display:flex;align-items:center}
+.roosa-global-header__nav a{min-height:40px;display:inline-flex;align-items:center;padding:8px 16px;color:#241f22;font-size:16px;font-weight:600;letter-spacing:normal;line-height:24px;text-decoration:none;white-space:nowrap}
+.roosa-global-header__buy{height:39px;display:inline-flex;align-items:center;margin-left:16px;padding:8px 32px;border:1px solid #241f22;border-radius:999px;color:#fffaf4;background:#241f22;font-size:16px;font-weight:500;letter-spacing:normal;line-height:21px;text-decoration:none;white-space:nowrap}
+.roosa-global-header__buy:hover{color:#241f22;background:#ef83b6}
+.roosa-global-header__menu{display:none;width:48px;height:48px;flex-direction:column;align-items:center;justify-content:center;padding:0;border:0;background:transparent;color:#241f22}
+.roosa-global-header__menu span{width:24px;height:2px;background:currentColor}
+.roosa-global-header__menu span+span{margin-top:5px}
+.mobile-menu{position:fixed;inset:48px 0 0;z-index:80;padding:40px 20px 70px;color:#fffaf4;background:#241f22;overflow-y:auto}
+.mobile-menu__nav{display:flex;flex-direction:column;gap:0}
+.mobile-menu__nav a{padding:8px 0;color:#fffaf4;font-size:clamp(42px,10vw,70px);font-weight:650;letter-spacing:-.06em;line-height:.95;text-decoration:none}
+body[data-scroll-lock="true"]{overflow:hidden}
+@media(max-width:991px){.roosa-global-header,.roosa-global-header__inner{height:48px}.roosa-global-header__inner{width:calc(100% - 64px)}.roosa-global-header__nav,.roosa-global-header__buy{display:none}.roosa-global-header__menu{display:inline-flex}}
+`;
+
 async function normalizeDashes(directory, extensions) {
   for (const entry of await readdir(directory, { withFileTypes: true })) {
     const target = path.join(directory, entry.name);
@@ -116,6 +137,26 @@ const teamRoll = String.raw`<div class="v6-team-sequence" data-v6-team-sequence 
 const javascript = String.raw`
 <script>
 (function(){
+  var header=document.querySelector('.roosa-global-header');
+  var button=document.querySelector('[data-menu-toggle]');
+  var panel=document.querySelector('#mobile-menu');
+  if(!header||!button||!panel)return;
+  var links=panel.querySelectorAll('a[href]');
+  function setOpen(open){
+    header.dataset.menuOpen=String(open);button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',open?'Close menu':'Open menu');panel.hidden=!open;document.body.dataset.scrollLock=String(open);
+    if(open)links[0]?.focus();else button.focus();
+  }
+  button.addEventListener('click',function(){setOpen(panel.hidden)});
+  panel.addEventListener('click',function(event){if(event.target.closest('a'))setOpen(false)});
+  document.addEventListener('keydown',function(event){
+    if(event.key==='Escape'&&!panel.hidden){event.preventDefault();setOpen(false);return}
+    if(event.key!=='Tab'||panel.hidden||!links.length)return;
+    var first=links[0],last=links[links.length-1];
+    if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus()}
+    else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus()}
+  });
+})();
+(function(){
   var section=document.querySelector('#team');
   var stage=document.querySelector('[data-v6-team-sequence]');
   var canvas=stage&&stage.querySelector('canvas');
@@ -215,9 +256,15 @@ const javascript = String.raw`
 html = replaceOnce(
   html,
   "</style></div><div data-animation=",
-  `${css}</style></div><div data-animation=`,
+  `${homeHeaderCss}${css}</style></div><div data-animation=`,
   "inline style boundary",
 );
+const navbarStart = '<div data-animation="default" class="navbar_component';
+const mainStart = '<main class="main-wrapper">';
+const navbarIndex = html.indexOf(navbarStart);
+const mainIndex = html.indexOf(mainStart, navbarIndex);
+if (navbarIndex < 0 || mainIndex < 0) throw new Error("V6 home contract failed: shared header boundary");
+html = `${html.slice(0, navbarIndex)}${homeHeader}${html.slice(mainIndex)}`;
 html = replaceOnce(
   html,
   '<section id="team" class="section_team">',

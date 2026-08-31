@@ -18,6 +18,8 @@ type CartContextValue = {
 
 const CartContext = createContext<CartContextValue | null>(null);
 const MAX_QUANTITY = 20;
+const REACT_CART_KEY = "roosa-cart";
+const STATIC_CART_KEY = "roosa-v2-demo-cart";
 
 function normalizeQuantity(value: unknown) {
   const quantity = typeof value === "number" && Number.isFinite(value) ? Math.trunc(value) : 1;
@@ -35,6 +37,29 @@ function parseStoredItems(value: string): CartItem[] {
   });
 }
 
+function parseStoredStaticItems(value: string): CartItem[] {
+  const parsed: unknown = JSON.parse(value);
+  if (!Array.isArray(parsed)) return [];
+  return parsed.slice(0, 20).flatMap((item): CartItem[] => {
+    if (!item || typeof item !== "object") return [];
+    const stored = item as { id?: unknown; quantity?: unknown };
+    const product = products.find((candidate) => candidate.id === stored.id);
+    return product ? [{ product, quantity: normalizeQuantity(stored.quantity) }] : [];
+  });
+}
+
+function toStaticItems(items: CartItem[]) {
+  return items.map(({ product, quantity }) => ({
+    id: product.id,
+    name: product.name,
+    price: product.displayPrice,
+    unitPrice: product.unitAmount ?? (Number.parseFloat(product.displayPrice.replace(/[^0-9.]/g, "")) || 0),
+    pack: `${product.packSize} · ${product.rolls} rolls`,
+    image: product.image,
+    quantity,
+  }));
+}
+
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);
   const [isOpen, setIsOpen] = useState(false);
@@ -43,8 +68,10 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     let storedItems: CartItem[] | null = null;
     try {
-      const stored = window.localStorage.getItem("roosa-cart");
-      if (stored) storedItems = parseStoredItems(stored);
+      const storedReact = window.localStorage.getItem(REACT_CART_KEY);
+      const storedStatic = window.localStorage.getItem(STATIC_CART_KEY);
+      if (storedReact) storedItems = parseStoredItems(storedReact);
+      if (!storedItems?.length && storedStatic) storedItems = parseStoredStaticItems(storedStatic);
     } catch { /* Invalid or disabled storage should not break shopping. */ }
     const frame = window.requestAnimationFrame(() => {
       storageReady.current = true;
@@ -55,7 +82,10 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (!storageReady.current) return;
-    try { window.localStorage.setItem("roosa-cart", JSON.stringify(items)); } catch { /* no-op */ }
+    try {
+      window.localStorage.setItem(REACT_CART_KEY, JSON.stringify(items));
+      window.localStorage.setItem(STATIC_CART_KEY, JSON.stringify(toStaticItems(items)));
+    } catch { /* no-op */ }
   }, [items]);
 
   const addItem = useCallback((product: Product, quantity = 1) => {

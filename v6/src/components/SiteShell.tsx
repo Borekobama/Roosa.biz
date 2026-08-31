@@ -6,5 +6,5 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 
 export function SiteShell({ locale, children }: { locale: Locale; children: React.ReactNode }) {
-  return <CartProvider><div className="site-shell"><a className="skip-link" href="#main-content">Skip to content</a><SiteHeader locale={locale}/><div className="site-shell__content" id="main-content">{children}</div><SiteFooter locale={locale}/><CartDrawer/><ScrollReveal/></div></CartProvider>;
+  return <CartProvider><div className="site-shell"><a className="skip-link" href="#main-content">Skip to content</a><SiteHeader locale={locale}/><div className="site-shell__content" id="main-content" tabIndex={-1}>{children}</div><SiteFooter locale={locale}/><CartDrawer locale={locale}/><ScrollReveal/></div></CartProvider>;
 }

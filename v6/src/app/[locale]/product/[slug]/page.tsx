@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import styles from "@/components/Commerce.module.css";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductModule } from "@/components/ProductModule";
@@ -33,6 +33,8 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 export default async function ProductPage({ params }: ProductPageProps) {
   const { locale, slug } = await params;
   if (!isLocale(locale)) notFound();
+  if (slug === "roosa-pink") redirect(localizedPath(locale, "/product/pink-toilet-paper"));
+  if (slug === "b2b-supply") redirect(localizedPath(locale, "/b2b"));
   const product = findProduct(slug);
   if (!product) notFound();
   const relatedProducts = products.filter((candidate) => candidate.id !== product.id).slice(0, 2);
