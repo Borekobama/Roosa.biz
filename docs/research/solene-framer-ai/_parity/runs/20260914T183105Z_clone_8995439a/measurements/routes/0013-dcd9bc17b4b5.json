@@ -1,0 +1,21 @@
+{
+  "route": "/merch/poster",
+  "finalUrl": "http://localhost:3111/merch/poster",
+  "status": 200,
+  "title": "Poster — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Poster — Solene",
+    "bodyBytes": 45879,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

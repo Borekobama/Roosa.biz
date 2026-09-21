@@ -1,0 +1,21 @@
+{
+  "route": "/blog/reading-a-supplement-label",
+  "finalUrl": "http://localhost:3111/blog/reading-a-supplement-label",
+  "status": 200,
+  "title": "Reading a supplement label — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Reading a supplement label — Solene",
+    "bodyBytes": 45510,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

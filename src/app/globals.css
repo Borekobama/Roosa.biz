@@ -1,157 +1,627 @@
-:root {
-  --color-roosa-pink: #ef83b6;
-  --color-roosa-pink-light: #ffd8e9;
-  --color-roosa-pink-dark: #c92f78;
-  --color-graphite: #241f22;
-  --color-paper: #fffaf4;
-  --color-white: #fff;
-  --color-muted: #756b70;
-  --color-border: rgba(36, 31, 34, 0.16);
-  --color-success: #24745d;
-  --color-warning: #a96914;
-  --color-error: #b4233a;
-  --color-impact: #204f45;
-  --font-display: var(--font-instrument), sans-serif;
-  --font-editorial: var(--font-newsreader), Georgia, serif;
-  --font-body: var(--font-instrument), sans-serif;
-  --text-display-xl: clamp(3.75rem, 9vw, 8.5rem);
-  --text-display-lg: clamp(3rem, 7vw, 6.5rem);
-  --text-heading-xl: clamp(2.5rem, 5.5vw, 5.25rem);
-  --text-heading-lg: clamp(2rem, 3.5vw, 3.5rem);
-  --text-heading-md: clamp(1.5rem, 2.4vw, 2.25rem);
-  --text-body-lg: clamp(1.125rem, 1.5vw, 1.35rem);
-  --text-body: 1rem;
-  --text-small: 0.875rem;
-  --text-label: 0.75rem;
-  --space-2xs: clamp(0.375rem, 0.4vw, 0.5rem);
-  --space-xs: clamp(0.75rem, 0.8vw, 1rem);
-  --space-sm: clamp(1rem, 1.5vw, 1.5rem);
-  --space-md: clamp(1.5rem, 2.5vw, 2.5rem);
-  --space-lg: clamp(2.5rem, 4vw, 4rem);
-  --space-xl: clamp(4rem, 7vw, 7rem);
-  --space-2xl: clamp(6rem, 11vw, 11rem);
-  --space-3xl: clamp(8rem, 16vw, 16rem);
-  --radius-small: 0.375rem;
-  --radius-medium: 1rem;
-  --radius-large: 2rem;
-  --radius-pill: 0;
-  --duration-fast: 160ms;
-  --duration-medium: 320ms;
-  --duration-slow: 700ms;
-  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
-  --ease-emphasized: cubic-bezier(0.16, 1, 0.3, 1);
-  --container: 1360px;
-  --gutter: clamp(1.25rem, 3vw, 3rem);
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Design tokens measured from the source layout (docs/research/.../recon.json).
+   Colours, radii and motion below mirror the computed values captured there.
+--------------------------------------------------------------------------- */
+@theme {
+  --color-cream: #fff8fb;
+  --color-sage: #f8dce8;
+  --color-olive: #ed7eae;
+  --color-moss: #b93670;
+  --color-forest: #48162d;
+  --color-butter: #f7cadc;
+  --color-lime: #ffd5e7;
+  --color-gold: #de5b94;
+  --color-ink: #000000;
+  --color-paper: #ffffff;
+
+  --radius-card: 16px;
+  --radius-sm: 10px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  --font-display: var(--font-be-vietnam), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-quote: var(--font-kantumruy), ui-sans-serif, system-ui, sans-serif;
+  --font-eyebrow: var(--font-serif-display), ui-serif, Georgia, serif;
+  --font-stamp: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-meta: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --ease-out-soft: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; background: var(--color-paper); }
+:root {
+  color-scheme: light;
+}
+
+html {
+  /* The source leaves this at auto. Smooth here animated every programmatic
+     scroll over about 460ms, which is long enough to be mistaken for the
+     page's own motion: measuring the pinned track's response was really
+     measuring this ramp, flat for the first 60ms and still 2% short at 330. */
+  scroll-behavior: auto;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-  margin: 0;
-  color: var(--color-graphite);
-  background: var(--color-paper);
+  overflow-x: clip;
+  background: var(--color-cream);
+  color: var(--color-ink);
   font-family: var(--font-body);
-  font-size: var(--text-body);
-  line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-body[data-scroll-lock="true"] { overflow: hidden; }
-button, input, textarea, select { font: inherit; color: inherit; }
-button, a { -webkit-tap-highlight-color: transparent; }
-button { border: 0; }
-a { color: inherit; text-decoration: none; }
-img { display: block; max-width: 100%; }
-h1, h2, h3, h4, p { margin-block: 0; }
-h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.045em; line-height: 0.96; text-wrap: balance; }
-p { text-wrap: pretty; }
-::selection { color: var(--color-graphite); background: var(--color-roosa-pink); }
-:focus-visible { outline: 3px solid var(--color-roosa-pink-dark); outline-offset: 3px; }
 
-.skip-link {
-  position: fixed; left: 1rem; top: 1rem; z-index: 200;
-  transform: translateY(-160%); padding: 0.75rem 1rem;
-  background: var(--color-graphite); color: var(--color-white);
+/* Measured type scale.
+ *
+ * The source does not scale type fluidly. It steps at two breakpoints and
+ * holds the display tracking at a fixed pixel value, so a clamp() fitted to
+ * the 1440 end alone agrees there and nowhere else: t-display-l came out 51.9
+ * at 768 against the source's 50, and t-heading-s 30.4 against 28.
+ *
+ * Steps found by bisection on the source: 719 and 720 differ, 1199 and 1200
+ * differ, and 768 and 1024 are identical. Sizes below are the measured values
+ * at 390 / 768 / 1440, with line-height as the ratio the source computes to.
+ *
+ * Display tracking is flat in px, not em: t-display-l is -4.5px at 46, 50 and
+ * 56 alike, which an em value cannot follow. The heading tokens really are em
+ * -- t-heading-s measures -1.2/-1.4/-1.6 at 24/28/32, exactly -0.05em -- so
+ * those keep it. */
+/* Measured on the source's image panels: one gradient, clear at the top to
+   solid olive at the floor. It is a fixed 739px tall, not a share of the
+   panel -- 739 at viewport heights of 800, 900, 1000 and 1100 alike. The 92.6%
+   it used to carry is 739/798, the ratio at a 900-tall viewport only, which
+   overflowed the panel at 800 and covered three quarters of it at 1100.
+   The source draws no scrim at all on the phone deck. */
+.panel-scrim {
+  background-image: linear-gradient(rgb(153 238 255 / 0) 0%, var(--color-olive) 100%);
 }
-.skip-link:focus { transform: translateY(0); }
-.container { width: min(calc(100% - (2 * var(--gutter))), var(--container)); margin-inline: auto; }
-.section { padding-block: var(--space-2xl); }
-.section--tight { padding-block: var(--space-xl); }
-.section--pink { background: var(--color-roosa-pink); }
-.section--dark { color: var(--color-paper); background: var(--color-graphite); }
-.section--impact { color: var(--color-paper); background: var(--color-impact); }
-.eyebrow { font-size: var(--text-label); font-weight: 700; letter-spacing: 0.14em; line-height: 1.2; text-transform: uppercase; }
-.display { font-size: var(--text-display-lg); font-weight: 700; letter-spacing: -0.065em; line-height: 0.88; }
-.heading-xl { font-size: var(--text-heading-xl); }
-.heading-lg { font-size: var(--text-heading-lg); }
-.body-lg { font-size: var(--text-body-lg); line-height: 1.45; }
-.muted { color: var(--color-muted); }
-.stack { display: flex; flex-direction: column; gap: var(--space-sm); }
-.cluster { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; }
-.button {
-  min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 0.625rem;
-  padding: 0.8rem 1.35rem; border: 1px solid var(--color-graphite); border-radius: 0;
-  font-size: 0.72rem; font-weight: 750; letter-spacing:.08em; line-height: 1; text-transform:uppercase; cursor: pointer;
-  transition: color var(--duration-fast), background var(--duration-fast), border-color var(--duration-fast), transform var(--duration-fast);
-}
-.button:hover { transform: translateY(-2px); }
-.button--primary { color: var(--color-paper); background: var(--color-graphite); }
-.button--primary:hover { color: var(--color-graphite); background: var(--color-roosa-pink); border-color: var(--color-roosa-pink); }
-.button--secondary { background: transparent; }
-.button--secondary:hover { background: var(--color-white); }
-.button--light { color: var(--color-graphite); background: var(--color-paper); border-color: var(--color-paper); }
-.button--icon { width: 48px; padding: 0; }
-.button:disabled, .button[aria-disabled="true"] { cursor: not-allowed; opacity: 0.48; transform: none; }
-.text-link { display: inline-flex; align-items: center; gap: 0.45rem; font-weight: 700; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.3em; }
-.perforated { border-top: 2px dashed color-mix(in srgb, currentColor 34%, transparent); }
-.paper-panel { position: relative; background: var(--color-white); clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 0 100%); }
-.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 
-.announcement { min-height: 34px; display: grid; place-items: center; padding: 0.35rem var(--gutter); color: #f8f1eb; background: #173d36; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.13em; text-align: center; text-transform: uppercase; }
-.site-header { position: sticky; top: 0; z-index: 50; min-height: 76px; border-bottom: 1px solid var(--color-border); background:rgba(246,241,235,.92);transition: background var(--duration-medium), border-color var(--duration-medium);backdrop-filter:blur(12px) }
-.site-header[data-scrolled="true"], .site-header[data-menu-open="true"] { background: rgba(246,241,235,.98); border-bottom-color: var(--color-border); }
-.header-inner { min-height: 76px; display: grid; grid-template-columns: 150px 1fr auto; align-items: center; gap: 1.5rem; }
-.brand { position: relative; display: inline-flex; width: 130px; height: 34px; align-items: center; }
-.brand img { width: 100%; height: auto; }
-.desktop-nav { display: flex; justify-content: center; gap: clamp(1rem, 2.2vw, 2rem); font-size: 0.72rem; font-weight: 750; letter-spacing:.07em;text-transform:uppercase }
-.desktop-nav a, .footer-link, .footer-credit { position: relative; }
-.desktop-nav a::after, .footer-link::after, .footer-credit::after { content: ""; position: absolute; right: 0; bottom: -0.2rem; left: 0; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform var(--duration-fast); }
-.desktop-nav a:hover::after, .desktop-nav a[aria-current="page"]::after, .footer-link:hover::after, .footer-credit:hover::after { transform: scaleX(1); transform-origin: left; }
-.header-actions { display: flex; align-items: center; gap: 0.5rem; }
-.locale-select { min-height: 42px; padding-inline: 0.75rem; border: 0; border-radius:0; background: transparent; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; }
-.mobile-only { display: none; }
-.cart-count { min-width: 1.25rem; height: 1.25rem; display: grid; place-items: center; border-radius: 50%; color: var(--color-graphite); background: var(--color-roosa-pink); font-size: 0.68rem; }
-
-.mobile-menu { position: fixed; inset: 32px 0 0; z-index: 80; padding: var(--space-lg) var(--gutter); color: var(--color-paper); background: var(--color-graphite); overflow-y: auto; }
-.mobile-menu__nav { display: flex; flex-direction: column; gap: 0.35rem; margin-block: var(--space-lg); }
-.mobile-menu__nav a { font-size: clamp(2.5rem, 12vw, 4.75rem); font-weight: 700; letter-spacing: -0.06em; line-height: 1; }
-.mobile-menu__top { display: flex; justify-content: space-between; align-items: center; }
-.drawer-backdrop { position: fixed; inset: 0; z-index: 90; background: rgba(36,31,34,.42); backdrop-filter: blur(5px); }
-.cart-drawer { position: fixed; inset: 0 0 0 auto; z-index: 100; width: min(100vw, 460px); display: grid; grid-template-rows: auto 1fr auto; padding: 1.5rem; background: var(--color-paper); box-shadow: -20px 0 60px rgba(36,31,34,.18); }
-.cart-drawer__header, .cart-drawer__footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-.cart-drawer__items { padding-block: 1.5rem; overflow-y: auto; }
-.cart-line { display: grid; grid-template-columns: 84px 1fr auto; gap: 1rem; padding-block: 1rem; border-bottom: 1px solid var(--color-border); }
-.cart-line img { width: 84px; height: 84px; aspect-ratio: 1; object-fit: cover; background: var(--color-roosa-pink-light); }
-.cart-empty { min-height: 50vh; display: grid; place-items: center; text-align: center; }
-.site-footer { padding-block: var(--space-xl) var(--space-lg); color: var(--color-paper); background: var(--color-graphite); }
-.footer-grid { display: grid; grid-template-columns: 1.5fr repeat(5, 1fr); gap: var(--space-md); }
-.footer-column { align-items: flex-start; gap: 0.65rem; }
-.footer-bottom { display: flex; justify-content: space-between; gap: 1rem; margin-top: var(--space-xl); padding-top: 1.25rem; border-top: 1px solid rgba(255,255,255,.16); font-size: 0.75rem; color: rgba(255,255,255,.65); }
-
-@media (max-width: 991px) {
-  .desktop-only, .desktop-nav { display: none !important; }
-  .mobile-only { display: inline-flex; }
-  .site-header, .header-inner { min-height: 64px; }
-  .header-inner { grid-template-columns: 1fr auto; }
-  .header-actions { grid-column: 2; }
-  .footer-grid { grid-template-columns: 1.5fr 1fr 1fr; }
+.t-display-xl {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 2.375rem;
+  line-height: 1.1;
+  letter-spacing: -3.3px;
 }
-@media (max-width: 639px) {
-  .footer-grid { grid-template-columns: 1fr 1fr; }
-  .footer-grid > :first-child { grid-column: 1 / -1; }
-  .footer-bottom { flex-direction: column; }
+
+/* 38 on a phone, not 56: this token's floor was the only one set above the
+   source's phone size, so the closing statement read a size and a half too
+   large there. It is the one display role whose line-height steps as well. */
+@media (min-width: 720px) {
+  .t-display-xl {
+    font-size: 5.4375rem;
+    line-height: 1;
+    letter-spacing: -5px;
+  }
 }
+
+.t-display-l {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 2.875rem;
+  line-height: 1.1;
+  letter-spacing: -4.5px;
+}
+
+@media (min-width: 720px) {
+  .t-display-l {
+    font-size: 3.125rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .t-display-l {
+    font-size: 3.5rem;
+  }
+}
+
+.t-display-m {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 2.375rem;
+  line-height: 1.1;
+  letter-spacing: -3.3px;
+}
+
+@media (min-width: 720px) {
+  .t-display-m {
+    font-size: 2.625rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .t-display-m {
+    font-size: 3rem;
+  }
+}
+
+/*
+ * Merch listing name: 24/31 on a phone, measured on the source's listing at
+ * 390px. It needs its own token rather than a utility override because
+ * .t-heading-s is unlayered and beats them, and rather than a change to that
+ * class because two other blocks share it.
+ *
+ * The size above 640 is t-heading-s's former fluid ramp, kept literal here: it
+ * was only ever measured on this listing at 390 and 1440, so its tablet step
+ * is unverified and is deliberately not copied from t-heading-s's measured
+ * one, which belongs to a different role on a different page.
+ */
+.t-product-name {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.29;
+  letter-spacing: -0.05em;
+}
+
+@media (min-width: 640px) {
+  .t-product-name {
+    font-size: clamp(1.75rem, 1.6rem + 0.63vw, 2rem);
+    line-height: 1.3125;
+  }
+}
+
+.t-heading-s {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  letter-spacing: -0.05em;
+}
+
+@media (min-width: 720px) {
+  .t-heading-s {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .t-heading-s {
+    font-size: 2rem;
+  }
+}
+
+.t-heading-xs {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 1.375rem;
+  line-height: 1.2;
+  letter-spacing: -0.08em;
+}
+
+/* This one holds 22 across phone and tablet alike and steps only at 1200. */
+@media (min-width: 1200px) {
+  .t-heading-xs {
+    font-size: 1.625rem;
+  }
+}
+
+/* The testimonial heading is its own display role, not t-display-xl: measured
+   56/70/87 at 390/768/1440 on a flat 0.9 line-height, with tracking -4px on a
+   phone and -6 above. t-display-xl gave it 38 at 390 and 87 at both other
+   widths, so it was a size too small on a phone and a size too large on a
+   tablet. */
+.t-testimonial {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 3.5rem;
+  line-height: 0.9;
+  letter-spacing: -4px;
+}
+
+@media (min-width: 720px) {
+  .t-testimonial {
+    font-size: 4.375rem;
+    letter-spacing: -6px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .t-testimonial {
+    font-size: 5.4375rem;
+  }
+}
+
+.t-quote {
+  font-family: var(--font-quote);
+  font-weight: 400;
+  font-size: clamp(1.75rem, 1.3rem + 1.9vw, 2.5rem);
+  line-height: 1.2;
+  letter-spacing: -0.06em;
+}
+
+/*
+ * Section lede: 14/21 on a phone, t-body-l's 18/1.333 from sm up. The source
+ * scales every lede down at that width. It carries t-body-l's -0.006em
+ * tracking: substituting bare utilities for that class drops it, which widens
+ * the text enough to wrap an extra line on a desktop.
+ */
+/*
+ * Stat label: 16/1.4 on a phone, t-body-l's 18/1.333 from sm up, tracking
+ * included for the same reason t-lede carries it.
+ */
+.t-stat-label {
+  font-size: 1rem;
+  line-height: 1.4;
+  letter-spacing: -0.006em;
+}
+
+@media (min-width: 640px) {
+  .t-stat-label {
+    font-size: 1.125rem;
+    line-height: 1.333;
+  }
+}
+
+.t-lede {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
+}
+
+/* 14/21, 16/24, 18/24 measured at 390/768/1440. The middle step was missing:
+   one jump at 640 took it straight to 18, two sizes early. Tracking is a flat
+   -0.1px at all three sizes, which -0.006em only matched at 18. */
+@media (min-width: 720px) {
+  .t-lede {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1200px) {
+  .t-lede {
+    font-size: 1.125rem;
+    line-height: 1.333;
+  }
+}
+
+/* Same role as .t-lede, and now the same values.
+ *
+ * The source's home page carries exactly one body-large role, measured
+ * 14/21, 16/24 and 18/24 at 390/768/1440 with a flat -0.1px of tracking.
+ * .t-body-l held 18/24 at every width -- the 1440 value -- which is how
+ * /science's ingredients lede came out 96 tall on a phone against the
+ * source's 42. The two names stay because both are used across the tree;
+ * the declarations are shared so they cannot drift apart again. */
+.t-body-l {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
+}
+
+@media (min-width: 720px) {
+  .t-body-l {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1200px) {
+  .t-body-l {
+    font-size: 1.125rem;
+    line-height: 1.333;
+  }
+}
+
+/* 12/14.4, 14/22, 16/22 measured at 390/768/1440 on the source's home page,
+   where it is the commonest role on the page. This was a flat 16/22 -- the
+   1440 value at every width -- which made the benefits band's lede 88 tall
+   against the source's 43 and the SOL-G7 band's two lines of copy 44 and 24
+   against 14 and 14. */
+.t-body {
+  font-size: 0.75rem;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+@media (min-width: 720px) {
+  .t-body {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .t-body {
+    font-size: 1rem;
+  }
+}
+
+.t-body-s {
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: -0.01em;
+}
+
+.t-eyebrow {
+  font-family: var(--font-eyebrow);
+  font-size: 0.875rem;
+  line-height: 1.4286;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.t-stamp {
+  font-family: var(--font-stamp);
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 1.1;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+/* Measured motion: transform .3s ease-out, opacity .3s ease, bg .2s ease. */
+.m-transform {
+  transition: transform 0.3s ease-out;
+}
+
+.m-opacity {
+  transition: opacity 0.3s ease;
+}
+
+.m-surface {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+
 @media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+/* Stats: 40/48 with -2.4px tracking, and the source sets them in the quote
+   face rather than the display one. Measured at 390, 768 and 1440: unlike
+   every other display role this one does not step at all, so scaling it down
+   on a phone was wrong -- the source draws 40 there too. */
+.t-stat {
+  font-family: var(--font-quote);
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.06em;
+}
+
+/* Product title: 40px / 44px, tracking -2.8px, weight 300. */
+.t-product {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.1;
+  letter-spacing: -0.07em;
+}
+
+@media (min-width: 1200px) {
+  .t-product {
+    font-size: 2.5rem;
+  }
+}
+
+/* Price: 32px / 32px, tracking -1.28px. */
+.t-price {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+/* Nutrient label: 14/22.4 below 1200 and 16/25.6 at and above it, weight 500,
+   tracking -0.02em. Measured at 390, 768 and 1440; this held the 1440 value at
+   every width, a size large on two of the three. Line-height is a flat 1.6. */
+.t-nutrient {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 1200px) {
+  .t-nutrient {
+    font-size: 1rem;
+  }
+}
+
+/* Ingredient rows render as 56px display lines, stacked. */
+/* The eyebrow runs the heading-xs ramp -- 22/22/26 -- and the rows the
+   display-l one, 46/50/56 with the same flat -4.5px. Both were fluid and
+   agreed with the source at 1440 only: the rows came out 36 at 390 and 44.8 at
+   768 against 46 and 50, which is 11px per row across five rows. */
+.t-ingredient-label {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 1.375rem;
+  line-height: 1.2;
+  letter-spacing: -0.08em;
+}
+
+@media (min-width: 1200px) {
+  .t-ingredient-label {
+    font-size: 1.625rem;
+  }
+}
+
+.t-ingredient {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 2.875rem;
+  line-height: 1.1;
+  letter-spacing: -4.5px;
+}
+
+@media (min-width: 720px) {
+  .t-ingredient {
+    font-size: 3.125rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .t-ingredient {
+    font-size: 3.5rem;
+  }
+}
+
+/* Ingredient carousel: the source ships a duplicated track (five tiles rendered
+   four times), so the row loops. Halving the translation lands on the seam. */
+@keyframes tile-track {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-25%, 0, 0);
+  }
+}
+
+/* Measured on the source: the strip travels 100px per second. At this track
+   width that is a 32s cycle; the clone ran 48s, i.e. 66px/s. */
+.animate-tiles {
+  animation: tile-track var(--tile-duration, 32s) linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-tiles {
+    animation: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Page entrance. The source eases the whole page in on load: the header drops
+   from above and content rises. Everything is disabled under reduced motion.
+--------------------------------------------------------------------------- */
+/* Measured on the source: the header sits 132px above its resting place for
+   roughly a third of a second, then drops in, with the first screen settled by
+   about 990ms. */
+@keyframes enter-drop {
+  from {
+    transform: translate3d(0, -132px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Measured on the source: entering content starts 123px above its resting
+   place and settles down - the same direction as the header drop, not a rise
+   from below. The home hero's heading shows the identical 123px travel. */
+@keyframes enter-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -123px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.enter-drop {
+  animation: enter-drop 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.33s;
+}
+
+/* Measured on the source: content eases in over ~880ms on a slow-start curve
+   (0.02, 0.08, 0.22, 0.58, 0.83, 0.94, 0.98 at even intervals), not the
+   fast-out easing the clone used, which reached 0.57 in a single step. */
+.enter-rise {
+  animation: enter-rise 0.96s cubic-bezier(0.83, 0, 0.17, 1) both;
+  animation-delay: var(--enter-delay, 0ms);
+}
+
+@keyframes enter-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.enter-up {
+  animation: enter-up 0.96s cubic-bezier(0.83, 0, 0.17, 1) both;
+  animation-delay: var(--enter-delay, 0ms);
+}
+
+@keyframes offer-copy-in {
+  from { opacity: 0; transform: translate3d(0, 20px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+.offer-copy-in {
+  animation: offer-copy-in 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+::view-transition-old(.page-exit) {
+  animation: 140ms ease-out both page-fade-out;
+}
+
+::view-transition-new(.page-enter) {
+  animation: 360ms cubic-bezier(0.16, 1, 0.3, 1) both page-fade-in;
+}
+
+@keyframes page-fade-out {
+  to { opacity: 0; transform: translate3d(0, -8px, 0); }
+}
+
+@keyframes page-fade-in {
+  from { opacity: 0; transform: translate3d(0, 12px, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .enter-drop,
+  .enter-rise,
+  .enter-up {
+    animation: none;
+  }
+}
+
+
+/* Frosted panel over imagery: a milky pane rather than a flat tint. */
+.glass-pane {
+  background: linear-gradient(
+    145deg,
+    rgb(255 255 245 / 0.22),
+    rgb(255 255 245 / 0.08) 45%,
+    rgb(255 255 245 / 0.16)
+  );
+  backdrop-filter: blur(18px) saturate(115%);
+  -webkit-backdrop-filter: blur(18px) saturate(115%);
+  border: 1px solid rgb(255 255 245 / 0.22);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 245 / 0.28),
+    0 18px 48px rgb(28 47 5 / 0.22);
+}
+
+/* Closing call to action pops in rather than sitting static. */
+@keyframes cta-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.94) translate3d(0, 26px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+
+.animate-cta {
+  animation: cta-pop 0.62s cubic-bezier(0.22, 1.2, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-cta {
+    animation: none;
+  }
 }

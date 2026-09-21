@@ -1,0 +1,1546 @@
+{
+  "schemaVersion": 1,
+  "kind": "motion-observation",
+  "route": "/blog/building-a-traceable-value-chain",
+  "sampled": false,
+  "complete": true,
+  "observations": [
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)",
+        "tag": "header",
+        "role": "header",
+        "name": "SoleneScienceBlogMerchBuy OfferScienceBlogMerchBuy Offer",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 70
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|header|SoleneScienceBlogMerchBuy OfferScienceBlogMerchBuy Offer||0",
+      "fingerprint": "5f97e4f9f8768cf83e985b66f63e9d1c4f74675f03a8b1daac99f908cb6b5ff5"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Solene — home",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 18.703,
+          "width": 93.25,
+          "height": 32.594
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Solene — home||0",
+      "fingerprint": "d0fb8dfd55af88b1abec294a32122aabec56ac8332b074e67baf668e379a082f"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Science",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "0.7",
+        "visibility": "visible",
+        "rect": {
+          "x": 535.219,
+          "y": 24,
+          "width": 53.016,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Science||0",
+      "fingerprint": "d786cc49ac1f8937a62480271ad99d503548ef706641b51028a78737e72cdf32"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(2)",
+        "tag": "a",
+        "role": "a",
+        "name": "Blog",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 624.234,
+          "y": 24,
+          "width": 29.969,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Blog||0",
+      "fingerprint": "30379232dcbbc61f9f9f5c6fe0d2bd5a4d00e06603df0cd83838ade61384b8be"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(3)",
+        "tag": "a",
+        "role": "a",
+        "name": "Merch",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "0.7",
+        "visibility": "visible",
+        "rect": {
+          "x": 690.203,
+          "y": 24,
+          "width": 42.594,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Merch||0",
+      "fingerprint": "18c0f78c55e75a69048892352938ddb97e256557c05cf1db559af221e74023ec"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Buy Offer",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1142.75,
+          "y": 17.5,
+          "width": 105.25,
+          "height": 35
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Buy Offer||0",
+      "fingerprint": "f12c37e559a2efea803df35bad3110e9ff46131b63758d60c75c7b5e13fdcc30"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)",
+        "tag": "button",
+        "role": "button",
+        "name": "Open menu",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": "false",
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|button|Open menu||0",
+      "fingerprint": "617c5c6a0e781554fd24c371f1a13fb6d81fa07ed72ae23837784fb0242c60db"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)>span:nth-child(1)>span:nth-child(1)",
+        "tag": "span",
+        "role": "span",
+        "name": "",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|span|||0",
+      "fingerprint": "a0867b18329b636c68ae09406b6896d39b677aee85402f74a4a912e3f8d73656"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)>span:nth-child(1)>span:nth-child(2)",
+        "tag": "span",
+        "role": "span",
+        "name": "",
+        "motionId": null,
+        "occurrence": 1
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|span|||1",
+      "fingerprint": "cebea1cd1987fb4392d4e054712a08ed1a87e54f14dcd6143758500f8813fb83"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>article:nth-child(1)>section:nth-child(1)>div:nth-child(1)>nav:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Blog",
+        "motionId": null,
+        "occurrence": 1
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 141,
+          "width": 28.391,
+          "height": 17
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Blog||1",
+      "fingerprint": "7064bab58df505ea7f0f4f0782c5bc813935a7748042ed143467171864b8a743"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>article:nth-child(1)>section:nth-child(1)>div:nth-child(1)>div:nth-child(2)",
+        "tag": "div",
+        "role": "div",
+        "name": "SourcingBuilding a traceable value chain5 March 2026·7 min read",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 200.016,
+          "width": 1216,
+          "height": 147.609
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|div|SourcingBuilding a traceable value chain5 March 2026·7 min read||0",
+      "fingerprint": "6a97c8b7caac6b2fcd9e66c9df45af0036400b71a264b1d2288947c98e99d99e"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>article:nth-child(1)>section:nth-child(2)>div:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 427.625,
+          "width": 1216,
+          "height": 532
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|div|||0",
+      "fingerprint": "f52a6bfcaca0934d9516600771c81a4a881e332ec539818b7933ecfbc1ae1a33"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "Nutrition·6 minSustained energy and the nutrients behind itWhy a steady afternoon has more to do with B-vitamin status and magnesium than with caffeine timing.",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 1934.234,
+          "width": 378.656,
+          "height": 447.625
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|div|Nutrition·6 minSustained energy and the nutrients behind itWhy a steady afternoon has more to do with B-vitamin status and magnesium than with caffeine timing.||0",
+      "fingerprint": "abbf91fdfb81b4c476d17f52a915ac95b643c8459cf9377938915e2c2e128ec6"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>article:nth-child(1)>a:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "img",
+        "name": "Sustained energy and the nutrients behind it artwork",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 1934.234,
+          "width": 378.656,
+          "height": 252.438
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|img|Sustained energy and the nutrients behind it artwork||0",
+      "fingerprint": "c994a1895d81350302aba9a6a97055253f5cff89f6a22ef9a29e5b79afb57e89"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)",
+        "tag": "div",
+        "role": "div",
+        "name": "Routine·4 minWhy mornings matter for daily nutritionAbsorption, routine and adherence all point the same direction: take it early, take it with food.",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.07s, 0.07s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 450.656,
+          "y": 1934.234,
+          "width": 378.672,
+          "height": 447.625
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|div|Routine·4 minWhy mornings matter for daily nutritionAbsorption, routine and adherence all point the same direction: take it early, take it with food.||0",
+      "fingerprint": "de40ca031a7b1d1162cbe9ed6168d6c6411bbc1a24c9401a8e52bacacecab0f9"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>article:nth-child(1)>a:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "img",
+        "name": "Why mornings matter for daily nutrition artwork",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 450.656,
+          "y": 1934.234,
+          "width": 378.672,
+          "height": 252.438
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|img|Why mornings matter for daily nutrition artwork||0",
+      "fingerprint": "fac339e800bca1fc6caea9ee0a64533a85f32056491ef4ac5fe5fc24aa4fce12"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)",
+        "tag": "div",
+        "role": "div",
+        "name": "Science·5 minReading a supplement labelProprietary blends, percentage daily values and the difference between a form and a dose.",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.14s, 0.14s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 869.328,
+          "y": 1934.234,
+          "width": 378.656,
+          "height": 447.625
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|div|Science·5 minReading a supplement labelProprietary blends, percentage daily values and the difference between a form and a dose.||0",
+      "fingerprint": "8efae513bd8cbda56c174fffa17450cc99c7caccf6ebe51c0cff7bcbc5e9bfdc"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>article:nth-child(1)>a:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "img",
+        "name": "Reading a supplement label artwork",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 869.328,
+          "y": 1934.234,
+          "width": 378.656,
+          "height": 252.438
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|img|Reading a supplement label artwork||0",
+      "fingerprint": "b85903b01e0c253d09aab73daab24105f553025115438b6438ee1bf2cf6b914b"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Daily Multivitamin™",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 2602.859,
+          "width": 128.5,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Daily Multivitamin™||0",
+      "fingerprint": "c02e1cc2a3bb1c40311d4c3cc8bd1de9e31f9d153a328a1a98603cf58b943e4a"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "All merch",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 2638.859,
+          "width": 62.094,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|All merch||0",
+      "fingerprint": "dee91740d704ec1a4c26f2a0600ff7fe19a402e82670fd82e5337858ef1cec19"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Subscription",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 2674.859,
+          "width": 83.625,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Subscription||0",
+      "fingerprint": "7bf73d06dbc6a34b273f03abcd132183b28d6d2a8c695e261ab509c51161d389"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "The science",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 2602.859,
+          "width": 80.578,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|The science||0",
+      "fingerprint": "171793b130765cdbf12606319c5c299528f3f645742b3707e2a24c6ac983c16e"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Blog",
+        "motionId": null,
+        "occurrence": 2
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 2638.859,
+          "width": 29.969,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Blog||2",
+      "fingerprint": "91958837141166304a2e857806b2c9ca1d37716304e1af4e5056755cb82fd59e"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Ingredients",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 2674.859,
+          "width": 74.188,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Ingredients||0",
+      "fingerprint": "994f9c8c04f98965f8415222125c83d827e65adc5ecb812e0b0fa5286bf591ec"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "FAQ",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 2602.859,
+          "width": 28.344,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|FAQ||0",
+      "fingerprint": "acb0178e6b66b48f6e1b24217dfcd0e4ce09c06ce19893d6dda441bb11e7e9dd"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Shipping",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 2638.859,
+          "width": 58.516,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Shipping||0",
+      "fingerprint": "d27959e8c83be6b6a3fd163cf3eeb354e46f85fbd4cc7037b9189ca0292226d0"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Contact",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 2674.859,
+          "width": 53.141,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Contact||0",
+      "fingerprint": "0e8dca7db0d6cebbcd54633a534f63787b3f30a1c6dfa68e6acf5b7a91c27242"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(4)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Privacy policy",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1096.75,
+          "y": 2602.859,
+          "width": 91.078,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Privacy policy||0",
+      "fingerprint": "5e4bd60296c205781eadb894150437c88cf85e9f722b16045d784c32406b5ab6"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(4)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Cookies policy",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1096.75,
+          "y": 2638.859,
+          "width": 96.547,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/building-a-traceable-value-chain|a|Cookies policy||0",
+      "fingerprint": "aa4d7aad55b01a8cc576a8ec177bfeefd03e6a88ed9e9643cce459fb7547fd68"
+    }
+  ]
+}

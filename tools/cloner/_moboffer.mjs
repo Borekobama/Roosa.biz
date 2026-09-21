@@ -1,0 +1,36 @@
+import { chromium } from 'playwright';
+/** The offer block on a phone, both sides: every painted or texted child. */
+const b = await chromium.launch();
+for (const [base, tag] of [['https://solene.framer.ai', 'SOURCE'], [process.env.CLONE_BASE ?? 'http://localhost:3111', 'CLONE ']]) {
+  const p = await (await b.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true })).newPage();
+  await p.goto(base + '/', { waitUntil: 'domcontentloaded', timeout: 120000 });
+  await p.waitForTimeout(2600);
+  for (let pass = 0; pass < 2; pass++) {
+    await p.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 300) { window.scrollTo(0, y); await new Promise(r => setTimeout(r, 60)); } });
+    await p.waitForTimeout(700);
+  }
+  console.log(`=== ${tag} ===`, await p.evaluate(() => {
+    const docTop = (el) => { let y = 0, n = el; while (n) { y += n.offsetTop; n = n.offsetParent; } return y; };
+    const pick = (k) => [...document.querySelectorAll('h1,h2,h3,h4,h5,h6,p,span,div,li')]
+      .filter(x => [...x.childNodes].some(n => n.nodeType === 3 && n.textContent.includes(k)))
+      .filter(x => x.offsetWidth > 0 && !x.closest('footer'))
+      .sort((a, c) => docTop(a) - docTop(c))[0];
+    const from = pick('Daily Multivitamin'), to = pick('Frequently');
+    if (!from || !to) return 'anchors missing';
+    const a = docTop(from), z = docTop(to);
+    const rows = [];
+    for (const el of document.querySelectorAll('*')) {
+      const y = docTop(el);
+      if (y < a - 40 || y > z) continue;
+      const s = getComputedStyle(el);
+      const owns = [...el.childNodes].some(n => n.nodeType === 3 && n.textContent.trim());
+      const painted = s.backgroundColor !== 'rgba(0, 0, 0, 0)' && el.offsetHeight > 24;
+      const img = el.tagName === 'IMG' && el.offsetHeight > 80;
+      if (!owns && !painted && !img) continue;
+      rows.push(`${String(Math.round(y)).padStart(6)} ${String(el.offsetWidth)}x${el.offsetHeight} ${s.fontSize}${owns ? ' "' + el.textContent.trim().replace(/\s+/g, ' ').slice(0, 22) + '"' : img ? ' IMG' : ' BLOCK'}`);
+    }
+    return `span ${z - a}\n   ` + [...new Set(rows)].slice(0, 14).join('\n   ');
+  }));
+  await p.context().close();
+}
+await b.close();

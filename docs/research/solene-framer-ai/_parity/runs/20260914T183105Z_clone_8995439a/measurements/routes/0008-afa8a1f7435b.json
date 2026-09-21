@@ -1,0 +1,21 @@
+{
+  "route": "/merch/ecobag",
+  "finalUrl": "http://localhost:3111/merch/ecobag",
+  "status": 200,
+  "title": "Ecobag — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Ecobag — Solene",
+    "bodyBytes": 46012,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

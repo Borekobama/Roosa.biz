@@ -1,0 +1,21 @@
+{
+  "route": "/blog",
+  "finalUrl": "http://localhost:3111/blog",
+  "status": 200,
+  "title": "Blog — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Blog — Solene",
+    "bodyBytes": 52858,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

@@ -1,0 +1,1917 @@
+{
+  "schemaVersion": 1,
+  "kind": "motion-observation",
+  "route": "/science",
+  "sampled": false,
+  "complete": true,
+  "observations": [
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)",
+        "tag": "header",
+        "role": "header",
+        "name": "SoleneScienceBlogMerchBuy OfferScienceBlogMerchBuy Offer",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 70
+        }
+      },
+      "samples": [],
+      "key": "/science|header|SoleneScienceBlogMerchBuy OfferScienceBlogMerchBuy Offer||0",
+      "fingerprint": "e20f5684699934350f88694171e29740ab6956b14901b4d25a15060861ada0d0"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Solene — home",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 18.703,
+          "width": 93.25,
+          "height": 32.594
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Solene — home||0",
+      "fingerprint": "51c050452b28e4e1dd812f46e9120fa7e6765e58f786835b783d34986f64dfb7"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Science",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 535.219,
+          "y": 24,
+          "width": 53.016,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Science||0",
+      "fingerprint": "c7f49589d7d5e02ca9deecfb0fc066f3f066d13258b6b6edecf62b7bb25eaa35"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(2)",
+        "tag": "a",
+        "role": "a",
+        "name": "Blog",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "0.7",
+        "visibility": "visible",
+        "rect": {
+          "x": 624.234,
+          "y": 24,
+          "width": 29.969,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Blog||0",
+      "fingerprint": "b79db2abfd910f092470a3dbb33bbbc2822d955ace006e7232d62a048cdda29f"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(3)",
+        "tag": "a",
+        "role": "a",
+        "name": "Merch",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "0.7",
+        "visibility": "visible",
+        "rect": {
+          "x": 690.203,
+          "y": 24,
+          "width": 42.594,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Merch||0",
+      "fingerprint": "4629cc350482693c92ae44411963a74c26ceedc4f0d560ea3bfd741adbb6fe13"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Buy Offer",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1142.75,
+          "y": 17.5,
+          "width": 105.25,
+          "height": 35
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Buy Offer||0",
+      "fingerprint": "680d943471bbdcc43ded3be59d3938a4cdcc43360bd9d481909497fd8ae00bf0"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)",
+        "tag": "button",
+        "role": "button",
+        "name": "Open menu",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": "false",
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/science|button|Open menu||0",
+      "fingerprint": "e552c690371e19e5a70d9471bdf487ec9aa1b28d94bb0543e71e272d302cf68e"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)>span:nth-child(1)>span:nth-child(1)",
+        "tag": "span",
+        "role": "span",
+        "name": "",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/science|span|||0",
+      "fingerprint": "c8a6832ce0f59d0cefcacbeb12d6aded354f4927b610fc66f8b72ae2d08f8075"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)>span:nth-child(1)>span:nth-child(2)",
+        "tag": "span",
+        "role": "span",
+        "name": "",
+        "motionId": null,
+        "occurrence": 1
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/science|span|||1",
+      "fingerprint": "f5dae4f2d1f84b09acd5623a637c77d65e04926ff6294fdca692018755d7528b"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(1)>div:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "The formula",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 190,
+          "width": 1216,
+          "height": 14
+        }
+      },
+      "samples": [],
+      "key": "/science|div|The formula||0",
+      "fingerprint": "4cd33f9d1f6efe72baa3d6e574b96fedd86b004111de1fb13ccdca52dd1ff142"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(1)>div:nth-child(1)>div:nth-child(2)",
+        "tag": "div",
+        "role": "div",
+        "name": "Built from intake data, not from a trend list",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.08s, 0.08s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 228,
+          "width": 1216,
+          "height": 123.188
+        }
+      },
+      "samples": [],
+      "key": "/science|div|Built from intake data, not from a trend list||0",
+      "fingerprint": "d88b25909a40d23e9e685fdbe89a04d34bd3a80a5400fb09041a92ff659b34c9"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(1)>div:nth-child(1)>div:nth-child(3)",
+        "tag": "div",
+        "role": "div",
+        "name": "Every decision below is either supported by absorption data or left out. Where the evidence is thin, we say so rather than filling the gap with adjectives.",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.15s, 0.15s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 383.188,
+          "width": 1216,
+          "height": 50.375
+        }
+      },
+      "samples": [],
+      "key": "/science|div|Every decision below is either supported by absorption data or left out. Where the evidence is thin, we say so rather than filling the gap with adjectives.||0",
+      "fingerprint": "bc66a1660f20bcbfb5814af77178d3a9ddf12ba5b22949994ca333eb43e7f168"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 545.563,
+          "width": 1216,
+          "height": 532
+        }
+      },
+      "samples": [],
+      "key": "/science|div|||0",
+      "fingerprint": "1390c03d980f0ff68ccd3d66d932f60dbb5bedff9e41a9d499e5b55544d4fdee"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(3)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "FormulationBuilt around what people actually under-eatWe started from national intake surveys rather than a trend list. The actives in the formula are the ones ",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 1213.563,
+          "width": 576,
+          "height": 208.75
+        }
+      },
+      "samples": [],
+      "key": "/science|div|FormulationBuilt around what people actually under-eatWe started from national intake surveys rather than a trend list. The actives in the formula are the ones ||0",
+      "fingerprint": "639fc88009e57730fe5a383959e54203ad8f63d3f4c73d4db6c8bbd8b46478d3"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(3)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)",
+        "tag": "div",
+        "role": "div",
+        "name": "DeliveryForm chosen before doseBioavailability differs enormously between salts of the same mineral. We use glycinate and citrate forms where absorption data su",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.08s, 0.08s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 672,
+          "y": 1213.563,
+          "width": 576,
+          "height": 208.75
+        }
+      },
+      "samples": [],
+      "key": "/science|div|DeliveryForm chosen before doseBioavailability differs enormously between salts of the same mineral. We use glycinate and citrate forms where absorption data su||0",
+      "fingerprint": "5f58b87d70d241f8cf3429104c5de6147e3f1a922689c8c6917d1e158b0df7af"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(3)>div:nth-child(1)>div:nth-child(1)>div:nth-child(3)",
+        "tag": "div",
+        "role": "div",
+        "name": "TestingEvery batch, independently verifiedEach production lot is tested by an external laboratory for active content, heavy metals and microbial limits. Certifi",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 1502.313,
+          "width": 576,
+          "height": 167.156
+        }
+      },
+      "samples": [],
+      "key": "/science|div|TestingEvery batch, independently verifiedEach production lot is tested by an external laboratory for active content, heavy metals and microbial limits. Certifi||0",
+      "fingerprint": "5f650e7abd45193740e8839b292f3ab5d1967767bd21757f363cd2290b8ef754"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(3)>div:nth-child(1)>div:nth-child(1)>div:nth-child(4)",
+        "tag": "div",
+        "role": "div",
+        "name": "LimitsWhat we do not claimA multivitamin corrects shortfalls. It does not treat disease, replace a varied diet, or produce an effect you will feel on the first ",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.08s, 0.08s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 672,
+          "y": 1502.313,
+          "width": 576,
+          "height": 167.156
+        }
+      },
+      "samples": [],
+      "key": "/science|div|LimitsWhat we do not claimA multivitamin corrects shortfalls. It does not treat disease, replace a varied diet, or produce an effect you will feel on the first ||0",
+      "fingerprint": "ab677ddd1173275efc88d4908ebf3a2bc9dc6ee82e5339b11232638bf860fde1"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(4)>div:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "VitaminsProbioticsAntioxidantsGuarana extractPassionfruit powderMagnesiumZincOmega-3VitaminsProbioticsAntioxidantsGuarana extractPassionfruit powderMagnesiumZin",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "marquee-x",
+        "animationDuration": "40s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "linear",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "infinite",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,-36.1246,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": -36.125,
+          "y": 1774.469,
+          "width": 5418.625,
+          "height": 52.797
+        }
+      },
+      "samples": [],
+      "key": "/science|div|VitaminsProbioticsAntioxidantsGuarana extractPassionfruit powderMagnesiumZincOmega-3VitaminsProbioticsAntioxidantsGuarana extractPassionfruit powderMagnesiumZin||0",
+      "fingerprint": "3bb2634e25c52f84fcda826ed148c231c3d01b150da8bf1bcc09ee1ced421109"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "3—5xAbsorption uplift measured against a standard tablet base",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 2076.266,
+          "width": 378.656,
+          "height": 121.594
+        }
+      },
+      "samples": [],
+      "key": "/science|div|3—5xAbsorption uplift measured against a standard tablet base||0",
+      "fingerprint": "e7a24733e830cf795006b6d1ec58def97d28cb04d518a7f14b1ed5df059d9f1f"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)",
+        "tag": "div",
+        "role": "div",
+        "name": "24Actives per serving, each listed at its full dose",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.08s, 0.08s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 450.656,
+          "y": 2076.266,
+          "width": 378.672,
+          "height": 121.594
+        }
+      },
+      "samples": [],
+      "key": "/science|div|24Actives per serving, each listed at its full dose||0",
+      "fingerprint": "34bfadfcc390159538bbab93529424203acc411c1fd283bbf9c7a7a4e78748ad"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(3)",
+        "tag": "div",
+        "role": "div",
+        "name": "100%Traceable sourcing from partner farms",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.16s, 0.16s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 869.328,
+          "y": 2076.266,
+          "width": 378.656,
+          "height": 121.594
+        }
+      },
+      "samples": [],
+      "key": "/science|div|100%Traceable sourcing from partner farms||0",
+      "fingerprint": "e385b8f744cc59140ade00d1762bf9ef93d5b44ab14e09203a39227542fc47c1"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(6)>div:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "Read the full ingredient breakdown",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 2453.859,
+          "width": 1216,
+          "height": 105.594
+        }
+      },
+      "samples": [],
+      "key": "/science|div|Read the full ingredient breakdown||0",
+      "fingerprint": "92da7020008221e85dc144ee6f9e1dafac29080700b54f08ab3a644f5db197f9"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(6)>div:nth-child(1)>div:nth-child(2)",
+        "tag": "div",
+        "role": "div",
+        "name": "Buy the daily formulaRead the blog",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.1s, 0.1s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 2599.453,
+          "width": 1216,
+          "height": 41
+        }
+      },
+      "samples": [],
+      "key": "/science|div|Buy the daily formulaRead the blog||0",
+      "fingerprint": "7f8e80634ba5e0a9779290fc08afe6daf64749ca128aa9ae595aac40286e3bfd"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(6)>div:nth-child(1)>div:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Buy the daily formula",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 463.313,
+          "y": 2599.453,
+          "width": 192.594,
+          "height": 41
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Buy the daily formula||0",
+      "fingerprint": "703f7ce50ce0337f43255bc505f3c7c9ec27486311dce0e7af3d20db989b70ea"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(6)>div:nth-child(1)>div:nth-child(2)>a:nth-child(2)",
+        "tag": "a",
+        "role": "a",
+        "name": "Read the blog",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 671.906,
+          "y": 2599.453,
+          "width": 144.766,
+          "height": 41
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Read the blog||0",
+      "fingerprint": "2b9a2573e265e1355a919a54934549c612bbf8eae129ab7b4b86f3b6406a9ca7"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Daily Multivitamin™",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 2861.453,
+          "width": 128.5,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Daily Multivitamin™||0",
+      "fingerprint": "3ffbb96b0c63c89615ba7f32564c56953667705d7ebc20625b398fbe49871c1b"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "All merch",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 2897.453,
+          "width": 62.094,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/science|a|All merch||0",
+      "fingerprint": "56ee74a06d5b9e165c1e8658952b5fe0268b2f2e9a6da6ab3b57faa739fd059a"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Subscription",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 2933.453,
+          "width": 83.625,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Subscription||0",
+      "fingerprint": "80d26f90aac1e2194bde53e1dc4a390dedc2f1c3b2f118f13021cbc787cbecd4"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "The science",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 2861.453,
+          "width": 80.578,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/science|a|The science||0",
+      "fingerprint": "c2521dd5cb22473d232ef1e9ee7efa46a98a8db1b6ded23fd75c9ac693d5327a"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Blog",
+        "motionId": null,
+        "occurrence": 1
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 2897.453,
+          "width": 29.969,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Blog||1",
+      "fingerprint": "1322f4049217f7b6c6c84b9394000980f8e31ca0101698848f07138cfe44c9e2"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Ingredients",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 2933.453,
+          "width": 74.188,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Ingredients||0",
+      "fingerprint": "8463fc8a07f2721bc3b858a2d91df2f878cb007d0d71bd4a362e845ae2c3a042"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "FAQ",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 2861.453,
+          "width": 28.344,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/science|a|FAQ||0",
+      "fingerprint": "a77142536a99840183d8627cd3d455ac5104d0ab6def3e5313fa4f26227d7d93"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Shipping",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 2897.453,
+          "width": 58.516,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Shipping||0",
+      "fingerprint": "394e7db158e1253fe53c282aec769e6bfd2ed03a10d706433f83aba35e9429db"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Contact",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 2933.453,
+          "width": 53.141,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Contact||0",
+      "fingerprint": "6f55ca4c8cde7d8576d783af7d74f5611fb73d07b0788831ae58d9779f4c906c"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(4)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Privacy policy",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1096.75,
+          "y": 2861.453,
+          "width": 91.078,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Privacy policy||0",
+      "fingerprint": "74ac41132a763652ee281081107d737431f1099a5da2a35fe999840f1a3fafa6"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(4)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Cookies policy",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1096.75,
+          "y": 2897.453,
+          "width": 96.547,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/science|a|Cookies policy||0",
+      "fingerprint": "cc0d3eff7afd0cbe7543a0144085adfb9702df3f161f7f9f4c8116bf18c920e2"
+    }
+  ]
+}

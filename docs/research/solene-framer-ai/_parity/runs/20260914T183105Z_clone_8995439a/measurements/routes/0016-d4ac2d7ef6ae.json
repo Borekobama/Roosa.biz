@@ -1,0 +1,21 @@
+{
+  "route": "/blog/building-a-traceable-value-chain",
+  "finalUrl": "http://localhost:3111/blog/building-a-traceable-value-chain",
+  "status": 200,
+  "title": "Building a traceable value chain — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Building a traceable value chain — Solene",
+    "bodyBytes": 45597,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

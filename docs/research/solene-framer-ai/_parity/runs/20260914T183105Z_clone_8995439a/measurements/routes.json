@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260914T183105Z_clone_8995439a",
+  "kind": "route-inventory",
+  "capturedAt": "2026-09-14T18:31:16.779Z",
+  "routes": [
+    {
+      "route": "/",
+      "finalUrl": "http://localhost:3111/",
+      "status": 200,
+      "title": "Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Solene",
+        "bodyBytes": 148057,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/science",
+      "finalUrl": "http://localhost:3111/science",
+      "status": 200,
+      "title": "Science — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Science — Solene",
+        "bodyBytes": 45203,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/merch",
+      "finalUrl": "http://localhost:3111/merch",
+      "status": 200,
+      "title": "Merch — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Merch — Solene",
+        "bodyBytes": 56118,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/blog",
+      "finalUrl": "http://localhost:3111/blog",
+      "status": 200,
+      "title": "Blog — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Blog — Solene",
+        "bodyBytes": 52858,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/cookies-policy",
+      "finalUrl": "http://localhost:3111/cookies-policy",
+      "status": 200,
+      "title": "Cookies policy — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Cookies policy — Solene",
+        "bodyBytes": 24697,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/privacy-policy",
+      "finalUrl": "http://localhost:3111/privacy-policy",
+      "status": 200,
+      "title": "Privacy policy — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Privacy policy — Solene",
+        "bodyBytes": 25494,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/merch/daily-multivitamin",
+      "finalUrl": "http://localhost:3111/merch/daily-multivitamin",
+      "status": 200,
+      "title": "Daily Multivitamin™ — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Daily Multivitamin™ — Solene",
+        "bodyBytes": 46174,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/merch/ecobag",
+      "finalUrl": "http://localhost:3111/merch/ecobag",
+      "status": 200,
+      "title": "Ecobag — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Ecobag — Solene",
+        "bodyBytes": 46012,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/merch/cap",
+      "finalUrl": "http://localhost:3111/merch/cap",
+      "status": 200,
+      "title": "Cap — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Cap — Solene",
+        "bodyBytes": 45924,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/merch/squeeze",
+      "finalUrl": "http://localhost:3111/merch/squeeze",
+      "status": 200,
+      "title": "Squeeze — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Squeeze — Solene",
+        "bodyBytes": 45865,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/merch/t-shirt",
+      "finalUrl": "http://localhost:3111/merch/t-shirt",
+      "status": 200,
+      "title": "T-shirt — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "T-shirt — Solene",
+        "bodyBytes": 45861,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/merch/pin",
+      "finalUrl": "http://localhost:3111/merch/pin",
+      "status": 200,
+      "title": "Pin — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Pin — Solene",
+        "bodyBytes": 45806,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/merch/poster",
+      "finalUrl": "http://localhost:3111/merch/poster",
+      "status": 200,
+      "title": "Poster — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Poster — Solene",
+        "bodyBytes": 45879,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/blog/sustained-energy-and-the-nutrients-behind-it",
+      "finalUrl": "http://localhost:3111/blog/sustained-energy-and-the-nutrients-behind-it",
+      "status": 200,
+      "title": "Sustained energy and the nutrients behind it — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Sustained energy and the nutrients behind it — Solene",
+        "bodyBytes": 46046,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/blog/why-mornings-matter-for-daily-nutrition",
+      "finalUrl": "http://localhost:3111/blog/why-mornings-matter-for-daily-nutrition",
+      "status": 200,
+      "title": "Why mornings matter for daily nutrition — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Why mornings matter for daily nutrition — Solene",
+        "bodyBytes": 45482,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/blog/building-a-traceable-value-chain",
+      "finalUrl": "http://localhost:3111/blog/building-a-traceable-value-chain",
+      "status": 200,
+      "title": "Building a traceable value chain — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Building a traceable value chain — Solene",
+        "bodyBytes": 45597,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/blog/reading-a-supplement-label",
+      "finalUrl": "http://localhost:3111/blog/reading-a-supplement-label",
+      "status": 200,
+      "title": "Reading a supplement label — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "Reading a supplement label — Solene",
+        "bodyBytes": 45510,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/blog/the-science-of-recovery",
+      "finalUrl": "http://localhost:3111/blog/the-science-of-recovery",
+      "status": 200,
+      "title": "The science of recovery — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "The science of recovery — Solene",
+        "bodyBytes": 45266,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    },
+    {
+      "route": "/blog/the-influence-of-micronutrients",
+      "finalUrl": "http://localhost:3111/blog/the-influence-of-micronutrients",
+      "status": 200,
+      "title": "The influence of micronutrients — Solene",
+      "health": {
+        "serverHealthy": true,
+        "clientJsLoaded": true,
+        "hydrated": true,
+        "hydrationEvidence": "react-next-runtime",
+        "explicitHydrationSelector": null,
+        "reactAttached": true,
+        "nextRuntime": true,
+        "title": "The influence of micronutrients — Solene",
+        "bodyBytes": 45414,
+        "framework": "next",
+        "loginForm": false,
+        "kind": "clone"
+      },
+      "identity": null
+    }
+  ]
+}

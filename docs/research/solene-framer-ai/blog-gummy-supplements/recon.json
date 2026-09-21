@@ -1,0 +1,3837 @@
+{
+  "route": "/blog/gummy-supplements",
+  "origin": "https://solene.framer.ai",
+  "capturedAt": "2026-09-14T18:25:41.950Z",
+  "viewports": {
+    "desktop": {
+      "url": "https://solene.framer.ai/blog/gummy-supplements",
+      "title": "Why gummies can outperform tablets - My Framer Site",
+      "meta": {
+        "description": "High-quality multivitamin made in Brazil utilizing natural substracts.",
+        "ogImage": "https://framerusercontent.com/images/hHlsB9FEy8N2mvzSnxvgsOq4sg.png",
+        "themeColor": null,
+        "icons": [
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          },
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          }
+        ]
+      },
+      "body": {
+        "background": "rgb(255, 255, 245)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px"
+      },
+      "documentHeight": 6034,
+      "nav": {
+        "tag": "header",
+        "position": "relative",
+        "height": 70,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none",
+        "zIndex": "auto",
+        "links": [
+          {
+            "text": "",
+            "href": "../"
+          },
+          {
+            "text": "Science",
+            "href": "../science"
+          },
+          {
+            "text": "Blog",
+            "href": "../blog"
+          },
+          {
+            "text": "Merch",
+            "href": "../merch"
+          },
+          {
+            "text": "Buy Offer",
+            "href": "../#product-offer"
+          }
+        ],
+        "buttons": [
+          {
+            "label": ""
+          }
+        ]
+      },
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1fqoifb-container"
+          ],
+          "top": 0,
+          "height": 70,
+          "width": 1440,
+          "position": "fixed",
+          "zIndex": "10",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 5,
+          "buttonCount": 1
+        },
+        {
+          "index": 1,
+          "tag": "style",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "none",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 2,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-i1ROw",
+            "framer-6vZcJ",
+            "framer-IL2Bc",
+            "framer-sEPqd",
+            "framer-MDS9p",
+            "framer-fDIOf"
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "contents",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Why gummies can outperform tablets"
+            },
+            {
+              "tag": "h2",
+              "text": "Introduction"
+            },
+            {
+              "tag": "h2",
+              "text": "Format and experience as essential adherence factors"
+            },
+            {
+              "tag": "h2",
+              "text": "Creatine and its relevance as a functional component"
+            },
+            {
+              "tag": "h2",
+              "text": "Why gummies fit modern lifestyles"
+            },
+            {
+              "tag": "h2",
+              "text": "From the blog"
+            }
+          ],
+          "imageCount": 6,
+          "videoCount": 0,
+          "linkCount": 5,
+          "buttonCount": 1
+        },
+        {
+          "index": 3,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-wp7anj"
+          ],
+          "top": 0,
+          "height": 1260,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Why gummies can outperform tablets"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 4,
+          "tag": "article",
+          "id": "content",
+          "classes": [
+            "framer-1qyayv4"
+          ],
+          "top": 1260,
+          "height": 1617,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Introduction"
+            },
+            {
+              "tag": "h2",
+              "text": "Format and experience as essential adherence factors"
+            },
+            {
+              "tag": "h2",
+              "text": "Creatine and its relevance as a functional component"
+            },
+            {
+              "tag": "h2",
+              "text": "Why gummies fit modern lifestyles"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 1
+        },
+        {
+          "index": 5,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-10b44ra"
+          ],
+          "top": 2877,
+          "height": 1354,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "From the blog"
+            },
+            {
+              "tag": "h4",
+              "text": "Sustained energy and the nutrients behind it"
+            },
+            {
+              "tag": "h4",
+              "text": "Why mornings matter for daily nutrition"
+            },
+            {
+              "tag": "h4",
+              "text": "The science of muscle recovery"
+            },
+            {
+              "tag": "h4",
+              "text": "Micronutrients and daily performance"
+            }
+          ],
+          "imageCount": 4,
+          "videoCount": 0,
+          "linkCount": 5,
+          "buttonCount": 0
+        },
+        {
+          "index": 6,
+          "tag": "div",
+          "id": "overlay",
+          "classes": [
+            ""
+          ],
+          "top": 4231,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 7,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-k3ppot"
+          ],
+          "top": 4231,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 8,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1gsaefd-container"
+          ],
+          "top": 4231,
+          "height": 1062,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Daily well-being requires real vitamins"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 1,
+          "buttonCount": 0
+        },
+        {
+          "index": 9,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-6et2sf-container"
+          ],
+          "top": 5293,
+          "height": 741,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 14,
+          "buttonCount": 0
+        },
+        {
+          "index": 10,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 654,
+          "height": 226,
+          "width": 235,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(255, 255, 255, 0.95)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 2,
+          "buttonCount": 0
+        }
+      ],
+      "typography": [
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 14,
+          "sample": "Copywriter from Solene"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.1px",
+          "textTransform": "none",
+          "color": "rgb(125, 145, 83)",
+          "count": 8,
+          "sample": "November 19, 2024"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "25.2px",
+          "letterSpacing": "-0.72px",
+          "textTransform": "none",
+          "color": "rgb(28, 47, 5)",
+          "count": 7,
+          "sample": "Science"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.14px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 7,
+          "sample": "Dec 22, 2024"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "300",
+          "lineHeight": "52.8px",
+          "letterSpacing": "-3.3px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 5,
+          "sample": "Introduction"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "300",
+          "lineHeight": "41.6px",
+          "letterSpacing": "-1.6px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 4,
+          "sample": "Sustained energy and the nutrients behind it"
+        },
+        {
+          "fontFamily": "Inter",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "-0.2px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 3,
+          "sample": "Copy to Clipboard"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "300",
+          "lineHeight": "61.6px",
+          "letterSpacing": "-4.5px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 2,
+          "sample": "Why gummies can outperform tablets"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "300",
+          "lineHeight": "16.8px",
+          "letterSpacing": "-0.56px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "Copy link"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "23.47px",
+          "fontWeight": "400",
+          "lineHeight": "28.164px",
+          "letterSpacing": "-0.2347px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "®"
+        },
+        {
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(0, 0, 238)",
+          "count": 1,
+          "sample": "Create a free website with Framer, the website builder loved"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "800",
+          "lineHeight": "17.6px",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(0, 0, 0)",
+          "count": 1,
+          "sample": "BUY LICENSE TO PUBLISH YOUR STORE"
+        },
+        {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "300",
+          "lineHeight": "16.8px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgba(0, 0, 0, 0.6)",
+          "count": 1,
+          "sample": "Ready to remove this banner? Purchase & activate a license t"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "800",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "BUY LICENCE"
+        }
+      ],
+      "colors": [
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 142
+        },
+        {
+          "value": "rgb(0, 0, 238)",
+          "count": 68
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 49
+        },
+        {
+          "value": "rgb(74, 91, 53)",
+          "count": 20
+        },
+        {
+          "value": "rgb(28, 47, 5)",
+          "count": 19
+        },
+        {
+          "value": "rgb(243, 243, 243)",
+          "count": 6
+        },
+        {
+          "value": "rgb(125, 145, 83)",
+          "count": 2
+        },
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.7)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.6)",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "rgb(125, 145, 83)",
+          "count": 10
+        },
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 6
+        },
+        {
+          "value": "rgb(235, 236, 221)",
+          "count": 2
+        },
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 2
+        },
+        {
+          "value": "rgb(74, 91, 53)",
+          "count": 1
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 1
+        },
+        {
+          "value": "rgba(255, 255, 255, 0.95)",
+          "count": 1
+        },
+        {
+          "value": "rgb(64, 212, 26)",
+          "count": 1
+        }
+      ],
+      "radii": [
+        {
+          "value": "16px",
+          "count": 8
+        },
+        {
+          "value": "24.81px",
+          "count": 3
+        },
+        {
+          "value": "200px",
+          "count": 3
+        },
+        {
+          "value": "6px",
+          "count": 3
+        },
+        {
+          "value": "10px",
+          "count": 2
+        },
+        {
+          "value": "64px",
+          "count": 2
+        },
+        {
+          "value": "11px",
+          "count": 2
+        },
+        {
+          "value": "759px",
+          "count": 1
+        },
+        {
+          "value": "100px",
+          "count": 1
+        },
+        {
+          "value": "0px 0px 16px 16px",
+          "count": 1
+        },
+        {
+          "value": "16px 16px 0px 0px",
+          "count": 1
+        },
+        {
+          "value": "32px",
+          "count": 1
+        },
+        {
+          "value": "15px",
+          "count": 1
+        },
+        {
+          "value": "8px",
+          "count": 1
+        }
+      ],
+      "shadows": [
+        {
+          "value": "rgb(0, 0, 0) 0px 0px 0px 1px inset",
+          "count": 2
+        },
+        {
+          "value": "rgba(10, 13, 20, 0.03) 0px 1px 2px 0px",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px, rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px, rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.08) 0px 5px 20px 0px",
+          "count": 1
+        }
+      ],
+      "transitions": [
+        {
+          "selector": "a",
+          "property": "background-color",
+          "duration": "0.2s",
+          "timing": "ease",
+          "delay": "0s"
+        }
+      ],
+      "animations": [],
+      "images": [
+        {
+          "alt": "Many gummys on white background",
+          "naturalWidth": 1440,
+          "naturalHeight": 1788,
+          "renderedWidth": 1440,
+          "renderedHeight": 900,
+          "aspect": 1.6,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/7cB2JAy5JivpuD8ojw4tCH29uQ.png"
+        },
+        {
+          "alt": null,
+          "naturalWidth": 55,
+          "naturalHeight": 56,
+          "renderedWidth": 56,
+          "renderedHeight": 56,
+          "aspect": 1,
+          "objectFit": "cover",
+          "borderRadius": "200px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/MIbXl4tKIc4HU6AbbtAk0QG2riY.png"
+        },
+        {
+          "alt": null,
+          "naturalWidth": 646,
+          "naturalHeight": 802,
+          "renderedWidth": 646,
+          "renderedHeight": 500,
+          "aspect": 1.292,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/kIxB5VRXgeZXngkqBHrqmRoI4Ns.png"
+        },
+        {
+          "alt": "A women with pot of gummy on hand ",
+          "naturalWidth": 2752,
+          "naturalHeight": 1536,
+          "renderedWidth": 646,
+          "renderedHeight": 500,
+          "aspect": 1.292,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/o5Kp2cjMKVierLK4X8c88Pc4.png"
+        },
+        {
+          "alt": "A person tying their tennis shoes to play tennis with the pot in gummy container on the floor.",
+          "naturalWidth": 2752,
+          "naturalHeight": 1536,
+          "renderedWidth": 646,
+          "renderedHeight": 500,
+          "aspect": 1.292,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/ucdAClc5UOgVXbayLZKuFLA0ucI.png"
+        },
+        {
+          "alt": "Orange gummies stacked on top of each other",
+          "naturalWidth": 646,
+          "naturalHeight": 802,
+          "renderedWidth": 646,
+          "renderedHeight": 500,
+          "aspect": 1.292,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/ND0M3O2eT0CJBClk0Z8APihnj7g.png"
+        },
+        {
+          "alt": "A pot of gummies on grass and flowers",
+          "naturalWidth": 2422,
+          "naturalHeight": 1348,
+          "renderedWidth": 1376,
+          "renderedHeight": 766,
+          "aspect": 1.797,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/sZiDqyHOMLNkK6k3lDGwXiqc.png"
+        },
+        {
+          "alt": "Logo of solene in grass and flowers",
+          "naturalWidth": 1312,
+          "naturalHeight": 311,
+          "renderedWidth": 1312,
+          "renderedHeight": 311,
+          "aspect": 4.213,
+          "objectFit": "contain",
+          "borderRadius": "0px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png"
+        }
+      ],
+      "videos": [],
+      "backgroundImages": [],
+      "links": [
+        {
+          "text": "",
+          "href": "../",
+          "target": null
+        },
+        {
+          "text": "Science",
+          "href": "../science",
+          "target": null
+        },
+        {
+          "text": "Blog",
+          "href": "../blog",
+          "target": null
+        },
+        {
+          "text": "Merch",
+          "href": "../merch",
+          "target": null
+        },
+        {
+          "text": "Buy Offer",
+          "href": "../#product-offer",
+          "target": null
+        },
+        {
+          "text": "Sustained energy and the nutrients behind itDec 22, 2024",
+          "href": "./how-the-body-generates-sustained-energy",
+          "target": null
+        },
+        {
+          "text": "Why mornings matter for daily nutritionDec 22, 2024",
+          "href": "./building-an-agroforestry-value-chain",
+          "target": null
+        },
+        {
+          "text": "The science of muscle recoveryDec 22, 2024",
+          "href": "./the-science-of-muscle-recovery",
+          "target": null
+        },
+        {
+          "text": "Micronutrients and daily performanceDec 22, 2024",
+          "href": "./the-influence-of-micronutrients",
+          "target": null
+        },
+        {
+          "text": "View All Posts",
+          "href": "../#blog",
+          "target": null
+        },
+        {
+          "text": "Buy Offer",
+          "href": "../#product-offer",
+          "target": null
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/mainnet-design/",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/mainnetdesign",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/marcaum.eth",
+          "target": "_blank"
+        },
+        {
+          "text": "Benefits",
+          "href": "../#benefits",
+          "target": null
+        },
+        {
+          "text": "Ingredients",
+          "href": "../#ingredients",
+          "target": null
+        },
+        {
+          "text": "Our products",
+          "href": "../#product-offer",
+          "target": null
+        },
+        {
+          "text": "FAQ",
+          "href": "../",
+          "target": null
+        },
+        {
+          "text": "Principles",
+          "href": "../science#principles",
+          "target": null
+        },
+        {
+          "text": "Inside Solene®",
+          "href": "../science#inside-solene",
+          "target": null
+        },
+        {
+          "text": "Our Science",
+          "href": "../science#science",
+          "target": null
+        },
+        {
+          "text": "Blog",
+          "href": "../blog",
+          "target": null
+        },
+        {
+          "text": "Cookies Policy",
+          "href": "../cookies-policy",
+          "target": null
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "../privacy-policy",
+          "target": null
+        },
+        {
+          "text": "Made by Mainnet Design",
+          "href": "https://mainnet.design",
+          "target": "_blank"
+        },
+        {
+          "text": "Create a free website with Framer, the website builder loved",
+          "href": "https://www.framer.com",
+          "target": null
+        },
+        {
+          "text": "BUY LICENCE",
+          "href": "https://buy.stripe.com/eVq5kD4OpeF8ea3cZ35EY0U",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://frameship.io",
+          "target": "_blank"
+        }
+      ],
+      "fonts": [
+        "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+        "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+        "Inter",
+        "sans-serif",
+        "\"Bricolage Grotesque\", sans-serif",
+        "\"DM Sans\", sans-serif"
+      ],
+      "fontFaces": [
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MUlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MQlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRR232VGM.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs4OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs9OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHszOX8.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-eNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-aNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-iNGQ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/2uIBiALfCHVpWbHqRMZutfT7giU.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Zwfz6xbVe5pmcWRJRgBDHnMkOkI.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/U9LaDDmbRhzX3sB8g8glTy5feTE.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/tVew2LzXJ1t7QfxP1gdTIdj2o0g.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/DF7bjCRmStYPqSb945lAlMfCCVQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/vebZUMjGyKkYsfcY73iwWTzLNag.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/I11LrmuBDQZweplJ62KkVsklU5Y.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UjFZPDy3qGuDktQM4q9CxhKfIa8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/8exwVHJy2DhJ4N5prYlVMrEKmQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UTeedEK21hO5jDxEUldzdScUqpg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Ig8B8nzy11hzIWEIYnkg91sofjo.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qctQFoJqJ9aIbRSIp0AhCQpFxn8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/fXvVh2JeZlehNcEhKHpHH0frSl0.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/7pScaNeb6M7n2HF2jKemDqzCIr4.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/qS4UjQYyATcVV9rODk0Zx9KhkY8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/VfD2n20yM7v0hrUEBHEyafsmMBY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/4oIO9fB59bn3cKFWz7piCj28z9s.woff2\")"
+        }
+      ],
+      "network": [
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/kIxB5VRXgeZXngkqBHrqmRoI4Ns.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/third-party-assets/fontshare/wf/V3W76YFX56LHDI4L2YCUHVKHPKZBIKAN/M3TT7YNRG6JDNQ43ORZDMQALV7UWUWJX/LXYZEGIPPSH34NI6VM2IBVPJA64JZILW.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/o5Kp2cjMKVierLK4X8c88Pc4.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/ucdAClc5UOgVXbayLZKuFLA0ucI.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/ND0M3O2eT0CJBClk0Z8APihnj7g.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/7cB2JAy5JivpuD8ojw4tCH29uQ.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/MIbXl4tKIc4HU6AbbtAk0QG2riY.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "path": "/css2",
+          "type": "stylesheet",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInHWVyNJ.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2Hp2ywxg089UriCZOIHTWEBlw.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/sZiDqyHOMLNkK6k3lDGwXiqc.png",
+          "type": "image",
+          "status": 200
+        }
+      ]
+    },
+    "tablet": {
+      "url": "https://solene.framer.ai/blog/gummy-supplements",
+      "title": "Why gummies can outperform tablets - My Framer Site",
+      "meta": {
+        "description": "High-quality multivitamin made in Brazil utilizing natural substracts.",
+        "ogImage": "https://framerusercontent.com/images/hHlsB9FEy8N2mvzSnxvgsOq4sg.png",
+        "themeColor": null,
+        "icons": [
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          },
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          }
+        ]
+      },
+      "body": {
+        "background": "rgb(255, 255, 245)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px"
+      },
+      "documentHeight": 5629,
+      "nav": {
+        "tag": "header",
+        "position": "relative",
+        "height": 70,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none",
+        "zIndex": "auto",
+        "links": [
+          {
+            "text": "",
+            "href": "../"
+          },
+          {
+            "text": "Science",
+            "href": "../science"
+          },
+          {
+            "text": "Blog",
+            "href": "../blog"
+          },
+          {
+            "text": "Merch",
+            "href": "../merch"
+          },
+          {
+            "text": "Buy Offer",
+            "href": "../#product-offer"
+          }
+        ],
+        "buttons": [
+          {
+            "label": ""
+          }
+        ]
+      },
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1fqoifb-container"
+          ],
+          "top": 0,
+          "height": 70,
+          "width": 768,
+          "position": "fixed",
+          "zIndex": "10",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 5,
+          "buttonCount": 1
+        },
+        {
+          "index": 1,
+          "tag": "style",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "none",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 2,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-i1ROw",
+            "framer-6vZcJ",
+            "framer-IL2Bc",
+            "framer-sEPqd",
+            "framer-MDS9p",
+            "framer-fDIOf"
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "contents",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Why gummies can outperform tablets"
+            },
+            {
+              "tag": "h2",
+              "text": "Introduction"
+            },
+            {
+              "tag": "h2",
+              "text": "Format and experience as essential adherence factors"
+            },
+            {
+              "tag": "h2",
+              "text": "Creatine and its relevance as a functional component"
+            },
+            {
+              "tag": "h2",
+              "text": "Why gummies fit modern lifestyles"
+            },
+            {
+              "tag": "h2",
+              "text": "From the blog"
+            }
+          ],
+          "imageCount": 6,
+          "videoCount": 0,
+          "linkCount": 5,
+          "buttonCount": 1
+        },
+        {
+          "index": 3,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-wp7anj"
+          ],
+          "top": 0,
+          "height": 1485,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Why gummies can outperform tablets"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 4,
+          "tag": "article",
+          "id": "content",
+          "classes": [
+            "framer-1qyayv4"
+          ],
+          "top": 1485,
+          "height": 1449,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Introduction"
+            },
+            {
+              "tag": "h2",
+              "text": "Format and experience as essential adherence factors"
+            },
+            {
+              "tag": "h2",
+              "text": "Creatine and its relevance as a functional component"
+            },
+            {
+              "tag": "h2",
+              "text": "Why gummies fit modern lifestyles"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 1
+        },
+        {
+          "index": 5,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-10b44ra"
+          ],
+          "top": 2934,
+          "height": 1305,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "From the blog"
+            },
+            {
+              "tag": "h4",
+              "text": "Sustained energy and the nutrients behind it"
+            },
+            {
+              "tag": "h4",
+              "text": "Why mornings matter for daily nutrition"
+            },
+            {
+              "tag": "h4",
+              "text": "The science of muscle recovery"
+            },
+            {
+              "tag": "h4",
+              "text": "Micronutrients and daily performance"
+            }
+          ],
+          "imageCount": 4,
+          "videoCount": 0,
+          "linkCount": 5,
+          "buttonCount": 0
+        },
+        {
+          "index": 6,
+          "tag": "div",
+          "id": "overlay",
+          "classes": [
+            ""
+          ],
+          "top": 4239,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 7,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-k3ppot"
+          ],
+          "top": 4239,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 8,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1gsaefd-container"
+          ],
+          "top": 4239,
+          "height": 704,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Daily well-being requires real vitamins"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 1,
+          "buttonCount": 0
+        },
+        {
+          "index": 9,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-6et2sf-container"
+          ],
+          "top": 4943,
+          "height": 686,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 14,
+          "buttonCount": 0
+        },
+        {
+          "index": 10,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 778,
+          "height": 226,
+          "width": 235,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(255, 255, 255, 0.95)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 2,
+          "buttonCount": 0
+        }
+      ],
+      "typography": [
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 14,
+          "sample": "Copywriter from Solene"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.1px",
+          "textTransform": "none",
+          "color": "rgb(125, 145, 83)",
+          "count": 8,
+          "sample": "November 19, 2024"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22.4px",
+          "letterSpacing": "-0.64px",
+          "textTransform": "none",
+          "color": "rgb(28, 47, 5)",
+          "count": 7,
+          "sample": "Science"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.14px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 7,
+          "sample": "Dec 22, 2024"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "42px",
+          "fontWeight": "300",
+          "lineHeight": "46.2px",
+          "letterSpacing": "-3.3px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 5,
+          "sample": "Introduction"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "28px",
+          "fontWeight": "300",
+          "lineHeight": "36.4px",
+          "letterSpacing": "-1.4px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 4,
+          "sample": "Sustained energy and the nutrients behind it"
+        },
+        {
+          "fontFamily": "Inter",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "-0.2px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 3,
+          "sample": "Copy to Clipboard"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "50px",
+          "fontWeight": "300",
+          "lineHeight": "55px",
+          "letterSpacing": "-4.5px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 2,
+          "sample": "Why gummies can outperform tablets"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "300",
+          "lineHeight": "16.8px",
+          "letterSpacing": "-0.56px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "Copy link"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "23.47px",
+          "fontWeight": "400",
+          "lineHeight": "28.164px",
+          "letterSpacing": "-0.2347px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "®"
+        },
+        {
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(0, 0, 238)",
+          "count": 1,
+          "sample": "Create a free website with Framer, the website builder loved"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "800",
+          "lineHeight": "17.6px",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(0, 0, 0)",
+          "count": 1,
+          "sample": "BUY LICENSE TO PUBLISH YOUR STORE"
+        },
+        {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "300",
+          "lineHeight": "16.8px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgba(0, 0, 0, 0.6)",
+          "count": 1,
+          "sample": "Ready to remove this banner? Purchase & activate a license t"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "800",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "BUY LICENCE"
+        }
+      ],
+      "colors": [
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 142
+        },
+        {
+          "value": "rgb(0, 0, 238)",
+          "count": 68
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 49
+        },
+        {
+          "value": "rgb(74, 91, 53)",
+          "count": 20
+        },
+        {
+          "value": "rgb(28, 47, 5)",
+          "count": 19
+        },
+        {
+          "value": "rgb(243, 243, 243)",
+          "count": 6
+        },
+        {
+          "value": "rgb(125, 145, 83)",
+          "count": 2
+        },
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.7)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.6)",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "rgb(125, 145, 83)",
+          "count": 10
+        },
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 5
+        },
+        {
+          "value": "rgb(235, 236, 221)",
+          "count": 2
+        },
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 2
+        },
+        {
+          "value": "rgb(74, 91, 53)",
+          "count": 1
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 1
+        },
+        {
+          "value": "rgba(255, 255, 255, 0.95)",
+          "count": 1
+        },
+        {
+          "value": "rgb(64, 212, 26)",
+          "count": 1
+        }
+      ],
+      "radii": [
+        {
+          "value": "16px",
+          "count": 8
+        },
+        {
+          "value": "24.81px",
+          "count": 3
+        },
+        {
+          "value": "200px",
+          "count": 3
+        },
+        {
+          "value": "6px",
+          "count": 3
+        },
+        {
+          "value": "10px",
+          "count": 2
+        },
+        {
+          "value": "64px",
+          "count": 2
+        },
+        {
+          "value": "11px",
+          "count": 2
+        },
+        {
+          "value": "759px",
+          "count": 1
+        },
+        {
+          "value": "100px",
+          "count": 1
+        },
+        {
+          "value": "0px 0px 16px 16px",
+          "count": 1
+        },
+        {
+          "value": "16px 16px 0px 0px",
+          "count": 1
+        },
+        {
+          "value": "32px",
+          "count": 1
+        },
+        {
+          "value": "15px",
+          "count": 1
+        },
+        {
+          "value": "8px",
+          "count": 1
+        }
+      ],
+      "shadows": [
+        {
+          "value": "rgb(0, 0, 0) 0px 0px 0px 1px inset",
+          "count": 2
+        },
+        {
+          "value": "rgba(10, 13, 20, 0.03) 0px 1px 2px 0px",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px, rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px, rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.08) 0px 5px 20px 0px",
+          "count": 1
+        }
+      ],
+      "transitions": [
+        {
+          "selector": "a",
+          "property": "background-color",
+          "duration": "0.2s",
+          "timing": "ease",
+          "delay": "0s"
+        }
+      ],
+      "animations": [],
+      "images": [
+        {
+          "alt": "Many gummys on white background",
+          "naturalWidth": 768,
+          "naturalHeight": 954,
+          "renderedWidth": 768,
+          "renderedHeight": 1024,
+          "aspect": 0.75,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/7cB2JAy5JivpuD8ojw4tCH29uQ.png"
+        },
+        {
+          "alt": null,
+          "naturalWidth": 55,
+          "naturalHeight": 56,
+          "renderedWidth": 56,
+          "renderedHeight": 56,
+          "aspect": 1,
+          "objectFit": "cover",
+          "borderRadius": "200px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/MIbXl4tKIc4HU6AbbtAk0QG2riY.png"
+        },
+        {
+          "alt": null,
+          "naturalWidth": 342,
+          "naturalHeight": 425,
+          "renderedWidth": 342,
+          "renderedHeight": 500,
+          "aspect": 0.684,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/kIxB5VRXgeZXngkqBHrqmRoI4Ns.png"
+        },
+        {
+          "alt": "A women with pot of gummy on hand ",
+          "naturalWidth": 2752,
+          "naturalHeight": 1536,
+          "renderedWidth": 342,
+          "renderedHeight": 500,
+          "aspect": 0.684,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/o5Kp2cjMKVierLK4X8c88Pc4.png"
+        },
+        {
+          "alt": "A person tying their tennis shoes to play tennis with the pot in gummy container on the floor.",
+          "naturalWidth": 2752,
+          "naturalHeight": 1536,
+          "renderedWidth": 342,
+          "renderedHeight": 500,
+          "aspect": 0.684,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/ucdAClc5UOgVXbayLZKuFLA0ucI.png"
+        },
+        {
+          "alt": "Orange gummies stacked on top of each other",
+          "naturalWidth": 342,
+          "naturalHeight": 425,
+          "renderedWidth": 342,
+          "renderedHeight": 500,
+          "aspect": 0.684,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/ND0M3O2eT0CJBClk0Z8APihnj7g.png"
+        },
+        {
+          "alt": "A pot of gummies on grass and flowers",
+          "naturalWidth": 2422,
+          "naturalHeight": 1348,
+          "renderedWidth": 704,
+          "renderedHeight": 392,
+          "aspect": 1.797,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/sZiDqyHOMLNkK6k3lDGwXiqc.png"
+        },
+        {
+          "alt": "Logo of solene in grass and flowers",
+          "naturalWidth": 640,
+          "naturalHeight": 151,
+          "renderedWidth": 640,
+          "renderedHeight": 152,
+          "aspect": 4.214,
+          "objectFit": "contain",
+          "borderRadius": "0px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png"
+        }
+      ],
+      "videos": [],
+      "backgroundImages": [],
+      "links": [
+        {
+          "text": "",
+          "href": "../",
+          "target": null
+        },
+        {
+          "text": "Science",
+          "href": "../science",
+          "target": null
+        },
+        {
+          "text": "Blog",
+          "href": "../blog",
+          "target": null
+        },
+        {
+          "text": "Merch",
+          "href": "../merch",
+          "target": null
+        },
+        {
+          "text": "Buy Offer",
+          "href": "../#product-offer",
+          "target": null
+        },
+        {
+          "text": "Sustained energy and the nutrients behind itDec 22, 2024",
+          "href": "./how-the-body-generates-sustained-energy",
+          "target": null
+        },
+        {
+          "text": "Why mornings matter for daily nutritionDec 22, 2024",
+          "href": "./building-an-agroforestry-value-chain",
+          "target": null
+        },
+        {
+          "text": "The science of muscle recoveryDec 22, 2024",
+          "href": "./the-science-of-muscle-recovery",
+          "target": null
+        },
+        {
+          "text": "Micronutrients and daily performanceDec 22, 2024",
+          "href": "./the-influence-of-micronutrients",
+          "target": null
+        },
+        {
+          "text": "View All Posts",
+          "href": "../#blog",
+          "target": null
+        },
+        {
+          "text": "Buy Offer",
+          "href": "../#product-offer",
+          "target": null
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/mainnet-design/",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/mainnetdesign",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/marcaum.eth",
+          "target": "_blank"
+        },
+        {
+          "text": "Benefits",
+          "href": "../#benefits",
+          "target": null
+        },
+        {
+          "text": "Ingredients",
+          "href": "../#ingredients",
+          "target": null
+        },
+        {
+          "text": "Our products",
+          "href": "../#product-offer",
+          "target": null
+        },
+        {
+          "text": "FAQ",
+          "href": "../",
+          "target": null
+        },
+        {
+          "text": "Principles",
+          "href": "../science#principles",
+          "target": null
+        },
+        {
+          "text": "Inside Solene®",
+          "href": "../science#inside-solene",
+          "target": null
+        },
+        {
+          "text": "Our Science",
+          "href": "../science#science",
+          "target": null
+        },
+        {
+          "text": "Blog",
+          "href": "../blog",
+          "target": null
+        },
+        {
+          "text": "Cookies Policy",
+          "href": "../cookies-policy",
+          "target": null
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "../privacy-policy",
+          "target": null
+        },
+        {
+          "text": "Made by Mainnet Design",
+          "href": "https://mainnet.design",
+          "target": "_blank"
+        },
+        {
+          "text": "Create a free website with Framer, the website builder loved",
+          "href": "https://www.framer.com",
+          "target": null
+        },
+        {
+          "text": "BUY LICENCE",
+          "href": "https://buy.stripe.com/eVq5kD4OpeF8ea3cZ35EY0U",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://frameship.io",
+          "target": "_blank"
+        }
+      ],
+      "fonts": [
+        "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+        "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+        "Inter",
+        "sans-serif",
+        "\"Bricolage Grotesque\", sans-serif",
+        "\"DM Sans\", sans-serif"
+      ],
+      "fontFaces": [
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MUlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MQlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRR232VGM.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs4OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs9OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHszOX8.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-eNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-aNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-iNGQ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/2uIBiALfCHVpWbHqRMZutfT7giU.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Zwfz6xbVe5pmcWRJRgBDHnMkOkI.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/U9LaDDmbRhzX3sB8g8glTy5feTE.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/tVew2LzXJ1t7QfxP1gdTIdj2o0g.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/DF7bjCRmStYPqSb945lAlMfCCVQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/vebZUMjGyKkYsfcY73iwWTzLNag.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/I11LrmuBDQZweplJ62KkVsklU5Y.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UjFZPDy3qGuDktQM4q9CxhKfIa8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/8exwVHJy2DhJ4N5prYlVMrEKmQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UTeedEK21hO5jDxEUldzdScUqpg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Ig8B8nzy11hzIWEIYnkg91sofjo.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qctQFoJqJ9aIbRSIp0AhCQpFxn8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/fXvVh2JeZlehNcEhKHpHH0frSl0.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/7pScaNeb6M7n2HF2jKemDqzCIr4.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/qS4UjQYyATcVV9rODk0Zx9KhkY8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/VfD2n20yM7v0hrUEBHEyafsmMBY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/4oIO9fB59bn3cKFWz7piCj28z9s.woff2\")"
+        }
+      ],
+      "network": [
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/7cB2JAy5JivpuD8ojw4tCH29uQ.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/MIbXl4tKIc4HU6AbbtAk0QG2riY.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/o5Kp2cjMKVierLK4X8c88Pc4.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/third-party-assets/fontshare/wf/V3W76YFX56LHDI4L2YCUHVKHPKZBIKAN/M3TT7YNRG6JDNQ43ORZDMQALV7UWUWJX/LXYZEGIPPSH34NI6VM2IBVPJA64JZILW.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/ND0M3O2eT0CJBClk0Z8APihnj7g.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/kIxB5VRXgeZXngkqBHrqmRoI4Ns.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/ucdAClc5UOgVXbayLZKuFLA0ucI.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "path": "/css2",
+          "type": "stylesheet",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInHWVyNJ.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2Hp2ywxg089UriCZOIHTWEBlw.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/sZiDqyHOMLNkK6k3lDGwXiqc.png",
+          "type": "image",
+          "status": 200
+        }
+      ]
+    },
+    "mobile": {
+      "url": "https://solene.framer.ai/blog/gummy-supplements",
+      "title": "Why gummies can outperform tablets - My Framer Site",
+      "meta": {
+        "description": "High-quality multivitamin made in Brazil utilizing natural substracts.",
+        "ogImage": "https://framerusercontent.com/images/hHlsB9FEy8N2mvzSnxvgsOq4sg.png",
+        "themeColor": null,
+        "icons": [
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          },
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          }
+        ]
+      },
+      "body": {
+        "background": "rgb(255, 255, 245)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px"
+      },
+      "documentHeight": 6919,
+      "nav": {
+        "tag": "header",
+        "position": "relative",
+        "height": 70,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none",
+        "zIndex": "auto",
+        "links": [
+          {
+            "text": "",
+            "href": "../"
+          }
+        ],
+        "buttons": [
+          {
+            "label": ""
+          }
+        ]
+      },
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1fqoifb-container"
+          ],
+          "top": 0,
+          "height": 70,
+          "width": 390,
+          "position": "fixed",
+          "zIndex": "10",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 1,
+          "buttonCount": 1
+        },
+        {
+          "index": 1,
+          "tag": "style",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "none",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 2,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-i1ROw",
+            "framer-6vZcJ",
+            "framer-IL2Bc",
+            "framer-sEPqd",
+            "framer-MDS9p",
+            "framer-fDIOf"
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "contents",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Why gummies can outperform tablets"
+            },
+            {
+              "tag": "h2",
+              "text": "Introduction"
+            },
+            {
+              "tag": "h2",
+              "text": "Format and experience as essential adherence factors"
+            },
+            {
+              "tag": "h2",
+              "text": "Creatine and its relevance as a functional component"
+            },
+            {
+              "tag": "h2",
+              "text": "Why gummies fit modern lifestyles"
+            },
+            {
+              "tag": "h2",
+              "text": "From the blog"
+            }
+          ],
+          "imageCount": 6,
+          "videoCount": 0,
+          "linkCount": 5,
+          "buttonCount": 1
+        },
+        {
+          "index": 3,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-wp7anj"
+          ],
+          "top": 0,
+          "height": 1182,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Why gummies can outperform tablets"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 4,
+          "tag": "article",
+          "id": "content",
+          "classes": [
+            "framer-1qyayv4"
+          ],
+          "top": 1182,
+          "height": 2006,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Introduction"
+            },
+            {
+              "tag": "h2",
+              "text": "Format and experience as essential adherence factors"
+            },
+            {
+              "tag": "h2",
+              "text": "Creatine and its relevance as a functional component"
+            },
+            {
+              "tag": "h2",
+              "text": "Why gummies fit modern lifestyles"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 1
+        },
+        {
+          "index": 5,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-10b44ra"
+          ],
+          "top": 3188,
+          "height": 2422,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "From the blog"
+            },
+            {
+              "tag": "h4",
+              "text": "Sustained energy and the nutrients behind it"
+            },
+            {
+              "tag": "h4",
+              "text": "Why mornings matter for daily nutrition"
+            },
+            {
+              "tag": "h4",
+              "text": "The science of muscle recovery"
+            },
+            {
+              "tag": "h4",
+              "text": "Micronutrients and daily performance"
+            }
+          ],
+          "imageCount": 4,
+          "videoCount": 0,
+          "linkCount": 5,
+          "buttonCount": 0
+        },
+        {
+          "index": 6,
+          "tag": "div",
+          "id": "overlay",
+          "classes": [
+            ""
+          ],
+          "top": 5610,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 7,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-k3ppot"
+          ],
+          "top": 5610,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 8,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1gsaefd-container"
+          ],
+          "top": 5610,
+          "height": 555,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Daily well-being requires real vitamins"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 1,
+          "buttonCount": 0
+        },
+        {
+          "index": 9,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-6et2sf-container"
+          ],
+          "top": 6165,
+          "height": 754,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 14,
+          "buttonCount": 0
+        },
+        {
+          "index": 10,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 598,
+          "height": 226,
+          "width": 235,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(255, 255, 255, 0.95)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 2,
+          "buttonCount": 0
+        }
+      ],
+      "typography": [
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "14.4px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 14,
+          "sample": "Copywriter from Solene"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "-0.1px",
+          "textTransform": "none",
+          "color": "rgb(125, 145, 83)",
+          "count": 8,
+          "sample": "November 19, 2024"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.12px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 7,
+          "sample": "Dec 22, 2024"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "38px",
+          "fontWeight": "300",
+          "lineHeight": "41.8px",
+          "letterSpacing": "-3.3px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 5,
+          "sample": "Introduction"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "300",
+          "lineHeight": "31.2px",
+          "letterSpacing": "-1.2px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 4,
+          "sample": "Sustained energy and the nutrients behind it"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22.4px",
+          "letterSpacing": "-0.64px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 3,
+          "sample": "Bruna Fraga"
+        },
+        {
+          "fontFamily": "Inter",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "16px",
+          "letterSpacing": "-0.2px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 3,
+          "sample": "Copy to Clipboard"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "46px",
+          "fontWeight": "300",
+          "lineHeight": "50.6px",
+          "letterSpacing": "-4.5px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 2,
+          "sample": "Why gummies can outperform tablets"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "300",
+          "lineHeight": "16.8px",
+          "letterSpacing": "-0.56px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "Copy link"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "23.47px",
+          "fontWeight": "400",
+          "lineHeight": "28.164px",
+          "letterSpacing": "-0.2347px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "®"
+        },
+        {
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(0, 0, 238)",
+          "count": 1,
+          "sample": "Create a free website with Framer, the website builder loved"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "800",
+          "lineHeight": "17.6px",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(0, 0, 0)",
+          "count": 1,
+          "sample": "BUY LICENSE TO PUBLISH YOUR STORE"
+        },
+        {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "300",
+          "lineHeight": "16.8px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgba(0, 0, 0, 0.6)",
+          "count": 1,
+          "sample": "Ready to remove this banner? Purchase & activate a license t"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "800",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "BUY LICENCE"
+        }
+      ],
+      "colors": [
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 146
+        },
+        {
+          "value": "rgb(0, 0, 238)",
+          "count": 66
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 48
+        },
+        {
+          "value": "rgb(74, 91, 53)",
+          "count": 17
+        },
+        {
+          "value": "rgb(28, 47, 5)",
+          "count": 16
+        },
+        {
+          "value": "rgb(243, 243, 243)",
+          "count": 6
+        },
+        {
+          "value": "rgb(125, 145, 83)",
+          "count": 2
+        },
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.7)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.6)",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "rgb(125, 145, 83)",
+          "count": 9
+        },
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 5
+        },
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 2
+        },
+        {
+          "value": "rgb(235, 236, 221)",
+          "count": 1
+        },
+        {
+          "value": "rgb(74, 91, 53)",
+          "count": 1
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 1
+        },
+        {
+          "value": "rgba(255, 255, 255, 0.95)",
+          "count": 1
+        },
+        {
+          "value": "rgb(64, 212, 26)",
+          "count": 1
+        }
+      ],
+      "radii": [
+        {
+          "value": "16px",
+          "count": 9
+        },
+        {
+          "value": "200px",
+          "count": 3
+        },
+        {
+          "value": "6px",
+          "count": 3
+        },
+        {
+          "value": "24.81px",
+          "count": 2
+        },
+        {
+          "value": "11px",
+          "count": 2
+        },
+        {
+          "value": "759px",
+          "count": 1
+        },
+        {
+          "value": "100px",
+          "count": 1
+        },
+        {
+          "value": "0px 0px 16px 16px",
+          "count": 1
+        },
+        {
+          "value": "16px 16px 0px 0px",
+          "count": 1
+        },
+        {
+          "value": "64px",
+          "count": 1
+        },
+        {
+          "value": "10px",
+          "count": 1
+        },
+        {
+          "value": "15px",
+          "count": 1
+        },
+        {
+          "value": "8px",
+          "count": 1
+        }
+      ],
+      "shadows": [
+        {
+          "value": "rgb(0, 0, 0) 0px 0px 0px 1px inset",
+          "count": 2
+        },
+        {
+          "value": "rgba(10, 13, 20, 0.03) 0px 1px 2px 0px",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px, rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px, rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.08) 0px 5px 20px 0px",
+          "count": 1
+        }
+      ],
+      "transitions": [
+        {
+          "selector": "a",
+          "property": "background-color",
+          "duration": "0.2s",
+          "timing": "ease",
+          "delay": "0s"
+        }
+      ],
+      "animations": [],
+      "images": [
+        {
+          "alt": "Many gummys on white background",
+          "naturalWidth": 390,
+          "naturalHeight": 484,
+          "renderedWidth": 390,
+          "renderedHeight": 844,
+          "aspect": 0.462,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/7cB2JAy5JivpuD8ojw4tCH29uQ.png"
+        },
+        {
+          "alt": null,
+          "naturalWidth": 55,
+          "naturalHeight": 56,
+          "renderedWidth": 56,
+          "renderedHeight": 56,
+          "aspect": 1,
+          "objectFit": "cover",
+          "borderRadius": "200px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/MIbXl4tKIc4HU6AbbtAk0QG2riY.png"
+        },
+        {
+          "alt": null,
+          "naturalWidth": 358,
+          "naturalHeight": 444,
+          "renderedWidth": 358,
+          "renderedHeight": 500,
+          "aspect": 0.716,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/kIxB5VRXgeZXngkqBHrqmRoI4Ns.png"
+        },
+        {
+          "alt": "A women with pot of gummy on hand ",
+          "naturalWidth": 2752,
+          "naturalHeight": 1536,
+          "renderedWidth": 358,
+          "renderedHeight": 500,
+          "aspect": 0.716,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/o5Kp2cjMKVierLK4X8c88Pc4.png"
+        },
+        {
+          "alt": "A person tying their tennis shoes to play tennis with the pot in gummy container on the floor.",
+          "naturalWidth": 2752,
+          "naturalHeight": 1536,
+          "renderedWidth": 358,
+          "renderedHeight": 500,
+          "aspect": 0.716,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/ucdAClc5UOgVXbayLZKuFLA0ucI.png"
+        },
+        {
+          "alt": "Orange gummies stacked on top of each other",
+          "naturalWidth": 358,
+          "naturalHeight": 444,
+          "renderedWidth": 358,
+          "renderedHeight": 500,
+          "aspect": 0.716,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/ND0M3O2eT0CJBClk0Z8APihnj7g.png"
+        },
+        {
+          "alt": "A pot of gummies on grass and flowers",
+          "naturalWidth": 2398,
+          "naturalHeight": 1348,
+          "renderedWidth": 358,
+          "renderedHeight": 201,
+          "aspect": 1.779,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/FdMpM1DRwldCWMFCB2vcXKrdN0.png"
+        },
+        {
+          "alt": "Logo of solene in grass and flowers",
+          "naturalWidth": 310,
+          "naturalHeight": 73,
+          "renderedWidth": 310,
+          "renderedHeight": 74,
+          "aspect": 4.213,
+          "objectFit": "contain",
+          "borderRadius": "0px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png"
+        }
+      ],
+      "videos": [],
+      "backgroundImages": [],
+      "links": [
+        {
+          "text": "",
+          "href": "../",
+          "target": null
+        },
+        {
+          "text": "Sustained energy and the nutrients behind itDec 22, 2024",
+          "href": "./how-the-body-generates-sustained-energy",
+          "target": null
+        },
+        {
+          "text": "Why mornings matter for daily nutritionDec 22, 2024",
+          "href": "./building-an-agroforestry-value-chain",
+          "target": null
+        },
+        {
+          "text": "The science of muscle recoveryDec 22, 2024",
+          "href": "./the-science-of-muscle-recovery",
+          "target": null
+        },
+        {
+          "text": "Micronutrients and daily performanceDec 22, 2024",
+          "href": "./the-influence-of-micronutrients",
+          "target": null
+        },
+        {
+          "text": "View All Posts",
+          "href": "../#blog",
+          "target": null
+        },
+        {
+          "text": "Buy Offer",
+          "href": "../#product-offer",
+          "target": null
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/mainnet-design/",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/mainnetdesign",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/marcaum.eth",
+          "target": "_blank"
+        },
+        {
+          "text": "Benefits",
+          "href": "../#benefits",
+          "target": null
+        },
+        {
+          "text": "Ingredients",
+          "href": "../#ingredients",
+          "target": null
+        },
+        {
+          "text": "Our products",
+          "href": "../#product-offer",
+          "target": null
+        },
+        {
+          "text": "FAQ",
+          "href": "../",
+          "target": null
+        },
+        {
+          "text": "Principles",
+          "href": "../science#principles",
+          "target": null
+        },
+        {
+          "text": "Inside Solene®",
+          "href": "../science#inside-solene",
+          "target": null
+        },
+        {
+          "text": "Our Science",
+          "href": "../science#science",
+          "target": null
+        },
+        {
+          "text": "Blog",
+          "href": "../blog",
+          "target": null
+        },
+        {
+          "text": "Cookies Policy",
+          "href": "../cookies-policy",
+          "target": null
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "../privacy-policy",
+          "target": null
+        },
+        {
+          "text": "Made by Mainnet Design",
+          "href": "https://mainnet.design",
+          "target": "_blank"
+        },
+        {
+          "text": "Create a free website with Framer, the website builder loved",
+          "href": "https://www.framer.com",
+          "target": null
+        },
+        {
+          "text": "BUY LICENCE",
+          "href": "https://buy.stripe.com/eVq5kD4OpeF8ea3cZ35EY0U",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://frameship.io",
+          "target": "_blank"
+        }
+      ],
+      "fonts": [
+        "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+        "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+        "Inter",
+        "sans-serif",
+        "\"Bricolage Grotesque\", sans-serif",
+        "\"DM Sans\", sans-serif"
+      ],
+      "fontFaces": [
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MUlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MQlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRR232VGM.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs4OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs9OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHszOX8.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-eNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-aNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-iNGQ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/2uIBiALfCHVpWbHqRMZutfT7giU.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Zwfz6xbVe5pmcWRJRgBDHnMkOkI.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/U9LaDDmbRhzX3sB8g8glTy5feTE.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/tVew2LzXJ1t7QfxP1gdTIdj2o0g.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/DF7bjCRmStYPqSb945lAlMfCCVQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/vebZUMjGyKkYsfcY73iwWTzLNag.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/I11LrmuBDQZweplJ62KkVsklU5Y.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UjFZPDy3qGuDktQM4q9CxhKfIa8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/8exwVHJy2DhJ4N5prYlVMrEKmQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UTeedEK21hO5jDxEUldzdScUqpg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Ig8B8nzy11hzIWEIYnkg91sofjo.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qctQFoJqJ9aIbRSIp0AhCQpFxn8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/fXvVh2JeZlehNcEhKHpHH0frSl0.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/7pScaNeb6M7n2HF2jKemDqzCIr4.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/qS4UjQYyATcVV9rODk0Zx9KhkY8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/VfD2n20yM7v0hrUEBHEyafsmMBY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/4oIO9fB59bn3cKFWz7piCj28z9s.woff2\")"
+        }
+      ],
+      "network": [
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/7cB2JAy5JivpuD8ojw4tCH29uQ.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/kIxB5VRXgeZXngkqBHrqmRoI4Ns.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/MIbXl4tKIc4HU6AbbtAk0QG2riY.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/third-party-assets/fontshare/wf/V3W76YFX56LHDI4L2YCUHVKHPKZBIKAN/M3TT7YNRG6JDNQ43ORZDMQALV7UWUWJX/LXYZEGIPPSH34NI6VM2IBVPJA64JZILW.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "path": "/css2",
+          "type": "stylesheet",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2Hp2ywxg089UriCZOIHTWEBlw.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInHWVyNJ.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/ucdAClc5UOgVXbayLZKuFLA0ucI.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/o5Kp2cjMKVierLK4X8c88Pc4.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/ND0M3O2eT0CJBClk0Z8APihnj7g.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/FdMpM1DRwldCWMFCB2vcXKrdN0.png",
+          "type": "image",
+          "status": 200
+        }
+      ]
+    }
+  }
+}

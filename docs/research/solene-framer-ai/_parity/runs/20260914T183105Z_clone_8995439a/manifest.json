@@ -1,0 +1,981 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260914T183105Z_clone_8995439a",
+  "status": "closed",
+  "createdAt": "2026-09-14T18:31:05.143Z",
+  "engine": {
+    "version": "0.12.1",
+    "contentSha256": "79d0a0e689367804ea31ddb87cb0ab26128b9d513e37833cefb0dd0c91de1ffd"
+  },
+  "kind": "clone",
+  "target": {
+    "kind": "clone",
+    "origin": "http://localhost:3111/",
+    "modules": {
+      "visual": false,
+      "motion": true,
+      "motionSample": false,
+      "domSnapshot": false,
+      "responsive": true,
+      "assets": true
+    },
+    "hydrationSelector": null
+  },
+  "repository": {
+    "commit": null,
+    "dirty": false,
+    "diffSha256": null
+  },
+  "scope": {
+    "inventoryRunId": "20260914T183105Z_clone_8995439a",
+    "authoritativeInventory": true,
+    "routesRequested": [
+      "/",
+      "/science",
+      "/merch",
+      "/blog",
+      "/cookies-policy",
+      "/privacy-policy",
+      "/merch/daily-multivitamin",
+      "/merch/ecobag",
+      "/merch/cap",
+      "/merch/squeeze",
+      "/merch/t-shirt",
+      "/merch/pin",
+      "/merch/poster",
+      "/blog/sustained-energy-and-the-nutrients-behind-it",
+      "/blog/why-mornings-matter-for-daily-nutrition",
+      "/blog/building-a-traceable-value-chain",
+      "/blog/reading-a-supplement-label",
+      "/blog/the-science-of-recovery",
+      "/blog/the-influence-of-micronutrients"
+    ],
+    "routesCompleted": [
+      "/",
+      "/science",
+      "/merch",
+      "/blog",
+      "/cookies-policy",
+      "/privacy-policy",
+      "/merch/daily-multivitamin",
+      "/merch/ecobag",
+      "/merch/cap",
+      "/merch/squeeze",
+      "/merch/t-shirt",
+      "/merch/pin",
+      "/merch/poster",
+      "/blog/sustained-energy-and-the-nutrients-behind-it",
+      "/blog/why-mornings-matter-for-daily-nutrition",
+      "/blog/building-a-traceable-value-chain",
+      "/blog/reading-a-supplement-label",
+      "/blog/the-science-of-recovery",
+      "/blog/the-influence-of-micronutrients"
+    ],
+    "routesFailed": []
+  },
+  "runtime": {
+    "serverHealthy": true,
+    "hydrated": true,
+    "authenticated": false
+  },
+  "policySha256": "68426f3c4ac77b9c98d58878485e02061d212535b832426b63a69f28b3821fa7",
+  "artifacts": [
+    {
+      "kind": "policy-snapshot",
+      "path": "policy.json",
+      "sha256": "728f7a816e986672d4c019073259c2d5e17c524bb55c82aa3b4d458e0f36d62e",
+      "bytes": 313
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0001-8a5edab28263.json",
+      "sha256": "925d3b7e1dd97788b597f260a3346e13724a3776aaadc39188b84f64134691af",
+      "bytes": 468
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0001-8a5edab28263.json",
+      "sha256": "faacefcc33cd8a8fd75e6b6fb4fe1c6483c350e66df2c94964733c9ea4e45ee9",
+      "bytes": 23194
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0001-8a5edab28263.json",
+      "sha256": "35a9254da88f2542d045c52e3a84e5f0db94b19ef67d66ba1f3d7963869617fd",
+      "bytes": 9885
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0001-8a5edab28263.json",
+      "sha256": "10f9c9c35df72f88eeaec80b3812b3610237f663a58d426cf311dbdd8729c180",
+      "bytes": 4504
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0001-8a5edab28263.json",
+      "sha256": "65af66596a630e65875c838ce1af463ef9c3820f5e1046a6d5ef3a27dac43051",
+      "bytes": 139053
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0001-8a5edab28263.json",
+      "sha256": "bff2b06735d4a3ff900560d3f89bf74f239813d0b641d7ca60ddba9c94374454",
+      "bytes": 3553,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0001-8a5edab28263.json",
+      "sha256": "c86039de839de5dfe23b68acdbfa90a720890fa5263ed7a5f70aef9a3ff17835",
+      "bytes": 26449,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0002-88dcefa52242.json",
+      "sha256": "dfa0058bd15682aa548d59dfbac216f62a57897a5a7ce21ce1093e1c03a20ed2",
+      "bytes": 505
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0002-88dcefa52242.json",
+      "sha256": "443c51d6f41ab5f61a8cb20b3e9e5be807440ea43371a35f3389e262c57cefaf",
+      "bytes": 14333
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0002-88dcefa52242.json",
+      "sha256": "3ce10f905c85fa5ac1248a53cfefb70af5eb9c7db0f86626c79f7bafa909b118",
+      "bytes": 8572
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0002-88dcefa52242.json",
+      "sha256": "1d6319a0aa039ea675487b84e7a76a5d05b5de92979eb659f72e2c638154ec7b",
+      "bytes": 4518
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0002-88dcefa52242.json",
+      "sha256": "e7162d48120fadec0119e20dc7cd3f4e9894c3c945342f3d1811d091cc2b2fc5",
+      "bytes": 61515
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0002-88dcefa52242.json",
+      "sha256": "e0b02cbf0abd2a902426c583499e69f8ca809ae1892dd730a9a2c1d2a2ce2c4e",
+      "bytes": 3560,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0002-88dcefa52242.json",
+      "sha256": "42b54556a036916033790d14a802126321042f5ac67ad390e0b343f15ae195a5",
+      "bytes": 25919,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0003-af7e0aa2c549.json",
+      "sha256": "fc26f7ead3a2c83fb98ef93a6cc777778d2df32eeedf81e27240ec8fb23f8dd9",
+      "bytes": 497
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0003-af7e0aa2c549.json",
+      "sha256": "5462e895fb1771f6e4435d8b08fe14ea1431047378d2268fc1216ebba7662556",
+      "bytes": 17572
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0003-af7e0aa2c549.json",
+      "sha256": "633af91288f02108e27a36b0f761440969a842954fda6e97167bc26576af88d1",
+      "bytes": 8213
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0003-af7e0aa2c549.json",
+      "sha256": "1fb1fbeb269da630a2a90dad6377fc7b2f0074e0f3e1c95639bff350c7d62fbc",
+      "bytes": 5492
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0003-af7e0aa2c549.json",
+      "sha256": "03ed49509c680134abff83067be1098b7d92f67433fddd095f5b5acd810b59bd",
+      "bytes": 62023
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0003-af7e0aa2c549.json",
+      "sha256": "b7b6cbdbe8383cb7ad714f9f1dc090b2194a591e6d27cfe520bb82903fafe047",
+      "bytes": 3558,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0003-af7e0aa2c549.json",
+      "sha256": "fa477ef3e98b1720cbc3258961a730aa8d9e34242dff9cb25463a10d8aee5c63",
+      "bytes": 25883,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0004-8caafe4386f9.json",
+      "sha256": "8a6ded70b96212c7cf2f5b402d16137afc34b2454efa1fc9d6fd8c67577551dd",
+      "bytes": 493
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0004-8caafe4386f9.json",
+      "sha256": "3c984c79009cbd0d5e2ebd83c4364328d81545e91d56bdeaec0e97568f08bce9",
+      "bytes": 17603
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0004-8caafe4386f9.json",
+      "sha256": "a08d0d9e6ab7293cbef26035b60cd5611506ff491169978686e2927d05815dd7",
+      "bytes": 8277
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0004-8caafe4386f9.json",
+      "sha256": "090cb4eaebec13ef7112ba61d6f722752b27cc18fef91c6ba9155232cbaaf9ac",
+      "bytes": 4906
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0004-8caafe4386f9.json",
+      "sha256": "2f3517b15d6190a07c18546cee22e5fdcdd2a43d47c31072a573f87e16117af4",
+      "bytes": 58051
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0004-8caafe4386f9.json",
+      "sha256": "ce28617198e3d45a26b1ee6b3a81af6b8ea9af05bab7ce705d6055c736971322",
+      "bytes": 3557,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0004-8caafe4386f9.json",
+      "sha256": "5d899bd0226111f83d3b1baaf780616dff7e8b8d822caccae837d53d7d17e657",
+      "bytes": 25865,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0005-a5dc25433081.json",
+      "sha256": "e558fb677b46ce179e82798c2f5eb7a79ed17ae883a1b4c013110f564f68982a",
+      "bytes": 533
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0005-a5dc25433081.json",
+      "sha256": "c87e2f1b361889814760c8e0f5eb2caf8c78fc54367604dac18f167a81e83465",
+      "bytes": 13288
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0005-a5dc25433081.json",
+      "sha256": "0efe9d7854753c5810114c92438d1a73992b30e582778e2aec02766ece629dd1",
+      "bytes": 7966
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0005-a5dc25433081.json",
+      "sha256": "ccf47ec64f48ed47db5b9ad3912966ef3554772b64e436f20d9fbe231a964872",
+      "bytes": 4532
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0005-a5dc25433081.json",
+      "sha256": "b21668226a670e19220b9283870da8924bdc6f8d4f19a92c73cc65f18cc8d230",
+      "bytes": 48270
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0005-a5dc25433081.json",
+      "sha256": "4d461e75d4c66d33637fcdaa1de4f6d2fe623dd2411eab1119d6444373f64aa2",
+      "bytes": 3567,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0005-a5dc25433081.json",
+      "sha256": "0263d24bc4ad0aceaf4ac207d3b5bf832a157320c98ebc548e28e082f740c6d4",
+      "bytes": 26045,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0006-81e51d8c796f.json",
+      "sha256": "26dea02d1e4ab90b3803b6d044cf6713f8f4036ffde51f0f2b0070b7120fd046",
+      "bytes": 533
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0006-81e51d8c796f.json",
+      "sha256": "4f94e2ad525bca741432431aef3f5120949f8472812e2cb6db8cfb034822fd9c",
+      "bytes": 13288
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0006-81e51d8c796f.json",
+      "sha256": "c5d408e271f498f0155385477779dd18565812e90d487f2d31e1bf3bf1957279",
+      "bytes": 7966
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0006-81e51d8c796f.json",
+      "sha256": "c3bf58984bc952a4b30bc46bb94e6cd80e34cfcb589102b29ab873f527c32dc6",
+      "bytes": 4532
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0006-81e51d8c796f.json",
+      "sha256": "fcfc7dd2b3b0373b189f09a794bc974f3a08677a61d5ee9ac432e1cf817c95f8",
+      "bytes": 48332
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0006-81e51d8c796f.json",
+      "sha256": "dad517e5f637e7b283b57f64443c867fd995922f13ca65e0eaafc224c830bee8",
+      "bytes": 3567,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0006-81e51d8c796f.json",
+      "sha256": "39c4224db230f2b263e9ec92f5ff9f90ab35c13645b91ee19eab119f3a4b01ff",
+      "bytes": 26045,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0007-d6edf8576de7.json",
+      "sha256": "9abeb1b007edc3723dd5a70ff796586c87c8564c81eebc09aa27a4a0502a5a57",
+      "bytes": 567
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0007-d6edf8576de7.json",
+      "sha256": "09b7ea8eafda7bb09a82ea978aedb1b358232d2b809c3e9231cb47b8cc6fa255",
+      "bytes": 17337
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0007-d6edf8576de7.json",
+      "sha256": "e19c206bc91e48939f979d537437e52b291e161c8039451ba1e64fdf063687bc",
+      "bytes": 8792
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0007-d6edf8576de7.json",
+      "sha256": "43a6adf61c33ab81e04eaec263ca4cca5234eb5a360bb98b35ea76e6cac6e97a",
+      "bytes": 4552
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0007-d6edf8576de7.json",
+      "sha256": "ec3b8873c93e0f02318b1f37f932e6bee301fa89b974bf22321058a2916bb2c1",
+      "bytes": 52613
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0007-d6edf8576de7.json",
+      "sha256": "ab7e2cae6fb01b84bb805f23202b73f580b8bf236f7099ef874e9da009c05ed2",
+      "bytes": 3577,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0007-d6edf8576de7.json",
+      "sha256": "45a81893e544b2e5272289b803f5db82704cb6aeb80c1cf6fb47984071f1edd6",
+      "bytes": 26225,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0008-afa8a1f7435b.json",
+      "sha256": "bf1232e7f0459112a603575aa3822c24f65abf705d547f4d40e36e157483ac42",
+      "bytes": 513
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0008-afa8a1f7435b.json",
+      "sha256": "85b8010fbfd6ec4ece5fb7cf840bb5e787b70bafdef2a501214c0845d8d7c091",
+      "bytes": 17019
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0008-afa8a1f7435b.json",
+      "sha256": "d93dfcbce0de7a69b4d5825b2bc2bdc53abdf7332474f6f7313c1dbb9c82d8bc",
+      "bytes": 8780
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0008-afa8a1f7435b.json",
+      "sha256": "4b93e421b085ec068a9000dddc8f1047ce39f5f7831eea9ca3d73ee6a2fada0c",
+      "bytes": 4528
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0008-afa8a1f7435b.json",
+      "sha256": "434fa53c6b7b6c395b98f1570447ff2a2164d879d2b55daeb98270f49be489e8",
+      "bytes": 52291
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0008-afa8a1f7435b.json",
+      "sha256": "d9e9f356f8ee2827c4f4573bdbc14cd9498dc3a79605212eff608f75f5c173b5",
+      "bytes": 3565,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0008-afa8a1f7435b.json",
+      "sha256": "dbb9dd4df18bb2a2eb5ec9ed5c74dc4c19570487b04fb796e8fa2ce89dcacf6e",
+      "bytes": 26009,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0009-a66b25de1485.json",
+      "sha256": "b335dfe98f8627c36920f93b9bca68cf33b65bf881c2e098219a6e9f3c17d3a9",
+      "bytes": 501
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0009-a66b25de1485.json",
+      "sha256": "d31d449123a4096720065aae0153cd951bb1f0fc9f732eb9c688c7bf15f59d3b",
+      "bytes": 16944
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0009-a66b25de1485.json",
+      "sha256": "74151950d1df575a8e5b0e0e29c192bc05a9f4bde41ba0fc0f53476980664fda",
+      "bytes": 8777
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0009-a66b25de1485.json",
+      "sha256": "43f5752fabaa8d1763370d4df769d9e06547aef402a4275d562690761d6fe5c3",
+      "bytes": 4522
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0009-a66b25de1485.json",
+      "sha256": "cacb5dcc21a0646eb9aaf9f01b4463c31b2c007b8d8abaa70732ad57f3bcbd95",
+      "bytes": 52219
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0009-a66b25de1485.json",
+      "sha256": "7510a3e8bb93fa45c04787cbaad74c38564c656dffd9c06f8226e0f2024f0095",
+      "bytes": 3562,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0009-a66b25de1485.json",
+      "sha256": "e0b9f87f5b73d3784bac14ff116da9d4374e0ae013e15d71671baca9a0ac7a2c",
+      "bytes": 25955,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0010-55f75d01532a.json",
+      "sha256": "9423ff985da2e34b66873b678e6633b33d8c528e44ef60725e17d96f2f4ab416",
+      "bytes": 517
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0010-55f75d01532a.json",
+      "sha256": "988db64ee22d4a87a2409931012683655c50b79d10924a67e28a99efae4a7064",
+      "bytes": 17060
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0010-55f75d01532a.json",
+      "sha256": "b988452337a4de72fe93c99c2606b99dbc466e01a863895f4cd39302d083367e",
+      "bytes": 8781
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0010-55f75d01532a.json",
+      "sha256": "28c619a750cc14089cd936c90774e5766cc759789d42fb35655301fb75fa3d49",
+      "bytes": 4530
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0010-55f75d01532a.json",
+      "sha256": "0f97ce7a3351888ce1206ca5784fd78a6669e3e397d1c11e7422a71a17f107d0",
+      "bytes": 52347
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0010-55f75d01532a.json",
+      "sha256": "6fba204d6f52d50aa4e66b3c143b711c2a10dbed731d8871edbe7917a190bef0",
+      "bytes": 3566,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0010-55f75d01532a.json",
+      "sha256": "343691d77f3e8ea3fa54a8af0a8df32caa9e405af0cf73a2a36ff6f67d02cdf1",
+      "bytes": 26027,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0011-50ec03f74ee0.json",
+      "sha256": "7e848d7ca7f8a849a1cd6eb45534aa0e3d6082fe527c5649767099be9cf6f058",
+      "bytes": 517
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0011-50ec03f74ee0.json",
+      "sha256": "3f57ef08c4877d5b8954972236a63015cd8dd6e8ba3036c49559594f9afcd151",
+      "bytes": 17060
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0011-50ec03f74ee0.json",
+      "sha256": "9c84de224d514e7780d7bdfc05b38b3e3ccb0d782e2d94b7a9814dd5e4712a82",
+      "bytes": 8781
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0011-50ec03f74ee0.json",
+      "sha256": "a0a046a5018581e741c859ae8f88a08aa5b097e94d79df00ec165e7910bee1bb",
+      "bytes": 4530
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0011-50ec03f74ee0.json",
+      "sha256": "02c06e9dcddd507768324feca159eb50c39754dc5b6767af8b1767ea9d4ec89f",
+      "bytes": 52347
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0011-50ec03f74ee0.json",
+      "sha256": "f399edff2ffdc95549a5308b0b2e31d3827c8d5cf2a140e3762bf89a81adb9bd",
+      "bytes": 3566,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0011-50ec03f74ee0.json",
+      "sha256": "7a3a98a9858e5d13bcf0280a2d9466f2750db20089fceb264be05de969142d47",
+      "bytes": 26027,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0012-b40c1f4a2467.json",
+      "sha256": "3e3c5f9ca42c9846b3609251949f09f9e969d1bb33f938a134ef33d20ae3f43d",
+      "bytes": 501
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0012-b40c1f4a2467.json",
+      "sha256": "ffe51f765ef617eeea07d594d1f5cc9ed36fa78dacdd6da30cad5f8e5662a1e9",
+      "bytes": 16944
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0012-b40c1f4a2467.json",
+      "sha256": "1454a15023186c14f5c299f305bc43d72abae41b95840e959a3f2dd8be8042fd",
+      "bytes": 8777
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0012-b40c1f4a2467.json",
+      "sha256": "44488e2ea774b2f87a9f5c35a6119a37b48e8104ce0e4f089f52858a2fa3f21e",
+      "bytes": 4522
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0012-b40c1f4a2467.json",
+      "sha256": "85e536eb75502d53ea8f16010897ab44ea7b9039e5ebe9c110293f52d5179ede",
+      "bytes": 52219
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0012-b40c1f4a2467.json",
+      "sha256": "dab89077d9c36fd56eb690dee7769988bf4e65400cb4ddaa74672f278183cc47",
+      "bytes": 3562,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0012-b40c1f4a2467.json",
+      "sha256": "f80586154ecfc81c97dfd53140d1c11784f5c00e155bc70cd5ed2ae20f6cf18a",
+      "bytes": 25955,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0013-dcd9bc17b4b5.json",
+      "sha256": "2041c8700335ad7b70c51d7c827e838cc485d4d66324232b8b92003acd5d46fe",
+      "bytes": 513
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0013-dcd9bc17b4b5.json",
+      "sha256": "bcecb3ff58ad69612e5d6de0abe14a0a77632a42530e6b7464652b1b60f3c136",
+      "bytes": 17031
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0013-dcd9bc17b4b5.json",
+      "sha256": "ad079d7c8da693c37add1d13d507cbcea6dd42b27199e7d1bf87021839111069",
+      "bytes": 8780
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0013-dcd9bc17b4b5.json",
+      "sha256": "9beec2b7d1869be0914d7538fb2ab40958c8c5209bbb2ff41e7bb3a630e11426",
+      "bytes": 4528
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0013-dcd9bc17b4b5.json",
+      "sha256": "69ea24db3b9c79334995add47273bf30d57de2633beed17b77b43b898c2de177",
+      "bytes": 52315
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0013-dcd9bc17b4b5.json",
+      "sha256": "abd0116f54626a1a69ec06fdbd1a47492a172051ae7af63762fedbffd1a56a01",
+      "bytes": 3565,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0013-dcd9bc17b4b5.json",
+      "sha256": "2fa190da68afd3f5fbc80fa43e5b33c920bd5356810278a6f562d99c87882df7",
+      "bytes": 26009,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0014-3fbc8bbfa9ac.json",
+      "sha256": "2f8303fab97809d8a72404db70dc1fac896e0ef87358f7c08f760f1104932a1e",
+      "bytes": 663
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0014-3fbc8bbfa9ac.json",
+      "sha256": "ecdfcc6d0e8f04ae86b7538e9616e8f9bbf391c51b669a2a6b9663a51f87ae4e",
+      "bytes": 17129
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0014-3fbc8bbfa9ac.json",
+      "sha256": "4ff5e260c7179c77a923d8a24aefab778909098d2d76155b15bcd2c6fe354eaa",
+      "bytes": 8499
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0014-3fbc8bbfa9ac.json",
+      "sha256": "d8b4db1d39d2c6d4c8cf9c60fe8b032f5f8a94df0c7f0e2ae7ec12e09e205d94",
+      "bytes": 4602
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0014-3fbc8bbfa9ac.json",
+      "sha256": "bffc2e7815f27c118d88d12186c525af9041c775fd7e5da284d657fa7d2eeb97",
+      "bytes": 50485
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0014-3fbc8bbfa9ac.json",
+      "sha256": "d6fb560ddad2a5d8beaedd855d5d8d950e28fc963ab88748c0566641a5466e99",
+      "bytes": 3602,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0014-3fbc8bbfa9ac.json",
+      "sha256": "c5f0a8fe718eeedeab40a1086aeeed5dc3f469c565e414b4b77d6c24b75145fe",
+      "bytes": 26675,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0015-8cf295a54f6e.json",
+      "sha256": "59618b340dba534c6a9363e1f0c17b7de11cd6fbbb1b95543c84ff7344723622",
+      "bytes": 643
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0015-8cf295a54f6e.json",
+      "sha256": "59fc26022854fa256ece33b6b871d7f0e2f4ec4f00849396388796f585b239b7",
+      "bytes": 17009
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0015-8cf295a54f6e.json",
+      "sha256": "f78602b6f7a5bc931dea5bfbf4e0add81ab2c6f40657a397e6a6c084cf8190df",
+      "bytes": 8494
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0015-8cf295a54f6e.json",
+      "sha256": "aee00a094c94deea0b179354226cb869a6b5ea5a9b25c70e0616226a5cfd1992",
+      "bytes": 4592
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0015-8cf295a54f6e.json",
+      "sha256": "2e90a1ae309e897bb07393d49541d2e6f75087d16a8271d1b1c4d181d592a0f6",
+      "bytes": 50351
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0015-8cf295a54f6e.json",
+      "sha256": "ed73b5e9f81583719e17b53a34e117ac6bdd1c0fcb61948532c681b7ca7f8758",
+      "bytes": 3597,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0015-8cf295a54f6e.json",
+      "sha256": "b83f38ce10f36228e9cf92a48e7fc3c7c9eb2886445b78893c2c8f94afc209a6",
+      "bytes": 26585,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0016-d4ac2d7ef6ae.json",
+      "sha256": "ce5eca3a792c162ba654ed24ba86f6c87d84bf8f6f8f55933a705fef686240d4",
+      "bytes": 615
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0016-d4ac2d7ef6ae.json",
+      "sha256": "5380b617b856cf9a5dbeed4555b33a6677ca4ab4056ba795061f47ad709f1b9b",
+      "bytes": 16828
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0016-d4ac2d7ef6ae.json",
+      "sha256": "cf7b6588608066115169f439c2d8d86073da4bac56cfceef5797288881e8e343",
+      "bytes": 8487
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0016-d4ac2d7ef6ae.json",
+      "sha256": "4e25514a42915a1ad0e31bb011c28437dcea68961105cec902ff39c7db078ce4",
+      "bytes": 4578
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0016-d4ac2d7ef6ae.json",
+      "sha256": "efc987bfcd21684171e074ed396d8506b71998afcab4b57a8beea1392287308b",
+      "bytes": 50143
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0016-d4ac2d7ef6ae.json",
+      "sha256": "3b7ef02152ab0653aca997271c59f5b760f1423451c372e827aa04640dcc9ad5",
+      "bytes": 3590,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0016-d4ac2d7ef6ae.json",
+      "sha256": "f79a33bae5dcfe360b2ef1187526066a6a256260f02204dc0e511a91d8cfafdb",
+      "bytes": 26459,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0017-00dbfdb99228.json",
+      "sha256": "e7343d39908f175457eff77d64fe5d5a9295ef590fe9f8c0b0dea4f506e7c383",
+      "bytes": 591
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0017-00dbfdb99228.json",
+      "sha256": "b7dce4af1a0a654f542f172b992ab1509f84ee96da13f60b84e956d086667787",
+      "bytes": 16692
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0017-00dbfdb99228.json",
+      "sha256": "73a6f9879ebe71e3dd0b01ce3bde26725b0abf15ddbbd60ccff4301bebf041f6",
+      "bytes": 8481
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0017-00dbfdb99228.json",
+      "sha256": "3a93fc222cd5921e6039917e965c47679a78b5d078c261d065668bc80534b54f",
+      "bytes": 4566
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0017-00dbfdb99228.json",
+      "sha256": "7b1a50885fae815b57caa456d298b5add3b2a5c8aaf0d3f4cc23b5b387214b55",
+      "bytes": 50009
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0017-00dbfdb99228.json",
+      "sha256": "14a5ce56263344c83228261ae4e494065d2e31677abfaaf4851a21b72d0a44fd",
+      "bytes": 3584,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0017-00dbfdb99228.json",
+      "sha256": "1c1d1bc9f973f78c6f9da8a5a870ec08ed4dd9f3f276f1cb4db213095f83a6a0",
+      "bytes": 26351,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0018-140a2aba94e9.json",
+      "sha256": "d1ee5a48d36adc8b74e476a066cc9e31d9090929e7b7013c2fb6e76381054165",
+      "bytes": 579
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0018-140a2aba94e9.json",
+      "sha256": "0feceae8b6db67ad120cfb0c4fcfe3beedb85faceb6c1afd8281fe18efc02d38",
+      "bytes": 16611
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0018-140a2aba94e9.json",
+      "sha256": "014eaf4d847a687be31538a75cd0416a7686209ec8c17cdb27bf62146d1eccd5",
+      "bytes": 8478
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0018-140a2aba94e9.json",
+      "sha256": "b07931396df16353c9c7db1f9f47c3c6ecc523990c8967e7c563a6d529140294",
+      "bytes": 4560
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0018-140a2aba94e9.json",
+      "sha256": "a6711fe288e6650379b4dacb958faa84c879be5318a0dd1a279a3a1616043aee",
+      "bytes": 49911
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0018-140a2aba94e9.json",
+      "sha256": "59419a674eadf5dcf722380f0ceea21bebc999fa4271ce76870154c238b2e92a",
+      "bytes": 3581,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0018-140a2aba94e9.json",
+      "sha256": "e89021272a612da3dfd02d2f84ad85d9ae11dc96b7346ffccb0e555c470dfab5",
+      "bytes": 26297,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-observation",
+      "path": "measurements/routes/0019-e299167d00d1.json",
+      "sha256": "c4fcd1ebe6ebbb3ed5912288fc650f39080f9fbe928578e9321f4bf9b679cf58",
+      "bytes": 611
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls/0019-e299167d00d1.json",
+      "sha256": "786b002175e82681da7cbf90ba7349c0be80b326f665804dc8c69e6d0a93f919",
+      "bytes": 16827
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes/0019-e299167d00d1.json",
+      "sha256": "ad51446e3f8c935bfdcd00523d9553bde7908238a7ed86296c6f837e86dc7a1b",
+      "bytes": 8486
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests/0019-e299167d00d1.json",
+      "sha256": "babbe8ad048aca0228d1fb23bef50fefaac74dae0048b95d82ecaab43e353d3f",
+      "bytes": 4576
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion/0019-e299167d00d1.json",
+      "sha256": "50b8563f3a0d718b86f3af97528c0d518cca69233f54fdd6ce64addb86621722",
+      "bytes": 50171
+    },
+    {
+      "kind": "responsive-observation",
+      "path": "measurements/responsive/0019-e299167d00d1.json",
+      "sha256": "7af86387de30dd608abe2ae1910aed3d7aec5baff1e151d585d8973370b561be",
+      "bytes": 3589,
+      "visibility": "private"
+    },
+    {
+      "kind": "asset-observation",
+      "path": "measurements/assets/0019-e299167d00d1.json",
+      "sha256": "c7d1b9c8f510e7aec5acfd07e81f8823a910321806999881a9b7cb3c46ee78fb",
+      "bytes": 26441,
+      "visibility": "private"
+    },
+    {
+      "kind": "route-inventory",
+      "path": "measurements/routes.json",
+      "sha256": "c0cc01bd095af6532d97130f78279804439a3e13fbe3fbfe943bf36fb6d9446c",
+      "bytes": 12137
+    },
+    {
+      "kind": "route-inventory",
+      "path": "inventory.json",
+      "sha256": "0ff71740d347523c4163cd8151569dd3e9e7f756f4a9ea19188287b503485051",
+      "bytes": 3609
+    },
+    {
+      "kind": "control-observation",
+      "path": "measurements/controls.json",
+      "sha256": "e5663e733ef888e7b388813422999e6428e81082a79532242f5fad70ce47b2c8",
+      "bytes": 318763
+    },
+    {
+      "kind": "runtime-class-observation",
+      "path": "measurements/classes.json",
+      "sha256": "4bf058c667dee424dfb831d5937447eebdc54ea011a1c5d87a6755362c54b643",
+      "bytes": 437675
+    },
+    {
+      "kind": "request-observation",
+      "path": "measurements/requests.json",
+      "sha256": "e4adc0a122193b167b746119fe8dea6307267c95c058b1cb7914ff70d2cabde4",
+      "bytes": 100771
+    },
+    {
+      "kind": "motion-observation",
+      "path": "measurements/motion.json",
+      "sha256": "53897972f87c89b23ac39caf65cc82810688696cd8050ffb9545f7c872b40fd1",
+      "bytes": 1220103
+    },
+    {
+      "kind": "responsive-observation-index",
+      "path": "measurements/responsive.json",
+      "sha256": "2f8eb626e0feb8d2786892579c873260c683a78f9ea724b42afadf19cb980892",
+      "bytes": 11049
+    },
+    {
+      "kind": "asset-observation-index",
+      "path": "measurements/assets.json",
+      "sha256": "6a4fa63f8334922304071326c7f61fc2e6249a138f20c0ddd2d1414bbca5754e",
+      "bytes": 11045
+    },
+    {
+      "kind": "coverage",
+      "path": "coverage.json",
+      "sha256": "fd7f83a63ca70d358ba3affcf09d248ac627a5ba1e15f799afa96799fcb788de",
+      "bytes": 1127
+    }
+  ],
+  "closedAt": "2026-09-14T18:31:16.831Z"
+}

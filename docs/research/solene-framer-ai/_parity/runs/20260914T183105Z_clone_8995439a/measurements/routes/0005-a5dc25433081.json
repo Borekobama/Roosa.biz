@@ -1,0 +1,21 @@
+{
+  "route": "/cookies-policy",
+  "finalUrl": "http://localhost:3111/cookies-policy",
+  "status": 200,
+  "title": "Cookies policy — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Cookies policy — Solene",
+    "bodyBytes": 24697,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

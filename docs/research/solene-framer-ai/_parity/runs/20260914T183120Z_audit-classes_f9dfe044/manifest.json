@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260914T183120Z_audit-classes_f9dfe044",
+  "status": "closed",
+  "createdAt": "2026-09-14T18:31:20.566Z",
+  "engine": {
+    "version": "0.12.1",
+    "contentSha256": "79d0a0e689367804ea31ddb87cb0ab26128b9d513e37833cefb0dd0c91de1ffd"
+  },
+  "kind": "audit",
+  "target": {
+    "kind": "clone",
+    "origin": "http://localhost:3111/",
+    "profileId": null,
+    "tenant": null,
+    "role": null,
+    "expectedRoutes": [
+      {
+        "route": "/",
+        "pathname": "/"
+      },
+      {
+        "route": "/science",
+        "pathname": "/science"
+      },
+      {
+        "route": "/merch",
+        "pathname": "/merch"
+      },
+      {
+        "route": "/blog",
+        "pathname": "/blog"
+      },
+      {
+        "route": "/cookies-policy",
+        "pathname": "/cookies-policy"
+      },
+      {
+        "route": "/privacy-policy",
+        "pathname": "/privacy-policy"
+      },
+      {
+        "route": "/merch/daily-multivitamin",
+        "pathname": "/merch/daily-multivitamin"
+      },
+      {
+        "route": "/merch/ecobag",
+        "pathname": "/merch/ecobag"
+      },
+      {
+        "route": "/merch/cap",
+        "pathname": "/merch/cap"
+      },
+      {
+        "route": "/merch/squeeze",
+        "pathname": "/merch/squeeze"
+      },
+      {
+        "route": "/merch/t-shirt",
+        "pathname": "/merch/t-shirt"
+      },
+      {
+        "route": "/merch/pin",
+        "pathname": "/merch/pin"
+      },
+      {
+        "route": "/merch/poster",
+        "pathname": "/merch/poster"
+      },
+      {
+        "route": "/blog/sustained-energy-and-the-nutrients-behind-it",
+        "pathname": "/blog/sustained-energy-and-the-nutrients-behind-it"
+      },
+      {
+        "route": "/blog/why-mornings-matter-for-daily-nutrition",
+        "pathname": "/blog/why-mornings-matter-for-daily-nutrition"
+      },
+      {
+        "route": "/blog/building-a-traceable-value-chain",
+        "pathname": "/blog/building-a-traceable-value-chain"
+      },
+      {
+        "route": "/blog/reading-a-supplement-label",
+        "pathname": "/blog/reading-a-supplement-label"
+      },
+      {
+        "route": "/blog/the-science-of-recovery",
+        "pathname": "/blog/the-science-of-recovery"
+      },
+      {
+        "route": "/blog/the-influence-of-micronutrients",
+        "pathname": "/blog/the-influence-of-micronutrients"
+      }
+    ]
+  },
+  "repository": {
+    "commit": null,
+    "dirty": false,
+    "diffSha256": null
+  },
+  "scope": {
+    "parentRunId": "20260914T183105Z_clone_8995439a",
+    "inventoryRunId": "20260914T183105Z_clone_8995439a",
+    "routesRequested": [
+      "/",
+      "/science",
+      "/merch",
+      "/blog",
+      "/cookies-policy",
+      "/privacy-policy",
+      "/merch/daily-multivitamin",
+      "/merch/ecobag",
+      "/merch/cap",
+      "/merch/squeeze",
+      "/merch/t-shirt",
+      "/merch/pin",
+      "/merch/poster",
+      "/blog/sustained-energy-and-the-nutrients-behind-it",
+      "/blog/why-mornings-matter-for-daily-nutrition",
+      "/blog/building-a-traceable-value-chain",
+      "/blog/reading-a-supplement-label",
+      "/blog/the-science-of-recovery",
+      "/blog/the-influence-of-micronutrients"
+    ],
+    "routesCompleted": [
+      "/",
+      "/science",
+      "/merch",
+      "/blog",
+      "/cookies-policy",
+      "/privacy-policy",
+      "/merch/daily-multivitamin",
+      "/merch/ecobag",
+      "/merch/cap",
+      "/merch/squeeze",
+      "/merch/t-shirt",
+      "/merch/pin",
+      "/merch/poster",
+      "/blog/sustained-energy-and-the-nutrients-behind-it",
+      "/blog/why-mornings-matter-for-daily-nutrition",
+      "/blog/building-a-traceable-value-chain",
+      "/blog/reading-a-supplement-label",
+      "/blog/the-science-of-recovery",
+      "/blog/the-influence-of-micronutrients"
+    ],
+    "routesFailed": []
+  },
+  "runtime": {
+    "serverHealthy": true,
+    "hydrated": true
+  },
+  "policySha256": "68426f3c4ac77b9c98d58878485e02061d212535b832426b63a69f28b3821fa7",
+  "artifacts": [
+    {
+      "kind": "policy-snapshot",
+      "path": "policy.json",
+      "sha256": "728f7a816e986672d4c019073259c2d5e17c524bb55c82aa3b4d458e0f36d62e",
+      "bytes": 313
+    },
+    {
+      "kind": "dead-class-audit",
+      "path": "audits/dead-classes.json",
+      "sha256": "b6f766d0cc0abb0793a89aa0d1d076e839f7b7e1b9614417f6191b0f65e5d40d",
+      "bytes": 222268
+    },
+    {
+      "kind": "coverage",
+      "path": "coverage.json",
+      "sha256": "6c0da4f558df40ab7297d33a8c630990eb7e3e85430666a65457765167c00ea3",
+      "bytes": 468
+    }
+  ],
+  "closedAt": "2026-09-14T18:31:20.605Z"
+}

@@ -1,0 +1,21 @@
+{
+  "route": "/merch/daily-multivitamin",
+  "finalUrl": "http://localhost:3111/merch/daily-multivitamin",
+  "status": 200,
+  "title": "Daily Multivitamin™ — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Daily Multivitamin™ — Solene",
+    "bodyBytes": 46174,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

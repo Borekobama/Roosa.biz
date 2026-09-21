@@ -1,0 +1,1493 @@
+{
+  "schemaVersion": 1,
+  "kind": "motion-observation",
+  "route": "/privacy-policy",
+  "sampled": false,
+  "complete": true,
+  "observations": [
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)",
+        "tag": "header",
+        "role": "header",
+        "name": "SoleneScienceBlogMerchBuy OfferScienceBlogMerchBuy Offer",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 70
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|header|SoleneScienceBlogMerchBuy OfferScienceBlogMerchBuy Offer||0",
+      "fingerprint": "71cc392683ee5ccde67d04f2442a23a71a99a47f3ef645de88ebf61478a502ba"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Solene — home",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 18.703,
+          "width": 93.25,
+          "height": 32.594
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Solene — home||0",
+      "fingerprint": "688bf9c9b5b2ec1eddac1374b42f1358f5c039b9244b36c25c843c7cbce27725"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Science",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "0.7",
+        "visibility": "visible",
+        "rect": {
+          "x": 535.219,
+          "y": 24,
+          "width": 53.016,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Science||0",
+      "fingerprint": "85521247800ed72aeb99eaf5cd93e5bb1b02b107def8773fce17dddf2664d684"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(2)",
+        "tag": "a",
+        "role": "a",
+        "name": "Blog",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "0.7",
+        "visibility": "visible",
+        "rect": {
+          "x": 624.234,
+          "y": 24,
+          "width": 29.969,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Blog||0",
+      "fingerprint": "3efef68be286fb93d1d434d85dc6fd5c9f423e83120f8a342a892eadd1473366"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(3)",
+        "tag": "a",
+        "role": "a",
+        "name": "Merch",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "0.7",
+        "visibility": "visible",
+        "rect": {
+          "x": 690.203,
+          "y": 24,
+          "width": 42.594,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Merch||0",
+      "fingerprint": "96e8687ba32c59a4634fcf671ab092cc9198f201746aa6f2f0792e4f0cae8774"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Buy Offer",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1142.75,
+          "y": 17.5,
+          "width": 105.25,
+          "height": 35
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Buy Offer||0",
+      "fingerprint": "847e7f067d85a404a036342df2c111dd2473782680d0c9311dc21977b549048e"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)",
+        "tag": "button",
+        "role": "button",
+        "name": "Open menu",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": "false",
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|button|Open menu||0",
+      "fingerprint": "c40f119a554d61ec7b899696549578d278244208572acdfe84b3c340386b5cd0"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)>span:nth-child(1)>span:nth-child(1)",
+        "tag": "span",
+        "role": "span",
+        "name": "",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|span|||0",
+      "fingerprint": "4be8a0d55515cf154611b0c782ee271c965d4a2b1f459de25873ba3b23a7da83"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)>span:nth-child(1)>span:nth-child(2)",
+        "tag": "span",
+        "role": "span",
+        "name": "",
+        "motionId": null,
+        "occurrence": 1
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|span|||1",
+      "fingerprint": "ad1e3d98487d0b7d824377ef02057e585164b55161cc74d9b32812e3684ca678"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(1)>div:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "Legal",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 190,
+          "width": 1216,
+          "height": 14
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|div|Legal||0",
+      "fingerprint": "e133ffb1cb7a8695733ed9a5d065e471b7da1fe79c49faceb7f74a816e3fd145"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(1)>div:nth-child(1)>div:nth-child(2)",
+        "tag": "div",
+        "role": "div",
+        "name": "Privacy policy",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.08s, 0.08s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 228,
+          "width": 1216,
+          "height": 61.594
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|div|Privacy policy||0",
+      "fingerprint": "039345d13de6bc1f795efabc77296c54aeeb5c2fc6d9a4ff08f84a5a8582adbb"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(1)>div:nth-child(1)>div:nth-child(3)",
+        "tag": "div",
+        "role": "div",
+        "name": "Last updated 14 September 2026This is placeholder policy text supplied with the template. Replace every section below with language reviewed by your own counsel",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.14s, 0.14s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 313.594,
+          "width": 1216,
+          "height": 102.391
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|div|Last updated 14 September 2026This is placeholder policy text supplied with the template. Replace every section below with language reviewed by your own counsel||0",
+      "fingerprint": "3e5e97ba9bd16ae4e018add7534e3f8cca0f09aa7e9f83790187b987b074a765"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "What we collectA demo storefront typically collects the data needed to take an order: a name, a delivery address, an email address and a payment reference held ",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 297.344,
+          "y": 527.984,
+          "width": 685.313,
+          "height": 207.531
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|div|What we collectA demo storefront typically collects the data needed to take an order: a name, a delivery address, an email address and a payment reference held ||0",
+      "fingerprint": "c0f8e5389b9cd9c611ab32fd1b29ce84101f73c13a50be32459445c384ee5589"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)",
+        "tag": "div",
+        "role": "div",
+        "name": "Why we collect itOrder data is processed to fulfil the contract you enter into when buying. Marketing email is sent only on the basis of consent, and that conse",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 297.344,
+          "y": 807.516,
+          "width": 685.313,
+          "height": 111.969
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|div|Why we collect itOrder data is processed to fulfil the contract you enter into when buying. Marketing email is sent only on the basis of consent, and that conse||0",
+      "fingerprint": "5325f1ad562284b50e1ba96068f9312c10736b8baca1baac723a1c01f7fd0e3c"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(3)",
+        "tag": "div",
+        "role": "div",
+        "name": "How long it is keptOrder records are normally retained for the period required by tax law in the seller's jurisdiction. Marketing preferences are kept until you",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 297.344,
+          "y": 967.484,
+          "width": 685.313,
+          "height": 111.969
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|div|How long it is keptOrder records are normally retained for the period required by tax law in the seller's jurisdiction. Marketing preferences are kept until you||0",
+      "fingerprint": "e05a60434c5ee65dbed577e6542d83cfd73ebcf0087deb009794f5587cf087fb"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(4)",
+        "tag": "div",
+        "role": "div",
+        "name": "Your rightsUnder the GDPR you can request access to your data, correction of it, deletion, restriction of processing, and portability. You may also complain to ",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 297.344,
+          "y": 1127.453,
+          "width": 685.313,
+          "height": 157.156
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|div|Your rightsUnder the GDPR you can request access to your data, correction of it, deletion, restriction of processing, and portability. You may also complain to ||0",
+      "fingerprint": "304e1fe87bc543cce01a0ae8c0a6e935a0ee7ed95d75c1b5662c155d06ca8b6e"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(5)",
+        "tag": "div",
+        "role": "div",
+        "name": "ProcessorsA live shop generally shares data with a payment provider, a fulfilment partner and an email provider. List yours here, with the country each one proc",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 297.344,
+          "y": 1332.609,
+          "width": 685.313,
+          "height": 111.969
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|div|ProcessorsA live shop generally shares data with a payment provider, a fulfilment partner and an email provider. List yours here, with the country each one proc||0",
+      "fingerprint": "ace0a901c79d78cc4d19f0a2aaea91797a0c3782cdd37c9257d8cefd15ff5ea1"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Daily Multivitamin™",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 1649.578,
+          "width": 128.5,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Daily Multivitamin™||0",
+      "fingerprint": "e0dea62bab7f5855ff6bbf3402844c9d71a3164ba7e518558c992315582cbc90"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "All merch",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 1685.578,
+          "width": 62.094,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|All merch||0",
+      "fingerprint": "e21dcd1b5af618a54b1098e0cb64bf41e5094084077931a411c24b892ce0917f"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Subscription",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 1721.578,
+          "width": 83.625,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Subscription||0",
+      "fingerprint": "e4a068c86762002fe7e27bacab6abe3fafa8e0ed64d9f99869e81bf9c1d14653"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "The science",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 1649.578,
+          "width": 80.578,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|The science||0",
+      "fingerprint": "5f829d2dcf9bd26da523bf0719bbddb0f9560d8e101da9ed66788f5d640a088f"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Blog",
+        "motionId": null,
+        "occurrence": 1
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 1685.578,
+          "width": 29.969,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Blog||1",
+      "fingerprint": "e15019f10a84d77939424c3296d7c38225ff037c0bf4b8d1bb96076bf9073b01"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Ingredients",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 1721.578,
+          "width": 74.188,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Ingredients||0",
+      "fingerprint": "31626543d9191f9cbed7ded7bcda78cfe58b965a58dabe975949570409de3e59"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "FAQ",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 1649.578,
+          "width": 28.344,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|FAQ||0",
+      "fingerprint": "ab148a2b93816f11a96faf307106361489ba24746b17cc126439fac5958d4c4e"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Shipping",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 1685.578,
+          "width": 58.516,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Shipping||0",
+      "fingerprint": "4f5fbc598c7f3139ee6b14f0e009ac942c2a6a660cd4781991fb59138ee78645"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Contact",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 1721.578,
+          "width": 53.141,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Contact||0",
+      "fingerprint": "bb37daea0de14c4ae5eabae4904799624e2d3ffa0cdeab10363018da3b15a730"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(4)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Privacy policy",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1096.75,
+          "y": 1649.578,
+          "width": 91.078,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Privacy policy||0",
+      "fingerprint": "39937deed0b028d04080afc9e13e849574f2712e8bd1bf66b9090c0330dc13dd"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(4)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Cookies policy",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1096.75,
+          "y": 1685.578,
+          "width": 96.547,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/privacy-policy|a|Cookies policy||0",
+      "fingerprint": "ffa2506229560e4fc8d3ab642513a2567ad33eea07fc79c85fcaa3987a959313"
+    }
+  ]
+}

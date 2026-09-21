@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "kind": "responsive-observation-index",
+  "routes": [
+    {
+      "route": "/",
+      "artifactPath": "measurements/responsive/0001-8a5edab28263.json",
+      "fingerprint": "c0ce6b4a6291fc58c91df2edcbf7fae61ad8ba2ae82879c38785cedffe61a3af",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/science",
+      "artifactPath": "measurements/responsive/0002-88dcefa52242.json",
+      "fingerprint": "5387ed33aef22141518cc95f831a948d454b3004bf7cf35597d7b63d16e1cfb4",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/merch",
+      "artifactPath": "measurements/responsive/0003-af7e0aa2c549.json",
+      "fingerprint": "a1a129f351f4524fd5ee8bd6cc51459b3e6c011c6a4af10b841a68932ba844aa",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/blog",
+      "artifactPath": "measurements/responsive/0004-8caafe4386f9.json",
+      "fingerprint": "1c292d8496c54e8e489ced56de5acbe73ee2ee47e15f60e05fb33371f92a3272",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/cookies-policy",
+      "artifactPath": "measurements/responsive/0005-a5dc25433081.json",
+      "fingerprint": "7bd420ddba28891a9de280ee1cce32548e736d99ea813558c5256cf0e23e783f",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/privacy-policy",
+      "artifactPath": "measurements/responsive/0006-81e51d8c796f.json",
+      "fingerprint": "a3d55d8f355e9f7c1e635bdc34d27b3afa36525b38bad661e34b27179e7314fe",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/merch/daily-multivitamin",
+      "artifactPath": "measurements/responsive/0007-d6edf8576de7.json",
+      "fingerprint": "5d2013b9361a4d5944c8b558335865b7e430cb49b49b1e401b6c40e7b00b2aff",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/merch/ecobag",
+      "artifactPath": "measurements/responsive/0008-afa8a1f7435b.json",
+      "fingerprint": "99df970fb62ae3b945f8caf5c93af22256c92c27376b28ff7b63669641b6c77d",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/merch/cap",
+      "artifactPath": "measurements/responsive/0009-a66b25de1485.json",
+      "fingerprint": "0922fe009ba1d075f37c89fb16ea2ac9a93d115519c8db2d601ce23b7aecbc6d",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/merch/squeeze",
+      "artifactPath": "measurements/responsive/0010-55f75d01532a.json",
+      "fingerprint": "30a7b8ba0c453d8630fa20db765b836c24426ac7cac30e4fb9a102fda2b5ebff",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/merch/t-shirt",
+      "artifactPath": "measurements/responsive/0011-50ec03f74ee0.json",
+      "fingerprint": "ac8462538c3485059995d0d7dcbf844a18582c31f0e9830d11dcf1e9bc4d8176",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/merch/pin",
+      "artifactPath": "measurements/responsive/0012-b40c1f4a2467.json",
+      "fingerprint": "2b25113aa80b33213179c8d40c32ae925f96278d44b0e77f77ffbcd01b52b2f5",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/merch/poster",
+      "artifactPath": "measurements/responsive/0013-dcd9bc17b4b5.json",
+      "fingerprint": "c620f9eef13b97c032cd1a6682a3fe8e4bf7e47aba77751a37297a8503f23dc4",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/blog/sustained-energy-and-the-nutrients-behind-it",
+      "artifactPath": "measurements/responsive/0014-3fbc8bbfa9ac.json",
+      "fingerprint": "bccbdd77ceedf67da69a4b86c4909107c4e29e825893bac31d53cc0bc54a29fa",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/blog/why-mornings-matter-for-daily-nutrition",
+      "artifactPath": "measurements/responsive/0015-8cf295a54f6e.json",
+      "fingerprint": "74586c7bb4e8d672ee070c00cc077e61792fa2a908e84f782ca2cc7ed4febe2f",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/blog/building-a-traceable-value-chain",
+      "artifactPath": "measurements/responsive/0016-d4ac2d7ef6ae.json",
+      "fingerprint": "9ce1cac34e7d173a2d7e30880147a196f045b87e41662817dd332dd3363235fa",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/blog/reading-a-supplement-label",
+      "artifactPath": "measurements/responsive/0017-00dbfdb99228.json",
+      "fingerprint": "3f768ce8af8adbcecc5c1fcff9f8897b199a0b3895152c4726f929dfcc54368a",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/blog/the-science-of-recovery",
+      "artifactPath": "measurements/responsive/0018-140a2aba94e9.json",
+      "fingerprint": "e708263d61963111376f9d33653d6a6cbe7e1ba1cdb6d6377fece9364875b17c",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    },
+    {
+      "route": "/blog/the-influence-of-micronutrients",
+      "artifactPath": "measurements/responsive/0019-e299167d00d1.json",
+      "fingerprint": "884484947163aa720915ace69424746d9e14e2fc7a4b977251c0d7cc5afe7c1f",
+      "complete": true,
+      "discoveryComplete": true,
+      "stylesheets": {
+        "total": 1,
+        "readable": 1,
+        "unreadable": 0,
+        "nestedRuleFailures": 0
+      },
+      "mediaConditionCount": 7,
+      "containerConditionCount": 0,
+      "thresholdCount": 0,
+      "probesExpected": 0,
+      "probesCaptured": 0,
+      "probeFailures": 0
+    }
+  ],
+  "complete": true
+}

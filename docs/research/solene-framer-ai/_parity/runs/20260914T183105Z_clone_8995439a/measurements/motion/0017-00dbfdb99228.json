@@ -1,0 +1,1546 @@
+{
+  "schemaVersion": 1,
+  "kind": "motion-observation",
+  "route": "/blog/reading-a-supplement-label",
+  "sampled": false,
+  "complete": true,
+  "observations": [
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)",
+        "tag": "header",
+        "role": "header",
+        "name": "SoleneScienceBlogMerchBuy OfferScienceBlogMerchBuy Offer",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 70
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|header|SoleneScienceBlogMerchBuy OfferScienceBlogMerchBuy Offer||0",
+      "fingerprint": "59d1d1538743977696931d7977c7e8ef59c829e62b4624fe11bd6352c2385de1"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Solene — home",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 18.703,
+          "width": 93.25,
+          "height": 32.594
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Solene — home||0",
+      "fingerprint": "929edff85c419b07d75c2476e72d0fb39e8654a24abe120671b7f1117dfb8d37"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Science",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "0.7",
+        "visibility": "visible",
+        "rect": {
+          "x": 535.219,
+          "y": 24,
+          "width": 53.016,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Science||0",
+      "fingerprint": "2778ea7e371bc1286f8d71029f379eedc9cc4268c88a34c007c6f132eebce547"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(2)",
+        "tag": "a",
+        "role": "a",
+        "name": "Blog",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 624.234,
+          "y": 24,
+          "width": 29.969,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Blog||0",
+      "fingerprint": "affc0a37b17009f1bbd7ed8293516731f2e1eecf81e8af1b2404b5489ecdbf35"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>nav:nth-child(2)>a:nth-child(3)",
+        "tag": "a",
+        "role": "a",
+        "name": "Merch",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "0.7",
+        "visibility": "visible",
+        "rect": {
+          "x": 690.203,
+          "y": 24,
+          "width": 42.594,
+          "height": 22
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Merch||0",
+      "fingerprint": "406e68daeafd47c7f9de084058e27df0a57e1c2ca1462276fc6345a158fdbc24"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Buy Offer",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1142.75,
+          "y": 17.5,
+          "width": 105.25,
+          "height": 35
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Buy Offer||0",
+      "fingerprint": "bd78e88f629d05ec49c448e0c090d2cab87647b6aae50c772abc6b472396ab7d"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)",
+        "tag": "button",
+        "role": "button",
+        "name": "Open menu",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": "false",
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|button|Open menu||0",
+      "fingerprint": "cc52e7d54b33e1c9c8993e9e3434fdff9995fc3c810163684da8805d4c1ccfb0"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)>span:nth-child(1)>span:nth-child(1)",
+        "tag": "span",
+        "role": "span",
+        "name": "",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|span|||0",
+      "fingerprint": "ab9cbe3d5a315f20bd813ccab4b372261d6d5d4107e41fb37d2d08061a5e026d"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>header:nth-child(3)>div:nth-child(1)>div:nth-child(3)>button:nth-child(2)>span:nth-child(1)>span:nth-child(2)",
+        "tag": "span",
+        "role": "span",
+        "name": "",
+        "motionId": null,
+        "occurrence": 1
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|span|||1",
+      "fingerprint": "e185d9e185f51bcbcebafc2531bb2e074577ce33badc3b49a5b7db1cf7bd15d2"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>article:nth-child(1)>section:nth-child(1)>div:nth-child(1)>nav:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Blog",
+        "motionId": null,
+        "occurrence": 1
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 141,
+          "width": 28.391,
+          "height": 17
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Blog||1",
+      "fingerprint": "08768bb81101397717b5a102c703bbfe6f63a830a769a0ed4652cb6647d6b800"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>article:nth-child(1)>section:nth-child(1)>div:nth-child(1)>div:nth-child(2)",
+        "tag": "div",
+        "role": "div",
+        "name": "ScienceReading a supplement label19 February 2026·5 min read",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 200.016,
+          "width": 1216,
+          "height": 147.609
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|div|ScienceReading a supplement label19 February 2026·5 min read||0",
+      "fingerprint": "b94544a91fa28f0b739ebe07c7ebfa1711373f24519fc28f1add056fda715c5e"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>article:nth-child(1)>section:nth-child(2)>div:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 427.625,
+          "width": 1216,
+          "height": 532
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|div|||0",
+      "fingerprint": "d0e6f4c5a09028cb8827e55caf01647c2372144b85f9df37de75edefeed413c2"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)",
+        "tag": "div",
+        "role": "div",
+        "name": "Nutrition·6 minSustained energy and the nutrients behind itWhy a steady afternoon has more to do with B-vitamin status and magnesium than with caffeine timing.",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0s, 0s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 1883.859,
+          "width": 378.656,
+          "height": 447.625
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|div|Nutrition·6 minSustained energy and the nutrients behind itWhy a steady afternoon has more to do with B-vitamin status and magnesium than with caffeine timing.||0",
+      "fingerprint": "847ba52be473bca38bd76d4f235e8c74dbf909a91757a696c664714e9d4b9b01"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>article:nth-child(1)>a:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "img",
+        "name": "Sustained energy and the nutrients behind it artwork",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 32,
+          "y": 1883.859,
+          "width": 378.656,
+          "height": 252.438
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|img|Sustained energy and the nutrients behind it artwork||0",
+      "fingerprint": "7c67d16a2959cbce30ff6d20a0d1b161909f94c555b0a1ea7ef2799f1fff1206"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)",
+        "tag": "div",
+        "role": "div",
+        "name": "Routine·4 minWhy mornings matter for daily nutritionAbsorption, routine and adherence all point the same direction: take it early, take it with food.",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.07s, 0.07s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 450.656,
+          "y": 1883.859,
+          "width": 378.672,
+          "height": 447.625
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|div|Routine·4 minWhy mornings matter for daily nutritionAbsorption, routine and adherence all point the same direction: take it early, take it with food.||0",
+      "fingerprint": "513fa6169b9c601366decc5d021e13e7bc1550855a1a3d78f4883321c3f2b708"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>article:nth-child(1)>a:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "img",
+        "name": "Why mornings matter for daily nutrition artwork",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 450.656,
+          "y": 1883.859,
+          "width": 378.672,
+          "height": 252.438
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|img|Why mornings matter for daily nutrition artwork||0",
+      "fingerprint": "e989521170b80c2961862eee617acc80bb815e6ecad8876c6fc3e44ce9389451"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)",
+        "tag": "div",
+        "role": "div",
+        "name": "Sourcing·7 minBuilding a traceable value chainWhat it takes to follow an ingredient from a partner farm to a finished jar without losing the thread.",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.3s, 0.3s",
+        "transitionDelay": "0.14s, 0.14s",
+        "transitionTimingFunction": "ease-out, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,24,0,1",
+        "opacity": "0",
+        "visibility": "visible",
+        "rect": {
+          "x": 869.328,
+          "y": 1883.859,
+          "width": 378.656,
+          "height": 447.625
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|div|Sourcing·7 minBuilding a traceable value chainWhat it takes to follow an ingredient from a partner farm to a finished jar without losing the thread.||0",
+      "fingerprint": "f5eb8324601e98280fbc8726fcf29269d117eebd1dbc87cbb02a5b369c4da071"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>main:nth-child(4)>section:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>article:nth-child(1)>a:nth-child(1)>div:nth-child(1)",
+        "tag": "div",
+        "role": "img",
+        "name": "Building a traceable value chain artwork",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.3s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease-out"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 869.328,
+          "y": 1883.859,
+          "width": 378.656,
+          "height": 252.438
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|img|Building a traceable value chain artwork||0",
+      "fingerprint": "252e7122eef7c3cd929eaf3ab3a64bb8a57d587266a93da59aebf4830f3a4c74"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Daily Multivitamin™",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 2552.484,
+          "width": 128.5,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Daily Multivitamin™||0",
+      "fingerprint": "d29c804063b0ce02f08922ea151c42c49eb90c4c4b08a47404233643895a1ca6"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "All merch",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 2588.484,
+          "width": 62.094,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|All merch||0",
+      "fingerprint": "c51d6a2b728bfe022e5c49579f497e41d827fc80dcc9e68aee3c06ecc50e87ea"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Subscription",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 523,
+          "y": 2624.484,
+          "width": 83.625,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Subscription||0",
+      "fingerprint": "9ba31bdc17b702aa51eb91ad34878a9eb9473afc065e50066cf574123d49bb83"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "The science",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 2552.484,
+          "width": 80.578,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|The science||0",
+      "fingerprint": "671e16ad70a27a126084003e2eb02c74b7cec49dc81c433b3b87a0ed785afb70"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Blog",
+        "motionId": null,
+        "occurrence": 2
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 2588.484,
+          "width": 29.969,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Blog||2",
+      "fingerprint": "649bc0e7522d96755f406ead480883c59ddbe1585f70e1c6e3e1924ab67b259e"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Ingredients",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 714.25,
+          "y": 2624.484,
+          "width": 74.188,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Ingredients||0",
+      "fingerprint": "953dd8abb96f2b0331770531810a6d5664564a9a8ccea960d977dd8efa9a477c"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "FAQ",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 2552.484,
+          "width": 28.344,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|FAQ||0",
+      "fingerprint": "3795de16a55bbbdcf059358d05d18e63dc68a5ad287e48286da2b05c18ff1bd1"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Shipping",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 2588.484,
+          "width": 58.516,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Shipping||0",
+      "fingerprint": "ab3e29d6a9705ac4713cc1945b224d92c17e9c3f72290fba7232350e2aa26d7a"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(3)>ul:nth-child(2)>li:nth-child(3)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Contact",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 905.5,
+          "y": 2624.484,
+          "width": 53.141,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Contact||0",
+      "fingerprint": "54df18fe5308f3ea89817ec4f549ec2badc875d17b9147767db85f2321d3fd98"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(4)>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Privacy policy",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1096.75,
+          "y": 2552.484,
+          "width": 91.078,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Privacy policy||0",
+      "fingerprint": "e4ac723dac164b1f761a50c27fdcaf279829af959e478ca4feee42466b341602"
+    },
+    {
+      "identity": {
+        "path": "html:nth-child(1)>body:nth-child(2)>footer:nth-child(5)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(4)>ul:nth-child(2)>li:nth-child(2)>a:nth-child(1)",
+        "tag": "a",
+        "role": "a",
+        "name": "Cookies policy",
+        "motionId": null,
+        "occurrence": 0
+      },
+      "declared": {
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "animationFillMode": "none",
+        "animationDirection": "normal",
+        "animationIterationCount": "1",
+        "transitionProperty": "background-color, color, border-color",
+        "transitionDuration": "0.2s, 0.2s, 0.2s",
+        "transitionDelay": "0s, 0s, 0s",
+        "transitionTimingFunction": "ease, ease, ease"
+      },
+      "state": {
+        "data-state": null,
+        "data-side": null,
+        "aria-expanded": null,
+        "aria-selected": null,
+        "aria-pressed": null,
+        "aria-checked": null,
+        "aria-disabled": null
+      },
+      "transformLonghands": {
+        "translate": "none",
+        "rotate": "none",
+        "scale": "none"
+      },
+      "transformGate": null,
+      "transformGateComplete": false,
+      "rendered": {
+        "transform": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+        "opacity": "1",
+        "visibility": "visible",
+        "rect": {
+          "x": 1096.75,
+          "y": 2588.484,
+          "width": 96.547,
+          "height": 18
+        }
+      },
+      "samples": [],
+      "key": "/blog/reading-a-supplement-label|a|Cookies policy||0",
+      "fingerprint": "eb645579669f6408cc8d20378d567d48a693d8df7bdbd8562177dca79c9148fa"
+    }
+  ]
+}

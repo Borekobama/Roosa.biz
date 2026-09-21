@@ -1,0 +1,21 @@
+{
+  "route": "/blog/the-science-of-recovery",
+  "finalUrl": "http://localhost:3111/blog/the-science-of-recovery",
+  "status": 200,
+  "title": "The science of recovery — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "The science of recovery — Solene",
+    "bodyBytes": 45266,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

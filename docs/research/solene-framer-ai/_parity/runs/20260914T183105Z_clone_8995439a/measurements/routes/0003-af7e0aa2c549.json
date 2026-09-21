@@ -1,0 +1,21 @@
+{
+  "route": "/merch",
+  "finalUrl": "http://localhost:3111/merch",
+  "status": 200,
+  "title": "Merch — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Merch — Solene",
+    "bodyBytes": 56118,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

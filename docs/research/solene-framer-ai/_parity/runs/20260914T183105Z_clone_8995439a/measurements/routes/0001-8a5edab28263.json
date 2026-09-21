@@ -1,0 +1,21 @@
+{
+  "route": "/",
+  "finalUrl": "http://localhost:3111/",
+  "status": 200,
+  "title": "Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Solene",
+    "bodyBytes": 148057,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

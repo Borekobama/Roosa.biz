@@ -1,0 +1,168 @@
+{
+  "route": "/merch/poster",
+  "requests": [
+    {
+      "url": "http://localhost:3111/merch/poster",
+      "status": 200,
+      "resourceType": "document",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/media/07bf60960e999a07-s.p.2vhpma867f4wy.woff2",
+      "status": 200,
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/media/3c285486269019b7-s.p.2g-0we2o5_ngd.woff2",
+      "status": 200,
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/media/5c285b27cdda1fe8-s.p.2_mbdogr7ni8i.woff2",
+      "status": 200,
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/media/6e7b947a26ae60db-s.p.3dytz707x2doa.woff2",
+      "status": 200,
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "status": 200,
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/media/9d978ba009f47915-s.p.1x4h7xumh6h0q.woff2",
+      "status": 200,
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/media/a4f4f75ad654963f-s.p.1hvvd1t-trplq.woff2",
+      "status": 200,
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/media/e41d5df559864f9e-s.p.1g73gv09-xcb6.woff2",
+      "status": 200,
+      "resourceType": "font",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/chunks/2j8eaezwuzmwv.css",
+      "status": 200,
+      "resourceType": "stylesheet",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/chunks/310vm2bl3xxpt.js",
+      "status": 200,
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/chunks/19mx3mg6lkumu.js",
+      "status": 200,
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/chunks/27t_qfc-3_lzs.js",
+      "status": 200,
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/chunks/2-rtuqsgzmno4.js",
+      "status": 200,
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/chunks/turbopack-1b6uko1cu_h42.js",
+      "status": 200,
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/chunks/0o64jk3kghd3d.js",
+      "status": 200,
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/chunks/2775hc-hr9zvy.js",
+      "status": 200,
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/?_rsc=ecdXw5SjRr8iFg8N",
+      "status": 200,
+      "resourceType": "fetch",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/science?_rsc=ecdXw5SjRr8iFg8N",
+      "status": 200,
+      "resourceType": "fetch",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/blog?_rsc=ecdXw5SjRr8iFg8N",
+      "status": 200,
+      "resourceType": "fetch",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/merch?_rsc=ecdXw5SjRr8iFg8N",
+      "status": 200,
+      "resourceType": "fetch",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/?_rsc=iQVxxuomIZH8z5GZ",
+      "status": 200,
+      "resourceType": "fetch",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/?_rsc=0XQyt23gkrYgmBzR",
+      "status": 200,
+      "resourceType": "fetch",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/blog?_rsc=JGYAKl_thfK8ppAD",
+      "status": 200,
+      "resourceType": "fetch",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/science?_rsc=es_yW0LvarwJy1Rg",
+      "status": 200,
+      "resourceType": "fetch",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/_next/static/chunks/2buvm46_wzy1n.js",
+      "status": 200,
+      "resourceType": "script",
+      "method": "GET"
+    },
+    {
+      "url": "http://localhost:3111/merch?_rsc=bpgxIdeCwtMbQi68",
+      "status": 200,
+      "resourceType": "fetch",
+      "method": "GET"
+    }
+  ],
+  "failures": []
+}

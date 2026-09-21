@@ -1,0 +1,832 @@
+{
+  "schemaVersion": 1,
+  "kind": "asset-observation",
+  "route": "/cookies-policy",
+  "capturedAt": "2026-09-14T18:31:08.466Z",
+  "assets": [
+    {
+      "requestUrl": "http://localhost:3111/_next/static/media/07bf60960e999a07-s.p.2vhpma867f4wy.woff2",
+      "finalUrl": "http://localhost:3111/_next/static/media/07bf60960e999a07-s.p.2vhpma867f4wy.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "bytes": 21820,
+      "resourceType": "font",
+      "initiator": {
+        "resourceType": "font",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "body-unreadable",
+      "sha256": null,
+      "error": "Error"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/media/3c285486269019b7-s.p.2g-0we2o5_ngd.woff2",
+      "finalUrl": "http://localhost:3111/_next/static/media/3c285486269019b7-s.p.2g-0we2o5_ngd.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "bytes": 12908,
+      "resourceType": "font",
+      "initiator": {
+        "resourceType": "font",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "body-unreadable",
+      "sha256": null,
+      "error": "Error"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/media/5c285b27cdda1fe8-s.p.2_mbdogr7ni8i.woff2",
+      "finalUrl": "http://localhost:3111/_next/static/media/5c285b27cdda1fe8-s.p.2_mbdogr7ni8i.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "bytes": 36980,
+      "resourceType": "font",
+      "initiator": {
+        "resourceType": "font",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "body-unreadable",
+      "sha256": null,
+      "error": "Error"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/media/6e7b947a26ae60db-s.p.3dytz707x2doa.woff2",
+      "finalUrl": "http://localhost:3111/_next/static/media/6e7b947a26ae60db-s.p.3dytz707x2doa.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "bytes": 33336,
+      "resourceType": "font",
+      "initiator": {
+        "resourceType": "font",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "body-unreadable",
+      "sha256": null,
+      "error": "Error"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "finalUrl": "http://localhost:3111/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "bytes": 48432,
+      "resourceType": "font",
+      "initiator": {
+        "resourceType": "font",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "body-unreadable",
+      "sha256": null,
+      "error": "Error"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/media/9d978ba009f47915-s.p.1x4h7xumh6h0q.woff2",
+      "finalUrl": "http://localhost:3111/_next/static/media/9d978ba009f47915-s.p.1x4h7xumh6h0q.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "bytes": 13604,
+      "resourceType": "font",
+      "initiator": {
+        "resourceType": "font",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "body-unreadable",
+      "sha256": null,
+      "error": "Error"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/media/a4f4f75ad654963f-s.p.1hvvd1t-trplq.woff2",
+      "finalUrl": "http://localhost:3111/_next/static/media/a4f4f75ad654963f-s.p.1hvvd1t-trplq.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "bytes": 13324,
+      "resourceType": "font",
+      "initiator": {
+        "resourceType": "font",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "body-unreadable",
+      "sha256": null,
+      "error": "Error"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/media/e41d5df559864f9e-s.p.1g73gv09-xcb6.woff2",
+      "finalUrl": "http://localhost:3111/_next/static/media/e41d5df559864f9e-s.p.1g73gv09-xcb6.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "bytes": 15040,
+      "resourceType": "font",
+      "initiator": {
+        "resourceType": "font",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "body-unreadable",
+      "sha256": null,
+      "error": "Error"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/chunks/2j8eaezwuzmwv.css",
+      "finalUrl": "http://localhost:3111/_next/static/chunks/2j8eaezwuzmwv.css",
+      "status": 200,
+      "mime": "text/css",
+      "bytes": 39278,
+      "resourceType": "stylesheet",
+      "initiator": {
+        "resourceType": "stylesheet",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "hashed",
+      "sha256": "f0f8e6c7db4665afc6078e7e411691d14c0a2318293adf3fc8759b8057435416"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/chunks/310vm2bl3xxpt.js",
+      "finalUrl": "http://localhost:3111/_next/static/chunks/310vm2bl3xxpt.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "bytes": 5364,
+      "resourceType": "script",
+      "initiator": {
+        "resourceType": "script",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "hashed",
+      "sha256": "8a943b00599e56b53569f36f4341e3465ae7705c1391562cd6c7e1f290c0c387"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/chunks/19mx3mg6lkumu.js",
+      "finalUrl": "http://localhost:3111/_next/static/chunks/19mx3mg6lkumu.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "bytes": 28907,
+      "resourceType": "script",
+      "initiator": {
+        "resourceType": "script",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "hashed",
+      "sha256": "170f3982866674a829571beec30cc23c69fcd36196739ff34b9d586b3ad73cd7"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/chunks/27t_qfc-3_lzs.js",
+      "finalUrl": "http://localhost:3111/_next/static/chunks/27t_qfc-3_lzs.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "bytes": 229156,
+      "resourceType": "script",
+      "initiator": {
+        "resourceType": "script",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "hashed",
+      "sha256": "f71552684e86daa3e94faad9002fb69d4e8d308a997ca88fdde74e54b5191870"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/chunks/2-rtuqsgzmno4.js",
+      "finalUrl": "http://localhost:3111/_next/static/chunks/2-rtuqsgzmno4.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "bytes": 165743,
+      "resourceType": "script",
+      "initiator": {
+        "resourceType": "script",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "hashed",
+      "sha256": "4d2bfb13eedd0cf43d07810d7790ce423e01097d1406ef604e7c4f3ab4db8d79"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/chunks/turbopack-1b6uko1cu_h42.js",
+      "finalUrl": "http://localhost:3111/_next/static/chunks/turbopack-1b6uko1cu_h42.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "bytes": 9721,
+      "resourceType": "script",
+      "initiator": {
+        "resourceType": "script",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "hashed",
+      "sha256": "bff34d0184addb24fc687b1d5f5751fef21c6ecf5520236859f3a8f4cac02a16"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/chunks/0o64jk3kghd3d.js",
+      "finalUrl": "http://localhost:3111/_next/static/chunks/0o64jk3kghd3d.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "bytes": 26633,
+      "resourceType": "script",
+      "initiator": {
+        "resourceType": "script",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "hashed",
+      "sha256": "0824e8d6f4a7b3a91696cd7119744d560ecc6bdd4cb8db1a7b652c5ed06d0526"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/chunks/2775hc-hr9zvy.js",
+      "finalUrl": "http://localhost:3111/_next/static/chunks/2775hc-hr9zvy.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "bytes": 842,
+      "resourceType": "script",
+      "initiator": {
+        "resourceType": "script",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "hashed",
+      "sha256": "e476cca842e1c9f22d04da9cd51083cc369f254289b4b6ddc8a8c2caebd97747"
+    },
+    {
+      "requestUrl": "http://localhost:3111/_next/static/chunks/2buvm46_wzy1n.js",
+      "finalUrl": "http://localhost:3111/_next/static/chunks/2buvm46_wzy1n.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "bytes": 1831,
+      "resourceType": "script",
+      "initiator": {
+        "resourceType": "script",
+        "frameUrl": "http://localhost:3111/cookies-policy"
+      },
+      "hashStatus": "hashed",
+      "sha256": "81ea1d228852f6dd99a65849c8726de92467d8096aa5de01ebc4952a55645247"
+    }
+  ],
+  "references": [
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/5f841e19a104a2f1-s.1two88yljb5sr.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 19,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/6d62c74c8e468ef4-s.0eam1vlzr7y9e.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 20,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/9d978ba009f47915-s.p.1x4h7xumh6h0q.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 21,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/53e45098eac42afb-s.1uklb5el4zgvl.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 22,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/85ea1b3aadcead52-s.05i4gb4p0piv4.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 23,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/3c285486269019b7-s.p.2g-0we2o5_ngd.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 24,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/625a092f804baad3-s.1zvg0ggiaivzo.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 25,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/6afabefbb32d7517-s.0jaqhc1tb-5xm.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 26,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/a4f4f75ad654963f-s.p.1hvvd1t-trplq.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 27,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/2c55a0e60120577a-s.0-dom-5bn10r2.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 28,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/9c72aa0f40e4eef8-s.1y4-pdgsjb-pw.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 29,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/ad66f9afd8947f86-s.3lvt2whj97whp.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 30,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/5476f68d60460930-s.2uwcyprjm3xu3.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 31,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/2bbe8d2671613f1f-s.0k62hbripvv8p.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 32,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/1bffadaabf893a1e-s.3-6t-g6q0vh0a.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 33,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 34,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/49625c79f5a84514-s.2wf6rvog29rnd.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 35,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/70277533216d5fbe-s.0vi485909_oef.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 36,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/6e7b947a26ae60db-s.p.3dytz707x2doa.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 37,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/49625c79f5a84514-s.2wf6rvog29rnd.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 38,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/70277533216d5fbe-s.0vi485909_oef.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 39,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/6e7b947a26ae60db-s.p.3dytz707x2doa.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 40,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/ccf27e5a7366fb23-s.1icgra-w5i50b.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 41,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/e41d5df559864f9e-s.p.1g73gv09-xcb6.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 42,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/47612ff0978f73b5-s.0cx-u9p7tcyss.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 43,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/1c915f22c969b4ab-s.1v1omwsilfptz.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 44,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/07bf60960e999a07-s.p.2vhpma867f4wy.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 45,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/c3cb240f9c892514-s.3z_x6eowsw16y.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 46,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/5c285b27cdda1fe8-s.p.2_mbdogr7ni8i.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 47,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/c3cb240f9c892514-s.3z_x6eowsw16y.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 48,
+      "response": null
+    },
+    {
+      "kind": "css-url",
+      "url": "http://localhost:3111/media/5c285b27cdda1fe8-s.p.2_mbdogr7ni8i.woff2",
+      "locator": "stylesheet:0",
+      "attribute": "cssText",
+      "descriptor": null,
+      "index": 49,
+      "response": null
+    },
+    {
+      "kind": "link",
+      "url": "http://localhost:3111/_next/static/media/e41d5df559864f9e-s.p.1g73gv09-xcb6.woff2",
+      "locator": "html:nth-child(1)>head:nth-child(1)>link:nth-child(10)",
+      "attribute": "href",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "font/woff2",
+        "bytes": 15040,
+        "sha256": null,
+        "hashStatus": "body-unreadable"
+      }
+    },
+    {
+      "kind": "link",
+      "url": "http://localhost:3111/_next/static/chunks/310vm2bl3xxpt.js",
+      "locator": "html:nth-child(1)>head:nth-child(1)>link:nth-child(12)",
+      "attribute": "href",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "application/javascript",
+        "bytes": 5364,
+        "sha256": "8a943b00599e56b53569f36f4341e3465ae7705c1391562cd6c7e1f290c0c387",
+        "hashStatus": "hashed"
+      }
+    },
+    {
+      "kind": "link",
+      "url": "http://localhost:3111/brand/favicon.svg",
+      "locator": "html:nth-child(1)>head:nth-child(1)>link:nth-child(27)",
+      "attribute": "href",
+      "descriptor": null,
+      "index": 0,
+      "response": null
+    },
+    {
+      "kind": "link",
+      "url": "http://localhost:3111/_next/static/media/07bf60960e999a07-s.p.2vhpma867f4wy.woff2",
+      "locator": "html:nth-child(1)>head:nth-child(1)>link:nth-child(3)",
+      "attribute": "href",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "font/woff2",
+        "bytes": 21820,
+        "sha256": null,
+        "hashStatus": "body-unreadable"
+      }
+    },
+    {
+      "kind": "link",
+      "url": "http://localhost:3111/_next/static/media/3c285486269019b7-s.p.2g-0we2o5_ngd.woff2",
+      "locator": "html:nth-child(1)>head:nth-child(1)>link:nth-child(4)",
+      "attribute": "href",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "font/woff2",
+        "bytes": 12908,
+        "sha256": null,
+        "hashStatus": "body-unreadable"
+      }
+    },
+    {
+      "kind": "link",
+      "url": "http://localhost:3111/_next/static/media/5c285b27cdda1fe8-s.p.2_mbdogr7ni8i.woff2",
+      "locator": "html:nth-child(1)>head:nth-child(1)>link:nth-child(5)",
+      "attribute": "href",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "font/woff2",
+        "bytes": 36980,
+        "sha256": null,
+        "hashStatus": "body-unreadable"
+      }
+    },
+    {
+      "kind": "link",
+      "url": "http://localhost:3111/_next/static/media/6e7b947a26ae60db-s.p.3dytz707x2doa.woff2",
+      "locator": "html:nth-child(1)>head:nth-child(1)>link:nth-child(6)",
+      "attribute": "href",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "font/woff2",
+        "bytes": 33336,
+        "sha256": null,
+        "hashStatus": "body-unreadable"
+      }
+    },
+    {
+      "kind": "link",
+      "url": "http://localhost:3111/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "locator": "html:nth-child(1)>head:nth-child(1)>link:nth-child(7)",
+      "attribute": "href",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "font/woff2",
+        "bytes": 48432,
+        "sha256": null,
+        "hashStatus": "body-unreadable"
+      }
+    },
+    {
+      "kind": "link",
+      "url": "http://localhost:3111/_next/static/media/9d978ba009f47915-s.p.1x4h7xumh6h0q.woff2",
+      "locator": "html:nth-child(1)>head:nth-child(1)>link:nth-child(8)",
+      "attribute": "href",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "font/woff2",
+        "bytes": 13604,
+        "sha256": null,
+        "hashStatus": "body-unreadable"
+      }
+    },
+    {
+      "kind": "link",
+      "url": "http://localhost:3111/_next/static/media/a4f4f75ad654963f-s.p.1hvvd1t-trplq.woff2",
+      "locator": "html:nth-child(1)>head:nth-child(1)>link:nth-child(9)",
+      "attribute": "href",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "font/woff2",
+        "bytes": 13324,
+        "sha256": null,
+        "hashStatus": "body-unreadable"
+      }
+    },
+    {
+      "kind": "source",
+      "url": "http://localhost:3111/_next/static/chunks/310vm2bl3xxpt.js",
+      "locator": "#_R_",
+      "attribute": "src",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "application/javascript",
+        "bytes": 5364,
+        "sha256": "8a943b00599e56b53569f36f4341e3465ae7705c1391562cd6c7e1f290c0c387",
+        "hashStatus": "hashed"
+      }
+    },
+    {
+      "kind": "source",
+      "url": "http://localhost:3111/_next/static/chunks/19mx3mg6lkumu.js",
+      "locator": "html:nth-child(1)>head:nth-child(1)>script:nth-child(13)",
+      "attribute": "src",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "application/javascript",
+        "bytes": 28907,
+        "sha256": "170f3982866674a829571beec30cc23c69fcd36196739ff34b9d586b3ad73cd7",
+        "hashStatus": "hashed"
+      }
+    },
+    {
+      "kind": "source",
+      "url": "http://localhost:3111/_next/static/chunks/27t_qfc-3_lzs.js",
+      "locator": "html:nth-child(1)>head:nth-child(1)>script:nth-child(14)",
+      "attribute": "src",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "application/javascript",
+        "bytes": 229156,
+        "sha256": "f71552684e86daa3e94faad9002fb69d4e8d308a997ca88fdde74e54b5191870",
+        "hashStatus": "hashed"
+      }
+    },
+    {
+      "kind": "source",
+      "url": "http://localhost:3111/_next/static/chunks/2-rtuqsgzmno4.js",
+      "locator": "html:nth-child(1)>head:nth-child(1)>script:nth-child(15)",
+      "attribute": "src",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "application/javascript",
+        "bytes": 165743,
+        "sha256": "4d2bfb13eedd0cf43d07810d7790ce423e01097d1406ef604e7c4f3ab4db8d79",
+        "hashStatus": "hashed"
+      }
+    },
+    {
+      "kind": "source",
+      "url": "http://localhost:3111/_next/static/chunks/turbopack-1b6uko1cu_h42.js",
+      "locator": "html:nth-child(1)>head:nth-child(1)>script:nth-child(16)",
+      "attribute": "src",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "application/javascript",
+        "bytes": 9721,
+        "sha256": "bff34d0184addb24fc687b1d5f5751fef21c6ecf5520236859f3a8f4cac02a16",
+        "hashStatus": "hashed"
+      }
+    },
+    {
+      "kind": "source",
+      "url": "http://localhost:3111/_next/static/chunks/0o64jk3kghd3d.js",
+      "locator": "html:nth-child(1)>head:nth-child(1)>script:nth-child(17)",
+      "attribute": "src",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "application/javascript",
+        "bytes": 26633,
+        "sha256": "0824e8d6f4a7b3a91696cd7119744d560ecc6bdd4cb8db1a7b652c5ed06d0526",
+        "hashStatus": "hashed"
+      }
+    },
+    {
+      "kind": "source",
+      "url": "http://localhost:3111/_next/static/chunks/2775hc-hr9zvy.js",
+      "locator": "html:nth-child(1)>head:nth-child(1)>script:nth-child(18)",
+      "attribute": "src",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "application/javascript",
+        "bytes": 842,
+        "sha256": "e476cca842e1c9f22d04da9cd51083cc369f254289b4b6ddc8a8c2caebd97747",
+        "hashStatus": "hashed"
+      }
+    },
+    {
+      "kind": "source",
+      "url": "http://localhost:3111/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "locator": "html:nth-child(1)>head:nth-child(1)>script:nth-child(29)",
+      "attribute": "src",
+      "descriptor": null,
+      "index": 0,
+      "response": null
+    },
+    {
+      "kind": "source",
+      "url": "http://localhost:3111/_next/static/chunks/2buvm46_wzy1n.js",
+      "locator": "html:nth-child(1)>head:nth-child(1)>script:nth-child(30)",
+      "attribute": "src",
+      "descriptor": null,
+      "index": 0,
+      "response": {
+        "status": 200,
+        "mime": "application/javascript",
+        "bytes": 1831,
+        "sha256": "81ea1d228852f6dd99a65849c8726de92467d8096aa5de01ebc4952a55645247",
+        "hashStatus": "hashed"
+      }
+    }
+  ],
+  "stylesheets": [
+    {
+      "stylesheetIndex": 0,
+      "source": "http://localhost:3111/_next/static/chunks/2j8eaezwuzmwv.css",
+      "readable": true,
+      "ruleCount": 118
+    }
+  ],
+  "stylesheetCoverage": {
+    "total": 1,
+    "readable": 1,
+    "unreadable": 0,
+    "nestedRuleFailures": 0
+  },
+  "responseCoverage": {
+    "observed": 17,
+    "hashed": 9,
+    "bodyFailures": 8,
+    "httpFailures": 0,
+    "requestFailures": 0,
+    "failedRequests": 8
+  },
+  "complete": false,
+  "fingerprint": "64add41832ae27e56f8f481a8a8dfb0831ffbe06fc1a3980f2941114b91b3c52"
+}

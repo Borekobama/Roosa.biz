@@ -1,0 +1,21 @@
+{
+  "route": "/merch/cap",
+  "finalUrl": "http://localhost:3111/merch/cap",
+  "status": 200,
+  "title": "Cap — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Cap — Solene",
+    "bodyBytes": 45924,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

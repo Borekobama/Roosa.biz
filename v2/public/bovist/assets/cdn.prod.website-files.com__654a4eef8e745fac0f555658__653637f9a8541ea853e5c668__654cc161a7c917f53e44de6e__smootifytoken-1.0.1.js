@@ -1,1 +1,0 @@
-(() => { const o = {"s":"bovist-theme","w":"bovist-theme.webflow.io","t":"47f5687d36f525025751a4309e0b7281","a":[]}; o._s = document.currentScript.getAttribute('src'); Object.freeze(o); window.smootify_654a4eef8e745fac0f555658 = o; })()

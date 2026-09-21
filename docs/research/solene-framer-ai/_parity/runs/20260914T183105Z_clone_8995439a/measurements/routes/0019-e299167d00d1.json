@@ -1,0 +1,21 @@
+{
+  "route": "/blog/the-influence-of-micronutrients",
+  "finalUrl": "http://localhost:3111/blog/the-influence-of-micronutrients",
+  "status": 200,
+  "title": "The influence of micronutrients — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "The influence of micronutrients — Solene",
+    "bodyBytes": 45414,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

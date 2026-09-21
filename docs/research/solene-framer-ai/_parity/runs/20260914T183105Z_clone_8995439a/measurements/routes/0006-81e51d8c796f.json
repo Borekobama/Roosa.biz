@@ -1,0 +1,21 @@
+{
+  "route": "/privacy-policy",
+  "finalUrl": "http://localhost:3111/privacy-policy",
+  "status": 200,
+  "title": "Privacy policy — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Privacy policy — Solene",
+    "bodyBytes": 25494,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

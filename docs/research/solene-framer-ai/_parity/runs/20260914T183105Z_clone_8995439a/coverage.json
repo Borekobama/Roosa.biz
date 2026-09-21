@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "inventory": {
+    "runId": "20260914T183105Z_clone_8995439a",
+    "routes": 19,
+    "controls": 515,
+    "authoritative": true
+  },
+  "measurement": {
+    "routesRequested": 19,
+    "routesCompleted": 19,
+    "controlsDiscovered": 515,
+    "controlsClassified": 0,
+    "stylesheetsTotal": 19,
+    "stylesheetsReadable": 19,
+    "stylesheetsUnreadable": 0,
+    "cssCoverageComplete": true,
+    "motionRoutesCaptured": 19,
+    "motionCoverageComplete": true,
+    "motionSampled": false,
+    "responsiveRoutesCaptured": 19,
+    "responsiveRoutesComplete": 19,
+    "responsiveProbesExpected": 0,
+    "responsiveProbesCaptured": 0,
+    "responsiveProbeFailures": 0,
+    "responsiveStylesheetsTotal": 19,
+    "responsiveStylesheetsReadable": 19,
+    "responsiveStylesheetsUnreadable": 0,
+    "responsiveCoverageComplete": true,
+    "assetRoutesCaptured": 19,
+    "assetRoutesComplete": 1,
+    "assetResponsesObserved": 323,
+    "assetResponsesHashed": 179,
+    "assetBodyFailures": 144,
+    "assetHttpFailures": 0,
+    "assetRequestFailures": 0,
+    "assetCoverageComplete": false
+  },
+  "scope": "full"
+}

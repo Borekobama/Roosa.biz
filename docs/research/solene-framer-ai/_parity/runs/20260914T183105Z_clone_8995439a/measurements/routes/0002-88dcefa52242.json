@@ -1,0 +1,21 @@
+{
+  "route": "/science",
+  "finalUrl": "http://localhost:3111/science",
+  "status": 200,
+  "title": "Science — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Science — Solene",
+    "bodyBytes": 45203,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

@@ -1,0 +1,21 @@
+{
+  "route": "/merch/pin",
+  "finalUrl": "http://localhost:3111/merch/pin",
+  "status": 200,
+  "title": "Pin — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Pin — Solene",
+    "bodyBytes": 45806,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

@@ -1,0 +1,20 @@
+{
+  "inventory": {
+    "runId": "20260914T183105Z_clone_8995439a",
+    "routes": 19,
+    "controls": 515,
+    "authoritative": true
+  },
+  "measurement": {
+    "routesRequested": 19,
+    "routesCompleted": 19,
+    "controlsDiscovered": 0,
+    "controlsClassified": 0,
+    "stylesheetsTotal": 19,
+    "stylesheetsReadable": 19,
+    "stylesheetsUnreadable": 0,
+    "cssCoverageComplete": true
+  },
+  "scope": "full",
+  "parentRunId": "20260914T183105Z_clone_8995439a"
+}

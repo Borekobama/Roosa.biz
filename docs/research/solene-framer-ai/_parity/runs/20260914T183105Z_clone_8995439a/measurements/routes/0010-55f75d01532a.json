@@ -1,0 +1,21 @@
+{
+  "route": "/merch/squeeze",
+  "finalUrl": "http://localhost:3111/merch/squeeze",
+  "status": 200,
+  "title": "Squeeze — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Squeeze — Solene",
+    "bodyBytes": 45865,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

@@ -1,0 +1,21 @@
+{
+  "route": "/blog/why-mornings-matter-for-daily-nutrition",
+  "finalUrl": "http://localhost:3111/blog/why-mornings-matter-for-daily-nutrition",
+  "status": 200,
+  "title": "Why mornings matter for daily nutrition — Solene",
+  "health": {
+    "serverHealthy": true,
+    "clientJsLoaded": true,
+    "hydrated": true,
+    "hydrationEvidence": "react-next-runtime",
+    "explicitHydrationSelector": null,
+    "reactAttached": true,
+    "nextRuntime": true,
+    "title": "Why mornings matter for daily nutrition — Solene",
+    "bodyBytes": 45482,
+    "framework": "next",
+    "loginForm": false,
+    "kind": "clone"
+  },
+  "identity": null
+}

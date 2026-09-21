@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "actions": [],
+  "controlClasses": {
+    "default": {
+      "dimensions": {
+        "url": "gate",
+        "aria": "gate",
+        "structure": "gate",
+        "overlay": "gate",
+        "dom": "informational",
+        "style": "informational",
+        "network": "ignore"
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@ name: ${PROJECT:-roosa-biz}
 services:
   web:
     build:
-      context: ./v6
+      context: .
       dockerfile: Dockerfile
       labels:
         com.project: ${PROJECT_LABEL:-roosa-biz}

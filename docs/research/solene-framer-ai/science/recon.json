@@ -1,0 +1,4571 @@
+{
+  "route": "/science",
+  "origin": "https://solene.framer.ai",
+  "capturedAt": "2026-09-14T18:21:34.963Z",
+  "viewports": {
+    "desktop": {
+      "url": "https://solene.framer.ai/science",
+      "title": "Solene",
+      "meta": {
+        "description": "High-quality multivitamin made in Brazil utilizing natural substracts.",
+        "ogImage": "https://framerusercontent.com/images/hHlsB9FEy8N2mvzSnxvgsOq4sg.png",
+        "themeColor": null,
+        "icons": [
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          },
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          }
+        ]
+      },
+      "body": {
+        "background": "rgb(255, 255, 245)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px"
+      },
+      "documentHeight": 7928,
+      "nav": {
+        "tag": "header",
+        "position": "relative",
+        "height": 70,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none",
+        "zIndex": "auto",
+        "links": [
+          {
+            "text": "",
+            "href": "./"
+          },
+          {
+            "text": "Science",
+            "href": "./science"
+          },
+          {
+            "text": "Blog",
+            "href": "./blog"
+          },
+          {
+            "text": "Merch",
+            "href": "./merch"
+          },
+          {
+            "text": "Buy Offer",
+            "href": "./#product-offer"
+          }
+        ],
+        "buttons": [
+          {
+            "label": ""
+          }
+        ]
+      },
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1fqoifb-container"
+          ],
+          "top": 0,
+          "height": 70,
+          "width": 1440,
+          "position": "fixed",
+          "zIndex": "10",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 5,
+          "buttonCount": 1
+        },
+        {
+          "index": 1,
+          "tag": "style",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "none",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 2,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-e1I68",
+            "framer-IL2Bc",
+            "framer-6vZcJ",
+            "framer-sEPqd",
+            "framer-LtWpx",
+            "framer-nS6z5"
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "contents",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "The brazillian science behind your prefered gummy"
+            },
+            {
+              "tag": "h2",
+              "text": "Chosen by people prioritizing their well being"
+            },
+            {
+              "tag": "h1",
+              "text": "4.2h"
+            },
+            {
+              "tag": "h1",
+              "text": "63%"
+            },
+            {
+              "tag": "h1",
+              "text": "96%"
+            },
+            {
+              "tag": "h2",
+              "text": "Natural Ingredients"
+            }
+          ],
+          "imageCount": 9,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 3,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-hey6o4"
+          ],
+          "top": 0,
+          "height": 992,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "The brazillian science behind your prefered gummy"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 4,
+          "tag": "div",
+          "id": "benefits",
+          "classes": [
+            "framer-167cy7o"
+          ],
+          "top": 1056,
+          "height": 745,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Chosen by people prioritizing their well being"
+            },
+            {
+              "tag": "h1",
+              "text": "4.2h"
+            },
+            {
+              "tag": "h1",
+              "text": "63%"
+            },
+            {
+              "tag": "h1",
+              "text": "96%"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 5,
+          "tag": "div",
+          "id": "ingredients",
+          "classes": [
+            "framer-61k9so"
+          ],
+          "top": 1865,
+          "height": 532,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Natural Ingredients"
+            }
+          ],
+          "imageCount": 5,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 6,
+          "tag": "div",
+          "id": "principles",
+          "classes": [
+            "framer-9vet1n"
+          ],
+          "top": 2461,
+          "height": 635,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Rooted in science, built for daily wellness"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 7,
+          "tag": "div",
+          "id": "inside-solene",
+          "classes": [
+            "framer-1v4j96c"
+          ],
+          "top": 3160,
+          "height": 1366,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Inside each solene gummy"
+            },
+            {
+              "tag": "h2",
+              "text": "40g"
+            },
+            {
+              "tag": "h2",
+              "text": "6g"
+            },
+            {
+              "tag": "h2",
+              "text": "2g"
+            },
+            {
+              "tag": "h2",
+              "text": "<1g"
+            },
+            {
+              "tag": "h2",
+              "text": "2g"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 8,
+          "tag": "div",
+          "id": "science",
+          "classes": [
+            "framer-kgk0en"
+          ],
+          "top": 4590,
+          "height": 974,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Solene® outperforms other probiotics."
+            }
+          ],
+          "imageCount": 3,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 9,
+          "tag": "div",
+          "id": "faq",
+          "classes": [
+            "framer-15gdwor"
+          ],
+          "top": 5628,
+          "height": 496,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Frequently asked questions"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 10,
+          "tag": "div",
+          "id": "overlay",
+          "classes": [
+            ""
+          ],
+          "top": 6124,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 11,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-k3ppot"
+          ],
+          "top": 6124,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 12,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1gsaefd-container"
+          ],
+          "top": 6124,
+          "height": 1062,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Daily well-being requires real vitamins"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 1,
+          "buttonCount": 0
+        },
+        {
+          "index": 13,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-6et2sf-container"
+          ],
+          "top": 7187,
+          "height": 741,
+          "width": 1440,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 14,
+          "buttonCount": 0
+        },
+        {
+          "index": 14,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 654,
+          "height": 226,
+          "width": 235,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(255, 255, 255, 0.95)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 2,
+          "buttonCount": 0
+        }
+      ],
+      "typography": [
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(28, 47, 5)",
+          "count": 27,
+          "sample": "More steady energy daily"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "300",
+          "lineHeight": "31.2px",
+          "letterSpacing": "-2.08px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 17,
+          "sample": "Calories"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "300",
+          "lineHeight": "52.8px",
+          "letterSpacing": "-3.3px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 14,
+          "sample": "Chosen by people prioritizing their well being"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "25.2px",
+          "letterSpacing": "-0.72px",
+          "textTransform": "none",
+          "color": "rgb(125, 145, 83)",
+          "count": 12,
+          "sample": "Science"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.14px",
+          "textTransform": "none",
+          "color": "rgb(28, 47, 5)",
+          "count": 10,
+          "sample": "Benefits"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "300",
+          "lineHeight": "61.6px",
+          "letterSpacing": "-4.5px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 5,
+          "sample": "The brazillian science behind your prefered gummy"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.1px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 5,
+          "sample": "Real vitamins crafted to nourish your energy, clarity and ba"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "25.6px",
+          "letterSpacing": "-0.32px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 4,
+          "sample": "VITAMIN D"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "400",
+          "lineHeight": "31.2px",
+          "letterSpacing": "-2.08px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 1,
+          "sample": "Others"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "23.47px",
+          "fontWeight": "400",
+          "lineHeight": "28.164px",
+          "letterSpacing": "-0.2347px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "®"
+        },
+        {
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(0, 0, 238)",
+          "count": 1,
+          "sample": "Create a free website with Framer, the website builder loved"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "800",
+          "lineHeight": "17.6px",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(0, 0, 0)",
+          "count": 1,
+          "sample": "BUY LICENSE TO PUBLISH YOUR STORE"
+        },
+        {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "300",
+          "lineHeight": "16.8px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgba(0, 0, 0, 0.6)",
+          "count": 1,
+          "sample": "Ready to remove this banner? Purchase & activate a license t"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "800",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "BUY LICENCE"
+        }
+      ],
+      "colors": [
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 442
+        },
+        {
+          "value": "rgb(28, 47, 5)",
+          "count": 96
+        },
+        {
+          "value": "rgb(74, 91, 53)",
+          "count": 76
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 40
+        },
+        {
+          "value": "rgb(0, 0, 238)",
+          "count": 30
+        },
+        {
+          "value": "rgb(243, 243, 243)",
+          "count": 6
+        },
+        {
+          "value": "rgb(125, 145, 83)",
+          "count": 1
+        },
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.7)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.6)",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 9
+        },
+        {
+          "value": "rgb(235, 236, 221)",
+          "count": 9
+        },
+        {
+          "value": "rgb(125, 145, 83)",
+          "count": 7
+        },
+        {
+          "value": "rgb(28, 47, 5)",
+          "count": 4
+        },
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 2
+        },
+        {
+          "value": "rgb(252, 236, 171)",
+          "count": 1
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 1
+        },
+        {
+          "value": "rgba(255, 255, 255, 0.95)",
+          "count": 1
+        },
+        {
+          "value": "rgb(64, 212, 26)",
+          "count": 1
+        }
+      ],
+      "radii": [
+        {
+          "value": "25px",
+          "count": 15
+        },
+        {
+          "value": "64px",
+          "count": 7
+        },
+        {
+          "value": "100%",
+          "count": 6
+        },
+        {
+          "value": "24px",
+          "count": 6
+        },
+        {
+          "value": "32px",
+          "count": 4
+        },
+        {
+          "value": "999px",
+          "count": 4
+        },
+        {
+          "value": "16px",
+          "count": 4
+        },
+        {
+          "value": "13px",
+          "count": 3
+        },
+        {
+          "value": "6px",
+          "count": 3
+        },
+        {
+          "value": "10px",
+          "count": 2
+        },
+        {
+          "value": "24.81px",
+          "count": 2
+        },
+        {
+          "value": "11px",
+          "count": 2
+        },
+        {
+          "value": "759px",
+          "count": 1
+        },
+        {
+          "value": "100px",
+          "count": 1
+        },
+        {
+          "value": "15px",
+          "count": 1
+        }
+      ],
+      "shadows": [
+        {
+          "value": "rgba(10, 13, 20, 0.03) 0px 1px 2px 0px",
+          "count": 4
+        },
+        {
+          "value": "rgb(0, 0, 0) 0px 0px 0px 1px inset",
+          "count": 2
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px, rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px, rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.08) 0px 5px 20px 0px",
+          "count": 1
+        }
+      ],
+      "transitions": [
+        {
+          "selector": "a",
+          "property": "background-color",
+          "duration": "0.2s",
+          "timing": "ease",
+          "delay": "0s"
+        }
+      ],
+      "animations": [],
+      "images": [
+        {
+          "alt": "A woman with white blouse hugging jars of gummy",
+          "naturalWidth": 2752,
+          "naturalHeight": 1536,
+          "renderedWidth": 1376,
+          "renderedHeight": 549,
+          "aspect": 2.506,
+          "objectFit": "cover",
+          "borderRadius": "32px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/1RuwEXWhJJOaHQnRy25a5FBPU.png"
+        },
+        {
+          "alt": "Many peach, two cinnamon on table",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 433,
+          "renderedHeight": 311,
+          "aspect": 1.392,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/HTvg06VmV2l1gPBwQVQz79niBg.jpg"
+        },
+        {
+          "alt": "Many guarana and khaki Yellow",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 433,
+          "renderedHeight": 311,
+          "aspect": 1.392,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/CB4rbMRHV8B0bE08J9ACye0tBvs.jpg"
+        },
+        {
+          "alt": "A woman placing broccoli and cabbage in a glass jar with spices on a wooden table.",
+          "naturalWidth": 1000,
+          "naturalHeight": 668,
+          "renderedWidth": 433,
+          "renderedHeight": 311,
+          "aspect": 1.392,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/Q3UThFYly3BmZoJ603Ex3f5YoA.jpg"
+        },
+        {
+          "alt": "Many Red raspberries, Blueberries and Blackberries",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 433,
+          "renderedHeight": 311,
+          "aspect": 1.392,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/XmpEXoFarRrLRtecAr2P0E8HQtc.jpg"
+        },
+        {
+          "alt": "Lots of passion fruit mousse in glass jars",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 433,
+          "renderedHeight": 311,
+          "aspect": 1.392,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/QntchFpCLPEaypTw5Ool9uQNcNw.jpg"
+        },
+        {
+          "alt": "Plants turn yellow in the sunlight and green under the blue sky.",
+          "naturalWidth": 1440,
+          "naturalHeight": 803,
+          "renderedWidth": 1440,
+          "renderedHeight": 974,
+          "aspect": 1.478,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/sCxcRvVDKPLwos0pyzEzNfOA.png"
+        },
+        {
+          "alt": null,
+          "naturalWidth": 1376,
+          "naturalHeight": 802,
+          "renderedWidth": 1376,
+          "renderedHeight": 846,
+          "aspect": 1.626,
+          "objectFit": "fill",
+          "borderRadius": "24px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/rt7EhbM0b89GV3Exm5VCRoV728Q.png"
+        },
+        {
+          "alt": "Gummy",
+          "naturalWidth": 268,
+          "naturalHeight": 161,
+          "renderedWidth": 268,
+          "renderedHeight": 162,
+          "aspect": 1.657,
+          "objectFit": "contain",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/Mzgz4AmB2aupraPExmtQhpMELI.png"
+        },
+        {
+          "alt": "A pot of gummies on grass and flowers",
+          "naturalWidth": 2422,
+          "naturalHeight": 1348,
+          "renderedWidth": 1376,
+          "renderedHeight": 766,
+          "aspect": 1.797,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/sZiDqyHOMLNkK6k3lDGwXiqc.png"
+        },
+        {
+          "alt": "Logo of solene in grass and flowers",
+          "naturalWidth": 1312,
+          "naturalHeight": 311,
+          "renderedWidth": 1312,
+          "renderedHeight": 311,
+          "aspect": 4.213,
+          "objectFit": "contain",
+          "borderRadius": "0px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png"
+        }
+      ],
+      "videos": [],
+      "backgroundImages": [],
+      "links": [
+        {
+          "text": "",
+          "href": "./",
+          "target": null
+        },
+        {
+          "text": "Science",
+          "href": "./science",
+          "target": null
+        },
+        {
+          "text": "Blog",
+          "href": "./blog",
+          "target": null
+        },
+        {
+          "text": "Merch",
+          "href": "./merch",
+          "target": null
+        },
+        {
+          "text": "Buy Offer",
+          "href": "./#product-offer",
+          "target": null
+        },
+        {
+          "text": "Buy Offer",
+          "href": "./#product-offer",
+          "target": null
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/mainnet-design/",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/mainnetdesign",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/marcaum.eth",
+          "target": "_blank"
+        },
+        {
+          "text": "Benefits",
+          "href": "./#benefits",
+          "target": null
+        },
+        {
+          "text": "Ingredients",
+          "href": "./#ingredients",
+          "target": null
+        },
+        {
+          "text": "Our products",
+          "href": "./#product-offer",
+          "target": null
+        },
+        {
+          "text": "FAQ",
+          "href": "./",
+          "target": null
+        },
+        {
+          "text": "Principles",
+          "href": "./science#principles",
+          "target": null
+        },
+        {
+          "text": "Inside Solene®",
+          "href": "./science#inside-solene",
+          "target": null
+        },
+        {
+          "text": "Our Science",
+          "href": "./science#science",
+          "target": null
+        },
+        {
+          "text": "Blog",
+          "href": "./blog",
+          "target": null
+        },
+        {
+          "text": "Cookies Policy",
+          "href": "./cookies-policy",
+          "target": null
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "./privacy-policy",
+          "target": null
+        },
+        {
+          "text": "Made by Mainnet Design",
+          "href": "https://mainnet.design",
+          "target": "_blank"
+        },
+        {
+          "text": "Create a free website with Framer, the website builder loved",
+          "href": "https://www.framer.com",
+          "target": null
+        },
+        {
+          "text": "BUY LICENCE",
+          "href": "https://buy.stripe.com/eVq5kD4OpeF8ea3cZ35EY0U",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://frameship.io",
+          "target": "_blank"
+        }
+      ],
+      "fonts": [
+        "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+        "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+        "sans-serif",
+        "\"Bricolage Grotesque\", sans-serif",
+        "\"DM Sans\", sans-serif"
+      ],
+      "fontFaces": [
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MUlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MQlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRR232VGM.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs4OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs9OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHszOX8.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-eNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-aNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-iNGQ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/2uIBiALfCHVpWbHqRMZutfT7giU.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Zwfz6xbVe5pmcWRJRgBDHnMkOkI.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/U9LaDDmbRhzX3sB8g8glTy5feTE.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/tVew2LzXJ1t7QfxP1gdTIdj2o0g.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/DF7bjCRmStYPqSb945lAlMfCCVQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/vebZUMjGyKkYsfcY73iwWTzLNag.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/I11LrmuBDQZweplJ62KkVsklU5Y.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UjFZPDy3qGuDktQM4q9CxhKfIa8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/8exwVHJy2DhJ4N5prYlVMrEKmQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UTeedEK21hO5jDxEUldzdScUqpg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Ig8B8nzy11hzIWEIYnkg91sofjo.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qctQFoJqJ9aIbRSIp0AhCQpFxn8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/fXvVh2JeZlehNcEhKHpHH0frSl0.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/7pScaNeb6M7n2HF2jKemDqzCIr4.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/qS4UjQYyATcVV9rODk0Zx9KhkY8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/VfD2n20yM7v0hrUEBHEyafsmMBY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/4oIO9fB59bn3cKFWz7piCj28z9s.woff2\")"
+        }
+      ],
+      "network": [
+        {
+          "host": "framerusercontent.com",
+          "path": "/third-party-assets/fontshare/wf/V3W76YFX56LHDI4L2YCUHVKHPKZBIKAN/M3TT7YNRG6JDNQ43ORZDMQALV7UWUWJX/LXYZEGIPPSH34NI6VM2IBVPJA64JZILW.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/1RuwEXWhJJOaHQnRy25a5FBPU.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/third-party-assets/fontshare/wf/QMIUKUCANYOW3DZTE34ZMVXC7KRYZNCO/X3SZZ4Z5SZNM5K75FPPASQ2YRIJMIPUD/G2K4CBVGEH7VFVIC3T6GBHAWO2E2W7YQ.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/iwWTDc49ENF2tCHbqlNARXw6Ug.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "path": "/css2",
+          "type": "stylesheet",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/HTvg06VmV2l1gPBwQVQz79niBg.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/QntchFpCLPEaypTw5Ool9uQNcNw.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2Hp2ywxg089UriCZOIHTWEBlw.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInHWVyNJ.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/CB4rbMRHV8B0bE08J9ACye0tBvs.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/XmpEXoFarRrLRtecAr2P0E8HQtc.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/Q3UThFYly3BmZoJ603Ex3f5YoA.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/sCxcRvVDKPLwos0pyzEzNfOA.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/rt7EhbM0b89GV3Exm5VCRoV728Q.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/Mzgz4AmB2aupraPExmtQhpMELI.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/sZiDqyHOMLNkK6k3lDGwXiqc.png",
+          "type": "image",
+          "status": 200
+        }
+      ]
+    },
+    "tablet": {
+      "url": "https://solene.framer.ai/science",
+      "title": "Solene",
+      "meta": {
+        "description": "High-quality multivitamin made in Brazil utilizing natural substracts.",
+        "ogImage": "https://framerusercontent.com/images/hHlsB9FEy8N2mvzSnxvgsOq4sg.png",
+        "themeColor": null,
+        "icons": [
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          },
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          }
+        ]
+      },
+      "body": {
+        "background": "rgb(255, 255, 245)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px"
+      },
+      "documentHeight": 7561,
+      "nav": {
+        "tag": "header",
+        "position": "relative",
+        "height": 70,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none",
+        "zIndex": "auto",
+        "links": [
+          {
+            "text": "",
+            "href": "./"
+          },
+          {
+            "text": "Science",
+            "href": "./science"
+          },
+          {
+            "text": "Blog",
+            "href": "./blog"
+          },
+          {
+            "text": "Merch",
+            "href": "./merch"
+          },
+          {
+            "text": "Buy Offer",
+            "href": "./#product-offer"
+          }
+        ],
+        "buttons": [
+          {
+            "label": ""
+          }
+        ]
+      },
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1fqoifb-container"
+          ],
+          "top": 0,
+          "height": 70,
+          "width": 768,
+          "position": "fixed",
+          "zIndex": "10",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 5,
+          "buttonCount": 1
+        },
+        {
+          "index": 1,
+          "tag": "style",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "none",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 2,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-e1I68",
+            "framer-IL2Bc",
+            "framer-6vZcJ",
+            "framer-sEPqd",
+            "framer-LtWpx",
+            "framer-nS6z5"
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "contents",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "The brazillian science behind your prefered gummy"
+            },
+            {
+              "tag": "h2",
+              "text": "Chosen by people prioritizing their well being"
+            },
+            {
+              "tag": "h1",
+              "text": "4.2h"
+            },
+            {
+              "tag": "h1",
+              "text": "63%"
+            },
+            {
+              "tag": "h1",
+              "text": "96%"
+            },
+            {
+              "tag": "h2",
+              "text": "Natural Ingredients"
+            }
+          ],
+          "imageCount": 9,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 3,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-hey6o4"
+          ],
+          "top": 0,
+          "height": 955,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "The brazillian science behind your prefered gummy"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 4,
+          "tag": "div",
+          "id": "benefits",
+          "classes": [
+            "framer-167cy7o"
+          ],
+          "top": 955,
+          "height": 1034,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Chosen by people prioritizing their well being"
+            },
+            {
+              "tag": "h1",
+              "text": "4.2h"
+            },
+            {
+              "tag": "h1",
+              "text": "63%"
+            },
+            {
+              "tag": "h1",
+              "text": "96%"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 5,
+          "tag": "div",
+          "id": "ingredients",
+          "classes": [
+            "framer-61k9so"
+          ],
+          "top": 1989,
+          "height": 501,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Natural Ingredients"
+            }
+          ],
+          "imageCount": 5,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 6,
+          "tag": "div",
+          "id": "principles",
+          "classes": [
+            "framer-9vet1n"
+          ],
+          "top": 2491,
+          "height": 801,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Rooted in science, built for daily wellness"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 7,
+          "tag": "div",
+          "id": "inside-solene",
+          "classes": [
+            "framer-1v4j96c"
+          ],
+          "top": 3292,
+          "height": 1320,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Inside each solene gummy"
+            },
+            {
+              "tag": "h2",
+              "text": "40g"
+            },
+            {
+              "tag": "h2",
+              "text": "6g"
+            },
+            {
+              "tag": "h2",
+              "text": "2g"
+            },
+            {
+              "tag": "h2",
+              "text": "<1g"
+            },
+            {
+              "tag": "h2",
+              "text": "2g"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 8,
+          "tag": "div",
+          "id": "science",
+          "classes": [
+            "framer-kgk0en"
+          ],
+          "top": 4612,
+          "height": 803,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Solene® outperforms other probiotics."
+            }
+          ],
+          "imageCount": 3,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 9,
+          "tag": "div",
+          "id": "faq",
+          "classes": [
+            "framer-15gdwor"
+          ],
+          "top": 5415,
+          "height": 755,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Frequently asked questions"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 10,
+          "tag": "div",
+          "id": "overlay",
+          "classes": [
+            ""
+          ],
+          "top": 6171,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 11,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-k3ppot"
+          ],
+          "top": 6171,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 12,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1gsaefd-container"
+          ],
+          "top": 6171,
+          "height": 704,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Daily well-being requires real vitamins"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 1,
+          "buttonCount": 0
+        },
+        {
+          "index": 13,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-6et2sf-container"
+          ],
+          "top": 6875,
+          "height": 686,
+          "width": 768,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 14,
+          "buttonCount": 0
+        },
+        {
+          "index": 14,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 778,
+          "height": 226,
+          "width": 235,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(255, 255, 255, 0.95)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 2,
+          "buttonCount": 0
+        }
+      ],
+      "typography": [
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(28, 47, 5)",
+          "count": 27,
+          "sample": "More steady energy daily"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "26.4px",
+          "letterSpacing": "-1.76px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 17,
+          "sample": "Calories"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "42px",
+          "fontWeight": "300",
+          "lineHeight": "46.2px",
+          "letterSpacing": "-3.3px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 14,
+          "sample": "Chosen by people prioritizing their well being"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22.4px",
+          "letterSpacing": "-0.64px",
+          "textTransform": "none",
+          "color": "rgb(125, 145, 83)",
+          "count": 12,
+          "sample": "Science"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.14px",
+          "textTransform": "none",
+          "color": "rgb(28, 47, 5)",
+          "count": 10,
+          "sample": "Benefits"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "50px",
+          "fontWeight": "300",
+          "lineHeight": "55px",
+          "letterSpacing": "-4.5px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 5,
+          "sample": "The brazillian science behind your prefered gummy"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "-0.1px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 5,
+          "sample": "Real vitamins crafted to nourish your energy, clarity and ba"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "22.4px",
+          "letterSpacing": "-0.28px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 4,
+          "sample": "VITAMIN D"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "-1.76px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 1,
+          "sample": "Others"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "23.47px",
+          "fontWeight": "400",
+          "lineHeight": "28.164px",
+          "letterSpacing": "-0.2347px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "®"
+        },
+        {
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(0, 0, 238)",
+          "count": 1,
+          "sample": "Create a free website with Framer, the website builder loved"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "800",
+          "lineHeight": "17.6px",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(0, 0, 0)",
+          "count": 1,
+          "sample": "BUY LICENSE TO PUBLISH YOUR STORE"
+        },
+        {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "300",
+          "lineHeight": "16.8px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgba(0, 0, 0, 0.6)",
+          "count": 1,
+          "sample": "Ready to remove this banner? Purchase & activate a license t"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "800",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "BUY LICENCE"
+        }
+      ],
+      "colors": [
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 442
+        },
+        {
+          "value": "rgb(28, 47, 5)",
+          "count": 96
+        },
+        {
+          "value": "rgb(74, 91, 53)",
+          "count": 76
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 40
+        },
+        {
+          "value": "rgb(0, 0, 238)",
+          "count": 30
+        },
+        {
+          "value": "rgb(243, 243, 243)",
+          "count": 6
+        },
+        {
+          "value": "rgb(125, 145, 83)",
+          "count": 1
+        },
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.7)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.6)",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "rgb(235, 236, 221)",
+          "count": 9
+        },
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 8
+        },
+        {
+          "value": "rgb(125, 145, 83)",
+          "count": 7
+        },
+        {
+          "value": "rgb(28, 47, 5)",
+          "count": 4
+        },
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 2
+        },
+        {
+          "value": "rgb(252, 236, 171)",
+          "count": 1
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 1
+        },
+        {
+          "value": "rgba(255, 255, 255, 0.95)",
+          "count": 1
+        },
+        {
+          "value": "rgb(64, 212, 26)",
+          "count": 1
+        }
+      ],
+      "radii": [
+        {
+          "value": "25px",
+          "count": 15
+        },
+        {
+          "value": "64px",
+          "count": 7
+        },
+        {
+          "value": "100%",
+          "count": 6
+        },
+        {
+          "value": "24px",
+          "count": 6
+        },
+        {
+          "value": "32px",
+          "count": 4
+        },
+        {
+          "value": "999px",
+          "count": 4
+        },
+        {
+          "value": "16px",
+          "count": 4
+        },
+        {
+          "value": "13px",
+          "count": 3
+        },
+        {
+          "value": "6px",
+          "count": 3
+        },
+        {
+          "value": "10px",
+          "count": 2
+        },
+        {
+          "value": "24.81px",
+          "count": 2
+        },
+        {
+          "value": "11px",
+          "count": 2
+        },
+        {
+          "value": "759px",
+          "count": 1
+        },
+        {
+          "value": "100px",
+          "count": 1
+        },
+        {
+          "value": "15px",
+          "count": 1
+        }
+      ],
+      "shadows": [
+        {
+          "value": "rgba(10, 13, 20, 0.03) 0px 1px 2px 0px",
+          "count": 4
+        },
+        {
+          "value": "rgb(0, 0, 0) 0px 0px 0px 1px inset",
+          "count": 2
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px, rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px, rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.08) 0px 5px 20px 0px",
+          "count": 1
+        }
+      ],
+      "transitions": [
+        {
+          "selector": "a",
+          "property": "background-color",
+          "duration": "0.2s",
+          "timing": "ease",
+          "delay": "0s"
+        }
+      ],
+      "animations": [],
+      "images": [
+        {
+          "alt": "A woman with white blouse hugging jars of gummy",
+          "naturalWidth": 2752,
+          "naturalHeight": 1536,
+          "renderedWidth": 704,
+          "renderedHeight": 549,
+          "aspect": 1.282,
+          "objectFit": "cover",
+          "borderRadius": "32px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/1RuwEXWhJJOaHQnRy25a5FBPU.png"
+        },
+        {
+          "alt": "Many peach, two cinnamon on table",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 433,
+          "renderedHeight": 311,
+          "aspect": 1.392,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/HTvg06VmV2l1gPBwQVQz79niBg.jpg"
+        },
+        {
+          "alt": "Many guarana and khaki Yellow",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 433,
+          "renderedHeight": 311,
+          "aspect": 1.392,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/CB4rbMRHV8B0bE08J9ACye0tBvs.jpg"
+        },
+        {
+          "alt": "A woman placing broccoli and cabbage in a glass jar with spices on a wooden table.",
+          "naturalWidth": 1000,
+          "naturalHeight": 668,
+          "renderedWidth": 433,
+          "renderedHeight": 311,
+          "aspect": 1.392,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/Q3UThFYly3BmZoJ603Ex3f5YoA.jpg"
+        },
+        {
+          "alt": "Many Red raspberries, Blueberries and Blackberries",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 433,
+          "renderedHeight": 311,
+          "aspect": 1.392,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/XmpEXoFarRrLRtecAr2P0E8HQtc.jpg"
+        },
+        {
+          "alt": "Lots of passion fruit mousse in glass jars",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 433,
+          "renderedHeight": 311,
+          "aspect": 1.392,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/QntchFpCLPEaypTw5Ool9uQNcNw.jpg"
+        },
+        {
+          "alt": "Plants turn yellow in the sunlight and green under the blue sky.",
+          "naturalWidth": 768,
+          "naturalHeight": 429,
+          "renderedWidth": 768,
+          "renderedHeight": 803,
+          "aspect": 0.956,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/sCxcRvVDKPLwos0pyzEzNfOA.png"
+        },
+        {
+          "alt": null,
+          "naturalWidth": 704,
+          "naturalHeight": 410,
+          "renderedWidth": 704,
+          "renderedHeight": 675,
+          "aspect": 1.043,
+          "objectFit": "fill",
+          "borderRadius": "24px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/rt7EhbM0b89GV3Exm5VCRoV728Q.png"
+        },
+        {
+          "alt": "Gummy",
+          "naturalWidth": 268,
+          "naturalHeight": 161,
+          "renderedWidth": 268,
+          "renderedHeight": 162,
+          "aspect": 1.657,
+          "objectFit": "contain",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/Mzgz4AmB2aupraPExmtQhpMELI.png"
+        },
+        {
+          "alt": "A pot of gummies on grass and flowers",
+          "naturalWidth": 2422,
+          "naturalHeight": 1348,
+          "renderedWidth": 704,
+          "renderedHeight": 392,
+          "aspect": 1.797,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/sZiDqyHOMLNkK6k3lDGwXiqc.png"
+        },
+        {
+          "alt": "Logo of solene in grass and flowers",
+          "naturalWidth": 640,
+          "naturalHeight": 151,
+          "renderedWidth": 640,
+          "renderedHeight": 152,
+          "aspect": 4.214,
+          "objectFit": "contain",
+          "borderRadius": "0px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png"
+        }
+      ],
+      "videos": [],
+      "backgroundImages": [],
+      "links": [
+        {
+          "text": "",
+          "href": "./",
+          "target": null
+        },
+        {
+          "text": "Science",
+          "href": "./science",
+          "target": null
+        },
+        {
+          "text": "Blog",
+          "href": "./blog",
+          "target": null
+        },
+        {
+          "text": "Merch",
+          "href": "./merch",
+          "target": null
+        },
+        {
+          "text": "Buy Offer",
+          "href": "./#product-offer",
+          "target": null
+        },
+        {
+          "text": "Buy Offer",
+          "href": "./#product-offer",
+          "target": null
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/mainnet-design/",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/mainnetdesign",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/marcaum.eth",
+          "target": "_blank"
+        },
+        {
+          "text": "Benefits",
+          "href": "./#benefits",
+          "target": null
+        },
+        {
+          "text": "Ingredients",
+          "href": "./#ingredients",
+          "target": null
+        },
+        {
+          "text": "Our products",
+          "href": "./#product-offer",
+          "target": null
+        },
+        {
+          "text": "FAQ",
+          "href": "./",
+          "target": null
+        },
+        {
+          "text": "Principles",
+          "href": "./science#principles",
+          "target": null
+        },
+        {
+          "text": "Inside Solene®",
+          "href": "./science#inside-solene",
+          "target": null
+        },
+        {
+          "text": "Our Science",
+          "href": "./science#science",
+          "target": null
+        },
+        {
+          "text": "Blog",
+          "href": "./blog",
+          "target": null
+        },
+        {
+          "text": "Cookies Policy",
+          "href": "./cookies-policy",
+          "target": null
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "./privacy-policy",
+          "target": null
+        },
+        {
+          "text": "Made by Mainnet Design",
+          "href": "https://mainnet.design",
+          "target": "_blank"
+        },
+        {
+          "text": "Create a free website with Framer, the website builder loved",
+          "href": "https://www.framer.com",
+          "target": null
+        },
+        {
+          "text": "BUY LICENCE",
+          "href": "https://buy.stripe.com/eVq5kD4OpeF8ea3cZ35EY0U",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://frameship.io",
+          "target": "_blank"
+        }
+      ],
+      "fonts": [
+        "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+        "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+        "sans-serif",
+        "\"Bricolage Grotesque\", sans-serif",
+        "\"DM Sans\", sans-serif"
+      ],
+      "fontFaces": [
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MUlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MQlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRR232VGM.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs4OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs9OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHszOX8.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-eNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-aNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-iNGQ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/2uIBiALfCHVpWbHqRMZutfT7giU.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Zwfz6xbVe5pmcWRJRgBDHnMkOkI.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/U9LaDDmbRhzX3sB8g8glTy5feTE.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/tVew2LzXJ1t7QfxP1gdTIdj2o0g.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/DF7bjCRmStYPqSb945lAlMfCCVQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/vebZUMjGyKkYsfcY73iwWTzLNag.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/I11LrmuBDQZweplJ62KkVsklU5Y.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UjFZPDy3qGuDktQM4q9CxhKfIa8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/8exwVHJy2DhJ4N5prYlVMrEKmQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UTeedEK21hO5jDxEUldzdScUqpg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Ig8B8nzy11hzIWEIYnkg91sofjo.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qctQFoJqJ9aIbRSIp0AhCQpFxn8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/fXvVh2JeZlehNcEhKHpHH0frSl0.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/7pScaNeb6M7n2HF2jKemDqzCIr4.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/qS4UjQYyATcVV9rODk0Zx9KhkY8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/VfD2n20yM7v0hrUEBHEyafsmMBY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/4oIO9fB59bn3cKFWz7piCj28z9s.woff2\")"
+        }
+      ],
+      "network": [
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/1RuwEXWhJJOaHQnRy25a5FBPU.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/third-party-assets/fontshare/wf/QMIUKUCANYOW3DZTE34ZMVXC7KRYZNCO/X3SZZ4Z5SZNM5K75FPPASQ2YRIJMIPUD/G2K4CBVGEH7VFVIC3T6GBHAWO2E2W7YQ.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/third-party-assets/fontshare/wf/V3W76YFX56LHDI4L2YCUHVKHPKZBIKAN/M3TT7YNRG6JDNQ43ORZDMQALV7UWUWJX/LXYZEGIPPSH34NI6VM2IBVPJA64JZILW.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/iwWTDc49ENF2tCHbqlNARXw6Ug.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/CB4rbMRHV8B0bE08J9ACye0tBvs.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/Q3UThFYly3BmZoJ603Ex3f5YoA.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/XmpEXoFarRrLRtecAr2P0E8HQtc.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/QntchFpCLPEaypTw5Ool9uQNcNw.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/HTvg06VmV2l1gPBwQVQz79niBg.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "path": "/css2",
+          "type": "stylesheet",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInHWVyNJ.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2Hp2ywxg089UriCZOIHTWEBlw.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/rt7EhbM0b89GV3Exm5VCRoV728Q.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/Mzgz4AmB2aupraPExmtQhpMELI.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/sCxcRvVDKPLwos0pyzEzNfOA.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/sZiDqyHOMLNkK6k3lDGwXiqc.png",
+          "type": "image",
+          "status": 200
+        }
+      ]
+    },
+    "mobile": {
+      "url": "https://solene.framer.ai/science",
+      "title": "Solene",
+      "meta": {
+        "description": "High-quality multivitamin made in Brazil utilizing natural substracts.",
+        "ogImage": "https://framerusercontent.com/images/hHlsB9FEy8N2mvzSnxvgsOq4sg.png",
+        "themeColor": null,
+        "icons": [
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          },
+          {
+            "rel": "icon",
+            "href": "https://framerusercontent.com/images/OSjiWMpXziuHy9XPjrRgupA01Q4.png",
+            "sizes": null
+          }
+        ]
+      },
+      "body": {
+        "background": "rgb(255, 255, 245)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px"
+      },
+      "documentHeight": 8262,
+      "nav": {
+        "tag": "header",
+        "position": "relative",
+        "height": 70,
+        "background": "rgba(0, 0, 0, 0)",
+        "backdropFilter": "none",
+        "zIndex": "auto",
+        "links": [
+          {
+            "text": "",
+            "href": "./"
+          }
+        ],
+        "buttons": [
+          {
+            "label": ""
+          }
+        ]
+      },
+      "sections": [
+        {
+          "index": 0,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1fqoifb-container"
+          ],
+          "top": 0,
+          "height": 70,
+          "width": 390,
+          "position": "fixed",
+          "zIndex": "10",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 1,
+          "buttonCount": 1
+        },
+        {
+          "index": 1,
+          "tag": "style",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "none",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 2,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-e1I68",
+            "framer-IL2Bc",
+            "framer-6vZcJ",
+            "framer-sEPqd",
+            "framer-LtWpx",
+            "framer-nS6z5"
+          ],
+          "top": 0,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgb(255, 255, 245)",
+          "backgroundImage": null,
+          "display": "contents",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "The brazillian science behind your prefered gummy"
+            },
+            {
+              "tag": "h2",
+              "text": "Chosen by people prioritizing their well being"
+            },
+            {
+              "tag": "h1",
+              "text": "4.2h"
+            },
+            {
+              "tag": "h1",
+              "text": "63%"
+            },
+            {
+              "tag": "h1",
+              "text": "96%"
+            },
+            {
+              "tag": "h2",
+              "text": "Natural Ingredients"
+            }
+          ],
+          "imageCount": 26,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 2
+        },
+        {
+          "index": 3,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-hey6o4"
+          ],
+          "top": 0,
+          "height": 1015,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "The brazillian science behind your prefered gummy"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 4,
+          "tag": "div",
+          "id": "benefits",
+          "classes": [
+            "framer-167cy7o"
+          ],
+          "top": 1015,
+          "height": 1161,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Chosen by people prioritizing their well being"
+            },
+            {
+              "tag": "h1",
+              "text": "4.2h"
+            },
+            {
+              "tag": "h1",
+              "text": "63%"
+            },
+            {
+              "tag": "h1",
+              "text": "96%"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 5,
+          "tag": "div",
+          "id": "ingredients",
+          "classes": [
+            "framer-61k9so"
+          ],
+          "top": 2176,
+          "height": 596,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Natural Ingredients"
+            }
+          ],
+          "imageCount": 22,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 2
+        },
+        {
+          "index": 6,
+          "tag": "div",
+          "id": "principles",
+          "classes": [
+            "framer-9vet1n"
+          ],
+          "top": 2771,
+          "height": 1070,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Rooted in science, built for daily wellness"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 7,
+          "tag": "div",
+          "id": "inside-solene",
+          "classes": [
+            "framer-1v4j96c"
+          ],
+          "top": 3841,
+          "height": 1448,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Inside each solene gummy"
+            },
+            {
+              "tag": "h2",
+              "text": "40g"
+            },
+            {
+              "tag": "h2",
+              "text": "6g"
+            },
+            {
+              "tag": "h2",
+              "text": "2g"
+            },
+            {
+              "tag": "h2",
+              "text": "<1g"
+            },
+            {
+              "tag": "h2",
+              "text": "2g"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 8,
+          "tag": "div",
+          "id": "science",
+          "classes": [
+            "framer-kgk0en"
+          ],
+          "top": 5290,
+          "height": 857,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Solene® outperforms other probiotics."
+            }
+          ],
+          "imageCount": 3,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 9,
+          "tag": "div",
+          "id": "faq",
+          "classes": [
+            "framer-15gdwor"
+          ],
+          "top": 6147,
+          "height": 805,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Frequently asked questions"
+            }
+          ],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 10,
+          "tag": "div",
+          "id": "overlay",
+          "classes": [
+            ""
+          ],
+          "top": 6952,
+          "height": 0,
+          "width": 0,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 11,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-k3ppot"
+          ],
+          "top": 6952,
+          "height": 0,
+          "width": 0,
+          "position": "relative",
+          "zIndex": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 0,
+          "buttonCount": 0
+        },
+        {
+          "index": 12,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-1gsaefd-container"
+          ],
+          "top": 6952,
+          "height": 555,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Daily well-being requires real vitamins"
+            }
+          ],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 1,
+          "buttonCount": 0
+        },
+        {
+          "index": 13,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            "framer-6et2sf-container"
+          ],
+          "top": 7508,
+          "height": 754,
+          "width": 390,
+          "position": "relative",
+          "zIndex": "8",
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": null,
+          "display": "block",
+          "headings": [],
+          "imageCount": 1,
+          "videoCount": 0,
+          "linkCount": 14,
+          "buttonCount": 0
+        },
+        {
+          "index": 14,
+          "tag": "div",
+          "id": null,
+          "classes": [
+            ""
+          ],
+          "top": 598,
+          "height": 226,
+          "width": 235,
+          "position": "static",
+          "zIndex": "auto",
+          "background": "rgba(255, 255, 255, 0.95)",
+          "backgroundImage": null,
+          "display": "flex",
+          "headings": [],
+          "imageCount": 0,
+          "videoCount": 0,
+          "linkCount": 2,
+          "buttonCount": 0
+        }
+      ],
+      "typography": [
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "14.4px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(28, 47, 5)",
+          "count": 25,
+          "sample": "More steady energy daily"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "22px",
+          "fontWeight": "300",
+          "lineHeight": "26.4px",
+          "letterSpacing": "-1.76px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 17,
+          "sample": "Calories"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "38px",
+          "fontWeight": "300",
+          "lineHeight": "41.8px",
+          "letterSpacing": "-3.3px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 14,
+          "sample": "Chosen by people prioritizing their well being"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "-0.12px",
+          "textTransform": "none",
+          "color": "rgb(28, 47, 5)",
+          "count": 10,
+          "sample": "Benefits"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22.4px",
+          "letterSpacing": "-0.64px",
+          "textTransform": "none",
+          "color": "rgb(28, 47, 5)",
+          "count": 8,
+          "sample": "Evidence based formula"
+        },
+        {
+          "fontFamily": "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+          "fontSize": "46px",
+          "fontWeight": "300",
+          "lineHeight": "50.6px",
+          "letterSpacing": "-4.5px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 5,
+          "sample": "The brazillian science behind your prefered gummy"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "21px",
+          "letterSpacing": "-0.1px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 5,
+          "sample": "Real vitamins crafted to nourish your energy, clarity and ba"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "22.4px",
+          "letterSpacing": "-0.28px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 2,
+          "sample": "VITAMIN D"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "22.4px",
+          "letterSpacing": "-0.64px",
+          "textTransform": "none",
+          "color": "rgb(74, 91, 53)",
+          "count": 1,
+          "sample": "Others"
+        },
+        {
+          "fontFamily": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+          "fontSize": "23.47px",
+          "fontWeight": "400",
+          "lineHeight": "28.164px",
+          "letterSpacing": "-0.2347px",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "®"
+        },
+        {
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(0, 0, 238)",
+          "count": 1,
+          "sample": "Create a free website with Framer, the website builder loved"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "800",
+          "lineHeight": "17.6px",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(0, 0, 0)",
+          "count": 1,
+          "sample": "BUY LICENSE TO PUBLISH YOUR STORE"
+        },
+        {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "300",
+          "lineHeight": "16.8px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgba(0, 0, 0, 0.6)",
+          "count": 1,
+          "sample": "Ready to remove this banner? Purchase & activate a license t"
+        },
+        {
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": "800",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(255, 255, 255)",
+          "count": 1,
+          "sample": "BUY LICENCE"
+        }
+      ],
+      "colors": [
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 502
+        },
+        {
+          "value": "rgb(28, 47, 5)",
+          "count": 86
+        },
+        {
+          "value": "rgb(74, 91, 53)",
+          "count": 73
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 35
+        },
+        {
+          "value": "rgb(0, 0, 238)",
+          "count": 28
+        },
+        {
+          "value": "rgb(243, 243, 243)",
+          "count": 6
+        },
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.7)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.6)",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "rgb(255, 255, 245)",
+          "count": 8
+        },
+        {
+          "value": "rgb(125, 145, 83)",
+          "count": 8
+        },
+        {
+          "value": "rgb(235, 236, 221)",
+          "count": 8
+        },
+        {
+          "value": "rgb(28, 47, 5)",
+          "count": 4
+        },
+        {
+          "value": "rgb(0, 0, 0)",
+          "count": 2
+        },
+        {
+          "value": "rgb(252, 236, 171)",
+          "count": 1
+        },
+        {
+          "value": "rgb(255, 255, 255)",
+          "count": 1
+        },
+        {
+          "value": "rgba(255, 255, 255, 0.95)",
+          "count": 1
+        },
+        {
+          "value": "rgb(64, 212, 26)",
+          "count": 1
+        }
+      ],
+      "radii": [
+        {
+          "value": "25px",
+          "count": 60
+        },
+        {
+          "value": "100%",
+          "count": 6
+        },
+        {
+          "value": "64px",
+          "count": 6
+        },
+        {
+          "value": "24px",
+          "count": 6
+        },
+        {
+          "value": "16px",
+          "count": 5
+        },
+        {
+          "value": "999px",
+          "count": 4
+        },
+        {
+          "value": "32px",
+          "count": 3
+        },
+        {
+          "value": "13px",
+          "count": 3
+        },
+        {
+          "value": "6px",
+          "count": 3
+        },
+        {
+          "value": "40px",
+          "count": 2
+        },
+        {
+          "value": "11px",
+          "count": 2
+        },
+        {
+          "value": "759px",
+          "count": 1
+        },
+        {
+          "value": "100px",
+          "count": 1
+        },
+        {
+          "value": "24.81px",
+          "count": 1
+        },
+        {
+          "value": "10px",
+          "count": 1
+        }
+      ],
+      "shadows": [
+        {
+          "value": "rgba(10, 13, 20, 0.03) 0px 1px 2px 0px",
+          "count": 4
+        },
+        {
+          "value": "rgb(0, 0, 0) 0px 0px 0px 1px inset",
+          "count": 2
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px, rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px, rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px",
+          "count": 1
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.08) 0px 5px 20px 0px",
+          "count": 1
+        }
+      ],
+      "transitions": [
+        {
+          "selector": "a",
+          "property": "background-color",
+          "duration": "0.2s",
+          "timing": "ease",
+          "delay": "0s"
+        }
+      ],
+      "animations": [],
+      "images": [
+        {
+          "alt": "A woman with white blouse hugging jars of gummy",
+          "naturalWidth": 2752,
+          "naturalHeight": 1536,
+          "renderedWidth": 358,
+          "renderedHeight": 549,
+          "aspect": 0.652,
+          "objectFit": "cover",
+          "borderRadius": "32px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/1RuwEXWhJJOaHQnRy25a5FBPU.png"
+        },
+        {
+          "alt": "Lots of passion fruit mousse in glass jars",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/QntchFpCLPEaypTw5Ool9uQNcNw.jpg"
+        },
+        {
+          "alt": "Many Red raspberries, Blueberries and Blackberries",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/XmpEXoFarRrLRtecAr2P0E8HQtc.jpg"
+        },
+        {
+          "alt": "A woman placing broccoli and cabbage in a glass jar with spices on a wooden table.",
+          "naturalWidth": 1000,
+          "naturalHeight": 668,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/Q3UThFYly3BmZoJ603Ex3f5YoA.jpg"
+        },
+        {
+          "alt": "Many guarana and khaki Yellow",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/CB4rbMRHV8B0bE08J9ACye0tBvs.jpg"
+        },
+        {
+          "alt": "Many peach, two cinnamon on table",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/HTvg06VmV2l1gPBwQVQz79niBg.jpg"
+        },
+        {
+          "alt": "Lots of passion fruit mousse in glass jars",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/QntchFpCLPEaypTw5Ool9uQNcNw.jpg"
+        },
+        {
+          "alt": "Many Red raspberries, Blueberries and Blackberries",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/XmpEXoFarRrLRtecAr2P0E8HQtc.jpg"
+        },
+        {
+          "alt": "A woman placing broccoli and cabbage in a glass jar with spices on a wooden table.",
+          "naturalWidth": 1000,
+          "naturalHeight": 668,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/Q3UThFYly3BmZoJ603Ex3f5YoA.jpg"
+        },
+        {
+          "alt": "Many guarana and khaki Yellow",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/CB4rbMRHV8B0bE08J9ACye0tBvs.jpg"
+        },
+        {
+          "alt": "Many peach, two cinnamon on table",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/HTvg06VmV2l1gPBwQVQz79niBg.jpg"
+        },
+        {
+          "alt": "Lots of passion fruit mousse in glass jars",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/QntchFpCLPEaypTw5Ool9uQNcNw.jpg"
+        },
+        {
+          "alt": "Many Red raspberries, Blueberries and Blackberries",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/XmpEXoFarRrLRtecAr2P0E8HQtc.jpg"
+        },
+        {
+          "alt": "A woman placing broccoli and cabbage in a glass jar with spices on a wooden table.",
+          "naturalWidth": 1000,
+          "naturalHeight": 668,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/Q3UThFYly3BmZoJ603Ex3f5YoA.jpg"
+        },
+        {
+          "alt": "Many guarana and khaki Yellow",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/CB4rbMRHV8B0bE08J9ACye0tBvs.jpg"
+        },
+        {
+          "alt": "Many peach, two cinnamon on table",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/HTvg06VmV2l1gPBwQVQz79niBg.jpg"
+        },
+        {
+          "alt": "Lots of passion fruit mousse in glass jars",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/QntchFpCLPEaypTw5Ool9uQNcNw.jpg"
+        },
+        {
+          "alt": "Many Red raspberries, Blueberries and Blackberries",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/XmpEXoFarRrLRtecAr2P0E8HQtc.jpg"
+        },
+        {
+          "alt": "A woman placing broccoli and cabbage in a glass jar with spices on a wooden table.",
+          "naturalWidth": 1000,
+          "naturalHeight": 668,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/Q3UThFYly3BmZoJ603Ex3f5YoA.jpg"
+        },
+        {
+          "alt": "Many guarana and khaki Yellow",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/CB4rbMRHV8B0bE08J9ACye0tBvs.jpg"
+        },
+        {
+          "alt": "Many peach, two cinnamon on table",
+          "naturalWidth": 1000,
+          "naturalHeight": 667,
+          "renderedWidth": 358,
+          "renderedHeight": 328,
+          "aspect": 1.091,
+          "objectFit": "cover",
+          "borderRadius": "25px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/HTvg06VmV2l1gPBwQVQz79niBg.jpg"
+        },
+        {
+          "alt": "Back Arrow",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "renderedWidth": 40,
+          "renderedHeight": 40,
+          "aspect": 1,
+          "objectFit": "fill",
+          "borderRadius": "0px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg"
+        },
+        {
+          "alt": "Next Arrow",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "renderedWidth": 40,
+          "renderedHeight": 40,
+          "aspect": 1,
+          "objectFit": "fill",
+          "borderRadius": "0px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg"
+        },
+        {
+          "alt": "Plants turn yellow in the sunlight and green under the blue sky.",
+          "naturalWidth": 390,
+          "naturalHeight": 217,
+          "renderedWidth": 390,
+          "renderedHeight": 857,
+          "aspect": 0.455,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/sCxcRvVDKPLwos0pyzEzNfOA.png"
+        },
+        {
+          "alt": null,
+          "naturalWidth": 358,
+          "naturalHeight": 209,
+          "renderedWidth": 358,
+          "renderedHeight": 793,
+          "aspect": 0.451,
+          "objectFit": "fill",
+          "borderRadius": "24px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/rt7EhbM0b89GV3Exm5VCRoV728Q.png"
+        },
+        {
+          "alt": "Gummy",
+          "naturalWidth": 268,
+          "naturalHeight": 161,
+          "renderedWidth": 268,
+          "renderedHeight": 162,
+          "aspect": 1.657,
+          "objectFit": "contain",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/Mzgz4AmB2aupraPExmtQhpMELI.png"
+        },
+        {
+          "alt": "A pot of gummies on grass and flowers",
+          "naturalWidth": 2398,
+          "naturalHeight": 1348,
+          "renderedWidth": 358,
+          "renderedHeight": 201,
+          "aspect": 1.779,
+          "objectFit": "cover",
+          "borderRadius": "0px",
+          "loading": "lazy",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/FdMpM1DRwldCWMFCB2vcXKrdN0.png"
+        },
+        {
+          "alt": "Logo of solene in grass and flowers",
+          "naturalWidth": 310,
+          "naturalHeight": 73,
+          "renderedWidth": 310,
+          "renderedHeight": 74,
+          "aspect": 4.213,
+          "objectFit": "contain",
+          "borderRadius": "0px",
+          "loading": "auto",
+          "srcHost": "framerusercontent.com",
+          "srcPath": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png"
+        }
+      ],
+      "videos": [],
+      "backgroundImages": [],
+      "links": [
+        {
+          "text": "",
+          "href": "./",
+          "target": null
+        },
+        {
+          "text": "Buy Offer",
+          "href": "./#product-offer",
+          "target": null
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/mainnet-design/",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://x.com/mainnetdesign",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/marcaum.eth",
+          "target": "_blank"
+        },
+        {
+          "text": "Benefits",
+          "href": "./#benefits",
+          "target": null
+        },
+        {
+          "text": "Ingredients",
+          "href": "./#ingredients",
+          "target": null
+        },
+        {
+          "text": "Our products",
+          "href": "./#product-offer",
+          "target": null
+        },
+        {
+          "text": "FAQ",
+          "href": "./",
+          "target": null
+        },
+        {
+          "text": "Principles",
+          "href": "./science#principles",
+          "target": null
+        },
+        {
+          "text": "Inside Solene®",
+          "href": "./science#inside-solene",
+          "target": null
+        },
+        {
+          "text": "Our Science",
+          "href": "./science#science",
+          "target": null
+        },
+        {
+          "text": "Blog",
+          "href": "./blog",
+          "target": null
+        },
+        {
+          "text": "Cookies Policy",
+          "href": "./cookies-policy",
+          "target": null
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "./privacy-policy",
+          "target": null
+        },
+        {
+          "text": "Made by Mainnet Design",
+          "href": "https://mainnet.design",
+          "target": "_blank"
+        },
+        {
+          "text": "Create a free website with Framer, the website builder loved",
+          "href": "https://www.framer.com",
+          "target": null
+        },
+        {
+          "text": "BUY LICENCE",
+          "href": "https://buy.stripe.com/eVq5kD4OpeF8ea3cZ35EY0U",
+          "target": "_blank"
+        },
+        {
+          "text": "",
+          "href": "https://frameship.io",
+          "target": "_blank"
+        }
+      ],
+      "fonts": [
+        "\"Be Vietnam Pro\", \"Be Vietnam Pro Placeholder\", sans-serif",
+        "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+        "sans-serif",
+        "\"Bricolage Grotesque\", sans-serif",
+        "\"DM Sans\", sans-serif"
+      ],
+      "fontFaces": [
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MUlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-MQlstwJ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque\"",
+          "weight": "800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRR232VGM.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"DM Sans\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs4OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHs9OX8tRw.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Kantumruy Pro\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/kantumruypro/v12/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urHszOX8.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-eNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-aNGe6N.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Bricolage Grotesque Variable\"",
+          "weight": "200 800",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y996as8bTXq_nANBjzKo3IeZx8z6up5L-iNGQ.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "\"Fragment Mono\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2\") format(\"woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2\")"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/2uIBiALfCHVpWbHqRMZutfT7giU.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Zwfz6xbVe5pmcWRJRgBDHnMkOkI.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/U9LaDDmbRhzX3sB8g8glTy5feTE.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/tVew2LzXJ1t7QfxP1gdTIdj2o0g.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/DF7bjCRmStYPqSb945lAlMfCCVQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "400",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/vebZUMjGyKkYsfcY73iwWTzLNag.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/I11LrmuBDQZweplJ62KkVsklU5Y.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UjFZPDy3qGuDktQM4q9CxhKfIa8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/8exwVHJy2DhJ4N5prYlVMrEKmQ.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/UTeedEK21hO5jDxEUldzdScUqpg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/Ig8B8nzy11hzIWEIYnkg91sofjo.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "normal",
+          "src": "url(\"https://framerusercontent.com/assets/qctQFoJqJ9aIbRSIp0AhCQpFxn8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/fXvVh2JeZlehNcEhKHpHH0frSl0.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/7pScaNeb6M7n2HF2jKemDqzCIr4.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/qS4UjQYyATcVV9rODk0Zx9KhkY8.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/VfD2n20yM7v0hrUEBHEyafsmMBY.woff2\")"
+        },
+        {
+          "family": "\"Inter Display\"",
+          "weight": "700",
+          "style": "italic",
+          "src": "url(\"https://framerusercontent.com/assets/4oIO9fB59bn3cKFWz7piCj28z9s.woff2\")"
+        }
+      ],
+      "network": [
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/QntchFpCLPEaypTw5Ool9uQNcNw.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/third-party-assets/fontshare/wf/V3W76YFX56LHDI4L2YCUHVKHPKZBIKAN/M3TT7YNRG6JDNQ43ORZDMQALV7UWUWJX/LXYZEGIPPSH34NI6VM2IBVPJA64JZILW.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/Q3UThFYly3BmZoJ603Ex3f5YoA.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/1RuwEXWhJJOaHQnRy25a5FBPU.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/iwWTDc49ENF2tCHbqlNARXw6Ug.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/HTvg06VmV2l1gPBwQVQz79niBg.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/CB4rbMRHV8B0bE08J9ACye0tBvs.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/XmpEXoFarRrLRtecAr2P0E8HQtc.jpg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "path": "/css2",
+          "type": "stylesheet",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvl-Molsg.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/dmsans/v17/rP2Hp2ywxg089UriCZOIHTWEBlw.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "path": "/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInHWVyNJ.woff2",
+          "type": "font",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/TMy9qsq8JrSSPJkrrWd3SfwnDbU.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/Mzgz4AmB2aupraPExmtQhpMELI.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/rt7EhbM0b89GV3Exm5VCRoV728Q.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/sCxcRvVDKPLwos0pyzEzNfOA.png",
+          "type": "image",
+          "status": 200
+        },
+        {
+          "host": "framerusercontent.com",
+          "path": "/images/FdMpM1DRwldCWMFCB2vcXKrdN0.png",
+          "type": "image",
+          "status": 200
+        }
+      ]
+    }
+  }
+}
