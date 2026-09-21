@@ -56,7 +56,7 @@ export default function HomePage() {
             height={home.hero.height}
             priority
             sizes="100vw"
-            className="h-[105%] w-full object-cover"
+            className="h-[102%] w-full -translate-y-[2%] object-cover"
           />
           <div className="absolute inset-x-0 top-0 px-5 pt-6 sm:pt-8">
             <Enter delay={120}>
