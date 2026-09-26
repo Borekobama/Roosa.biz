@@ -59,29 +59,33 @@ export default function HomePage() {
             height={home.hero.height}
             priority
             sizes="100vw"
-            // hero-drift: the phone parallax, see globals.css.
-            className="hero-drift h-[102%] w-full -translate-y-[2%] object-cover max-[720px]:h-[105%] max-[720px]:translate-y-0"
+            // hero-drift: the phone parallax, see globals.css. object-top: on a
+            // wide, short window the photo is cropped top and bottom, and
+            // centring it lifted the roll into the copy; pinned to the top it
+            // only loses plain backdrop there.
+            className="hero-drift h-[102%] w-full -translate-y-[2%] object-cover object-top max-[720px]:h-[105%] max-[720px]:translate-y-0"
           />
-          {/* On a phone the roll's rim sits at a fixed share of the panel
-              (about 45% down), while this block is set in px - so on a short
-              screen the buttons ran onto the roll. The top padding follows
-              the panel instead: 48px from about 740 tall, easing to 24 on the
-              shortest phones, with the gaps below tightened to 12 and 20. */}
-          <div className="absolute inset-x-0 top-0 px-5 pt-[clamp(24px,calc(45vh-285px),48px)] sm:pt-8">
+          {/* The roll's rim moves with the panel's size while this block is
+              set in px, so on a short screen the buttons ran onto the roll.
+              The top padding follows the window height instead - on a phone
+              48px from about 740 tall easing to 24, above that 32px from 768
+              tall easing to 16 - with the gaps below tightened to 12 and 20
+              at every width. */}
+          <div className="absolute inset-x-0 top-0 px-5 pt-[clamp(24px,calc(45vh-285px),48px)] sm:pt-[clamp(16px,calc(18vh-106px),32px)]">
             <Enter delay={120}>
               <h1 className="t-display-l mx-auto max-w-[11ch] text-balance text-center text-moss sm:max-w-[500px]">
                 Mehr als nur Toilettenpapier.
               </h1>
             </Enter>
             <Enter delay={240} from="bottom">
-              <p className="t-body-l mx-auto mt-3 max-w-[500px] px-2 text-center text-moss sm:mt-5">
+              <p className="t-body-l mx-auto mt-3 max-w-[500px] px-2 text-center text-moss">
                 {/* Measured: both columns are 500px at 18/24 and both resolve to
                     two lines; the source breaks after "clarity" where this fitted
                     "and" onto line one. Inter Display again, so forced. */}
                 Supersoft für jeden Tag - und mit jeder Packung ein Beitrag zum Kinderschutz.
               </p>
             </Enter>
-            <Enter delay={360} from="bottom" className="mt-5 flex justify-center gap-3 sm:mt-7">
+            <Enter delay={360} from="bottom" className="mt-5 flex justify-center gap-3">
               <Button href="/#product-offer">Jetzt entdecken</Button>
               <Button href="/science" variant="light">
                 Mehr erfahren
