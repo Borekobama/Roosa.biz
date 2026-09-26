@@ -2,11 +2,8 @@ import type { CSSProperties } from "react";
 import Image from "next/image";
 import Accordion from "@/components/ui/Accordion";
 import Button from "@/components/ui/Button";
-import Media from "@/components/ui/Media";
 import Enter from "@/components/ui/Enter";
 import Reveal from "@/components/ui/Reveal";
-import ScrollReveal from "@/components/ui/ScrollReveal";
-import ScrollSettle from "@/components/ui/ScrollSettle";
 import PhoneFall from "@/components/ui/PhoneFall";
 import { phoneDrift, phoneRise, phoneSlide } from "@/components/ui/phoneMotion";
 import OfferPanel from "@/components/site/OfferPanel";
@@ -23,6 +20,7 @@ import ReviewCard from "@/components/site/ReviewCard";
 import { Container } from "@/components/site/Section";
 import { home } from "@/lib/assets";
 import { faqs, nutrients, posts, statCards, testimonials } from "@/lib/content";
+import ClosingCta from "@/components/site/ClosingCta";
 
 /**
  * Where the review cards land, as a share of the source's 1440x1700 foliage
@@ -51,19 +49,22 @@ export default function HomePage() {
            at an 844-tall viewport it gives 734, and 734 x 1.05 is the 771 the
            source draws there. */}
       <section className="px-4 pt-[78px] sm:px-8">
-        <div className="relative h-[calc(100vh-110px)] overflow-hidden rounded-[24px]">
+        {/* The panel carries the photo's own backdrop beige, which the
+            phone layout of the photo fades into; see .hero-photo. */}
+        <div className="@container relative h-[calc(100vh-110px)] overflow-hidden rounded-[24px] bg-[#f1e6dd]">
           <Image
             src={home.hero.src}
             alt={home.hero.alt}
             width={home.hero.width}
             height={home.hero.height}
             priority
-            sizes="100vw"
-            // hero-drift: the phone parallax, see globals.css. object-top: on a
-            // wide, short window the photo is cropped top and bottom, and
-            // centring it lifted the roll into the copy; pinned to the top it
-            // only loses plain backdrop there.
-            className="hero-drift h-[102%] w-full -translate-y-[2%] object-cover object-top max-[720px]:h-[105%] max-[720px]:translate-y-0"
+            // A phone draws the photo about 2.6 screens wide; see .hero-photo.
+            sizes="(max-width: 719px) 270vw, 100vw"
+            // hero-drift and hero-photo: the phone parallax and sizing, see
+            // globals.css. object-top: on a wide, short window the photo is
+            // cropped top and bottom, and centring it lifted the roll into the
+            // copy; pinned to the top it only loses plain backdrop there.
+            className="hero-drift hero-photo h-[102%] w-full -translate-y-[2%] object-cover object-top"
           />
           {/* The roll's rim moves with the panel's size while this block is
               set in px, so on a short screen the buttons ran onto the roll.
@@ -644,46 +645,7 @@ export default function HomePage() {
            y=13075 and it renders 100px lower, so the footer still starts at the
            box's bottom edge and simply covers the overhang. A negative margin
            here moved the footer itself and shortened the document. */}
-      <section className="pb-0">
-        <Container>
-          {/* On a phone the heading rises once as it comes into view rather
-              than tracking the scroll, and the button does not move. */}
-          <ScrollReveal phone="reveal">
-            {/* Measured on the source: a 500px column, so it sets on two lines. */}
-            <h1 className="t-display-l mx-auto max-w-[500px] text-center text-moss">
-              Mehr als nur Toilettenpapier
-            </h1>
-          </ScrollReveal>
-          <Reveal delay={100} phone="static" className="mt-8 flex justify-center">
-            <Button href="/#product-offer">Jetzt entdecken</Button>
-          </Reveal>
-        </Container>
-
-        {/* The source draws sZiDqyHOMLNk here, not FdMpM1DRwld - a different
-            crop of the same scene, which is why the jar was reading larger and
-            the flower bed denser than the source's. Its plate is 1376x766 at
-            x=32, so the gutter is 32px rather than 20. */}
-        {/* On a phone the plate settles from 100px low as it scrolls in, with
-            no fade. It also runs under the footer as the desktop one does:
-            56px down, which is the plate's 24px corner plus the footer's
-            32px one, so the flower bed fills the footer's rounded corners
-            instead of leaving a notch of page colour between two curves. The
-            margin gives the same 56 back, so the plate still reads 62px under
-            the button. */}
-        <div className="mt-[6px] translate-y-14 px-4 sm:mt-8 sm:translate-y-[100px] sm:px-8">
-          <ScrollSettle amount={0} phoneAmount={100}>
-            <ScrollReveal y={100} start={800} span={700} phone="static">
-              <Media
-                asset={home.grassWide}
-                fill
-                rounded="rounded-[24px]"
-                className="mx-auto aspect-[1249/974] w-full max-w-[1440px]"
-                sizes="100vw"
-              />
-            </ScrollReveal>
-          </ScrollSettle>
-        </div>
-      </section>
+      <ClosingCta />
     </>
   );
 }

@@ -65,14 +65,18 @@ export default function Footer() {
         grows with the window - 1616 wide at a 1680 viewport against the
         source's 1440 - which scales the wordmark with it and made the footer
         42px taller than the source's on that screen. */}
-      <div className="mx-auto max-w-[1440px] overflow-hidden rounded-[32px] bg-olive px-6 pb-6 pt-14 text-cream sm:px-8 sm:pb-8 sm:pt-16">
-        <div className="grid gap-14 lg:grid-cols-[1.1fr_1.6fr]">
+      {/* Below 720, measured on the source's phone footer: a 16px radius,
+        24px of padding at the top and none at the floor, where the wordmark
+        sits. The 56 of top padding here set everything a line lower. */}
+      <div className="mx-auto max-w-[1440px] overflow-hidden rounded-[32px] bg-olive px-6 pb-6 pt-14 text-cream max-[720px]:rounded-[16px] max-[720px]:pb-0 max-[720px]:pt-6 sm:px-8 sm:pb-8 sm:pt-16">
+        {/* 64 from the socials to the link columns on a phone. */}
+        <div className="grid gap-14 max-[720px]:gap-16 lg:grid-cols-[1.1fr_1.6fr]">
           <div>
             <Logo className="text-cream" />
             {/* Measured: the source sets this column at 300px, where 34ch gives 343.
               Its own text there is a quotation and carries quote marks; ours is
               this template's line and does not. */}
-            <p className="mt-7 max-w-[300px] text-[12px] leading-[14.4px] text-cream/80 sm:text-[16px] sm:leading-[22px]">
+            <p className="mt-7 max-w-[300px] text-[12px] max-[720px]:mt-8 leading-[14.4px] text-cream/80 sm:text-[16px] sm:leading-[22px]">
               Mehr als nur Toilettenpapier. Supersoft für jeden Tag und mit Herz
               für den Kinderschutz.
             </p>
@@ -132,7 +136,9 @@ export default function Footer() {
             the address keeps to one line; .t-body-s's 14 from 720 up. That
             class is unlayered and would beat these utilities, so its values
             are spelled out instead. */}
-        <div className="mt-[34px] flex flex-col gap-2 border-t border-cream/20 pt-7 text-[12px] leading-[14.4px] text-cream/70 sm:flex-row sm:items-center sm:justify-between min-[720px]:gap-4 min-[720px]:text-[14px] min-[720px]:leading-[1.43] min-[720px]:tracking-[-0.01em]">
+        {/* The phone footer has no rule here: 53px from the links to the
+            credit lines, which stand 16px apart. */}
+        <div className="mt-[34px] flex flex-col gap-4 border-t border-cream/20 pt-7 text-[12px] max-[720px]:mt-[53px] max-[720px]:border-0 max-[720px]:pt-0 leading-[14.4px] text-cream/70 sm:flex-row sm:items-center sm:justify-between min-[720px]:gap-4 min-[720px]:text-[14px] min-[720px]:leading-[1.43] min-[720px]:tracking-[-0.01em]">
           <p>ROOSA® © {new Date().getFullYear()}. Alle Rechte vorbehalten.</p>
           <p>ROOSA® AG · Kirschgartenstrasse 12 · 4051 Basel</p>
         </div>
@@ -141,10 +147,10 @@ export default function Footer() {
           aria-hidden="true"
           // On a phone the wordmark fills the panel's inner width, as the
           // source's does: the word is 2.2 of its font size wide and the
-          // inner width is the screen less 80px of gutters. Its line box is
-          // tall enough at that size that 12px of margin reads as the 40
-          // did at 80px.
-          className="mt-10 w-full text-center font-[var(--font-display)] text-[clamp(5rem,18vw,16rem)] font-light leading-none tracking-[-0.08em] text-cream/90 max-sm:mt-3 max-sm:text-[length:calc((100vw_-_80px)/2.2)]"
+          // inner width is the screen less 80px of gutters. A 0.8 line box
+          // trims the space below the letters, so they sit 16px off the
+          // panel floor with the source's 53 between them and the credits.
+          className="mt-10 w-full text-center font-[var(--font-display)] text-[clamp(5rem,18vw,16rem)] font-light leading-none tracking-[-0.08em] text-cream/90 max-sm:mb-4 max-sm:mt-4 max-sm:text-[length:calc((100vw_-_80px)/2.2)] max-sm:leading-[0.8]"
         >
           roosa
         </p>

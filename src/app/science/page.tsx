@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Accordion from "@/components/ui/Accordion";
-import Button from "@/components/ui/Button";
 import Media from "@/components/ui/Media";
 import Enter from "@/components/ui/Enter";
 import Reveal from "@/components/ui/Reveal";
@@ -13,6 +12,7 @@ import ComparisonRows from "@/components/site/ComparisonRows";
 import Logo from "@/components/site/Logo";
 import { Container } from "@/components/site/Section";
 import { home, ingredientTiles, science } from "@/lib/assets";
+import ClosingCta from "@/components/site/ClosingCta";
 import {
   faqs,
   nutrients,
@@ -401,32 +401,7 @@ export default function SciencePage() {
       </section>
 
       {/* Closing */}
-      <section className="pb-0">
-        <Container>
-          <ScrollReveal>
-            <h1 className="t-display-l mx-auto max-w-[500px] text-center text-moss">
-              Mehr als nur Toilettenpapier
-            </h1>
-          </ScrollReveal>
-          <Reveal delay={100} className="mt-8 flex justify-center">
-            <Button href="/#product-offer">Jetzt entdecken</Button>
-          </Reveal>
-        </Container>
-        {/* Same plate as the home page's closing block: the source draws
-            sZiDqyHOMLNk at 1376x766 in a 32px gutter, not FdMpM1DRwld at
-            1400x779. This section did not share the home fix. */}
-        <div className="mt-8 px-4 sm:translate-y-[100px] sm:px-8">
-          <ScrollReveal y={100} start={800} span={700}>
-            <Media
-              asset={home.grassWide}
-              fill
-              rounded="rounded-[24px]"
-              className="mx-auto aspect-[1249/974] w-full max-w-[1440px]"
-              sizes="100vw"
-            />
-          </ScrollReveal>
-        </div>
-      </section>
+      <ClosingCta />
     </>
   );
 }

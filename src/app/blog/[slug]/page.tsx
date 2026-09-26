@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import Button from "@/components/ui/Button";
-import Media from "@/components/ui/Media";
 import Reveal from "@/components/ui/Reveal";
-import ScrollReveal from "@/components/ui/ScrollReveal";
 import CopyLink from "@/components/site/CopyLink";
 import PostCard from "@/components/site/PostCard";
 import { Container } from "@/components/site/Section";
-import { authorAvatar, home, postImages } from "@/lib/assets";
+import { authorAvatar, postImages } from "@/lib/assets";
 import { posts } from "@/lib/content";
+import ClosingCta from "@/components/site/ClosingCta";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -128,31 +126,7 @@ export default async function PostPage({ params }: Params) {
         </Container>
       </section>
 
-      <section className="pb-0">
-        <Container>
-          <ScrollReveal>
-            <h1 className="t-display-l mx-auto max-w-[500px] text-center text-moss">
-              Mehr als nur Toilettenpapier
-            </h1>
-          </ScrollReveal>
-          <Reveal delay={100} className="mt-8 flex justify-center">
-            <Button href="/#product-offer">Jetzt entdecken</Button>
-          </Reveal>
-        </Container>
-        {/* The source draws sZiDqyHOMLNk at 1376x766 in a 32px gutter on every
-            route that closes with this plate - not FdMpM1DRwld at 1400x779. */}
-        <div className="mt-8 px-4 sm:translate-y-[100px] sm:px-8">
-          <ScrollReveal y={100} start={800} span={700}>
-            <Media
-              asset={home.grassWide}
-              fill
-              rounded="rounded-[24px]"
-              className="mx-auto aspect-[1249/974] w-full max-w-[1440px]"
-              sizes="100vw"
-            />
-          </ScrollReveal>
-        </div>
-      </section>
+      <ClosingCta />
     </>
   );
 }
