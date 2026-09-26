@@ -10,8 +10,6 @@ const img = (file: string, width: number, height: number, alt: string): Asset =>
 });
 
 export const brand = {
-  logo: img("TMy9qsq8JrSSPJkrrWd3SfwnDbU-810befb1.png", 310, 73, "Roosa"),
-  logoLarge: img("TMy9qsq8JrSSPJkrrWd3SfwnDbU-399e2296.png", 1311, 311, "Roosa"),
   favicon: "/brand/roosa-favicon.svg",
   ogImage: "/assets/icons/roosa-social-preview.webp",
 };
@@ -30,7 +28,6 @@ export const home = {
   editorial: img("roosa-garden-table.webp", 1024, 1536, "Outdoor table beneath flowering trees"),
   lab: img("roosa-pink-roll-hero.webp", 3344, 1882, "Hand holding pink roll against pink background"),
   grass: img("roosa-pink-roll-meadow.webp", 1249, 974, "Pink roll in a flower meadow"),
-  wide: img("rt7EhbM0b89GV3Exm5VCRoV728Q-b752c6c3.png", 1376, 802, "Formula composition"),
   bloom: img("roosa-flower-meadow.webp", 1672, 941, "Pink flowering meadow"),
   hand: img("roosa-woman-holding-roll.webp", 1448, 1086, "Woman holding a pink roll"),
   routinePanel: img("roosa-home-routine.webp", 1672, 941, "Woman holding pink roll at home"),
@@ -39,6 +36,7 @@ export const home = {
   gummyGreen: img("roosa-pink-roll-studio.webp", 1254, 1254, "Pink roll on white background"),
   carouselFloralLeft: img("roosa-carousel-floral-roll-left.png", 1086, 1448, "Floral line illustration with toilet paper"),
   carouselFloralRight: img("roosa-carousel-floral-roll-right.png", 1086, 1448, "Floral line illustration"),
+  rollLineArt: img("roosa-floral-roll-line-art.webp", 600, 525, ""),
   tall: img("roosa-garden-table.webp", 1024, 1536, "Outdoor table beneath flowering trees"),
 };
 
@@ -49,16 +47,6 @@ export const ingredientTiles: Asset[] = [
   img("roosa-quality-everyday-bathroom.webp", 1672, 941, "ROOSA im Badezimmer"),
   img("roosa-quality-responsible-delivery.webp", 1672, 941, "Verantwortungsvolle ROOSA Lieferung"),
   img("roosa-quality-child-protection.webp", 1672, 941, "ROOSA unterstützt Kinderschutz"),
-];
-
-/** Testimonial avatars, rendered at 38x38. */
-export const avatars: Asset[] = [
-  img("3mLfQfij30V2vXZQlhJahQXd6pE-49838306.png", 212, 212, "Portrait"),
-  img("ETp8i5L0SrDazw7KxDQnuv1xOd8-84d5bbc9.png", 212, 212, "Portrait"),
-  img("iZWn3lnx4kC7XZcyHtCUdJaqXKI-1b52dc78.png", 212, 212, "Portrait"),
-  img("RxOPn618LEzzdCodJGsQRhGgZI-91ad8922.png", 212, 212, "Portrait"),
-  img("YPWBXJfRHoM8i2RaXlMZcmrPZv8-89eca0c9.png", 212, 212, "Portrait"),
-  img("MIbXl4tKIc4HU6AbbtAk0QG2riY-5a3d87d0.png", 55, 56, "Portrait"),
 ];
 
 export const science = {
@@ -97,4 +85,5 @@ export const postImages: Record<string, Asset> = {
   "supersoft-mit-herz": img("roosa-woman-with-roll.webp", 1678, 937, "Woman with ROOSA roll"),
 };
 
-export const authorAvatar = img("MIbXl4tKIc4HU6AbbtAk0QG2riY-5a3d87d0.png", 55, 56, "Author portrait");
+/** The ROOSA mark stands in for the editorial byline's portrait. */
+export const authorAvatar: Asset = { src: brand.favicon, width: 64, height: 64, alt: "ROOSA" };

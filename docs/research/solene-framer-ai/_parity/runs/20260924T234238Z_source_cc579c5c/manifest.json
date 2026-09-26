@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260924T234238Z_source_cc579c5c",
+  "status": "failed",
+  "createdAt": "2026-09-24T23:42:38.895Z",
+  "engine": {
+    "version": "0.12.1",
+    "contentSha256": "79d0a0e689367804ea31ddb87cb0ab26128b9d513e37833cefb0dd0c91de1ffd"
+  },
+  "kind": "source",
+  "target": {
+    "kind": "source",
+    "origin": "https://solene.framer.ai/",
+    "modules": {
+      "visual": false,
+      "motion": true,
+      "motionSample": false,
+      "domSnapshot": false,
+      "responsive": true,
+      "assets": false
+    },
+    "hydrationSelector": null
+  },
+  "repository": {
+    "commit": "af302ce9b996e0839cb354881dfb5070f2477f90",
+    "dirty": true,
+    "diffSha256": "9bd4dc1a558ae4ff1236e0b0bb5b2036c35d5e9bf7f9886ebac1cc0eee26babb"
+  },
+  "scope": {
+    "inventoryRunId": null,
+    "authoritativeInventory": false,
+    "routesRequested": [
+      "/"
+    ],
+    "routesCompleted": [],
+    "routesFailed": []
+  },
+  "runtime": {},
+  "policySha256": "68426f3c4ac77b9c98d58878485e02061d212535b832426b63a69f28b3821fa7",
+  "artifacts": [
+    {
+      "kind": "policy-snapshot",
+      "path": "policy.json",
+      "sha256": "728f7a816e986672d4c019073259c2d5e17c524bb55c82aa3b4d458e0f36d62e",
+      "bytes": 313
+    },
+    {
+      "kind": "failure",
+      "path": "failure.json",
+      "sha256": "de802dfe451b3e6cea5a3c2a0e2175c1f509f2c144d3afdedbba973aafa4cc53",
+      "bytes": 925
+    }
+  ],
+  "failedAt": "2026-09-24T23:42:38.995Z"
+}

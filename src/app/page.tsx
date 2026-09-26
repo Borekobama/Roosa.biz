@@ -7,18 +7,21 @@ import Enter from "@/components/ui/Enter";
 import Reveal from "@/components/ui/Reveal";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import ScrollSettle from "@/components/ui/ScrollSettle";
+import PhoneFall from "@/components/ui/PhoneFall";
+import { phoneDrift, phoneRise, phoneSlide } from "@/components/ui/phoneMotion";
 import OfferPanel from "@/components/site/OfferPanel";
 import PinnedSequence from "@/components/site/PinnedSequence";
 import FadingStatement from "@/components/site/FadingStatement";
 import BenefitsBento from "@/components/site/BenefitsBento";
 import DotEyebrow from "@/components/site/DotEyebrow";
 import IngredientRows from "@/components/site/IngredientRows";
+import IngredientCarousel from "@/components/site/IngredientCarousel";
 import GummyScatter from "@/components/site/GummyScatter";
 import PostCard from "@/components/site/PostCard";
 import StatMark from "@/components/site/StatMark";
 import ReviewCard from "@/components/site/ReviewCard";
 import { Container } from "@/components/site/Section";
-import { avatars, home, ingredientTiles } from "@/lib/assets";
+import { home } from "@/lib/assets";
 import { faqs, nutrients, posts, statCards, testimonials } from "@/lib/content";
 
 /**
@@ -56,23 +59,29 @@ export default function HomePage() {
             height={home.hero.height}
             priority
             sizes="100vw"
-            className="h-[102%] w-full -translate-y-[2%] object-cover"
+            // hero-drift: the phone parallax, see globals.css.
+            className="hero-drift h-[102%] w-full -translate-y-[2%] object-cover max-[720px]:h-[105%] max-[720px]:translate-y-0"
           />
-          <div className="absolute inset-x-0 top-0 px-5 pt-6 sm:pt-8">
+          {/* On a phone the roll's rim sits at a fixed share of the panel
+              (about 45% down), while this block is set in px - so on a short
+              screen the buttons ran onto the roll. The top padding follows
+              the panel instead: 48px from about 740 tall, easing to 24 on the
+              shortest phones, with the gaps below tightened to 12 and 20. */}
+          <div className="absolute inset-x-0 top-0 px-5 pt-[clamp(24px,calc(45vh-285px),48px)] sm:pt-8">
             <Enter delay={120}>
               <h1 className="t-display-l mx-auto max-w-[11ch] text-balance text-center text-moss sm:max-w-[500px]">
                 Mehr als nur Toilettenpapier.
               </h1>
             </Enter>
             <Enter delay={240} from="bottom">
-              <p className="t-body-l mx-auto mt-5 max-w-[500px] px-2 text-center text-moss">
+              <p className="t-body-l mx-auto mt-3 max-w-[500px] px-2 text-center text-moss sm:mt-5">
                 {/* Measured: both columns are 500px at 18/24 and both resolve to
                     two lines; the source breaks after "clarity" where this fitted
                     "and" onto line one. Inter Display again, so forced. */}
                 Supersoft für jeden Tag - und mit jeder Packung ein Beitrag zum Kinderschutz.
               </p>
             </Enter>
-            <Enter delay={360} from="bottom" className="mt-7 flex justify-center gap-3">
+            <Enter delay={360} from="bottom" className="mt-5 flex justify-center gap-3 sm:mt-7">
               <Button href="/#product-offer">Jetzt entdecken</Button>
               <Button href="/science" variant="light">
                 Mehr erfahren
@@ -196,10 +205,11 @@ export default function HomePage() {
               clear space above that eyebrow, which this had at no width. The
               eyebrow-to-heading distance is 26 on both sides at both widths and
               wants no change. */}
-          <Reveal>
+          {/* On a phone only the heading moves - a one-shot 30px rise. */}
+          <Reveal phone="static">
             <DotEyebrow className="text-forest">Vorteile</DotEyebrow>
           </Reveal>
-          <Reveal delay={60}>
+          <Reveal delay={60} phone={phoneRise()}>
             {/* Measured: a 600px column, broken after "when" as the source sets
                 it - this face runs a little narrower, so the break is explicit.
                 Only from sm up: at 358px the source wraps this naturally into
@@ -209,7 +219,7 @@ export default function HomePage() {
               Weich im Alltag. Stark in der Wirkung.
             </h2>
           </Reveal>
-          <Reveal delay={90}>
+          <Reveal delay={90} phone="static">
             {/* 14/21 on a phone, 18 from sm up: measured at 390px the source
                 sets this lede 84 tall where 18px gave 120. */}
             <p className="mx-auto mt-6 max-w-[600px] text-center t-lede text-moss">
@@ -241,7 +251,8 @@ export default function HomePage() {
               40px row gap against the source's 36. */}
           <div className="grid gap-x-8 gap-y-9 sm:grid-cols-3 sm:gap-x-[75px] min-[720px]:border-t min-[720px]:border-forest/15 min-[720px]:pt-12">
             {statCards.map((stat, i) => (
-              <Reveal key={stat.label} delay={i * 80} className="relative">
+              // On a phone each stat drifts in from 46px to the right instead.
+              <Reveal key={stat.label} delay={i * 80} phone={phoneDrift(46)} className="relative">
                 {i > 0 ? (
                   <span
                     aria-hidden="true"
@@ -268,7 +279,9 @@ export default function HomePage() {
            64px of padding above is exactly what the plate covers; below it the
            source leaves another 64px of cream before the next band, so the
            plate bottom sits 162px above the ingredients eyebrow. */}
-      <section className="px-4 sm:px-8 sm:pb-32 sm:pt-16">
+      {/* On a phone the stats band's own 128 already covers the plate's
+          overhang above; below it the source leaves 64 of cream. */}
+      <section className="px-4 pb-16 sm:px-8 sm:pb-32 sm:pt-16">
         <div className="relative">
           {/* Measured on the source: the foliage plate is drawn 1440x931 - 32px
               wider and 64px taller than the 1376x803 panel on every side - inside
@@ -299,15 +312,7 @@ export default function HomePage() {
                 carries backdrop-filter: blur(38.6px) and no tint of its own; the
                 milk-glass interior is the foliage read through that blur under a
                 light, largely transparent pane. */}
-            <div className="absolute inset-0 overflow-hidden rounded-[24px] bg-olive/35 backdrop-blur-[38.6px]">
-              <Image
-                src={home.wide.src}
-                alt=""
-                fill
-                sizes="(max-width: 640px) 100vw, 1376px"
-                className="pointer-events-none object-cover opacity-55 mix-blend-soft-light"
-              />
-            </div>
+            <div className="absolute inset-0 overflow-hidden rounded-[24px] bg-olive/35 backdrop-blur-[38.6px]" />
 
             {/* Measured: one mark centred in the panel, with the callouts
                 arranged around it. */}
@@ -323,7 +328,9 @@ export default function HomePage() {
               // centred across the panel and sitting 16px off its floor - not
               // 190 wide and centred vertically, which put it through the
               // middle of the copy.
-              className="pointer-events-none absolute bottom-4 left-1/2 w-[268px] -translate-x-1/2 object-contain lg:bottom-auto lg:left-[76%] lg:top-[28%] lg:h-[340px] lg:w-[340px] lg:-translate-x-1/2 lg:translate-y-0"
+              // The box is the source's 268x162 on a phone too: left square,
+              // the roll stood 268 tall and ran up through the copy.
+              className="pointer-events-none absolute bottom-4 left-1/2 w-[268px] -translate-x-1/2 object-contain max-[720px]:h-[162px] lg:bottom-auto lg:left-[76%] lg:top-[28%] lg:h-[340px] lg:w-[340px] lg:-translate-x-1/2 lg:translate-y-0"
             />
 
             {/* Measured on the source: the content column starts 152px in from
@@ -337,7 +344,8 @@ export default function HomePage() {
               {/* Measured: the badge carries the mark, the heading sets in a
                   493px column so SOL-G7 stays whole, and the button is a solid
                   olive pill. */}
-              <span className="flex w-fit items-center gap-2 rounded-[999px] bg-cream/25 py-2 pl-2 pr-4 text-[18px] leading-[24px] tracking-[-0.1px] text-cream">
+              {/* 122x36 on a phone at 14/21, 16px above the heading. */}
+              <span className="flex w-fit items-center gap-2 rounded-[999px] bg-cream/25 py-[7.5px] pl-2 pr-4 text-[14px] leading-[21px] tracking-[-0.1px] text-cream min-[720px]:py-2 min-[720px]:text-[18px] min-[720px]:leading-[24px]">
                 <Image
                   src={home.gummyGreen.src}
                   alt=""
@@ -348,15 +356,17 @@ export default function HomePage() {
                 />
                 ROOSA®
               </span>
-              <h2 className="t-display-m mt-[15px] max-w-[493px] text-paper">
-                Mehr über <span className="whitespace-nowrap">ROOSA®</span> und unsere Mission erfahren
-              </h2>
+              <PhoneFall className="mt-4 min-[720px]:mt-[15px]">
+                <h2 className="t-display-m max-w-[493px] text-paper">
+                  Mehr über <span className="whitespace-nowrap">ROOSA®</span> und unsere Mission erfahren
+                </h2>
+              </PhoneFall>
               <Button href="/science" className="mt-4 bg-olive text-paper hover:bg-moss min-[720px]:mt-[17px]">
                 Mehr erfahren
               </Button>
               {/* Measured on the source: this figure slides in from the left, dx -106
                   falling to 0, while its opacity ramps 0.66 to 1. It was static. */}
-              <Reveal y={12} className="mt-[23px] min-[720px]:mt-[55px]">
+              <Reveal y={12} phone="static" className="mt-[23px] min-[720px]:mt-[55px]">
                 <p className="t-display-m max-w-[493px] text-paper">10 Rp.*</p>
               </Reveal>
               <p className="t-body mt-[11px] max-w-[493px] text-paper">
@@ -365,9 +375,11 @@ export default function HomePage() {
               {/* 12px at every width, but the source leads it at 14.4 on a
                   phone and 24 above, and sets it 22px under the lede rather
                   than 55. */}
-              <p className="mt-[22px] max-w-[493px] text-[12px] leading-[14.4px] text-paper/80 min-[720px]:mt-[55px] min-[720px]:leading-[24px]">
-                *10 Rappen beziehungsweise 10 Cent pro 8er-Packung.
-              </p>
+              <PhoneFall className="mt-[22px] min-[720px]:mt-[55px]">
+                <p className="max-w-[493px] text-[12px] leading-[14.4px] text-paper/80 min-[720px]:leading-[24px]">
+                  *10 Rappen beziehungsweise 10 Cent pro 8er-Packung.
+                </p>
+              </PhoneFall>
               </div>
             </div>
             {/* The dashed rules reach from each block towards the mark: two
@@ -427,9 +439,12 @@ export default function HomePage() {
 
       {/* 7 - Was ROOSA ausmacht, stacked as display rows. Measured: the source's band
            carries 98px of padding top and bottom, not 128. */}
-      <section className="py-24 sm:py-[98px]">
+      {/* 98 above and 64 below on a phone, with the tile carousel under the
+          rows. */}
+      <section className="pb-16 pt-[98px] sm:pb-[98px]">
         <Container>
           <IngredientRows />
+          <IngredientCarousel />
         </Container>
 
       </section>
@@ -438,7 +453,9 @@ export default function HomePage() {
            opens with 200px above the heading and closes flush. */}
       {/* Measured at 390px: the stretch from the ingredients eyebrow to the
            offer heading runs 2903 on the source and was 43 short here. */}
-      <section className="pb-24 pt-[43px] sm:pb-0 sm:pt-[290px]">
+      {/* On a phone 64 above the heading and nothing below the panel, which
+          the offer band follows 32px on. */}
+      <section className="pt-16 sm:pt-[290px]">
         {/* The heading pins while the foliage panel rides up and covers it -
             measured on the source, which holds it at viewport y=250 and then
             paints the panel over it (the strip across the heading reads foliage
@@ -451,7 +468,7 @@ export default function HomePage() {
             the DOM and positioned - paints over it. */}
         <div className="sticky top-[250px]">
           <Container>
-            <Reveal>
+            <Reveal phone="static">
               <h2 className="t-testimonial mx-auto text-center text-moss min-[720px]:max-w-[700px]">
                 Was Kundinnen und Kunden sagen
               </h2>
@@ -465,7 +482,7 @@ export default function HomePage() {
             raised as an open question and never settled; the standing rule is
             that the original decides, so it follows the original. */}
         <div className="relative mt-[98px] overflow-hidden">
-          <div className="relative overflow-hidden rounded-[24px]">
+          <div className="relative overflow-hidden rounded-[16px] min-[720px]:rounded-[24px]">
             <Image
               src={home.testimonialBg.src}
               alt=""
@@ -474,7 +491,10 @@ export default function HomePage() {
               sizes="100vw"
               className="mx-auto h-[1404px] w-full max-w-[1440px] object-cover sm:h-[1700px]"
             />
-            <GummyScatter />
+            {/* No scattered marks on the phone panel. */}
+            <div className="max-[720px]:hidden">
+              <GummyScatter />
+            </div>
             {/* Five cards, not six, at the points measured on the source. The
                 offsets are percentages of its 1440x1700 backdrop - card boxes
                 at 32,128 / 1050,386 / 542,666 / 1050,924 / 32,1182 - so they
@@ -486,20 +506,41 @@ export default function HomePage() {
                     <ReviewCard
                       quote={`\u201C${t.quote}\u201D`}
                       name={t.name}
-                      avatar={avatars[i % avatars.length]}
                     />
                   </Reveal>
                 </div>
               ))}
             </div>
 
-            <div className="absolute inset-0 grid content-between gap-5 p-5 sm:p-8 lg:hidden">
+            {/* Below 720 the source runs the reviews as a vertical ticker: three
+                cards climbing the 358 column at 100px/s, clipped by the panel's
+                own edges. Three copies keep the 1404 panel filled through the
+                whole period; 7.33s is one set's height - cards of 213, 236 and
+                236 with 16 under each - at that speed. */}
+            {/* Faded over the panel's top and bottom 64px, so cards drift in
+                and out of the foliage instead of being sliced at its edge. */}
+            <div className="absolute inset-y-0 left-4 right-4 overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,#000_64px,#000_calc(100%-64px),transparent)] min-[720px]:hidden">
+              <ul
+                className="animate-ticker-up"
+                style={{ "--ticker-duration": "7.33s" } as CSSProperties}
+              >
+                {[0, 1, 2].flatMap(() => testimonials.slice(0, 3)).map((t, i) => (
+                  <li key={`${t.name}-${i}`} aria-hidden={i >= 3 || undefined} className="pb-4">
+                    <ReviewCard
+                      quote={`\u201C${t.quote}\u201D`}
+                      name={t.name}
+                    />
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="absolute inset-0 hidden content-between gap-5 p-5 sm:p-8 min-[720px]:grid lg:hidden">
               {testimonials.slice(0, 3).map((t, i) => (
                 <Reveal key={t.name} delay={i * 90}>
                   <ReviewCard
                     quote={`\u201C${t.quote}\u201D`}
                     name={t.name}
-                    avatar={avatars[i % avatars.length]}
                   />
                 </Reveal>
               ))}
@@ -517,12 +558,17 @@ export default function HomePage() {
            where 96 of bottom padding gave 157. */}
       {/* Measured at 390: 82px from the offer's guarantee row to the FAQ
            eyebrow, where 51 left it 31 short. */}
-      <section id="faq" className="scroll-mt-24 pb-[51px] pt-[82px] sm:pb-[132px] sm:pt-[184px]">
+      {/* At 390: 64px from the offer's guarantee pill to the FAQ eyebrow, and
+           48 from the last question to the news eyebrow. */}
+      <section id="faq" className="scroll-mt-24 pb-[22px] pt-16 sm:pb-[132px] sm:pt-[184px]">
         <Container>
           {/* Measured on the source: a 656px left column, the question column
               starting at 752 with its trigger text 615 wide. */}
-          <div className="grid gap-12 lg:grid-cols-[656px_1fr] lg:gap-16">
-            <Reveal>
+          {/* The first question sits 64px under the lede on a phone; a row
+              centres its label, so the gap is that less the row's inset. */}
+          <div className="grid gap-[38px] min-[720px]:gap-12 lg:grid-cols-[656px_1fr] lg:gap-16">
+            {/* On a phone only the lede moves, sliding in from the left. */}
+            <Reveal phone="static">
               <DotEyebrow className="justify-start">FAQ</DotEyebrow>
               {/* The source breaks this explicitly after "Frequently" - its box is the
                   full 656px column with a hard break, not a wrap at a narrower
@@ -533,11 +579,13 @@ export default function HomePage() {
                 asked questions
               </h2>
               {/* 14/21 on a phone, as the source sets every lede there. */}
-              <p className="mt-5 max-w-[656px] t-lede text-moss">
-                Hier finden Sie klare Antworten zu Produkt, Lieferung und sozialer Wirkung.
-              </p>
+              <Reveal phoneOnly phone={phoneSlide(-236)} className="mt-5">
+                <p className="max-w-[656px] t-lede text-moss">
+                  Hier finden Sie klare Antworten zu Produkt, Lieferung und sozialer Wirkung.
+                </p>
+              </Reveal>
             </Reveal>
-            <Reveal delay={90}>
+            <Reveal delay={90} phone="static">
               <Accordion items={faqs} />
             </Reveal>
           </div>
@@ -558,22 +606,26 @@ export default function HomePage() {
               appeared. Sampling the source across the same range returns 1.00
               at every offset: it does not fade this block at all. A plain
               reveal reaches 1 and stays there. */}
-          <Reveal>
+          <Reveal phone="static">
             <DotEyebrow className="!justify-start">Aktuelles</DotEyebrow>
             <h2 className="t-display-m mt-4 max-w-[26ch] text-moss">
               Das Neueste von ROOSA
             </h2>
-            <p className="mt-4 max-w-[48ch] t-lede text-forest/65">
-              Neuigkeiten zu ROOSA, unseren Produkten und unserem Einsatz für den Kinderschutz.
-            </p>
+            <Reveal phoneOnly phone={phoneSlide(-236)} className="mt-4">
+              <p className="max-w-[48ch] t-lede text-forest/65">
+                Neuigkeiten zu ROOSA, unseren Produkten und unserem Einsatz für den Kinderschutz.
+              </p>
+            </Reveal>
             <Button href="/blog" className="mt-7">
               Aktuelles
             </Button>
           </Reveal>
 
-          <div className="mt-12 grid gap-8 md:grid-cols-2">
+          {/* 64 under the button and 20 between cards on a phone, neither
+              card animated. */}
+          <div className="mt-16 grid gap-5 min-[720px]:mt-12 min-[720px]:gap-8 md:grid-cols-2">
             {posts.slice(0, 2).map((post, i) => (
-              <Reveal key={post.slug} delay={i * 90}>
+              <Reveal key={post.slug} delay={i * 90} phone="static">
                 <PostCard post={post} overlay />
               </Reveal>
             ))}
@@ -590,13 +642,15 @@ export default function HomePage() {
            here moved the footer itself and shortened the document. */}
       <section className="pb-0">
         <Container>
-          <ScrollReveal>
+          {/* On a phone the heading rises once as it comes into view rather
+              than tracking the scroll, and the button does not move. */}
+          <ScrollReveal phone="reveal">
             {/* Measured on the source: a 500px column, so it sets on two lines. */}
             <h1 className="t-display-l mx-auto max-w-[500px] text-center text-moss">
               Mehr als nur Toilettenpapier
             </h1>
           </ScrollReveal>
-          <Reveal delay={100} className="mt-8 flex justify-center">
+          <Reveal delay={100} phone="static" className="mt-8 flex justify-center">
             <Button href="/#product-offer">Jetzt entdecken</Button>
           </Reveal>
         </Container>
@@ -605,16 +659,25 @@ export default function HomePage() {
             crop of the same scene, which is why the jar was reading larger and
             the flower bed denser than the source's. Its plate is 1376x766 at
             x=32, so the gutter is 32px rather than 20. */}
-        <div className="mt-8 px-4 sm:translate-y-[100px] sm:px-8">
-          <ScrollReveal y={100} start={800} span={700}>
-            <Media
-              asset={home.grassWide}
-              fill
-              rounded="rounded-[24px]"
-              className="mx-auto aspect-[1249/974] w-full max-w-[1440px]"
-              sizes="100vw"
-            />
-          </ScrollReveal>
+        {/* On a phone the plate settles from 100px low as it scrolls in, with
+            no fade. It also runs under the footer as the desktop one does:
+            56px down, which is the plate's 24px corner plus the footer's
+            32px one, so the flower bed fills the footer's rounded corners
+            instead of leaving a notch of page colour between two curves. The
+            margin gives the same 56 back, so the plate still reads 62px under
+            the button. */}
+        <div className="mt-[6px] translate-y-14 px-4 sm:mt-8 sm:translate-y-[100px] sm:px-8">
+          <ScrollSettle amount={0} phoneAmount={100}>
+            <ScrollReveal y={100} start={800} span={700} phone="static">
+              <Media
+                asset={home.grassWide}
+                fill
+                rounded="rounded-[24px]"
+                className="mx-auto aspect-[1249/974] w-full max-w-[1440px]"
+                sizes="100vw"
+              />
+            </ScrollReveal>
+          </ScrollSettle>
         </div>
       </section>
     </>

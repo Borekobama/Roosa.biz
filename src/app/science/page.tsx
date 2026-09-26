@@ -116,7 +116,9 @@ export default function SciencePage() {
                   <p className="mt-2 text-[12px] leading-[14.4px] text-forest sm:text-[16px] sm:leading-[22px]">
                     {stat.label}
                   </p>
-                  <p className="mt-auto pt-10 text-[12px] leading-[14.4px] text-moss sm:text-[16px] sm:leading-[22px]">
+                  {/* Hyphenated between 720 and 1200, where three cards share the row
+                      and "Kinderschutzprojekte." ran 28px out of a 139 column. */}
+                  <p className="mt-auto pt-10 text-[12px] leading-[14.4px] text-moss sm:text-[16px] sm:leading-[22px] min-[720px]:max-[1200px]:hyphens-auto">
                     {stat.body}
                   </p>
                 </div>
@@ -308,15 +310,7 @@ export default function SciencePage() {
           {/* On a phone the plate is the layout box at 390x857 and the panel
               sits 32px inside it top and bottom, so it reads 358x793. This
               filled the box outright at 857. */}
-          <div className="absolute inset-x-0 inset-y-8 overflow-hidden rounded-[24px] bg-olive/35 backdrop-blur-[38.6px] sm:inset-y-0">
-            <Image
-              src={home.wide.src}
-              alt=""
-              fill
-              sizes="(max-width: 640px) 100vw, 1376px"
-              className="pointer-events-none object-cover opacity-55 mix-blend-soft-light"
-            />
-          </div>
+          <div className="absolute inset-x-0 inset-y-8 overflow-hidden rounded-[24px] bg-olive/35 backdrop-blur-[38.6px] sm:inset-y-0" />
 
           <Image
             src={home.gummyGreen.src}
@@ -347,7 +341,7 @@ export default function SciencePage() {
                       and the body runs the t-body ramp (12/14/16) rather than
                       t-body-s's flat 14/20. */}
                   <p className="t-nutrient text-lime">{n.name}</p>
-                  <p className="mt-2 text-[12px] leading-[1.35] text-paper/80">{n.body}</p>
+                  <p className="mt-2 text-[12px] leading-[1.35] text-paper/80 max-[720px]:hyphens-auto">{n.body}</p>
                 </li>
               ))}
             </ul>

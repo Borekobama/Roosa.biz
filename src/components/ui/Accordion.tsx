@@ -33,7 +33,8 @@ export default function Accordion({
                 id={`faq-trigger-${i}`}
                 onClick={() => toggle(i)}
                 // Center label and control in evenly spaced rows.
-                className="m-surface flex min-h-[88px] w-full items-center justify-between gap-6 text-left text-moss hover:text-olive"
+                // An 80px row pitch on a phone, 89 from 720 up.
+                className="m-surface flex min-h-[79px] w-full min-[720px]:min-h-[88px] items-center justify-between gap-6 text-left text-moss hover:text-olive"
               >
                 {/* Measured: the question sets in a 615px column with the
                     control pushed to the far right of the row. */}

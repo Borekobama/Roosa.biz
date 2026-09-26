@@ -12,9 +12,13 @@ type Variant = "solid" | "outline" | "light";
  * The widths stay wider than the source's throughout because Inter Display is
  * not available to this clone; that is a settled difference and not something
  * to close with tracking.
+ *
+ * Below 720 the source sets the label 16/22.4, not 18/25. At 18 the hero pair
+ * outgrew a 375 screen and each label broke onto a second line that spilled
+ * out of its pill; nowrap keeps a label on one line wherever it sits.
  */
 const base =
-  "m-surface inline-flex h-[42px] items-center justify-center gap-2 rounded-[999px] px-4 text-[18px] font-normal leading-[25px] tracking-[-0.04em] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-forest min-[1200px]:h-[45px]";
+  "m-surface inline-flex h-[42px] items-center justify-center gap-2 whitespace-nowrap rounded-[999px] px-4 text-[16px] font-normal leading-[22.4px] tracking-[-0.04em] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-forest min-[720px]:text-[18px] min-[720px]:leading-[25px] min-[1200px]:h-[45px]";
 
 const variants: Record<Variant, string> = {
   solid: "bg-olive text-cream hover:bg-moss",

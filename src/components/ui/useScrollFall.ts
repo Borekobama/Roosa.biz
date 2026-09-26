@@ -62,5 +62,9 @@ export function useScrollFall<T extends HTMLElement>(count: number) {
     };
   };
 
-  return { refs, styleFor };
+  const setRef = (i: number) => (el: T | null) => {
+    refs.current[i] = el;
+  };
+
+  return { refs, setRef, styleFor };
 }

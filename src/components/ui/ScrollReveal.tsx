@@ -1,6 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Reveal from "./Reveal";
+import { usePhone } from "./phone";
+import { phoneRise } from "./phoneMotion";
 
 /**
  * Scroll-linked reveal, as the source drives its closing block.
@@ -30,6 +33,7 @@ export default function ScrollReveal({
   span = 700,
   /** Eases the curve in, for blocks the source brings up slowly. */
   power = 1.18,
+  phone,
 }: {
   children: React.ReactNode;
   className?: string;
@@ -37,13 +41,18 @@ export default function ScrollReveal({
   start?: number;
   span?: number;
   power?: number;
+  /** Below 720 the source does not scroll-link these: "reveal" plays a
+   *  one-shot rise of the same offset once in view, "static" holds still. */
+  phone?: "reveal" | "static";
 }) {
   const ref = useRef<HTMLDivElement | null>(null);
   const [progress, setProgress] = useState(0);
+  const isPhone = usePhone();
+  const phoneMode = isPhone ? phone : undefined;
 
   useEffect(() => {
     const el = ref.current;
-    if (!el) return;
+    if (!el || phoneMode) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       // Deferred a frame so the effect body does not set state synchronously.
       const raf = requestAnimationFrame(() => setProgress(1));
@@ -71,7 +80,16 @@ export default function ScrollReveal({
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
     };
-  }, [start, span, power]);
+  }, [start, span, power, phoneMode]);
+
+  if (phoneMode === "reveal") {
+    return (
+      <Reveal className={className} phone={phoneRise(y)}>
+        {children}
+      </Reveal>
+    );
+  }
+  if (phoneMode === "static") return <div className={className}>{children}</div>;
 
   return (
     <div

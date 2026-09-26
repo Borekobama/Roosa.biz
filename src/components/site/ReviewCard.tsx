@@ -1,6 +1,3 @@
-import Image from "next/image";
-import type { Asset } from "@/lib/assets";
-
 /**
  * A review card, measured off the source rather than described from a capture.
  *
@@ -13,6 +10,9 @@ import type { Asset } from "@/lib/assets";
  * scales it down as it does everything else at that width. Within the panel the
  * rating line sits 14px in and the quote 32px under it; below the panel the
  * avatar is 16px down at 38px square with the name 11px to its right.
+ *
+ * The avatar is the reviewer's initial: the portraits were the source's own
+ * third-party photos and are no longer in the repository.
  */
 function Star({ className = "" }: { className?: string }) {
   return (
@@ -43,12 +43,10 @@ function Rating() {
 export default function ReviewCard({
   quote,
   name,
-  avatar,
   className = "",
 }: {
   quote: string;
   name: string;
-  avatar: Asset;
   className?: string;
 }) {
   return (
@@ -63,13 +61,12 @@ export default function ReviewCard({
         </blockquote>
       </div>
       <figcaption className="mt-4 flex items-center gap-[11px]">
-        <Image
-          src={avatar.src}
-          alt=""
-          width={38}
-          height={38}
-          className="h-[38px] w-[38px] shrink-0 rounded-full object-cover"
-        />
+        <span
+          aria-hidden="true"
+          className="flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-full bg-sage text-[16px] font-medium leading-none text-moss"
+        >
+          {name.charAt(0)}
+        </span>
         <span className="text-[16px] leading-[22.4px] text-sage sm:text-[18px] sm:leading-[25.2px]">{name}</span>
       </figcaption>
     </figure>

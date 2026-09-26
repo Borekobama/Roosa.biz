@@ -28,14 +28,14 @@ export default function QuantityBuy({
           aria-label={`Decrease quantity of ${name}`}
           onClick={() => setQty((q) => Math.max(1, q - 1))}
           disabled={qty <= 1}
-          className="m-surface flex h-[46px] w-10 items-center justify-center text-[#111111] hover:bg-cream/60 disabled:opacity-40"
+          className="m-surface flex h-[46px] w-9 items-center justify-center text-[#111111] hover:bg-cream/60 disabled:opacity-40 min-[720px]:w-10"
         >
           <span aria-hidden="true">−</span>
         </button>
         <span
           aria-live="polite"
           aria-label={`Quantity of ${name}`}
-          className="w-10 text-center text-[16px] tabular-nums text-[#111111]"
+          className="w-9 text-center text-[16px] tabular-nums text-[#111111] min-[720px]:w-10"
         >
           {qty}
         </span>
@@ -43,7 +43,7 @@ export default function QuantityBuy({
           type="button"
           aria-label={`Increase quantity of ${name}`}
           onClick={() => setQty((q) => Math.min(99, q + 1))}
-          className="m-surface flex h-[46px] w-10 items-center justify-center text-[#111111] hover:bg-cream/60"
+          className="m-surface flex h-[46px] w-9 items-center justify-center text-[#111111] hover:bg-cream/60 min-[720px]:w-10"
         >
           <span aria-hidden="true">+</span>
         </button>
@@ -55,7 +55,9 @@ export default function QuantityBuy({
         onClick={() => {
           if (slug && price) cart.add({ slug, name, price, qty });
         }}
-        className={`m-surface flex flex-1 items-center justify-center gap-2 h-[46px] rounded-[999px] px-5 text-[16px] font-light leading-none ${
+        // Tighter on a phone so the label keeps to one line in a narrow card:
+        // at 320 it had 128px and broke in two.
+        className={`m-surface flex flex-1 items-center justify-center gap-1.5 h-[46px] whitespace-nowrap rounded-[999px] px-3 text-[16px] font-light leading-none min-[720px]:gap-2 min-[720px]:px-5 ${
           inStock ? "bg-olive text-[#f3f3f3] hover:bg-moss" : "cursor-not-allowed bg-[#757575] text-[#f3f3f3]"
         }`}
       >

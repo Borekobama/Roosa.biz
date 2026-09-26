@@ -38,8 +38,14 @@ export default function Header() {
 
   return (
     <header
-      // Floats over the page: the source never paints a bar behind it.
-      className="enter-drop fixed inset-x-0 top-0 z-50 h-[70px]"
+      // Floats over the page on a desktop: the source never paints a bar
+      // behind it. Wherever the menu control shows, the 70px bar is solid page
+      // colour instead, so the logo, cart and menu stay legible over photos
+      // and the review ticker. Open, the menu is that same header grown
+      // downward - 70 to 309 tall, sage, 16px radius on its floor.
+      className={`enter-drop m-surface fixed inset-x-0 top-0 z-50 ${
+        open ? "rounded-b-[16px] bg-sage md:rounded-none md:bg-transparent" : "max-md:bg-cream"
+      }`}
     >
       <div className="flex h-[70px] items-center px-4 sm:px-8">
         <Link href="/" aria-label="ROOSA - Startseite" className="m-surface text-moss hover:text-forest">
@@ -47,7 +53,8 @@ export default function Header() {
         </Link>
 
         {/* Everything else is pushed to the right edge, as on the source. */}
-        <div className="ml-auto flex items-center gap-3">
+        {/* 16px between the cart and the menu control on a phone. */}
+        <div className="ml-auto flex items-center gap-4 md:gap-3">
           <nav
             aria-label="Primary"
             className="hidden items-center gap-6 rounded-[64px] bg-sage px-4 py-[10px] backdrop-blur-sm md:flex"
@@ -104,44 +111,57 @@ export default function Header() {
             aria-expanded={open}
             aria-controls="mobile-menu"
             onClick={() => setOpen((v) => !v)}
-            className={`m-surface flex h-10 w-10 items-center justify-center rounded-full md:hidden ${
-              open ? "text-moss" : "bg-olive text-cream"
-            }`}
+            // Measured at 390: two 28x3 bars 16px apart in a 32px box flush
+            // with the 16px gutter, crossing into an X when open.
+            className="m-surface flex h-10 w-8 items-center justify-center text-moss md:hidden"
           >
-            <span className="relative block h-3 w-4" aria-hidden="true">
+            <span className="relative block h-[22px] w-7" aria-hidden="true">
               <span
-                className="m-transform absolute left-0 block h-[1.5px] w-4 bg-current"
-                style={{ top: open ? "5.5px" : "1px", transform: open ? "rotate(45deg)" : "none" }}
+                className="absolute left-0 block h-[3px] w-7 bg-current transition-[top,transform] duration-300 ease-out"
+                style={{ top: open ? "9.5px" : "0px", transform: open ? "rotate(45deg)" : "none" }}
               />
               <span
-                className="m-transform absolute left-0 block h-[1.5px] w-4 bg-current"
-                style={{ top: open ? "5.5px" : "10px", transform: open ? "rotate(-45deg)" : "none" }}
+                className="absolute left-0 block h-[3px] w-7 bg-current transition-[top,transform] duration-300 ease-out"
+                style={{ top: open ? "9.5px" : "19px", transform: open ? "rotate(-45deg)" : "none" }}
               />
             </span>
           </button>
         </div>
       </div>
 
-      {/* Rendered only while open: the source ships no duplicate nav markup. */}
-      {open ? (
-        <div id="mobile-menu" className="px-3 md:hidden">
-          <div className="rounded-[24px] bg-sage/95 px-6 pb-7 pt-5 backdrop-blur-sm">
-            <nav aria-label="Mobile" className="flex flex-col items-end gap-3">
-              {nav.map((item) => (
-                <Link key={item.href} href={item.href} className="t-display-m text-moss">
-                  {item.label}
-                </Link>
-              ))}
+      {/* Always rendered so it can grow open and closed; inert while closed.
+          Measured open: links in the 32/35.2 product face on a 51px pitch,
+          right aligned, the first 27px under the bar, then the pill 17px
+          below the last and 16px off the panel floor. */}
+      <div
+        id="mobile-menu"
+        inert={!open}
+        className={`grid transition-[grid-template-rows] duration-300 ease-out md:hidden ${
+          open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+        }`}
+      >
+        <div className="overflow-hidden">
+          <nav aria-label="Mobile" className="flex flex-col items-end gap-4 px-4 pb-4 pt-[27px]">
+            {nav.map((item) => (
               <Link
-                href="/#product-offer"
-                className="mt-3 inline-flex w-fit rounded-[999px] bg-olive px-6 py-3 text-[16px] leading-none text-cream"
+                key={item.href}
+                href={item.href}
+                onClick={() => setOpen(false)}
+                className="t-product text-forest"
               >
-                Jetzt entdecken
+                {item.label}
               </Link>
-            </nav>
-          </div>
+            ))}
+            <Link
+              href="/#product-offer"
+              onClick={() => setOpen(false)}
+              className="mt-px inline-flex w-fit rounded-[999px] bg-olive px-4 py-[10px] text-[16px] leading-[22.4px] tracking-[-0.64px] text-paper"
+            >
+              Jetzt entdecken
+            </Link>
+          </nav>
         </div>
-      ) : null}
+      </div>
     </header>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { usePhone } from "./phone";
 
 /**
  * Scroll-linked settle, as the source brings its bento cards into place.
@@ -35,6 +36,7 @@ export default function ScrollSettle({
   amount = 141,
   curve = CURVE,
   fade = 0,
+  phoneAmount,
 }: {
   children: React.ReactNode;
   className?: string;
@@ -45,13 +47,18 @@ export default function ScrollSettle({
   curve?: number;
   /** Depth of the opacity ramp: 0 keeps the block fully opaque throughout. */
   fade?: number;
+  /** Travel below 720, where the source's differs. 0 on either side holds the
+   *  block still there. */
+  phoneAmount?: number;
 }) {
   const ref = useRef<HTMLDivElement | null>(null);
+  const isPhone = usePhone();
+  const travel = isPhone && phoneAmount !== undefined ? phoneAmount : amount;
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    if (travel === 0 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       el.style.transform = "none";
       el.style.opacity = "1";
       return;
@@ -62,7 +69,7 @@ export default function ScrollSettle({
       frame = 0;
       const top = el.getBoundingClientRect().top;
       const u = Math.min(1, Math.max(0, top / window.innerHeight));
-      const offset = amount * u ** curve;
+      const offset = travel * u ** curve;
       el.style.transform =
         axis === "x"
           ? `translate3d(${offset}px, 0, 0)`
@@ -82,10 +89,14 @@ export default function ScrollSettle({
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
     };
-  }, [axis, amount, curve, fade]);
+  }, [axis, travel, curve, fade]);
 
   return (
-    <div ref={ref} className={className} style={{ willChange: fade > 0 ? "transform, opacity" : "transform" }}>
+    <div
+      ref={ref}
+      className={className}
+      style={travel === 0 ? undefined : { willChange: fade > 0 ? "transform, opacity" : "transform" }}
+    >
       {children}
     </div>
   );

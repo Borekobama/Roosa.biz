@@ -242,11 +242,13 @@ export default function PinnedSequence({ panels }: { panels: Panel[] }) {
           no body copy, no feature list, and no scrim over the photo. The same
           markup without the pinning is the reduced-motion fallback. */}
       <div className={`flex flex-col gap-16 px-4 ${reduced ? "" : "min-[720px]:hidden"}`}>
-        {panels.map((panel, i) => (
+        {panels.map((panel) => (
           <div
             key={panel.kind === "image" ? `s-${panel.asset.src}` : `s-${panel.title}`}
-            className={`h-screen ${i === 0 ? "pb-4" : "py-4"} ${
-              reduced ? "" : `sticky ${i === 0 ? "top-4" : "top-0"}`
+            // Each panel pins under the phone header's 70px bar rather than
+            // behind it, 16px clear of it and of the screen floor.
+            className={`h-screen py-4 max-[720px]:h-[calc(100vh-70px)] ${
+              reduced ? "" : "sticky top-[70px]"
             }`}
           >
             <div className="relative h-full overflow-hidden rounded-[32px]">

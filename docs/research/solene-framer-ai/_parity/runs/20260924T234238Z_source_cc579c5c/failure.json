@@ -1,0 +1,4 @@
+{
+  "message": "browserType.launchPersistentContext: Executable doesn't exist at[REDACTED_PATH]\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+  "failedAt": "2026-09-24T23:42:38.995Z"
+}

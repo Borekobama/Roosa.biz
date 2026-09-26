@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { UprightJarLineArt } from "@/components/ui/LineArt";
 import ScrollSettle from "@/components/ui/ScrollSettle";
 import { home } from "@/lib/assets";
 import { benefits } from "@/lib/content";
@@ -80,8 +79,17 @@ function Card({ item }: { item: Benefit }) {
         {item.body}
       </p>
 
+      {/* The roll line drawing, bottom right: 230 wide on a phone so it clears
+          the copy above it, 260 from 720 up. */}
       {"art" in item && item.art === "jar" ? (
-        <UprightJarLineArt className="pointer-events-none absolute bottom-0 right-6 h-[228px] w-[242px] text-forest/25" />
+        <Image
+          src={home.rollLineArt.src}
+          alt=""
+          width={home.rollLineArt.width}
+          height={home.rollLineArt.height}
+          sizes="(max-width: 719px) 230px, 260px"
+          className="pointer-events-none absolute bottom-4 right-4 h-auto w-[230px] min-[720px]:w-[260px]"
+        />
       ) : null}
     </div>
   );
@@ -97,23 +105,27 @@ export default function BenefitsBento() {
     // Let entering cards cross the container gutter; the page clips at its edge.
     <div className="mt-8 flex flex-col gap-4 sm:mt-16">
       <div className="grid gap-4 lg:grid-cols-[706fr_654fr]">
-        <ScrollSettle amount={156}>
+        <ScrollSettle amount={156} phoneAmount={160}>
           <Card item={a} />
         </ScrollSettle>
-        <ScrollSettle amount={141}>
+        <ScrollSettle amount={141} phoneAmount={160}>
           <Card item={b} />
         </ScrollSettle>
       </div>
       {/* The outer pair slide inward and the middle one rises. Measured on the
           source: dx -72 on the left and +82 on the right, against dy for the
           row above. The middle card's own travel was not captured, so it takes
-          the row-one vertical amount. */}
+          the row-one vertical amount.
+
+          At 390 the source travels less on the lower cards: dy 160 and 160 on
+          the first pair, then dx -69, dy 43 and dx +69. */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {rest.map((item, i) => {
           const axis = i === 1 ? "y" : "x";
           const amount = i === 0 ? -72 : i === 1 ? 141 : 82;
+          const phoneAmount = i === 0 ? -69 : i === 1 ? 43 : 69;
           return (
-            <ScrollSettle key={item.title} axis={axis} amount={amount}>
+            <ScrollSettle key={item.title} axis={axis} amount={amount} phoneAmount={phoneAmount}>
               <Card item={item} />
             </ScrollSettle>
           );

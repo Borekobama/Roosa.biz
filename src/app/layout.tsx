@@ -92,7 +92,12 @@ export default function RootLayout({
         <CartProvider>
           <Header />
           <ViewTransition enter="page-enter" exit="page-exit">
-            <main id="main">{children}</main>
+            {/* Clipped on a phone: body's own overflow-x does not stop a mobile
+                browser widening its layout viewport to fit a card mid-slide,
+                which pushed the fixed header's menu control off screen. */}
+            <main id="main" className="max-[720px]:overflow-x-clip">
+              {children}
+            </main>
           </ViewTransition>
           <Footer />
         </CartProvider>

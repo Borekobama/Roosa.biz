@@ -100,7 +100,9 @@ export default function Footer() {
           {/* Measured: the nav columns are content width, right aligned against the
               panel's inner edge with a 63px gutter - x=952/1108/1274 on the
               source. A three-column grid spread them from x=632. */}
-          <div className="flex flex-wrap gap-10 sm:justify-end sm:gap-[63px]">
+          {/* On a phone the three columns share one row, spread across the
+              panel; below about 350 the third wraps under the first. */}
+          <div className="flex flex-wrap justify-between gap-x-6 gap-y-10 sm:justify-end sm:gap-[63px]">
             {columns.map((col) => (
               <div key={col.heading}>
                 <h2 className="text-[12px] leading-[20px] text-cream/65 sm:text-[14px]">{col.heading}</h2>
@@ -126,18 +128,23 @@ export default function Footer() {
         </div>
 
         {/* Measured: the credit row sits 63px below the block above, not 84. */}
-        <div className="mt-[34px] flex flex-col gap-4 border-t border-cream/20 pt-7 sm:flex-row sm:items-center sm:justify-between">
-          <p className="t-body-s text-cream/70">
-            ROOSA® © {new Date().getFullYear()}. Alle Rechte vorbehalten.
-          </p>
-          <p className="t-body-s text-cream/70">
-            ROOSA® AG · Kirschgartenstrasse 12 · 4051 Basel
-          </p>
+        {/* 12/14.4 on a phone, as the source sets its credit row there, so
+            the address keeps to one line; .t-body-s's 14 from 720 up. That
+            class is unlayered and would beat these utilities, so its values
+            are spelled out instead. */}
+        <div className="mt-[34px] flex flex-col gap-2 border-t border-cream/20 pt-7 text-[12px] leading-[14.4px] text-cream/70 sm:flex-row sm:items-center sm:justify-between min-[720px]:gap-4 min-[720px]:text-[14px] min-[720px]:leading-[1.43] min-[720px]:tracking-[-0.01em]">
+          <p>ROOSA® © {new Date().getFullYear()}. Alle Rechte vorbehalten.</p>
+          <p>ROOSA® AG · Kirschgartenstrasse 12 · 4051 Basel</p>
         </div>
 
         <p
           aria-hidden="true"
-          className="mt-10 w-full text-center font-[var(--font-display)] text-[clamp(5rem,18vw,16rem)] font-light leading-none tracking-[-0.08em] text-cream/90"
+          // On a phone the wordmark fills the panel's inner width, as the
+          // source's does: the word is 2.2 of its font size wide and the
+          // inner width is the screen less 80px of gutters. Its line box is
+          // tall enough at that size that 12px of margin reads as the 40
+          // did at 80px.
+          className="mt-10 w-full text-center font-[var(--font-display)] text-[clamp(5rem,18vw,16rem)] font-light leading-none tracking-[-0.08em] text-cream/90 max-sm:mt-3 max-sm:text-[length:calc((100vw_-_80px)/2.2)]"
         >
           roosa
         </p>
