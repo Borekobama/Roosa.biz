@@ -50,7 +50,8 @@ export const home = {
   hand: img("roosa-woman-holding-roll.webp", 1448, 1086, "Woman holding a pink roll"),
   routinePanel: img("roosa-home-routine.webp", 1672, 941, "Woman holding pink roll at home"),
   offer: img("roosa-pink-roll-product.webp", 1254, 1254, "Pink roll product"),
-  gummyOrange: img("roosa-white-rolls-stacked.webp", 1122, 1402, "Stack of white rolls"),
+  // The single white roll on a transparent ground, for the review scatter.
+  gummyOrange: img("roosa-white-roll-studio.webp", 1299, 1211, "White roll on transparent background"),
   gummyGreen: img("roosa-pink-roll-studio.webp", 1254, 1254, "Pink roll on white background"),
   carouselFloralLeft: img("roosa-carousel-floral-roll-left.png", 1086, 1448, "Floral line illustration with toilet paper"),
   carouselFloralRight: img("roosa-carousel-floral-roll-right.png", 1086, 1448, "Floral line illustration"),
