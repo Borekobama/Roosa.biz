@@ -21,7 +21,7 @@ import {
 } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Science",
+  title: "Mission",
   description:
     "Wie ROOSA Komfort, Qualität und Engagement für Kinder verbindet.",
 };

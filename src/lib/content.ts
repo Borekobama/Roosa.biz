@@ -11,7 +11,7 @@ export type Post = {
 };
 
 export const nav = [
-  { label: "Mission", href: "/science" },
+  { label: "Mission", href: "/mission" },
   { label: "Aktuelles", href: "/blog" },
   { label: "Shop", href: "/merch" },
 ] as const;

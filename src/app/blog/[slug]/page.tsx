@@ -36,7 +36,12 @@ export default async function PostPage({ params }: Params) {
 
   return (
     <>
-      <article>
+      {/* Clipped to itself so the fixed image shows only behind the article:
+          unclipped it filled every transparent area below as well, showing
+          through behind the related posts and the closing block. The extra
+          pixel at the floor hides a hairline of image that showed where the
+          article ends on a fractional pixel. */}
+      <article className="relative [clip-path:inset(0_0_1px_0)]">
         {/* The source pins the hero to the viewport and scrolls the article
             over it: a fixed image layer, a cream header block rounded at its
             bottom corners (measured 360px tall, date at 171, title at 218 in a

@@ -98,7 +98,7 @@ export default function HomePage() {
             </Enter>
             <Enter delay={360} from="bottom" className="mt-5 flex justify-center gap-3">
               <Button href="/#product-offer">Jetzt entdecken</Button>
-              <Button href="/science" variant="light">
+              <Button href="/mission" variant="light">
                 Mehr erfahren
               </Button>
             </Enter>
@@ -376,7 +376,7 @@ export default function HomePage() {
                   Mehr über <span className="whitespace-nowrap">ROOSA®</span> und unsere Mission erfahren
                 </h2>
               </PhoneFall>
-              <Button href="/science" className="mt-4 bg-olive text-paper hover:bg-moss min-[720px]:mt-[17px]">
+              <Button href="/mission" className="mt-4 bg-olive text-paper hover:bg-moss min-[720px]:mt-[17px]">
                 Mehr erfahren
               </Button>
               {/* Measured on the source: this figure slides in from the left, dx -106

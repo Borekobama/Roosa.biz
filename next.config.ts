@@ -11,6 +11,8 @@ const nextConfig: NextConfig = {
     return [
       { source: "/privacy-policy", destination: "/datenschutzerklaerung", permanent: true },
       { source: "/cookies-policy", destination: "/datenschutzerklaerung#cookies", permanent: true },
+      // The mission page kept the template's /science path until it was renamed.
+      { source: "/science", destination: "/mission", permanent: true },
     ];
   },
 };

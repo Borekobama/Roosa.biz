@@ -6,7 +6,7 @@ const columns = [
     heading: "ROOSA",
     links: [
       { label: "Vorteile", href: "/#benefits" },
-      { label: "Mission", href: "/science#ingredients" },
+      { label: "Mission", href: "/mission#ingredients" },
       { label: "Produkte", href: "/merch" },
       { label: "FAQ", href: "/#faq" },
     ],
@@ -14,9 +14,9 @@ const columns = [
   {
     heading: "Mission",
     links: [
-      { label: "Kinderschutz", href: "/science" },
-      { label: "Unser Beitrag", href: "/science#ingredients" },
-      { label: "Über ROOSA", href: "/science" },
+      { label: "Kinderschutz", href: "/mission" },
+      { label: "Unser Beitrag", href: "/mission#ingredients" },
+      { label: "Über ROOSA", href: "/mission" },
     ],
   },
   {
