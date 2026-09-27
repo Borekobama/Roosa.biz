@@ -23,8 +23,10 @@ const columns = [
     heading: "Informationen",
     links: [
       { label: "Aktuelles", href: "/blog" },
-      { label: "Cookie-Richtlinie", href: "/cookies-policy" },
-      { label: "Datenschutz", href: "/privacy-policy" },
+      { label: "Impressum", href: "/impressum" },
+      { label: "Datenschutz", href: "/datenschutzerklaerung" },
+      { label: "AGB", href: "/agb" },
+      { label: "Widerrufsbelehrung", href: "/widerrufsbelehrung" },
     ],
   },
 ];
