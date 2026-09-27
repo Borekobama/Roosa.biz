@@ -649,22 +649,22 @@ body {
 
 /* Phone hero photo. Filling the tall panel with the landscape photo zoomed it
    until the roll and its sheet ran off both sides. Instead the photo is sized
-   so that pink span - about 1160 of the photo's 3344px, centred on x=1794 -
-   fits the panel with 28px clear either side, and the roll (y=1252 in the
-   photo) is centred between the buttons and the panel floor. Scaled off the
-   panel's own width (cqw), which is wider from 640 up. Its top and bottom
-   edges fade into the panel's matching beige, so no seam shows. Unlayered,
-   so it wins over the desktop utilities on the element. */
+   so the roll and its sheet fit the panel with 28px clear either side, and the
+   roll is centred between the buttons and the panel floor. The page passes the
+   photo's pixel size (--iw, --ih) and where its roll sits in it (--cx, --cy
+   centre, --span roll-plus-sheet width), set per photo in lib/assets.ts. Its
+   top and bottom edges fade into the panel's matching beige, so no seam shows.
+   Unlayered, so it wins over the desktop utilities on the element. */
 @media (width < 720px) {
   .hero-photo {
-    --s: calc((100cqw - 56px) / 1160);
+    --s: calc((100cqw - 56px) / var(--span));
     --copy-bottom: calc(clamp(24px, calc(45vh - 285px), 48px) + 217px);
     position: absolute;
     max-width: none;
-    width: calc(var(--s) * 3344);
-    height: calc(var(--s) * 1882);
-    left: calc(50% - var(--s) * 1794);
-    top: calc((var(--copy-bottom) + 24px + 100%) / 2 - var(--s) * 1252);
+    width: calc(var(--s) * var(--iw));
+    height: calc(var(--s) * var(--ih));
+    left: calc(50% - var(--s) * var(--cx));
+    top: calc((var(--copy-bottom) + 24px + 100%) / 2 - var(--s) * var(--cy));
     translate: none;
     mask-image: linear-gradient(to bottom, transparent, #000 16%, #000 84%, transparent);
   }

@@ -14,8 +14,27 @@ export const brand = {
   ogImage: "/assets/icons/roosa-social-preview.webp",
 };
 
+/**
+ * A hero photo with where its roll sits, in the photo's own pixels: the roll's
+ * centre (cx, cy) and the width of the roll plus the pulled sheet. The phone
+ * hero is sized and placed from these (see .hero-photo in globals.css), so a
+ * different photo only needs its own numbers.
+ */
+export type HeroPhoto = Asset & { frame: { cx: number; cy: number; span: number } };
+
+const heroPhoto: HeroPhoto = {
+  ...img("roosa-pink-roll-hero.webp", 2896, 2172, "Hand pulling a sheet from a pink roll"),
+  frame: { cx: 1549, cy: 1583, span: 1010 },
+};
+
+export const heroPhotoLegacy: HeroPhoto = {
+  ...img("roosa-pink-roll-hero_legacy.webp", 3344, 1882, "Hand holding pink roll against pink background"),
+  frame: { cx: 1794, cy: 1252, span: 1160 },
+};
+
 export const home = {
-  hero: img("roosa-pink-roll-hero.webp", 3344, 1882, "Hand holding pink roll against pink background"),
+  // Swap for heroPhotoLegacy to go back to the previous photo.
+  hero: heroPhoto,
   forest: img("roosa-blossom-landscape.webp", 1672, 941, "Flowering trees against blue sky"),
   routine: img("roosa-home-routine.webp", 1672, 941, "Woman holding pink roll at home"),
   tennis: img("roosa-roll-on-court.webp", 1448, 1086, "Pink roll on running track"),
@@ -26,7 +45,6 @@ export const home = {
   closing: img("roosa-roll-in-flower-meadow.webp", 1249, 974, "Pink roll among flowers"),
   grassWide: img("roosa-pink-roll-meadow.webp", 1249, 974, "Pink roll in a flower meadow"),
   editorial: img("roosa-garden-table.webp", 1024, 1536, "Outdoor table beneath flowering trees"),
-  lab: img("roosa-pink-roll-hero.webp", 3344, 1882, "Hand holding pink roll against pink background"),
   grass: img("roosa-pink-roll-meadow.webp", 1249, 974, "Pink roll in a flower meadow"),
   bloom: img("roosa-flower-meadow.webp", 1672, 941, "Pink flowering meadow"),
   hand: img("roosa-woman-holding-roll.webp", 1448, 1086, "Woman holding a pink roll"),

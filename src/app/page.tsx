@@ -49,22 +49,32 @@ export default function HomePage() {
            at an 844-tall viewport it gives 734, and 734 x 1.05 is the 771 the
            source draws there. */}
       <section className="px-4 pt-[78px] sm:px-8">
-        {/* The panel carries the photo's own backdrop beige, which the
-            phone layout of the photo fades into; see .hero-photo. */}
-        <div className="@container relative h-[calc(100vh-110px)] overflow-hidden rounded-[24px] bg-[#f1e6dd]">
+        {/* The panel carries the photo's own backdrop beige, which the phone
+            layout of the photo fades into; see .hero-photo. */}
+        <div className="@container relative h-[calc(100vh-110px)] overflow-hidden rounded-[24px] bg-[linear-gradient(#f7eae1,#eee4db)]">
           <Image
             src={home.hero.src}
             alt={home.hero.alt}
             width={home.hero.width}
             height={home.hero.height}
             priority
-            // A phone draws the photo about 2.6 screens wide; see .hero-photo.
-            sizes="(max-width: 719px) 270vw, 100vw"
-            // hero-drift and hero-photo: the phone parallax and sizing, see
-            // globals.css. object-top: on a wide, short window the photo is
-            // cropped top and bottom, and centring it lifted the roll into the
-            // copy; pinned to the top it only loses plain backdrop there.
-            className="hero-drift hero-photo h-[102%] w-full -translate-y-[2%] object-cover object-top"
+            // A phone draws the photo about 2.4 screens wide; see .hero-photo.
+            sizes="(max-width: 719px) 240vw, 100vw"
+            // From 720 the photo fills the panel, centred across. Down, it is
+            // held 75% of the way to its floor rather than centred: the roll
+            // sits low in this photo, and a centred crop clipped its base on
+            // wide screens. hero-drift and hero-photo are the phone parallax
+            // and sizing, see globals.css.
+            className="hero-drift hero-photo h-full w-full object-cover object-[50%_75%]"
+            style={
+              {
+                "--iw": home.hero.width,
+                "--ih": home.hero.height,
+                "--cx": home.hero.frame.cx,
+                "--cy": home.hero.frame.cy,
+                "--span": home.hero.frame.span,
+              } as CSSProperties
+            }
           />
           {/* The roll's rim moves with the panel's size while this block is
               set in px, so on a short screen the buttons ran onto the roll.
