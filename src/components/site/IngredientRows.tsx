@@ -36,7 +36,7 @@ export default function IngredientRows() {
             <div className={`relative z-30 grid transition-[grid-template-rows,opacity] duration-500 max-[720px]:hidden md:pointer-events-none md:absolute md:right-0 md:top-1/2 md:w-[380px] md:-translate-y-1/2 ${active === i ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`}>
               <div className="overflow-hidden">
                 <div className="relative my-3 aspect-video overflow-hidden rounded-[24px] shadow-xl md:my-0">
-                  <Image src={ingredientTiles[i].src} alt={ingredientTiles[i].alt} fill sizes="(max-width: 768px) 100vw, 380px" className="object-cover" />
+                  <Image src={ingredientTiles[i].src} alt={ingredientTiles[i].alt} fill sizes="(max-width: 768px) 100vw, 380px" className="rounded-[24px] object-cover" />
                 </div>
               </div>
             </div>
