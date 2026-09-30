@@ -260,7 +260,7 @@ export default function PinnedSequence({ panels }: { panels: Panel[] }) {
                     width={panel.asset.width}
                     height={panel.asset.height}
                     sizes="100vw"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full rounded-[32px] object-cover"
                   />
                   {/* Headline only, its box 32px off the panel floor. */}
                   <div className="absolute inset-x-0 bottom-0 p-8">
@@ -338,7 +338,7 @@ export default function PinnedSequence({ panels }: { panels: Panel[] }) {
                       alt={panel.asset.alt}
                       fill
                       sizes="100vw"
-                      className="object-cover"
+                      className="rounded-[32px] object-cover"
                     />
                     <div className="panel-scrim absolute inset-x-0 bottom-0 h-[739px]" />
                     {/* Measured on the source: title 48/52.8 at x=32 with its
